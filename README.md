@@ -1,4 +1,5 @@
 # .gov data
+<img width="70" alt="favicon" src="https://user-images.githubusercontent.com/603901/149229443-26d6a916-5806-4ee8-80ba-57812f77004b.png">
 
 This repository contains the official, full list of registered domains in the [.gov](https://home.dotgov.gov) zone. The US Government's executive, legislative, and judicial branches are represented, as are US-based state, territory, tribal, city, and county governments.
 
