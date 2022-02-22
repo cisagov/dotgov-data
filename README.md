@@ -1,7 +1,9 @@
 # .gov data
 <img width="70" alt="favicon" src="https://user-images.githubusercontent.com/603901/149229443-26d6a916-5806-4ee8-80ba-57812f77004b.png">
 
-This repository contains the official, full list of registered domains in the [.gov](https://home.dotgov.gov) zone. The US Government's executive, legislative, and judicial branches are represented, as are US-based state, territory, tribal, city, and county governments.
+The [.gov top-level domain](https://home.dotgov.gov) is operated so that the online services of US-based government organizations are easy to identify on the internet. In support of that aim, we publish .gov domain data publicly.
+
+This repository contains the official, full list of registered domains in the .gov zone. The US Government's executive, legislative, and judicial branches are represented, as are US-based state, territory, tribal, city, and county governments.
 
 Two files are updated daily (when there is activity):
 * [current-full.csv](https://github.com/cisagov/dotgov-data/blob/main/current-full.csv) – a CSV of all domains, including federal domains
