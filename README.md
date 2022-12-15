@@ -21,6 +21,8 @@ This repo hosts several other files that include .gov hostnames, though they are
 
 If you use any of this data or just have a question, let us know by [opening an issue](https://github.com/cisagov/dotgov-data/issues).
 
+Find a **security or privacy issue** on one of these domains? Review our [security policy](https://github.com/cisagov/dotgov-data/security/policy).
+
 ## Unofficial uses
 
 * [Accept the Risk and Continue: Measuring the Long Tail of Government https Adoption](https://sudheesh.info/papers/imc20.pdf). Sudheesh Singanamalla, Esther Han Beol Jang, Richard Anderson, Tadayoshi Kohno, and Kurtis Heimerl. 2020. In Proceedings of the ACM Internet Measurement Conference (IMC '20). Association for Computing Machinery, New York, NY, USA, 577–597. DOI:https://doi.org/10.1145/3419394.3423645
