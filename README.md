@@ -21,7 +21,7 @@ This repo hosts several other files that include .gov hostnames, though they are
 
 If you use any of this data or just have a question, let us know by [opening an issue](https://github.com/cisagov/dotgov-data/issues).
 
-Find a **privacy or security issue** on one of these domains? Review our [security policy](https://github.com/cisagov/dotgov-data/security/policy).
+Find a **security or privacy issue** on one of these domains? Review our [security policy](https://github.com/cisagov/dotgov-data/security/policy).
 
 ## Unofficial uses
 
