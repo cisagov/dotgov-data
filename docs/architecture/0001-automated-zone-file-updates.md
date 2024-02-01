@@ -8,7 +8,7 @@ In progress
 The dotgov-data repository contains public data for all registered domains in the .gov zone. Two files in this repository, current-full.csv (all domains) and current-federal.csv (only federal domains), are updated daily whenever possible. Other files in the repository contain more .gov hostname data, though they are not complete. The zone file is updated infrequently due to requiring manual changes to update it. Automating updates to the zone file at a regular frequency would increase its reliability and accuracy. Tracking version histories of the zone file would allow users to also understand the changes made to the public record.
 
 Two options for automating gov.txt updates have been proposed:
-### 1. Pull data from CZDS zone file [GitHub issue](https://github.com/cisagov/dotgov-data/issues/107)
+### 1. Pull data from CZDS zone file ([GitHub issue](https://github.com/cisagov/dotgov-data/issues/107))
 The [CZDS API Client in Python](https://github.com/icann/czds-api-client-python) allows people to download zone files for a given zone. We can pull this zone file daily to update the dotgov-data repository’s domain data csv files.
 
 **Benefits**
@@ -18,7 +18,7 @@ The [CZDS API Client in Python](https://github.com/icann/czds-api-client-python)
 - A user account is required to access CZDS.
 - CZDS takes more time to update data for non .gov domains (e.g., .org, .com).
 
-### 1. Pull data from Cloudflare zone file [GitHub issue](https://github.com/cisagov/dotgov-data/pull/108)
+### 2. Pull data from Cloudflare zone file ([GitHub issue](https://github.com/cisagov/dotgov-data/pull/108))
 The second option involves using Cloudflare’s existing tools to check zone updates every 5 minutes (or less frequently) and commit changes to the zone file once a day. 
 
 Cloudflare uses an open source tool called [Nomulus](https://github.com/google/nomulus) which every 5 minutes generates a zone file that Cloudflare’s servers can receive. If we use Cloudflare’s API to check these zone files generated every 5 minutes, we can access more up-to-date and robust zone data.
