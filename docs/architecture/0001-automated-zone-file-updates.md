@@ -31,7 +31,7 @@ Cloudflare uses an open source tool called [Nomulus](https://github.com/google/n
 - Implementing this approach requires more time to familiarize with the Cloudflare API
 
 ## Decision
-We will start with automating the zone file via CZDS since it provides more jurisdiction over updated domain data and it presents as the most efficient path to prototyping continuous updates of the zone file.
+We will start with automating the zone file via CZDS since it provides easier access over updated domain data and it presents as the most efficient path to prototyping continuous updates of the zone file.
 
 The initial approach will involve building a GitHub Action that runs an automation script. The automation script, at certain intervals, pulls up-to-date domain data from CZDS and downloads the new CZDS file.
 
@@ -40,7 +40,7 @@ Once the zone file is successfully downloadable, we can create another GitHub Ac
 **Consideration:** What do we want to do with this data in the process of updating dotgov-data? Possible approaches include making a PR listing the changes made or directly pushing the updated file to main.
 
 ## Consequences
-The goal is to set up the initial steps to automate updates to getgov-data in the following order: use GitHub Actions to call the CZDS API Client to pull the CZDS zone file, save a zone file updates to a downloadable artifact, and upload new data onto getgov-data. The level of automation of these tasks can vary depending on team discretion.
+The goal is to set up the initial steps to automate updates to dotgov-data in the following order: use GitHub Actions to call the CZDS API Client to pull the CZDS zone file, save a zone file updates to a downloadable artifact, and upload new data onto dotgov-data. The level of automation of these tasks can vary depending on team discretion.
 
 
 
