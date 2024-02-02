@@ -2,7 +2,7 @@
 Date: 2024-02-01
 
 ## Status
-In progress
+Approved
 
 ## Context
 The dotgov-data repository contains public data for all registered domains in the .gov zone. Two files in this repository, current-full.csv (all domains) and current-federal.csv (only federal domains), are updated daily whenever possible. Other files in the repository contain more .gov hostname data, though they are not complete. The zone file is updated infrequently due to requiring manual changes to update it. Automating updates to the zone file at a regular frequency would increase its reliability and accuracy. Tracking version histories of the zone file would allow users to also understand the changes made to the public record.
