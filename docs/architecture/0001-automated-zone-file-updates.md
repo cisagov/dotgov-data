@@ -5,7 +5,7 @@ Date: 2024-02-01
 Approved
 
 ## Context
-The dotgov-data repository contains public data for all registered domains in the .gov zone. Two files in this repository, current-full.csv (all domains) and current-federal.csv (only federal domains), are updated daily when there are updates. Other files in the repository contain more .gov hostname data, though they are not complete. A copy of the zone file (gov.txt) is updated periodically but currently requires manual changes to update it. Automating updates to the zone file at a regular frequency could increase its audibility and currency. Tracking version histories of the zone file would allow users to also understand the changes made to the public record.
+The dotgov-data repository contains public data for all registered domains in the .gov zone. Two files in this repository, current-full.csv (all domains) and current-federal.csv (only federal domains), are updated daily when there are updates. Other files in the repository contain more .gov hostname data, though they are not complete. A copy of the zone file (gov.txt) is updated periodically but currently requires manual changes to update it. Automating updates to the zone file at a regular frequency would increase its auditability and currency. Tracking version histories of the zone file would allow users to also understand the changes made to the public record.
 
 Two options for automating gov.txt updates have been proposed:
 ### 1. Pull data from CZDS zone file ([GitHub issue](https://github.com/cisagov/dotgov-data/issues/107))
