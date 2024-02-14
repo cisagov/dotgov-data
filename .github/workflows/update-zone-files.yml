@@ -1,0 +1,20 @@
+name: Upload gov.txt.gz from CZDS API
+run-name: Upload gov.txt.gz from CZDS API
+
+on:
+  schedule:
+    - cron: "5 6 * * *"
+
+jobs:
+  update_zone_file:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download gov.txt.gz
+        env: 
+          ICANN_USERNAME: ${{ secrets[env.ICANN_USERNAME] }}
+          ICANN_PASSWORD: ${{ secrets[env.ICANN_PASSWORD] }}
+        run: |
+          chmod +x ./scripts/download_zone_file.sh
+          ./scripts/download_zone_file.sh
+        shell: sh
+
