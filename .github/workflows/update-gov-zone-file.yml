@@ -16,7 +16,7 @@ jobs:
           ICANN_USERNAME: ${{ secrets[env.ICANN_USERNAME] }}
           ICANN_PASSWORD: ${{ secrets[env.ICANN_PASSWORD] }}
         run: |
-          chmod +x ./scripts/download_zone_file.sh
-          ./scripts/download_zone_file.sh
+          chmod +x ../../scripts/download_zone_file.sh
+          ../../scripts/download_zone_file.sh
         shell: sh
 
