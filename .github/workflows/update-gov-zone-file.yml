@@ -4,6 +4,8 @@ run-name: Upload gov.txt.gz from CZDS API
 on:
   schedule:
     - cron: "5 6 * * *"
+  pull_request:
+    
 
 jobs:
   update_zone_file:
