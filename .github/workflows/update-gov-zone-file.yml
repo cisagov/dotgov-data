@@ -17,13 +17,14 @@ jobs:
   update_zone_file:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v2
       - name: Download gov.txt.gz
         env: 
           ICANN_USERNAME: ${{ secrets[env.ICANN_USERNAME] }}
           ICANN_PASSWORD: ${{ secrets[env.ICANN_PASSWORD] }}
         run: |
-          chmod +x /scripts/download_zone_file.sh
-          /scripts/download_zone_file.sh ${{ secrets[env.ICANN_USERNAME] }} ${{ secrets[env.ICANN_PASSWORD] }}
+          chmod +x ./scripts/download_zone_file.sh
+          ./scripts/download_zone_file.sh ${{ secrets[env.ICANN_USERNAME] }} ${{ secrets[env.ICANN_PASSWORD] }}
         shell: sh
       # Uploads the .gov zone file to Github artifact gov_zone_file
       - name: Upload retrieved .gov zone file
