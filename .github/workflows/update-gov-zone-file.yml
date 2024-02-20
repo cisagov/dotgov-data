@@ -20,9 +20,9 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Download gov.txt.gz
-        env: 
-          ICANN_USERNAME: ${{ secrets[ICANN_USERNAME] }}
-          ICANN_PASSWORD: ${{ secrets[ICANN_PASSWORD] }}
+        env:
+          ICANN_USERNAME: ${{ secrets.ICANN_USERNAME }}
+          ICANN_PASSWORD: ${{ secrets.ICANN_PASSWORD }}
         run: |
           chmod +x ./scripts/download_zone_file.sh
           ./scripts/download_zone_file.sh ${{ secrets[env.ICANN_USERNAME] }} ${{ secrets[env.ICANN_PASSWORD] }}
