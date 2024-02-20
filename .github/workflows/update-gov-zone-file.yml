@@ -4,6 +4,7 @@ run-name: Upload gov.txt.gz from CZDS API
 on:
   schedule:
     - cron: "5 6 * * *"
+  workflow_dispatch: {}
   pull_request:
     branches:
       - es/107-zone-file-script
