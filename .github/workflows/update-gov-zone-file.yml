@@ -31,5 +31,4 @@ jobs:
       - name: Upload retrieved .gov zone file
         uses: actions/upload-artifact@v4
         with:
-          name: gov_zone_file
-          path: ./gov.zone.txt.gz
+          name: gov_zone_file_update
