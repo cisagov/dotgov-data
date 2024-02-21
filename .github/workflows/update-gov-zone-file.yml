@@ -25,7 +25,7 @@ jobs:
           ICANN_PASSWORD: ${{ secrets.ICANN_PASSWORD }}
         run: |
           chmod +x ./scripts/download_zone_file.sh
-          ./scripts/download_zone_file.sh ${{ secrets[env.ICANN_USERNAME] }} ${{ secrets[env.ICANN_PASSWORD] }}
+          ./scripts/download_zone_file.sh ${{ secrets.ICANN_USERNAME }} ${{ secrets.ICANN_PASSWORD }}
         shell: sh
       # Uploads the .gov zone file to Github artifact gov_zone_file
       - name: Upload retrieved .gov zone file
