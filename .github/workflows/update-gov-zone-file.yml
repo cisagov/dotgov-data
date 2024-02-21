@@ -31,7 +31,7 @@ jobs:
         run: |
           git config --global user.name "${{ env.CI_COMMIT_AUTHOR }}"
           git config --global user.email "username@users.noreply.github.com"
-          git add ./gov.zone.txt
+          git add ./gov.txt
           git commit -m "${{ env.CI_COMMIT_MESSAGE }}"
           
       # Uploads the .gov zone file to Github artifact gov_zone_file
