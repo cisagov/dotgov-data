@@ -20,7 +20,6 @@ jobs:
         env:
           ICANN_USERNAME: ${{ secrets.ICANN_USERNAME }}
           ICANN_PASSWORD: ${{ secrets.ICANN_PASSWORD }}
-          CI_COMMIT_AUTHOR: Continuous Integration
           CI_COMMIT_MESSAGE: Continuous Integration Push Daily Zone File Update
         run: |
           chmod +x ./scripts/download_zone_file.sh
@@ -29,10 +28,11 @@ jobs:
       - uses: actions/checkout@v4
       - name: Commit and push updated zone file update to branch
         run: |
-          git config --global user.name "${{ env.CI_COMMIT_AUTHOR }}"
-          git config --global user.email "121973038+erinysong@users.noreply.github.com"
+          git config user.name "Continuous Integration - Zone File"
+          git config user.email "121973038+erinysong@users.noreply.github.com"
           git add ./gov.txt
           git commit -m "${{ env.CI_COMMIT_MESSAGE }}"
+          git push
           
       # Uploads the .gov zone file to Github artifact gov_zone_file
       # - name: Upload retrieved .gov zone file
