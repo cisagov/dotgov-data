@@ -25,6 +25,7 @@ jobs:
           ./scripts/download_zone_file.sh ${{ env.ICANN_USERNAME }} ${{ env.ICANN_PASSWORD }}
         shell: sh
       - uses: actions/checkout@v4
+      # Push daily zone file to branch only if a diff is found
       - name: Commit and push updated zone file update to branch
         run: |-
           git config user.name "Continuous Integration - Zone File"
@@ -33,10 +34,3 @@ jobs:
           timestamp=$(date -u)
           git commit -m "Daily Zone File Update ${timestamp}" || exit 0
           git push
-          
-      # Uploads the .gov zone file to Github artifact gov_zone_file
-      # - name: Upload retrieved .gov zone file
-      #   uses: actions/upload-artifact@v4
-      #   with:
-      #     name: gov_zone_file
-      #     path: ./gov.zone.txt
