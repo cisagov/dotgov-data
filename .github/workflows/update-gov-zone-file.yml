@@ -27,9 +27,9 @@ jobs:
       # Push daily zone file to branch only if a diff is found
       - name: Commit and push updated zone file update to branch
         run: |-
-          git config user.name "Continuous Integration - Zone File"
+          git config user.name "botgov"
           git config user.email "121973038+erinysong@users.noreply.github.com"
           git add gov.txt
           timestamp=$(date -u)
-          git commit -m "Daily Zone File Update ${timestamp}" || exit 0
+          git commit -m "CZDS Update ${timestamp}" || exit 0
           git push
