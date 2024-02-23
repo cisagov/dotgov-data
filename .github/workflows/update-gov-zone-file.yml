@@ -22,7 +22,7 @@ jobs:
           ICANN_PASSWORD: ${{ secrets.ICANN_PASSWORD }}
         run: |
           chmod +x ./scripts/download_zone_file.sh
-          ./scripts/download_zone_file.sh ${{ env.ICANN_USERNAME }} ${{ env.ICANN_PASSWORD }} > gov.txt
+          ./scripts/download_zone_file.sh '${{ env.ICANN_USERNAME }}' '${{ env.ICANN_PASSWORD }}' > gov.txt
         shell: sh
       # Push daily zone file to branch only if a diff is found
       - name: Commit and push updated zone file update to branch
