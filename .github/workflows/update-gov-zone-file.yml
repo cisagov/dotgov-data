@@ -1,0 +1,30 @@
+name: Update gov.txt from CZDS API zone file
+run-name: Update gov.txt from CZDS API zone file
+
+on:
+  workflow_dispatch: {}
+  schedule:
+    - cron: "5 6 * * *"
+
+jobs:
+  update_zone_file:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Download gov.txt.gz
+        env:
+          ICANN_USERNAME: '${{ secrets.ICANN_USERNAME }}'
+          ICANN_PASSWORD: '${{ secrets.ICANN_PASSWORD }}'
+        run: |
+          chmod +x ./scripts/download_zone_file.sh
+          ./scripts/download_zone_file.sh '${{ env.ICANN_USERNAME }}' '${{ env.ICANN_PASSWORD }}' > gov.txt
+        shell: sh
+      # Push daily zone file to branch only if a diff is found
+      - name: Commit and push updated zone file update to branch
+        run: |-
+          git config user.name "botgov"
+          git config user.email "help@get.gov"
+          git add gov.txt
+          timestamp=$(date -u)
+          git commit -m "CZDS Update ${timestamp}" || exit 0
+          git push
