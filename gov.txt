@@ -1,4 +1,4 @@
-gov.			3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1709605500 3600 900 604800 300
+gov.			3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1709691901 3600 900 604800 300
 gov.			86400	IN	NS	a.ns.gov.
 gov.			86400	IN	NS	b.ns.gov.
 gov.			86400	IN	NS	c.ns.gov.
@@ -3064,8 +3064,12 @@ brentwoodtn.gov.	10800	IN	NS	ns1.dnsmadeeasy.com.
 brentwoodtn.gov.	10800	IN	NS	ns2.dnsmadeeasy.com.
 brentwoodtn.gov.	10800	IN	NS	ns3.dnsmadeeasy.com.
 brentwoodtn.gov.	10800	IN	NS	ns4.dnsmadeeasy.com.
-brevardfl.gov.		10800	IN	NS	ns0.dnsmadeeasy.com.
-brevardfl.gov.		10800	IN	NS	ns1.dnsmadeeasy.com.
+brevardfl.gov.		10800	IN	NS	ns11.constellix.com.
+brevardfl.gov.		10800	IN	NS	ns21.constellix.com.
+brevardfl.gov.		10800	IN	NS	ns31.constellix.com.
+brevardfl.gov.		10800	IN	NS	ns41.constellix.net.
+brevardfl.gov.		10800	IN	NS	ns51.constellix.net.
+brevardfl.gov.		10800	IN	NS	ns61.constellix.net.
 brewermaine.gov.	10800	IN	NS	ns1197.dns.dyn.com.
 brewermaine.gov.	10800	IN	NS	ns2189.dns.dyn.com.
 brewermaine.gov.	10800	IN	NS	ns3155.dns.dyn.com.
@@ -4704,6 +4708,7 @@ chips.gov.		10800	IN	NS	a7-67.akam.net.
 chips.gov.		10800	IN	NS	a1-216.akam.net.
 chips.gov.		10800	IN	NS	a12-65.akam.net.
 chips.gov.		10800	IN	NS	a13-67.akam.net.
+chips.gov.		3600	IN	DS	3997 8 2 DF98B6850DAFA002015620F76AF21F6DFCD57E075145074573A33FFB 46F5764F
 chisagocountymn.gov.	10800	IN	NS	pdns111.ultradns.biz.
 chisagocountymn.gov.	10800	IN	NS	pdns111.ultradns.com.
 chisagocountymn.gov.	10800	IN	NS	pdns111.ultradns.net.
@@ -8285,6 +8290,7 @@ edison.gov.		10800	IN	NS	a7-67.akam.net.
 edison.gov.		10800	IN	NS	a1-216.akam.net.
 edison.gov.		10800	IN	NS	a12-65.akam.net.
 edison.gov.		10800	IN	NS	a13-67.akam.net.
+edison.gov.		3600	IN	DS	33319 8 2 8E6EE906D4E4A2BE30A61E3C2DC9C1D94F0969D030932B85E5060D1D 3FE2E8AE
 edisonnj.gov.		10800	IN	NS	ns59.domaincontrol.com.
 edisonnj.gov.		10800	IN	NS	ns60.domaincontrol.com.
 edmondok.gov.		10800	IN	NS	elly.ns.cloudflare.com.
@@ -13173,6 +13179,7 @@ iedison.gov.		10800	IN	NS	a7-67.akam.net.
 iedison.gov.		10800	IN	NS	a1-216.akam.net.
 iedison.gov.		10800	IN	NS	a12-65.akam.net.
 iedison.gov.		10800	IN	NS	a13-67.akam.net.
+iedison.gov.		3600	IN	DS	51067 8 2 E84CF83C7BCCD4D9E5C004C7CD3DCE2DB4E3FAEA132DA91B0714E12E DD0886EE
 ighmn.gov.		10800	IN	NS	ns1.state.mn.us.
 ighmn.gov.		10800	IN	NS	ns2.state.mn.us.
 ighmn.gov.		10800	IN	NS	ns3.state.mn.us.
@@ -19240,9 +19247,9 @@ nist.gov.		10800	IN	NS	a7-67.akam.net.
 nist.gov.		10800	IN	NS	a1-216.akam.net.
 nist.gov.		10800	IN	NS	a12-65.akam.net.
 nist.gov.		10800	IN	NS	a13-67.akam.net.
-nist.gov.		3600	IN	DS	35565 7 1 DB68A6356C64A8CC24357D3FE42E1B4194A96245
-nist.gov.		3600	IN	DS	35565 7 2 A051B24A47293959EEE0D5E21D74D2BD60B814DF03237DFD60FFDD1D D6AA25AE
+nist.gov.		3600	IN	DS	31309 8 2 EA8F38797DC5CAC0C87A4EB85C1A4C16A07DC5CC0599B1AD413D18D8 1A7F0675
 nist.gov.		3600	IN	DS	57228 7 2 27782FD40AA9408FFB98D93C4C095BBD652459CBD3FC2F58549A7399 E4789A61
+nist.gov.		3600	IN	DS	63303 7 2 7801F19745DA65CEFD139E3D26C2F78F3EE4C6A9BE71FA0133AFDA24 E6B540D9
 gea.nist.gov.		3600	IN	A	129.6.92.10
 gea.nist.gov.		3600	IN	AAAA	2610:20:6005:92::10
 nitrd.gov.		10800	IN	NS	ns-148.awsdns-18.com.
@@ -22456,13 +22463,6 @@ prospertx.gov.		10800	IN	NS	ns1-08.azuregov-dns.us.
 prospertx.gov.		10800	IN	NS	ns2-08.azuregov-dns.us.
 prospertx.gov.		10800	IN	NS	ns3-08.azuregov-dns.us.
 prospertx.gov.		10800	IN	NS	ns4-08.azuregov-dns.us.
-protecciondelconsumidor.gov. 10800 IN	NS	a3-65.akam.net.
-protecciondelconsumidor.gov. 10800 IN	NS	a6-66.akam.net.
-protecciondelconsumidor.gov. 10800 IN	NS	a7-67.akam.net.
-protecciondelconsumidor.gov. 10800 IN	NS	a1-252.akam.net.
-protecciondelconsumidor.gov. 10800 IN	NS	a24-67.akam.net.
-protecciondelconsumidor.gov. 10800 IN	NS	a26-64.akam.net.
-protecciondelconsumidor.gov. 3600 IN	DS	11947 8 2 B6F75D751336742F764D3DA51857CF015DD46D75060C9493D4B4C207 528F4E83
 protectingfloridatogether.gov. 10800 IN	NS	ns1-02.azure-dns.com.
 protectingfloridatogether.gov. 10800 IN	NS	ns2-02.azure-dns.net.
 protectingfloridatogether.gov. 10800 IN	NS	ns3-02.azure-dns.org.
@@ -24647,6 +24647,7 @@ semiconductors.gov.	10800	IN	NS	a7-67.akam.net.
 semiconductors.gov.	10800	IN	NS	a1-216.akam.net.
 semiconductors.gov.	10800	IN	NS	a12-65.akam.net.
 semiconductors.gov.	10800	IN	NS	a13-67.akam.net.
+semiconductors.gov.	3600	IN	DS	8056 8 2 31646CAF80B0ADFE5B9D09FEF1087945BF57AEB1937794F0C8EF7CE2 E32ED79D
 seminolecityok.gov.	10800	IN	NS	ns1.gov-server.net.
 seminolecityok.gov.	10800	IN	NS	ns2.gov-server.net.
 seminolecountyfl.gov.	10800	IN	NS	ns-356.awsdns-44.com.
@@ -25432,10 +25433,10 @@ speedwayin.gov.		10800	IN	NS	ns1-38.azure-dns.com.
 speedwayin.gov.		10800	IN	NS	ns2-38.azure-dns.net.
 speedwayin.gov.		10800	IN	NS	ns3-38.azure-dns.org.
 speedwayin.gov.		10800	IN	NS	ns4-38.azure-dns.info.
-spencercountyky.gov.	10800	IN	NS	ns1.spencercountyky.gov.
-spencercountyky.gov.	10800	IN	NS	ns2.spencercountyky.gov.
-ns1.spencercountyky.gov. 3600	IN	A	192.232.246.121
-ns2.spencercountyky.gov. 3600	IN	A	192.232.246.120
+spencercountyky.gov.	10800	IN	NS	ns10.cpanel.bluerass.net.
+spencercountyky.gov.	10800	IN	NS	ns11.cpanel.bluegrass.net.
+spencercountyky.gov.	10800	IN	NS	ns12.cpanel.bluegrass.net.
+spencercountyky.gov.	10800	IN	NS	ns13.cpanel.bluegrass.net.
 spencerma.gov.		10800	IN	NS	ns57.websitewelcome.com.
 spencerma.gov.		10800	IN	NS	ns58.websitewelcome.com.
 spencernc.gov.		10800	IN	NS	ns3.corphosting.net.
@@ -27226,6 +27227,10 @@ townofevansny.gov.	10800	IN	NS	ns1.siteground.net.
 townofevansny.gov.	10800	IN	NS	ns2.siteground.net.
 townofexcelsiorwi.gov.	10800	IN	NS	adam.ns.cloudflare.com.
 townofexcelsiorwi.gov.	10800	IN	NS	mona.ns.cloudflare.com.
+townofexeterny.gov.	10800	IN	NS	ns1-37.azure-dns.com.
+townofexeterny.gov.	10800	IN	NS	ns2-37.azure-dns.net.
+townofexeterny.gov.	10800	IN	NS	ns3-37.azure-dns.org.
+townofexeterny.gov.	10800	IN	NS	ns4-37.azure-dns.info.
 townoffairfieldwi.gov.	10800	IN	NS	adam.ns.cloudflare.com.
 townoffairfieldwi.gov.	10800	IN	NS	mona.ns.cloudflare.com.
 townoffonddulacwi.gov.	10800	IN	NS	ns31.domaincontrol.com.
