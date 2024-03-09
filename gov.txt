@@ -1,4 +1,4 @@
-gov.			3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1709864700 3600 900 604800 300
+gov.			3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1709951100 3600 900 604800 300
 gov.			86400	IN	NS	a.ns.gov.
 gov.			86400	IN	NS	b.ns.gov.
 gov.			86400	IN	NS	c.ns.gov.
@@ -93,10 +93,10 @@ absenteeshawneetribe-nsn.gov. 10800 IN	NS	ns1.astribe.com.
 absenteeshawneetribe-nsn.gov. 10800 IN	NS	ns2.astribe.com.
 absenteeshawneetribe-nsn.gov. 10800 IN	NS	ns3.astribe.com.
 absenteeshawneetribe-nsn.gov. 10800 IN	NS	ns4.astribe.com.
-acc.gov.		10800	IN	NS	ns-257.awsdns-32.com.
-acc.gov.		10800	IN	NS	ns-1007.awsdns-61.net.
-acc.gov.		10800	IN	NS	ns-1426.awsdns-50.org.
-acc.gov.		10800	IN	NS	ns-1627.awsdns-11.co.uk.
+acc.gov.		10800	IN	NS	ns1-36.azure-dns.com.
+acc.gov.		10800	IN	NS	ns2-36.azure-dns.net.
+acc.gov.		10800	IN	NS	ns3-36.azure-dns.org.
+acc.gov.		10800	IN	NS	ns4-36.azure-dns.info.
 accedeainternet.gov.	10800	IN	NS	a1-61.akam.net.
 accedeainternet.gov.	10800	IN	NS	a3-67.akam.net.
 accedeainternet.gov.	10800	IN	NS	a5-64.akam.net.
@@ -8577,6 +8577,7 @@ energystar.gov.		10800	IN	NS	dcns1.epa.gov.
 energystar.gov.		10800	IN	NS	dcns2.epa.gov.
 energystar.gov.		10800	IN	NS	nccns1.epa.gov.
 energystar.gov.		10800	IN	NS	nccns2.epa.gov.
+energystar.gov.		3600	IN	DS	10357 8 2 986ED752C252A5C296FB18DFC9C668EF7FE9D32473AE42557678E925 C76E38FD
 energystar.gov.		3600	IN	DS	46039 8 2 DFFE261ABA7AF735FCB907097D8937AEC76F83C4B4BEA928E73B3147 99276DB6
 energyswitchma.gov.	10800	IN	NS	internet-dns1.state.ma.us.
 energyswitchma.gov.	10800	IN	NS	internet-dns2.state.ma.us.
@@ -13212,7 +13213,6 @@ ignet.gov.		10800	IN	NS	a24-65.akam.net.
 ignet.gov.		10800	IN	NS	a28-65.akam.net.
 ignet.gov.		3600	IN	DS	65352 13 2 76C25EDFB9371854EBB2AB87AF739E60A7403811C6D1DBE804F34849 EC5D28F1
 igorville.gov.		10800	IN	NS	glen.ns.cloudflare.com.
-igorville.gov.		10800	IN	NS	test.test.com.
 igorville.gov.		10800	IN	NS	joselyn.ns.cloudflare.com.
 ihs.gov.		10800	IN	NS	ns11.hhs.gov.
 ihs.gov.		10800	IN	NS	ns12.hhs.gov.
@@ -13440,11 +13440,13 @@ internet4all.gov.	10800	IN	NS	ns-431.awsdns-53.com.
 internet4all.gov.	10800	IN	NS	ns-888.awsdns-47.net.
 internet4all.gov.	10800	IN	NS	ns-1300.awsdns-34.org.
 internet4all.gov.	10800	IN	NS	ns-1556.awsdns-02.co.uk.
+internet4all.gov.	3600	IN	DS	2881 13 2 B26A39ED5467B53022763E3ABC0ED3A9EC37B779780664D824C9802D FCDCB585
 internet4all.gov.	3600	IN	DS	49743 13 2 C09FEC128C613C929BDACF7A3532AAEBF646491238D40812B662BB4F 60B0AE6F
 internetforall.gov.	10800	IN	NS	ns-359.awsdns-44.com.
 internetforall.gov.	10800	IN	NS	ns-597.awsdns-10.net.
 internetforall.gov.	10800	IN	NS	ns-1347.awsdns-40.org.
 internetforall.gov.	10800	IN	NS	ns-1748.awsdns-26.co.uk.
+internetforall.gov.	3600	IN	DS	4426 13 2 CADCB96E70B1EAF825C180566D158D3245C24CF79ACB82A3ADE48A84 353689C6
 internetforall.gov.	3600	IN	DS	18865 13 2 4936AE79BC1A59D2567941A8217736C9684BE86240E072DA33F331A1 769EEC4E
 interpol.gov.		10800	IN	NS	ns-jdcw-01.usdoj.gov.
 interpol.gov.		10800	IN	NS	ns-jdcw-02.usdoj.gov.
@@ -19941,6 +19943,7 @@ ntia.gov.		10800	IN	NS	ns-292.awsdns-36.com.
 ntia.gov.		10800	IN	NS	ns-836.awsdns-40.net.
 ntia.gov.		10800	IN	NS	ns-1348.awsdns-40.org.
 ntia.gov.		10800	IN	NS	ns-1923.awsdns-48.co.uk.
+ntia.gov.		3600	IN	DS	11269 13 2 2FC8EE1D99171D78B950E3A2DE9D639CB54255EB67B917AEFB80492F D5FA51FB
 ntia.gov.		3600	IN	DS	45956 13 2 1099B08855477844218404437280255B03256FE9BC3835859F441386 47F459D4
 ntis.gov.		10800	IN	NS	sauthns1.qwest.net.
 ntis.gov.		10800	IN	NS	sauthns2.qwest.net.
@@ -25464,6 +25467,7 @@ spectrum.gov.		10800	IN	NS	ns-552.awsdns-05.net.
 spectrum.gov.		10800	IN	NS	ns-1297.awsdns-34.org.
 spectrum.gov.		10800	IN	NS	ns-1753.awsdns-27.co.uk.
 spectrum.gov.		3600	IN	DS	15009 13 2 11FF3373589761914C102B86B1EB3BC040D14CEEA8CCACDAF59DD545 C32FE03F
+spectrum.gov.		3600	IN	DS	50188 13 2 88EAD483C25B0F8B3142038F751CB2DBE9C845BEAB337B3CC69F5312 0A6F3727
 speedwayin.gov.		10800	IN	NS	ns1-38.azure-dns.com.
 speedwayin.gov.		10800	IN	NS	ns2-38.azure-dns.net.
 speedwayin.gov.		10800	IN	NS	ns3-38.azure-dns.org.
