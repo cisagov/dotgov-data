@@ -1,4 +1,4 @@
-gov.			3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1710123900 3600 900 604800 300
+gov.			3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1710210300 3600 900 604800 300
 gov.			86400	IN	NS	a.ns.gov.
 gov.			86400	IN	NS	b.ns.gov.
 gov.			86400	IN	NS	c.ns.gov.
@@ -15,6 +15,7 @@ gov.			86400	IN	NS	d.ns.gov.
 2020census.gov.		10800	IN	NS	a28-64.akam.net.
 2020census.gov.		3600	IN	DS	17440 8 1 D75297BB37ADD9CAF011FCDC015EF0CD6BF707C9
 2020census.gov.		3600	IN	DS	17440 8 2 023D99C9BB090E9FBAC742836F9F3FCFB2FAF6B9F3DA1CD700D8676F 1FF9DBD0
+2020census.gov.		3600	IN	DS	23434 8 2 C7338065341FC8AB3B55B3EFFB51C7291947A43909F14A9CF784DF8F D9396DB0
 211dupage.gov.		10800	IN	NS	cbru.br.ns.els-gms.att.net.
 211dupage.gov.		10800	IN	NS	cmtu.mt.ns.els-gms.att.net.
 22007apply.gov.		10800	IN	NS	arya.ns.cloudflare.com.
@@ -712,10 +713,10 @@ america250.gov.		10800	IN	NS	pdns01.domaincontrol.com.
 america250.gov.		10800	IN	NS	pdns02.domaincontrol.com.
 americancanyon.gov.	10800	IN	NS	ns1.gov-server.net.
 americancanyon.gov.	10800	IN	NS	ns2.gov-server.net.
-americanclimatecorps.gov. 10800	IN	NS	ns-394.awsdns-49.com.
-americanclimatecorps.gov. 10800	IN	NS	ns-573.awsdns-07.net.
-americanclimatecorps.gov. 10800	IN	NS	ns-1468.awsdns-55.org.
-americanclimatecorps.gov. 10800	IN	NS	ns-1882.awsdns-43.co.uk.
+americanclimatecorps.gov. 10800	IN	NS	ns1-37.azure-dns.com.
+americanclimatecorps.gov. 10800	IN	NS	ns2-37.azure-dns.net.
+americanclimatecorps.gov. 10800	IN	NS	ns3-37.azure-dns.org.
+americanclimatecorps.gov. 10800	IN	NS	ns4-37.azure-dns.info.
 americanfork.gov.	10800	IN	NS	dns3.civicplus.com.
 americanfork.gov.	10800	IN	NS	dns4.civicplus.com.
 americanfork.gov.	3600	IN	DS	13234 13 1 E2EEEA046DE2D71CD408C6352A1D46151AB33114
@@ -14510,6 +14511,8 @@ kempnertx.gov.		10800	IN	NS	ns39.domaincontrol.com.
 kempnertx.gov.		10800	IN	NS	ns40.domaincontrol.com.
 kendallcountyil.gov.	10800	IN	NS	maya.ns.cloudflare.com.
 kendallcountyil.gov.	10800	IN	NS	konnor.ns.cloudflare.com.
+kendallcountytx.gov.	10800	IN	NS	jake.ns.cloudflare.com.
+kendallcountytx.gov.	10800	IN	NS	raina.ns.cloudfare.com.
 kendallvillein.gov.	10800	IN	NS	ns-35.awsdns-04.com.
 kendallvillein.gov.	10800	IN	NS	ns-743.awsdns-28.net.
 kendallvillein.gov.	10800	IN	NS	ns-1504.awsdns-60.org.
@@ -14779,8 +14782,6 @@ la.gov.			10800	IN	NS	server.brp.la.net.
 la.gov.			10800	IN	NS	server.noc.la.net.
 labor.gov.		10800	IN	NS	ns1.dol.gov.
 labor.gov.		10800	IN	NS	ns2.dol.gov.
-labor.gov.		10800	IN	NS	ns05.dol.gov.
-labor.gov.		10800	IN	NS	ns06.dol.gov.
 lacahsa.gov.		10800	IN	NS	ns-407.awsdns-50.com.
 lacahsa.gov.		10800	IN	NS	ns-849.awsdns-42.net.
 lacahsa.gov.		10800	IN	NS	ns-1032.awsdns-01.org.
@@ -18128,6 +18129,7 @@ my2020census.gov.	10800	IN	NS	a16-67.akam.net.
 my2020census.gov.	10800	IN	NS	a28-64.akam.net.
 my2020census.gov.	3600	IN	DS	3154 8 1 5D9869E39549A6E4160B27B58A885B96D4EFCCD1
 my2020census.gov.	3600	IN	DS	3154 8 2 C66E28808FF8892DEED68CBEF71FC37AFDE4ACE2F8E5C3F9203930A0 74AD7B97
+my2020census.gov.	3600	IN	DS	22795 8 2 0C12AC9E883FD8549DB60B259207D0EECB112DA91645C49B8518BE99 80B0AEF0
 myalabama.gov.		10800	IN	NS	ns1-03.azure-dns.com.
 myalabama.gov.		10800	IN	NS	ns2-03.azure-dns.net.
 myalabama.gov.		10800	IN	NS	ns3-03.azure-dns.org.
@@ -24888,6 +24890,8 @@ shelterislandtown.gov.	10800	IN	NS	ns3.bdm.microsoftonline.com.
 shelterislandtown.gov.	10800	IN	NS	ns4.bdm.microsoftonline.com.
 sheltonwa.gov.		10800	IN	NS	ns1.hcc.net.
 sheltonwa.gov.		10800	IN	NS	ns1.hctc.com.
+shenandoahcountyva.gov.	10800	IN	NS	dns3.civicplus.com.
+shenandoahcountyva.gov.	10800	IN	NS	dns4.civicplus.com.
 shepherdsvilleky.gov.	10800	IN	NS	jule.ns.cloudflare.com.
 shepherdsvilleky.gov.	10800	IN	NS	plato.ns.cloudflare.com.
 sheridanarpd.gov.	10800	IN	NS	ns1.dreamhost.com.
@@ -25733,6 +25737,8 @@ stcharlescitymo.gov.	10800	IN	NS	ns-cloud-e2.googledomains.com.
 stcharlescitymo.gov.	10800	IN	NS	ns-cloud-e3.googledomains.com.
 stcharlescitymo.gov.	10800	IN	NS	ns-cloud-e4.googledomains.com.
 stcharlescitymo.gov.	3600	IN	DS	8519 8 2 4BC27992E75CBCFE41FDC1F5A43317398ED661B0EC757DB357C756DE 2380ADA9
+stcharlescounty.gov.	10800	IN	NS	ns-414.awsdns-51.com.
+stcharlescounty.gov.	10800	IN	NS	ns-1218.awsdns-24.org.
 stcharlescountycsfamo.gov. 10800 IN	NS	ns51.domaincontrol.com.
 stcharlescountycsfamo.gov. 10800 IN	NS	ns52.domaincontrol.com.
 stcharlesil.gov.	10800	IN	NS	dns1.easydns.com.
@@ -27659,8 +27665,8 @@ townoftaycheedahwi.gov.	10800	IN	NS	ns53.domaincontrol.com.
 townoftaycheedahwi.gov.	10800	IN	NS	ns54.domaincontrol.com.
 townoftheresawi.gov.	10800	IN	NS	adam.ns.cloudflare.com.
 townoftheresawi.gov.	10800	IN	NS	mona.ns.cloudflare.com.
-townofthomsonmn.gov.	10800	IN	NS	ns59.domaincontrol.com.
-townofthomsonmn.gov.	10800	IN	NS	ns60.domaincontrol.com.
+townofthomsonmn.gov.	10800	IN	NS	adam.ns.cloudflare.com.
+townofthomsonmn.gov.	10800	IN	NS	mona.ns.cloudflare.com.
 townofthorpwi.gov.	10800	IN	NS	ns55.domaincontrol.com.
 townofthorpwi.gov.	10800	IN	NS	ns56.domaincontrol.com.
 townofthreelakeswi.gov.	10800	IN	NS	adam.ns.cloudflare.com.
