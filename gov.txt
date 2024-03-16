@@ -1,4 +1,4 @@
-gov.			3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1710469500 3600 900 604800 300
+gov.			3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1710555900 3600 900 604800 300
 gov.			86400	IN	NS	a.ns.gov.
 gov.			86400	IN	NS	b.ns.gov.
 gov.			86400	IN	NS	c.ns.gov.
@@ -856,8 +856,10 @@ t1dns1.anl.gov.		3600	IN	AAAA	2620:0:dc0:180e::6
 t1dns2.anl.gov.		3600	IN	A	130.202.101.37
 t1dns2.anl.gov.		3600	IN	AAAA	2620:0:dc0:180d::37
 annapolis.gov.		10800	IN	NS	ns.annapolis.gov.
+annapolis.gov.		10800	IN	NS	ns2.annapolis.gov.
 annapolis.gov.		10800	IN	NS	ns3.annapolis.gov.
 ns.annapolis.gov.	3600	IN	A	96.244.10.86
+ns2.annapolis.gov.	3600	IN	A	96.244.10.85
 ns3.annapolis.gov.	3600	IN	A	96.234.156.25
 annapolismd.gov.	10800	IN	NS	ns.annapolis.gov.
 annapolismd.gov.	10800	IN	NS	ns2.annapolis.gov.
@@ -1292,6 +1294,7 @@ atmore.gov.		10800	IN	NS	ns-264.awsdns-33.com.
 atmore.gov.		10800	IN	NS	ns-903.awsdns-48.net.
 atmore.gov.		10800	IN	NS	ns-1196.awsdns-21.org.
 atmore.gov.		10800	IN	NS	ns-1810.awsdns-34.co.uk.
+atmore.gov.		3600	IN	DS	46151 13 2 ECED870402EFECB6CC5AE91DF124265A5B64FB3969DC509F061EB2F0 CA196542
 attawauganfirect.gov.	10800	IN	NS	ns-387.awsdns-48.com.
 attawauganfirect.gov.	10800	IN	NS	ns-883.awsdns-46.net.
 attawauganfirect.gov.	10800	IN	NS	ns-1121.awsdns-12.org.
@@ -8400,8 +8403,8 @@ ej.gov.			10800	IN	NS	a22-66.akam.net.
 ej.gov.			3600	IN	DS	62528 13 2 D9BF315E6E42BC2881D4D92FA643AE03373ACC0FED09DB4A5B5DC434 BF8AF562
 ekalaka.gov.		10800	IN	NS	freedns1.registrar-servers.com.
 ekalaka.gov.		10800	IN	NS	freedns2.registrar-servers.com.
-eklutna-nsn.gov.	10800	IN	NS	ns1.bluehost.com.
-eklutna-nsn.gov.	10800	IN	NS	ns2.bluehost.com.
+eklutna-nsn.gov.	10800	IN	NS	dns3.alasconnect.com.
+eklutna-nsn.gov.	10800	IN	NS	dns4.alasconnect.com.
 elbaal.gov.		10800	IN	NS	bill.ns.cloudflare.com.
 elbaal.gov.		10800	IN	NS	angela.ns.cloudflare.com.
 elbertcounty-co.gov.	10800	IN	NS	ns2.hostmonster.com.
@@ -14001,7 +14004,7 @@ itis.gov.		10800	IN	NS	a11-67.akam.net.
 itis.gov.		10800	IN	NS	a24-67.akam.net.
 itis.gov.		10800	IN	NS	a26-66.akam.net.
 itis.gov.		10800	IN	NS	a28-65.akam.net.
-itis.gov.		3600	IN	DS	20716 13 2 6F86A11106665B81CE1DCB324229A4CD3A0C7CB1BE689A5D4935B9F1 AAFA7131
+itis.gov.		3600	IN	DS	50245 13 2 BBA269B8D7FC439D2EE4BC56C9F1AB70D332FEB44192451C8C29C063 6ED5E55A
 itrd.gov.		10800	IN	NS	ns-428.awsdns-53.com.
 itrd.gov.		10800	IN	NS	ns-732.awsdns-27.net.
 itrd.gov.		10800	IN	NS	ns-1167.awsdns-17.org.
@@ -14534,6 +14537,8 @@ kemah-tx.gov.		10800	IN	NS	dns1.civicplus.com.
 kemah-tx.gov.		10800	IN	NS	dns2.civicplus.com.
 kemahtx.gov.		10800	IN	NS	dns3.civicplus.com.
 kemahtx.gov.		10800	IN	NS	dns4.civicplus.com.
+kempercountyms.gov.	10800	IN	NS	ns.onecallinc.com.
+kempercountyms.gov.	10800	IN	NS	ns2.onecallinc.com.
 kempnertx.gov.		10800	IN	NS	ns39.domaincontrol.com.
 kempnertx.gov.		10800	IN	NS	ns40.domaincontrol.com.
 kendallcountyil.gov.	10800	IN	NS	maya.ns.cloudflare.com.
@@ -15879,8 +15884,8 @@ loudoun.gov.		10800	IN	NS	ns4.he.net.
 loudoun.gov.		10800	IN	NS	ns5.he.net.
 loudouncountyva.gov.	10800	IN	NS	noel.ns.cloudflare.com.
 loudouncountyva.gov.	10800	IN	NS	gloria.ns.cloudflare.com.
-louisacounty.gov.	10800	IN	NS	ns31.domaincontrol.com.
-louisacounty.gov.	10800	IN	NS	ns32.domaincontrol.com.
+louisacounty.gov.	10800	IN	NS	bjorn.ns.cloudflare.com.
+louisacounty.gov.	10800	IN	NS	wanda.ns.cloudflare.com.
 louisacountyia.gov.	10800	IN	NS	ns1.usinternet.com.
 louisacountyia.gov.	10800	IN	NS	ns2.usinternet.com.
 louisacountyia.gov.	10800	IN	NS	ns3.usinternet.com.
@@ -19760,6 +19765,8 @@ northlebanontwppa.gov.	10800	IN	NS	ns1.anchor.host.
 northlebanontwppa.gov.	10800	IN	NS	ns2.anchor.host.
 northlebanontwppa.gov.	10800	IN	NS	ns3.anchor.host.
 northlebanontwppa.gov.	10800	IN	NS	ns4.anchor.host.
+northlogancity.gov.	10800	IN	NS	ns1.bluehost.com.
+northlogancity.gov.	10800	IN	NS	ns2.bluehost.com.
 northmiamibeachfl.gov.	10800	IN	NS	dns3.civicplus.com.
 northmiamibeachfl.gov.	10800	IN	NS	dns4.civicplus.com.
 northmiamifl.gov.	10800	IN	NS	ns10.dnsmadeeasy.com.
@@ -19776,6 +19783,10 @@ northplainfieldnj.gov.	10800	IN	NS	ns-4.awsdns-00.com.
 northplainfieldnj.gov.	10800	IN	NS	ns-721.awsdns-26.net.
 northplainfieldnj.gov.	10800	IN	NS	ns-1087.awsdns-07.org.
 northplainfieldnj.gov.	10800	IN	NS	ns-1765.awsdns-28.co.uk.
+northplains.gov.	10800	IN	NS	ns1.thegenuine.host.
+northplains.gov.	10800	IN	NS	ns2.thegenuine.host.
+northplains.gov.	10800	IN	NS	ns3.thegenuine.cloud.
+northplains.gov.	10800	IN	NS	ns4.thegenuine.cloud.
 northplattene.gov.	10800	IN	NS	ns-361.awsdns-45.com.
 northplattene.gov.	10800	IN	NS	ns-1332.awsdns-38.org.
 northportfl.gov.	10800	IN	NS	ns-173.awsdns-21.com.
@@ -23000,6 +23011,8 @@ redrivernm.gov.		10800	IN	NS	ns1.softlayer.com.
 redrivernm.gov.		10800	IN	NS	ns2.softlayer.com.
 redwillowcountyne.gov.	10800	IN	NS	pdns13.domaincontrol.com.
 redwillowcountyne.gov.	10800	IN	NS	pdns14.domaincontrol.com.
+redwoodcounty-mn.gov.	10800	IN	NS	vns1.state.mn.us.
+redwoodcounty-mn.gov.	10800	IN	NS	vns2.state.mn.us.
 reedsburgwi.gov.	10800	IN	NS	ns73.domaincontrol.com.
 reedsburgwi.gov.	10800	IN	NS	ns74.domaincontrol.com.
 reedsvillewi.gov.	10800	IN	NS	adam.ns.cloudflare.com.
@@ -23603,6 +23616,10 @@ royalston-ma.gov.	10800	IN	NS	dns3.civicplus.com.
 royalston-ma.gov.	10800	IN	NS	dns4.civicplus.com.
 royaltonvt.gov.		10800	IN	NS	ns1.softlayer.com.
 royaltonvt.gov.		10800	IN	NS	ns2.softlayer.com.
+roywater.gov.		10800	IN	NS	ns-37.awsdns-04.com.
+roywater.gov.		10800	IN	NS	ns-1002.awsdns-61.net.
+roywater.gov.		10800	IN	NS	ns-1530.awsdns-63.org.
+roywater.gov.		10800	IN	NS	ns-2016.awsdns-60.co.uk.
 rpa.gov.		10800	IN	NS	dns.gsa.gov.
 rpa.gov.		10800	IN	NS	dns2.gsa.gov.
 rpa.gov.		10800	IN	NS	dns3.gsa.gov.
@@ -25491,12 +25508,9 @@ speaker.gov.		3600	IN	DS	44854 8 2 26D2908F1CD62C93C413BCD7C19D60030642762B49245
 speaker.gov.		3600	IN	DS	59176 8 2 AE9A09C923E8E4C322EEDE895F30F75643D1D3048CAA9393E34787F6 433DF6D6
 speakertwpmi.gov.	10800	IN	NS	ns1.shumakergrouphosting.com.
 speakertwpmi.gov.	10800	IN	NS	ns2.shumakergrouphosting.com.
-spectrum.gov.		10800	IN	NS	ns-459.awsdns-57.com.
-spectrum.gov.		10800	IN	NS	ns-552.awsdns-05.net.
-spectrum.gov.		10800	IN	NS	ns-1297.awsdns-34.org.
-spectrum.gov.		10800	IN	NS	ns-1753.awsdns-27.co.uk.
-spectrum.gov.		3600	IN	DS	15009 13 2 11FF3373589761914C102B86B1EB3BC040D14CEEA8CCACDAF59DD545 C32FE03F
-spectrum.gov.		3600	IN	DS	50188 13 2 88EAD483C25B0F8B3142038F751CB2DBE9C845BEAB337B3CC69F5312 0A6F3727
+spectrum.gov.		10800	IN	NS	rayne.ns.cloudflare.com.
+spectrum.gov.		10800	IN	NS	renan.ns.cloudflare.com.
+spectrum.gov.		3600	IN	DS	2371 13 2 CD4CFA699786CD7498BD1DB408B7716304C1646B4A260561072D3520 0385CA64
 speedwayin.gov.		10800	IN	NS	ns1-38.azure-dns.com.
 speedwayin.gov.		10800	IN	NS	ns2-38.azure-dns.net.
 speedwayin.gov.		10800	IN	NS	ns3-38.azure-dns.org.
@@ -30711,8 +30725,8 @@ willowsprings-il.gov.	10800	IN	NS	ns14.digicertdns.net.
 willowsprings-il.gov.	10800	IN	NS	ns15.digicertdns.net.
 willspointtx.gov.	10800	IN	NS	ns13.domaincontrol.com.
 willspointtx.gov.	10800	IN	NS	ns14.domaincontrol.com.
-wilmette.gov.		10800	IN	NS	ns21.domaincontrol.com.
-wilmette.gov.		10800	IN	NS	ns22.domaincontrol.com.
+wilmette.gov.		10800	IN	NS	ns25.domaincontrol.com.
+wilmette.gov.		10800	IN	NS	ns26.domaincontrol.com.
 wilmington-il.gov.	10800	IN	NS	dns1.cloudns.net.
 wilmington-il.gov.	10800	IN	NS	dns2.cloudns.net.
 wilmington-il.gov.	10800	IN	NS	dns5.cloudns.net.
