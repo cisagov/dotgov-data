@@ -1,4 +1,4 @@
-gov.			3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1710901500 3600 900 604800 300
+gov.			3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1710987900 3600 900 604800 300
 gov.			86400	IN	NS	a.ns.gov.
 gov.			86400	IN	NS	b.ns.gov.
 gov.			86400	IN	NS	c.ns.gov.
@@ -1600,11 +1600,8 @@ azdot.gov.		10800	IN	NS	ns-165.awsdns-20.com.
 azdot.gov.		10800	IN	NS	ns-547.awsdns-04.net.
 azdot.gov.		10800	IN	NS	ns-1522.awsdns-62.org.
 azdot.gov.		10800	IN	NS	ns-1679.awsdns-17.co.uk.
-azdps.gov.		10800	IN	NS	ns0.dnsmadeeasy.com.
-azdps.gov.		10800	IN	NS	ns1.dnsmadeeasy.com.
-azdps.gov.		10800	IN	NS	ns2.dnsmadeeasy.com.
-azdps.gov.		10800	IN	NS	ns3.dnsmadeeasy.com.
-azdps.gov.		10800	IN	NS	ns4.dnsmadeeasy.com.
+azdps.gov.		10800	IN	NS	sloan.ns.cloudflare.com.
+azdps.gov.		10800	IN	NS	syeef.ns.cloudflare.com.
 azdpsapps.gov.		10800	IN	NS	sloan.ns.cloudflare.com.
 azdpsapps.gov.		10800	IN	NS	syeef.ns.cloudflare.com.
 azdvs.gov.		10800	IN	NS	ns-20.awsdns-02.com.
@@ -14772,6 +14769,8 @@ kshub.gov.		10800	IN	NS	ns2.gov-server.net.
 kslegislature.gov.	10800	IN	NS	ram.ns.cloudflare.com.
 kslegislature.gov.	10800	IN	NS	ainsley.ns.cloudflare.com.
 kslegislature.gov.	3600	IN	DS	2371 13 2 BA45FE1E128171513769F0E752385337E64FD7AC9751310B24EB7FE7 E4BEFA4C
+kslpa.gov.		10800	IN	NS	elisa.ns.cloudflare.com.
+kslpa.gov.		10800	IN	NS	mario.ns.cloudflare.com.
 ksready.gov.		10800	IN	NS	dns3.civicplus.com.
 ksready.gov.		10800	IN	NS	dns4.civicplus.com.
 ksrevenue.gov.		10800	IN	NS	ks01.state.ks.us.
@@ -14890,8 +14889,10 @@ lagrangeny.gov.		10800	IN	NS	ns01.domaincontrol.com.
 lagrangeny.gov.		10800	IN	NS	ns02.domaincontrol.com.
 laguna-nsn.gov.		10800	IN	NS	enesone.sks.com.
 laguna-nsn.gov.		10800	IN	NS	enesthree.sks.com.
-lagunabeach.gov.	10800	IN	NS	pdns11.domaincontrol.com.
-lagunabeach.gov.	10800	IN	NS	pdns12.domaincontrol.com.
+lagunabeach.gov.	10800	IN	NS	ns1-37.azuregov-dns.us.
+lagunabeach.gov.	10800	IN	NS	ns2-37.azuregov-dns.us.
+lagunabeach.gov.	10800	IN	NS	ns3-37.azuregov-dns.us.
+lagunabeach.gov.	10800	IN	NS	ns4-37.azuregov-dns.us.
 lagunahillsca.gov.	10800	IN	NS	ns53.domaincontrol.com.
 lagunahillsca.gov.	10800	IN	NS	ns54.domaincontrol.com.
 lagunapueblo-nsn.gov.	10800	IN	NS	enesone.sks.com.
@@ -21980,6 +21981,10 @@ pleasantontx.gov.	10800	IN	NS	mns01.domaincontrol.com.
 pleasantontx.gov.	10800	IN	NS	mns02.domaincontrol.com.
 pleasantprairiewi.gov.	10800	IN	NS	ns07.domaincontrol.com.
 pleasantprairiewi.gov.	10800	IN	NS	ns08.domaincontrol.com.
+pleasantscountywv.gov.	10800	IN	NS	ns-128.awsdns-16.com.
+pleasantscountywv.gov.	10800	IN	NS	ns-855.awsdns-42.net.
+pleasantscountywv.gov.	10800	IN	NS	ns-1325.awsdns-37.org.
+pleasantscountywv.gov.	10800	IN	NS	ns-1753.awsdns-27.co.uk.
 pleasantvalley-ny.gov.	10800	IN	NS	mns01.domaincontrol.com.
 pleasantvalley-ny.gov.	10800	IN	NS	mns02.domaincontrol.com.
 pleasantvalleywi.gov.	10800	IN	NS	adam.ns.cloudflare.com.
@@ -25311,6 +25316,10 @@ somersetcountynj.gov.	10800	IN	NS	cns01.windstream.net.
 somersetcountynj.gov.	10800	IN	NS	cns02.windstream.net.
 somersetcountynj.gov.	10800	IN	NS	cns03.windstream.net.
 somersetcountynj.gov.	10800	IN	NS	cns04.windstream.net.
+somersetprosnj.gov.	10800	IN	NS	cns01.windstream.net.
+somersetprosnj.gov.	10800	IN	NS	cns02.windstream.net.
+somersetprosnj.gov.	10800	IN	NS	cns03.windstream.net.
+somersetprosnj.gov.	10800	IN	NS	cns04.windstream.net.
 somersettx.gov.		10800	IN	NS	ns1.cira.state.tx.us.
 somersettx.gov.		10800	IN	NS	ns2.cira.state.tx.us.
 somersettx.gov.		10800	IN	NS	ns3.cira.state.tx.us.
@@ -25671,6 +25680,8 @@ stamfordct.gov.		10800	IN	NS	ns1.cen.ct.gov.
 stamfordct.gov.		10800	IN	NS	ns2.cen.ct.gov.
 stampinggroundky.gov.	10800	IN	NS	ns19092159241.a2dns.com.
 stampinggroundky.gov.	10800	IN	NS	ns19092159242.a2dns.com.
+stancounty.gov.		10800	IN	NS	cbru.br.ns.els-gms.att.net.
+stancounty.gov.		10800	IN	NS	cmtu.mt.ns.els-gms.att.net.
 standards.gov.		10800	IN	NS	gea.nist.gov.
 standards.gov.		10800	IN	NS	a4-64.akam.net.
 standards.gov.		10800	IN	NS	a6-66.akam.net.
@@ -27575,9 +27586,8 @@ townoforegonwi.gov.	10800	IN	NS	ns-1715.awsdns-22.co.uk.
 townofoysterbay-ny.gov.	10800	IN	NS	ns1.longislandfiber.com.
 townofoysterbay-ny.gov.	10800	IN	NS	ns2.longislandfiber.net.
 townofoysterbay-ny.gov.	10800	IN	NS	ns3.longislandfiber.org.
-townofpalermony.gov.	10800	IN	NS	ns1.biz.rr.com.
-townofpalermony.gov.	10800	IN	NS	ns2.biz.rr.com.
-townofpalermony.gov.	10800	IN	NS	dns4.rr.com.
+townofpalermony.gov.	10800	IN	NS	eleanor.ns.cloudflare.com.
+townofpalermony.gov.	10800	IN	NS	sterling.ns.cloudflare.com.
 townofpenningtonva.gov.	10800	IN	NS	ns10.dnsmadeeasy.com.
 townofpenningtonva.gov.	10800	IN	NS	ns11.dnsmadeeasy.com.
 townofpenningtonva.gov.	10800	IN	NS	ns12.dnsmadeeasy.com.
