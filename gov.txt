@@ -1,4 +1,4 @@
-gov.			3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1713579900 3600 900 604800 300
+gov.			3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1713666300 3600 900 604800 300
 gov.			86400	IN	NS	a.ns.gov.
 gov.			86400	IN	NS	b.ns.gov.
 gov.			86400	IN	NS	c.ns.gov.
@@ -2659,13 +2659,8 @@ blandcountyva.gov.	10800	IN	NS	ns2.govservers.com.
 blandcountyva.gov.	10800	IN	NS	ns2.govservers.net.
 blanding-ut.gov.	10800	IN	NS	ns1.sanjuanschools.org.
 blanding-ut.gov.	10800	IN	NS	ns2.sanjuanschools.org.
-bldrdoc.gov.		10800	IN	NS	gea.nist.gov.
-bldrdoc.gov.		10800	IN	NS	a4-64.akam.net.
-bldrdoc.gov.		10800	IN	NS	a6-66.akam.net.
-bldrdoc.gov.		10800	IN	NS	a7-67.akam.net.
-bldrdoc.gov.		10800	IN	NS	a1-216.akam.net.
-bldrdoc.gov.		10800	IN	NS	a12-65.akam.net.
-bldrdoc.gov.		10800	IN	NS	a13-67.akam.net.
+bldrdoc.gov.		10800	IN	NS	dara.ns.cloudflare.com.
+bldrdoc.gov.		10800	IN	NS	mcgrory.ns.cloudflare.com.
 blendontownship-mi.gov.	10800	IN	NS	ns1.shumakergrouphosting.com.
 blendontownship-mi.gov.	10800	IN	NS	ns2.shumakergrouphosting.com.
 blissfieldmichigan.gov.	10800	IN	NS	ns1.a2hosting.com.
@@ -8202,16 +8197,14 @@ eagleriverwi.gov.	10800	IN	NS	ns1.dreamhost.com.
 eagleriverwi.gov.	10800	IN	NS	ns2.dreamhost.com.
 eaglevilletn.gov.	10800	IN	NS	ns1.bluehost.com.
 eaglevilletn.gov.	10800	IN	NS	ns2.bluehost.com.
+earmarks.gov.		10800	IN	NS	ns1.max.gov.
+earmarks.gov.		10800	IN	NS	ns2.max.gov.
 earmarks.gov.		10800	IN	NS	ns3.max.gov.
-earmarks.gov.		10800	IN	NS	a1-61.akam.net.
-earmarks.gov.		10800	IN	NS	a3-67.akam.net.
-earmarks.gov.		10800	IN	NS	a5-64.akam.net.
-earmarks.gov.		10800	IN	NS	a12-64.akam.net.
-earmarks.gov.		10800	IN	NS	a20-65.akam.net.
-earmarks.gov.		10800	IN	NS	a22-66.akam.net.
+earmarks.gov.		10800	IN	NS	ns4.max.gov.
+earmarks.gov.		10800	IN	NS	ns5.max.gov.
+earmarks.gov.		10800	IN	NS	ns6.max.gov.
 earmarks.gov.		3600	IN	DS	9666 13 2 AE1DB46DCD7E22D0C2D42DDE5FE399BC5B0070DDAA85D835C3649504 AF400DC3
 earmarks.gov.		3600	IN	DS	35847 13 2 3729FE296356A73ED842D668C3D103783A90F561C98827CD3D558B25 E61377D8
-earmarks.gov.		3600	IN	DS	46148 13 2 2F90A9FE0BE4D70EF9B1F10CAF1CDA996D0C270AA141B0D29E2C7B0D 001B5A49
 earnandlearniowa.gov.	10800	IN	NS	a1-195.akam.net.
 earnandlearniowa.gov.	10800	IN	NS	a11-67.akam.net.
 earnandlearniowa.gov.	10800	IN	NS	a13-65.akam.net.
@@ -16949,17 +16942,26 @@ maurycounty-tn.gov.	10800	IN	NS	dns1.maurycounty-tn.gov.
 maurycounty-tn.gov.	10800	IN	NS	dns2.maurycounty-tn.gov.
 dns1.maurycounty-tn.gov. 3600	IN	A	66.211.16.166
 dns2.maurycounty-tn.gov. 3600	IN	A	66.211.16.167
+max.gov.		10800	IN	NS	ns1.max.gov.
+max.gov.		10800	IN	NS	ns2.max.gov.
 max.gov.		10800	IN	NS	ns3.max.gov.
-max.gov.		10800	IN	NS	a1-61.akam.net.
-max.gov.		10800	IN	NS	a3-67.akam.net.
-max.gov.		10800	IN	NS	a5-64.akam.net.
-max.gov.		10800	IN	NS	a12-64.akam.net.
-max.gov.		10800	IN	NS	a20-65.akam.net.
-max.gov.		10800	IN	NS	a22-66.akam.net.
+max.gov.		10800	IN	NS	ns4.max.gov.
+max.gov.		10800	IN	NS	ns5.max.gov.
+max.gov.		10800	IN	NS	ns6.max.gov.
 max.gov.		3600	IN	DS	21550 13 2 0774C3AD0137145508381A63D6614191069A9163D262B887EBD8A74E 3297982C
-max.gov.		3600	IN	DS	22234 13 2 E49F91E55A3E05F72864872272E65E9F9C7C052BF030172356FCBA1B 664772EB
 max.gov.		3600	IN	DS	30712 13 2 D027F1D47C3C3FA83A374141A771BC5FC905F440B996AA31B2D564B3 A23D1BAD
+ns1.max.gov.		3600	IN	A	198.137.241.177
+ns1.max.gov.		3600	IN	AAAA	2620:10f:b001:406::177
+ns2.max.gov.		3600	IN	A	198.137.240.49
+ns2.max.gov.		3600	IN	AAAA	2620:10f:b000:6::49
 ns3.max.gov.		3600	IN	A	198.137.241.113
+ns3.max.gov.		3600	IN	AAAA	2620:10f:b001:206::113
+ns4.max.gov.		3600	IN	A	198.137.240.177
+ns4.max.gov.		3600	IN	AAAA	2620:10f:b000:406::177
+ns5.max.gov.		3600	IN	A	198.137.241.49
+ns5.max.gov.		3600	IN	AAAA	2620:10f:b001:6::49
+ns6.max.gov.		3600	IN	A	198.137.240.113
+ns6.max.gov.		3600	IN	AAAA	2620:10f:b000:206::113
 mayaguezpr.gov.		10800	IN	NS	ns1.mayaguezpr.gov.
 mayaguezpr.gov.		10800	IN	NS	ns2.mayaguezpr.gov.
 mayaguezpr.gov.		10800	IN	NS	ns1-05.azure-dns.com.
@@ -19492,15 +19494,8 @@ nisqually-nsn.gov.	10800	IN	NS	udns1.ultradns.net.
 nisqually-nsn.gov.	10800	IN	NS	udns2.ultradns.net.
 nissequogueny.gov.	10800	IN	NS	ns1.accountsupport.com.
 nissequogueny.gov.	10800	IN	NS	ns2.accountsupport.com.
-nist.gov.		10800	IN	NS	gea.nist.gov.
-nist.gov.		10800	IN	NS	a4-64.akam.net.
-nist.gov.		10800	IN	NS	a6-66.akam.net.
-nist.gov.		10800	IN	NS	a7-67.akam.net.
-nist.gov.		10800	IN	NS	a1-216.akam.net.
-nist.gov.		10800	IN	NS	a12-65.akam.net.
-nist.gov.		10800	IN	NS	a13-67.akam.net.
-gea.nist.gov.		3600	IN	A	129.6.92.10
-gea.nist.gov.		3600	IN	AAAA	2610:20:6005:92::10
+nist.gov.		10800	IN	NS	dara.ns.cloudflare.com.
+nist.gov.		10800	IN	NS	mcgrory.ns.cloudflare.com.
 nitrd.gov.		10800	IN	NS	ns-148.awsdns-18.com.
 nitrd.gov.		10800	IN	NS	ns-547.awsdns-04.net.
 nitrd.gov.		10800	IN	NS	ns-1216.awsdns-24.org.
@@ -20802,14 +20797,14 @@ omag.gov.		10800	IN	NS	ns-1677.awsdns-17.co.uk.
 omag.gov.		3600	IN	DS	26551 13 2 A4D008AE12D06608390FF46BDDDC1D9117DCC1657A254D5D571C60E1 AEE0E213
 omaha.gov.		10800	IN	NS	pdns03.domaincontrol.com.
 omaha.gov.		10800	IN	NS	pdns04.domaincontrol.com.
-omb.gov.		10800	IN	NS	a1-61.akam.net.
-omb.gov.		10800	IN	NS	a3-67.akam.net.
-omb.gov.		10800	IN	NS	a5-64.akam.net.
-omb.gov.		10800	IN	NS	a12-64.akam.net.
-omb.gov.		10800	IN	NS	a20-65.akam.net.
-omb.gov.		10800	IN	NS	a22-66.akam.net.
+omb.gov.		10800	IN	NS	ns1.max.gov.
+omb.gov.		10800	IN	NS	ns2.max.gov.
+omb.gov.		10800	IN	NS	ns3.max.gov.
+omb.gov.		10800	IN	NS	ns4.max.gov.
+omb.gov.		10800	IN	NS	ns5.max.gov.
+omb.gov.		10800	IN	NS	ns6.max.gov.
+omb.gov.		3600	IN	DS	18099 13 2 738B2528EAF22C72B78A4EA27462D0E0560E6F6D26939329610D2F78 2AF80580
 omb.gov.		3600	IN	DS	38453 13 2 523F0B98879E70044DC1874B636A9834EFF8129445E10A27D1FBFE23 1210925E
-omb.gov.		3600	IN	DS	52462 13 2 D6A5701854BA86AD0D0AB141E5D7E65543C4491B1BF5B59783B52BCD 049825AE
 omlpar.gov.		10800	IN	NS	naya.ns.cloudflare.com.
 omlpar.gov.		10800	IN	NS	keanu.ns.cloudflare.com.
 omngc.gov.		10800	IN	NS	ns-335.awsdns-41.com.
@@ -21188,8 +21183,6 @@ otsegocountyny.gov.	10800	IN	NS	sam.ns.cloudflare.com.
 otsegocountyny.gov.	10800	IN	NS	elisabeth.ns.cloudflare.com.
 ottawaks.gov.		10800	IN	NS	cbru.br.ns.els-gms.att.net.
 ottawaks.gov.		10800	IN	NS	cmtu.mt.ns.els-gms.att.net.
-ottawatribe.gov.	10800	IN	NS	ns15.domaincontrol.com.
-ottawatribe.gov.	10800	IN	NS	ns16.domaincontrol.com.
 ottawatribe.gov.	10800	IN	NS	pdns03.domaincontrol.com.
 ottawatribe.gov.	10800	IN	NS	pdns04.domaincontrol.com.
 ottertailcounty.gov.	10800	IN	NS	zod.ns.cloudflare.com.
@@ -27162,13 +27155,8 @@ tillamookor.gov.	10800	IN	NS	dns4.name-services.com.
 tillamookor.gov.	10800	IN	NS	dns5.name-services.com.
 timbercreekcanyontx.gov. 10800	IN	NS	ns63.domaincontrol.com.
 timbercreekcanyontx.gov. 10800	IN	NS	ns64.domaincontrol.com.
-time.gov.		10800	IN	NS	gea.nist.gov.
-time.gov.		10800	IN	NS	a4-64.akam.net.
-time.gov.		10800	IN	NS	a6-66.akam.net.
-time.gov.		10800	IN	NS	a7-67.akam.net.
-time.gov.		10800	IN	NS	a1-216.akam.net.
-time.gov.		10800	IN	NS	a12-65.akam.net.
-time.gov.		10800	IN	NS	a13-67.akam.net.
+time.gov.		10800	IN	NS	dara.ns.cloudflare.com.
+time.gov.		10800	IN	NS	mcgrory.ns.cloudflare.com.
 tinmouthvt.gov.		10800	IN	NS	iris.ns.cloudflare.com.
 tinmouthvt.gov.		10800	IN	NS	lakas.ns.cloudflare.com.
 tinmouthvt.gov.		3600	IN	DS	2371 13 2 E6737EDD3862977E715AF1626DE1CDAD66D0E023DB4DCB760FB0A95B 7E77FF0B
@@ -27526,6 +27514,8 @@ townofdaltonnh.gov.	10800	IN	NS	backup8.greenlightwebsites.com.
 townofdaltonnh.gov.	10800	IN	NS	secure8.greenlightwebsites.com.
 townofdane.gov.		10800	IN	NS	adam.ns.cloudflare.com.
 townofdane.gov.		10800	IN	NS	mona.ns.cloudflare.com.
+townofdaywi.gov.	10800	IN	NS	kyle.ns.cloudflare.com.
+townofdaywi.gov.	10800	IN	NS	mariah.ns.cloudflare.com.
 townofdecaturwi.gov.	10800	IN	NS	adam.ns.cloudflare.com.
 townofdecaturwi.gov.	10800	IN	NS	mona.ns.cloudflare.com.
 townofdeerparkny.gov.	10800	IN	NS	ns1.townofdeerpark.org.
@@ -29003,12 +28993,13 @@ usdfc.gov.		10800	IN	NS	a13-65.akam.net.
 usdfc.gov.		10800	IN	NS	a14-66.akam.net.
 usdfc.gov.		10800	IN	NS	a26-67.akam.net.
 usdfc.gov.		3600	IN	DS	60138 13 2 DE0D602A2CC89816CB39D26083F3E8E6386E247F7004225F63119694 FF7CE402
-usdigitalservice.gov.	10800	IN	NS	a1-61.akam.net.
-usdigitalservice.gov.	10800	IN	NS	a3-67.akam.net.
-usdigitalservice.gov.	10800	IN	NS	a5-64.akam.net.
-usdigitalservice.gov.	10800	IN	NS	a12-64.akam.net.
-usdigitalservice.gov.	10800	IN	NS	a20-65.akam.net.
-usdigitalservice.gov.	10800	IN	NS	a22-66.akam.net.
+usdigitalservice.gov.	10800	IN	NS	ns1.max.gov.
+usdigitalservice.gov.	10800	IN	NS	ns2.max.gov.
+usdigitalservice.gov.	10800	IN	NS	ns3.max.gov.
+usdigitalservice.gov.	10800	IN	NS	ns4.max.gov.
+usdigitalservice.gov.	10800	IN	NS	ns5.max.gov.
+usdigitalservice.gov.	10800	IN	NS	ns6.max.gov.
+usdigitalservice.gov.	3600	IN	DS	13924 13 2 88FCD5E3D034CB3F21F53E38BE4E4CCC88AF4920EFF7D94FA99B5E3A 8058D475
 usdigitalservice.gov.	3600	IN	DS	33237 13 2 629FEA64C478C4C61DE36D5C5D2F7BC56E2A4CDD694FA4AC40D816C9 17CA0EE2
 usdigitalservice.gov.	3600	IN	DS	59040 13 2 3ACF017BF0466AE7561EB547AF03ED09BF4AA929814CC27F1AA9A4B3 EEA3F9D1
 usdoj.gov.		10800	IN	NS	ns-jdcw-01.usdoj.gov.
@@ -29027,13 +29018,14 @@ usdoscloud.gov.		3600	IN	DS	574 8 1 C0912599A9E2B4507457F4D8D59489067DF05261
 usdoscloud.gov.		3600	IN	DS	574 8 2 451053806C06B8EC597D0D1A04B7FC9DF3A0715ECA6CE93EBFF8286E 1F1A8424
 usdoscloud.gov.		3600	IN	DS	57652 8 1 04A9264564F735BC91BD4C24AC219C6B9C6353F2
 usdoscloud.gov.		3600	IN	DS	57652 8 2 64B812056C60B45011B49CA603829E8C41C087B9030F584C493C7E71 82E9913C
-usds.gov.		10800	IN	NS	a1-61.akam.net.
-usds.gov.		10800	IN	NS	a3-67.akam.net.
-usds.gov.		10800	IN	NS	a5-64.akam.net.
-usds.gov.		10800	IN	NS	a12-64.akam.net.
-usds.gov.		10800	IN	NS	a20-65.akam.net.
-usds.gov.		10800	IN	NS	a22-66.akam.net.
+usds.gov.		10800	IN	NS	ns1.max.gov.
+usds.gov.		10800	IN	NS	ns2.max.gov.
+usds.gov.		10800	IN	NS	ns3.max.gov.
+usds.gov.		10800	IN	NS	ns4.max.gov.
+usds.gov.		10800	IN	NS	ns5.max.gov.
+usds.gov.		10800	IN	NS	ns6.max.gov.
 usds.gov.		3600	IN	DS	47601 13 2 727B30019C24AFB629831D632CDF9D7941002D1B0FAD5E927129C2A8 9581C905
+usds.gov.		3600	IN	DS	56546 13 2 D28A518B28BDBEB2A4D9160B9D1272F38773CE6B5CC99DEFFFFE5A40 F3E18984
 usds.gov.		3600	IN	DS	59573 13 2 EA71A6B2795DDE53D743C5C6DF7BA07C5C6DAD56A4838B59493385EB D68358C2
 usembassy.gov.		10800	IN	NS	a1-63.akam.net.
 usembassy.gov.		10800	IN	NS	a3-66.akam.net.
