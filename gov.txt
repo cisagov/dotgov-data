@@ -1,4 +1,4 @@
-gov.			3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1715567100 3600 900 604800 300
+gov.			3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1715653500 3600 900 604800 300
 gov.			86400	IN	NS	a.ns.gov.
 gov.			86400	IN	NS	b.ns.gov.
 gov.			86400	IN	NS	c.ns.gov.
@@ -20,6 +20,8 @@ gov.			86400	IN	NS	d.ns.gov.
 29palmsbomi-nsn.gov.	10800	IN	NS	ns70.domaincontrol.com.
 29palmsgaming-nsn.gov.	10800	IN	NS	ns31.domaincontrol.com.
 29palmsgaming-nsn.gov.	10800	IN	NS	ns32.domaincontrol.com.
+29palmstcc.gov.		10800	IN	NS	jay.ns.cloudflare.com.
+29palmstcc.gov.		10800	IN	NS	nelly.ns.cloudflare.com.
 36thdistrictcourtmi.gov. 10800	IN	NS	ns1-33.azuregov-dns.us.
 36thdistrictcourtmi.gov. 10800	IN	NS	ns2-33.azuregov-dns.us.
 36thdistrictcourtmi.gov. 10800	IN	NS	ns3-33.azuregov-dns.us.
@@ -1904,6 +1906,8 @@ nusparc2.baaqmd.gov.	3600	IN	A	192.137.109.4
 nusparc3.baaqmd.gov.	3600	IN	A	192.137.109.5
 nusparc4.baaqmd.gov.	3600	IN	A	192.137.114.4
 nusparc5.baaqmd.gov.	3600	IN	A	192.137.114.5
+babbittmn.gov.		10800	IN	NS	alina.ns.cloudflare.com.
+babbittmn.gov.		10800	IN	NS	brett.ns.cloudflare.com.
 bacacountyco.gov.	10800	IN	NS	ns03.domaincontrol.com.
 bacacountyco.gov.	10800	IN	NS	ns04.domaincontrol.com.
 badenpa.gov.		10800	IN	NS	a7.uberns.com.
@@ -3864,6 +3868,9 @@ ns43.cap.gov.		3600	IN	A	192.198.87.242
 ns5.cap.gov.		3600	IN	A	108.166.170.104
 ns6.cap.gov.		3600	IN	A	108.166.170.105
 ns7.cap.gov.		3600	IN	A	198.255.114.190
+capeandislandsda.gov.	10800	IN	NS	clara.ns.cloudflare.com.
+capeandislandsda.gov.	10800	IN	NS	jaime.ns.cloudflare.com.
+capeandislandsda.gov.	3600	IN	DS	2371 13 2 FB5DC1537750E93F2AF68458AA65813F17509A998391D205EF39CFA7 9855EE51
 capecanaveral.gov.	10800	IN	NS	cash.ns.cloudflare.com.
 capecanaveral.gov.	10800	IN	NS	gracie.ns.cloudflare.com.
 capecod.gov.		10800	IN	NS	ns1-02.azure-dns.com.
@@ -5386,6 +5393,10 @@ cityofmeigs.gov.	10800	IN	NS	ns1-34.azure-dns.com.
 cityofmeigs.gov.	10800	IN	NS	ns2-34.azure-dns.net.
 cityofmeigs.gov.	10800	IN	NS	ns3-34.azure-dns.org.
 cityofmeigs.gov.	10800	IN	NS	ns4-34.azure-dns.info.
+cityofmemphismi.gov.	10800	IN	NS	ns-425.awsdns-53.com.
+cityofmemphismi.gov.	10800	IN	NS	ns-998.awsdns-60.net.
+cityofmemphismi.gov.	10800	IN	NS	ns-1453.awsdns-53.org.
+cityofmemphismi.gov.	10800	IN	NS	ns-1815.awsdns-34.co.uk.
 cityofmerced.gov.	10800	IN	NS	ns-52.awsdns-06.com.
 cityofmerced.gov.	10800	IN	NS	ns-953.awsdns-55.net.
 cityofmerced.gov.	10800	IN	NS	ns1-05.azuregov-dns.us.
@@ -5880,9 +5891,8 @@ clearviewok.gov.	10800	IN	NS	john.ns.cloudflare.com.
 clearviewok.gov.	3600	IN	DS	2371 13 2 86D57CEC0CCC77B3A9302546724B3BEF753478E09638A91E80B72E40 7DCF2447
 clearwatercountyid.gov.	10800	IN	NS	ns67.domaincontrol.com.
 clearwatercountyid.gov.	10800	IN	NS	ns68.domaincontrol.com.
-clearwatercountymn.gov.	10800	IN	NS	ns1.state.mn.us.
-clearwatercountymn.gov.	10800	IN	NS	ns2.state.mn.us.
-clearwatercountymn.gov.	10800	IN	NS	ns3.state.mn.us.
+clearwatercountymn.gov.	10800	IN	NS	todd.ns.cloudflare.com.
+clearwatercountymn.gov.	10800	IN	NS	kehlani.ns.cloudflare.com.
 cleelum.gov.		10800	IN	NS	martha.ns.cloudflare.com.
 cleelum.gov.		10800	IN	NS	wilson.ns.cloudflare.com.
 clendeninwv.gov.	10800	IN	NS	ns19.domaincontrol.com.
@@ -8832,13 +8842,9 @@ environmentaljustice.gov. 10800	IN	NS	a12-64.akam.net.
 environmentaljustice.gov. 10800	IN	NS	a20-65.akam.net.
 environmentaljustice.gov. 10800	IN	NS	a22-66.akam.net.
 environmentaljustice.gov. 3600	IN	DS	37113 13 2 6F0F7BF60E1964B487A8E5275CC58B185B47FE3EE4660D68B573FB93 2F04D00F
-eop.gov.		10800	IN	NS	a1-61.akam.net.
-eop.gov.		10800	IN	NS	a3-67.akam.net.
-eop.gov.		10800	IN	NS	a5-64.akam.net.
-eop.gov.		10800	IN	NS	a12-64.akam.net.
-eop.gov.		10800	IN	NS	a20-65.akam.net.
-eop.gov.		10800	IN	NS	a22-66.akam.net.
-eop.gov.		3600	IN	DS	61080 13 2 5676FDEDFB77C03C6D46C4F010FAF90E9D891109E3F120F450F90D76 60BBFDA4
+eop.gov.		10800	IN	NS	wally.ns.cloudflare.com.
+eop.gov.		10800	IN	NS	ernest.ns.cloudflare.com.
+eop.gov.		3600	IN	DS	2371 13 2 7AF164C5BBA96B027ABA0D9300F1DE1E97174AE1D147AF1ADB0B03F9 85441BF3
 epa.gov.		10800	IN	NS	dcns1.epa.gov.
 epa.gov.		10800	IN	NS	dcns2.epa.gov.
 epa.gov.		10800	IN	NS	nccns1.epa.gov.
@@ -9836,6 +9842,8 @@ fhfaoig.gov.		3600	IN	DS	59718 13 1 4EF9FD811CF2F5289E5165D01DB1F2AD30CFF95E
 fhfaoig.gov.		3600	IN	DS	59718 13 2 7F1E7D71C9737C53FD930C8BB9A6E841B059DEB27272D19945D31953 C3829236
 ficor.gov.		10800	IN	NS	ivan.ns.cloudflare.com.
 ficor.gov.		10800	IN	NS	lucy.ns.cloudflare.com.
+fifewa.gov.		10800	IN	NS	dns101.register.com.
+fifewa.gov.		10800	IN	NS	dns102.register.com.
 filelocal-wa.gov.	10800	IN	NS	ns67.domaincontrol.com.
 filelocal-wa.gov.	10800	IN	NS	ns68.domaincontrol.com.
 filertwpmi.gov.		10800	IN	NS	ns1.shumakergrouphosting.com.
@@ -14527,6 +14535,8 @@ jeffersonvillepdin.gov.	10800	IN	NS	a7.uberns.com.
 jeffersonvillepdin.gov.	10800	IN	NS	a7.uberns.net.
 jeffersonvillepdin.gov.	10800	IN	NS	b7.uberns.com.
 jeffersonvillepdin.gov.	10800	IN	NS	b7.uberns.net.
+jeffersonvotesfl.gov.	10800	IN	NS	ines.ns.cloudflare.com.
+jeffersonvotesfl.gov.	10800	IN	NS	theo.ns.cloudflare.com.
 jem.gov.		10800	IN	NS	ram.ns.cloudflare.com.
 jem.gov.		10800	IN	NS	chin.ns.cloudflare.com.
 jem.gov.		3600	IN	DS	2371 13 2 E6FCCD90CC1D4BBC4486DA93494B24D41F93B83B04F1D34957C95306 AD1EACA7
@@ -15422,8 +15432,9 @@ laonawi.gov.		10800	IN	NS	pns42.cloudns.net.
 laonawi.gov.		10800	IN	NS	pns43.cloudns.net.
 laonawi.gov.		10800	IN	NS	pns44.cloudns.net.
 laonawi.gov.		3600	IN	DS	31369 13 2 3CB279D0F9A730366BEE1409037418BB2D3FDB4CE5C41866AA1B632E BD1409AE
-lapaz.gov.		10800	IN	NS	ns65.domaincontrol.com.
-lapaz.gov.		10800	IN	NS	ns66.domaincontrol.com.
+lapaz.gov.		10800	IN	NS	ns1.afraid.org.
+lapaz.gov.		10800	IN	NS	ns2.afraid.org.
+lapaz.gov.		10800	IN	NS	ns3.afraid.org.
 lapeercountymi.gov.	10800	IN	NS	ns1.softlayer.com.
 lapeercountymi.gov.	10800	IN	NS	ns2.softlayer.com.
 lapineoregon.gov.	10800	IN	NS	dawn.ns.cloudflare.com.
@@ -16019,6 +16030,8 @@ literacy.gov.		3600	IN	DS	2371 13 2 AF5F37510B10665C584D3607A79C67089B70BFA25007
 littlecompton.gov.	10800	IN	NS	olga.ns.cloudflare.com.
 littlecompton.gov.	10800	IN	NS	clark.ns.cloudflare.com.
 littlecompton.gov.	3600	IN	DS	2371 13 2 5751D000661475E4B9640A9C9EC1599DB799CFD1A84A424870C09AE8 0947ED84
+littlefallsnj.gov.	10800	IN	NS	ns8.wixdns.net.
+littlefallsnj.gov.	10800	IN	NS	ns9.wixdns.net.
 littleflockar.gov.	10800	IN	NS	ns1.greengeeks.net.
 littleflockar.gov.	10800	IN	NS	ns2.greengeeks.net.
 littleforkmn.gov.	10800	IN	NS	zita.ns.cloudflare.com.
@@ -16717,6 +16730,10 @@ manchester-ga.gov.	10800	IN	NS	ns1.tracewebs.com.
 manchester-ga.gov.	10800	IN	NS	ns2.tracewebs.com.
 manchester-vt.gov.	10800	IN	NS	ns1.hostmonster.com.
 manchester-vt.gov.	10800	IN	NS	ns2.hostmonster.com.
+manchesterborough.gov.	10800	IN	NS	ns1.nexcess.net.
+manchesterborough.gov.	10800	IN	NS	ns2.nexcess.net.
+manchesterborough.gov.	10800	IN	NS	ns3.nexcess.net.
+manchesterborough.gov.	10800	IN	NS	ns4.nexcess.net.
 manchesterct.gov.	10800	IN	NS	pdns13.domaincontrol.com.
 manchesterct.gov.	10800	IN	NS	pdns14.domaincontrol.com.
 manchestermd.gov.	10800	IN	NS	ns1.marylandwebmanagement5.com.
@@ -18933,6 +18950,8 @@ navajocountysheriff.gov. 10800	IN	NS	ns1-03.azure-dns.com.
 navajocountysheriff.gov. 10800	IN	NS	ns2-03.azure-dns.net.
 navajocountysheriff.gov. 10800	IN	NS	ns3-03.azure-dns.org.
 navajocountysheriff.gov. 10800	IN	NS	ns4-03.azure-dns.info.
+navarrebeachfirefl.gov.	10800	IN	NS	hgns1.hostgator.com.
+navarrebeachfirefl.gov.	10800	IN	NS	hgns2.hostgator.com.
 navasotatx.gov.		10800	IN	NS	ns1.softlayer.com.
 navasotatx.gov.		10800	IN	NS	ns2.softlayer.com.
 navycash.gov.		10800	IN	NS	ns1.navycash.gov.
@@ -26182,6 +26201,8 @@ stantonky.gov.		10800	IN	NS	ns1.bdm.microsoftonline.com.
 stantonky.gov.		10800	IN	NS	ns2.bdm.microsoftonline.com.
 stantonky.gov.		10800	IN	NS	ns3.bdm.microsoftonline.com.
 stantonky.gov.		10800	IN	NS	ns4.bdm.microsoftonline.com.
+stanvote.gov.		10800	IN	NS	ns1.pbi.net.
+stanvote.gov.		10800	IN	NS	ns2.pbi.net.
 stanwoodwa.gov.		10800	IN	NS	dns3.civicplus.com.
 stanwoodwa.gov.		10800	IN	NS	dns4.civicplus.com.
 staplestx.gov.		10800	IN	NS	ns57.domaincontrol.com.
@@ -28223,6 +28244,8 @@ townofsylvesterwi.gov.	10800	IN	NS	ns3.bdm.microsoftonline.com.
 townofsylvesterwi.gov.	10800	IN	NS	ns4.bdm.microsoftonline.com.
 townoftaycheedahwi.gov.	10800	IN	NS	ns53.domaincontrol.com.
 townoftaycheedahwi.gov.	10800	IN	NS	ns54.domaincontrol.com.
+townoftheplainsvirginia.gov. 10800 IN	NS	hal.ns.cloudflare.com.
+townoftheplainsvirginia.gov. 10800 IN	NS	tess.ns.cloudflare.com.
 townoftheresawi.gov.	10800	IN	NS	adam.ns.cloudflare.com.
 townoftheresawi.gov.	10800	IN	NS	mona.ns.cloudflare.com.
 townofthomsonmn.gov.	10800	IN	NS	adam.ns.cloudflare.com.
@@ -28422,6 +28445,8 @@ treaslockbox.gov.	10800	IN	NS	pdns108.ultradns.com.
 treaslockbox.gov.	10800	IN	NS	pdns108.ultradns.net.
 treaslockbox.gov.	10800	IN	NS	pdns108.ultradns.org.
 treaslockbox.gov.	3600	IN	DS	18365 13 2 DBE49063F8DF008500AED31B0FC3BFF67C25705AA3DD95850D0E9157 967A6EF5
+treasurecountymt.gov.	10800	IN	NS	ns4.wixdns.net.
+treasurecountymt.gov.	10800	IN	NS	ns5.wixdns.net.
 treasury.gov.		10800	IN	NS	ns01.treasury.gov.
 treasury.gov.		10800	IN	NS	ns02.treasury.gov.
 ns01.treasury.gov.	3600	IN	A	162.159.0.233
@@ -31093,13 +31118,9 @@ whitehallal.gov.	10800	IN	NS	ns12.dnsmadeeasy.com.
 whitehallal.gov.	10800	IN	NS	ns13.dnsmadeeasy.com.
 whitehallal.gov.	10800	IN	NS	ns14.dnsmadeeasy.com.
 whitehallal.gov.	10800	IN	NS	ns15.dnsmadeeasy.com.
-whitehouse.gov.		10800	IN	NS	a1-61.akam.net.
-whitehouse.gov.		10800	IN	NS	a3-67.akam.net.
-whitehouse.gov.		10800	IN	NS	a5-64.akam.net.
-whitehouse.gov.		10800	IN	NS	a12-64.akam.net.
-whitehouse.gov.		10800	IN	NS	a20-65.akam.net.
-whitehouse.gov.		10800	IN	NS	a22-66.akam.net.
-whitehouse.gov.		3600	IN	DS	58791 13 2 F39A629A28BB9C60D7A8035215086F9D3B1EFE26D4CF937181D70B17 3E205615
+whitehouse.gov.		10800	IN	NS	wally.ns.cloudflare.com.
+whitehouse.gov.		10800	IN	NS	ernest.ns.cloudflare.com.
+whitehouse.gov.		3600	IN	DS	2371 13 2 BE4C7B11AD123596BA672B13FFDA04CA73C9FE0652E66542AEFADAF2 06B381AE
 whitehouseconferenceonaging.gov. 10800 IN NS	ns11.hhs.gov.
 whitehouseconferenceonaging.gov. 10800 IN NS	ns12.hhs.gov.
 whitehouseconferenceonaging.gov. 3600 IN DS	9637 13 2 63CC92EB705694948FCE75693B662AA8ED5453207806B836054D8364 95E1DF23
