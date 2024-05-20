@@ -1,4 +1,4 @@
-gov.			3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1716085500 3600 900 604800 300
+gov.			3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1716171900 3600 900 604800 300
 gov.			86400	IN	NS	a.ns.gov.
 gov.			86400	IN	NS	b.ns.gov.
 gov.			86400	IN	NS	c.ns.gov.
@@ -7075,6 +7075,8 @@ cumberlandcountytn.gov.	10800	IN	NS	ns2.wordpress.com.
 cumberlandcountytn.gov.	10800	IN	NS	ns3.wordpress.com.
 cumberlandmd.gov.	10800	IN	NS	pdns1.registrar-servers.com.
 cumberlandmd.gov.	10800	IN	NS	pdns2.registrar-servers.com.
+cumberlandoh.gov.	10800	IN	NS	dave.ns.cloudflare.com.
+cumberlandoh.gov.	10800	IN	NS	gwen.ns.cloudflare.com.
 cumberlandri.gov.	10800	IN	NS	dns3.civicplus.com.
 cumberlandri.gov.	10800	IN	NS	dns4.civicplus.com.
 cumberlandtwppa.gov.	10800	IN	NS	a8.uberns.com.
@@ -8481,6 +8483,7 @@ economicinclusion.gov.	10800	IN	NS	a10-66.akam.net.
 economicinclusion.gov.	10800	IN	NS	a13-67.akam.net.
 economicinclusion.gov.	10800	IN	NS	a18-64.akam.net.
 economicinclusion.gov.	10800	IN	NS	a28-65.akam.net.
+economicinclusion.gov.	3600	IN	DS	2410 8 2 AB2796697E296198DCDF08F01FCEA0210EDF832E8EA35D82C0809029 D61ACA0F
 economicopportunity.gov. 10800	IN	NS	wally.ns.cloudflare.com.
 economicopportunity.gov. 10800	IN	NS	ernest.ns.cloudflare.com.
 economicopportunity.gov. 3600	IN	DS	2371 13 2 A5374BA204C5E3CDF08AE83E0746849F3EBCA9E1B848FFDCCB4320B6 4E6447EE
@@ -9585,12 +9588,14 @@ fdic.gov.		10800	IN	NS	a10-66.akam.net.
 fdic.gov.		10800	IN	NS	a13-67.akam.net.
 fdic.gov.		10800	IN	NS	a18-64.akam.net.
 fdic.gov.		10800	IN	NS	a28-65.akam.net.
+fdic.gov.		3600	IN	DS	58742 8 2 16B92F7CA04C87438AB3CAF3FF48D21D245EFEDBAE324866AFC1FC99 C6D5DDCD
 fdicconnect.gov.	10800	IN	NS	a1-55.akam.net.
 fdicconnect.gov.	10800	IN	NS	a9-66.akam.net.
 fdicconnect.gov.	10800	IN	NS	a10-66.akam.net.
 fdicconnect.gov.	10800	IN	NS	a13-67.akam.net.
 fdicconnect.gov.	10800	IN	NS	a18-64.akam.net.
 fdicconnect.gov.	10800	IN	NS	a28-65.akam.net.
+fdicconnect.gov.	3600	IN	DS	3532 8 2 7C321E5936432BE736CB2E31924CEC336DEEF7C39FCBEB728CBADE5A F06CA2BB
 fdicig.gov.		10800	IN	NS	a1-55.akam.net.
 fdicig.gov.		10800	IN	NS	a9-66.akam.net.
 fdicig.gov.		10800	IN	NS	a10-66.akam.net.
@@ -9604,15 +9609,14 @@ fdicoig.gov.		10800	IN	NS	a10-66.akam.net.
 fdicoig.gov.		10800	IN	NS	a13-67.akam.net.
 fdicoig.gov.		10800	IN	NS	a18-64.akam.net.
 fdicoig.gov.		10800	IN	NS	a28-65.akam.net.
-fdicoig.gov.		3600	IN	DS	12784 8 2 FC5F9C58094FB94460310FB7A6C8934A47B3DB26296E4454DFFBCA84 953B1DD7
-fdicoig.gov.		3600	IN	DS	50002 8 1 F784AF0BC08BA928F1FDA80860C5FC749EA9ACFB
-fdicoig.gov.		3600	IN	DS	50002 8 2 DD6F3F19767ACD6AF28885A8B42746A536A8FC8BDD5C4975D618B9FD D5952A4F
+fdicoig.gov.		3600	IN	DS	11849 8 2 15538BEC015F56D2EEBDC9D5160EA093F04C539521ACF827BA0D78D4 48639959
 fdicseguro.gov.		10800	IN	NS	a1-55.akam.net.
 fdicseguro.gov.		10800	IN	NS	a9-66.akam.net.
 fdicseguro.gov.		10800	IN	NS	a10-66.akam.net.
 fdicseguro.gov.		10800	IN	NS	a13-67.akam.net.
 fdicseguro.gov.		10800	IN	NS	a18-64.akam.net.
 fdicseguro.gov.		10800	IN	NS	a28-65.akam.net.
+fdicseguro.gov.		3600	IN	DS	3745 8 2 F62DCE721847A1E9581C0B652802531425FCDC922CB71E6B6E7B04D9 E54ECFBC
 fdlp.gov.		10800	IN	NS	chip.ns.cloudflare.com.
 fdlp.gov.		10800	IN	NS	cruz.ns.cloudflare.com.
 fdlp.gov.		3600	IN	DS	2371 13 2 5327F8E24A9EE28FE3204372BE1883F99013B018EC69C4A64761E030 BB0C38F5
@@ -12029,6 +12033,8 @@ gustavus-ak.gov.	10800	IN	NS	ns15.zoneedit.com.
 gustavus-ak.gov.	10800	IN	NS	ns18.zoneedit.com.
 gustinetx.gov.		10800	IN	NS	dns3.civicplus.com.
 gustinetx.gov.		10800	IN	NS	dns4.civicplus.com.
+gustintwp.gov.		10800	IN	NS	ns45.domaincontrol.com.
+gustintwp.gov.		10800	IN	NS	ns46.domaincontrol.com.
 guthriecounty.gov.	10800	IN	NS	dante.ns.cloudflare.com.
 guthriecounty.gov.	10800	IN	NS	magali.ns.cloudflare.com.
 gvoh-ny.gov.		10800	IN	NS	ns1.bdm.microsoftonline.com.
@@ -20830,6 +20836,7 @@ ofia.gov.		10800	IN	NS	a10-66.akam.net.
 ofia.gov.		10800	IN	NS	a13-67.akam.net.
 ofia.gov.		10800	IN	NS	a18-64.akam.net.
 ofia.gov.		10800	IN	NS	a28-65.akam.net.
+ofia.gov.		3600	IN	DS	40292 8 2 1B6D0FE20EB5733A8B198BDD589D9F9C63529748187315F1342538DD CD2C838D
 ofr.gov.		10800	IN	NS	ns3.gpo.gov.
 ofr.gov.		10800	IN	NS	ns4.gpo.gov.
 ofr.gov.		3600	IN	DS	47206 8 2 F8ABFA88103AFA84BBBF15413A8661276CB83CB05BAF0461BE08D89A ACC76494
@@ -22512,7 +22519,7 @@ pnl.gov.		10800	IN	NS	adns2.es.net.
 pnl.gov.		3600	IN	DS	49410 7 2 A1DC9A059CC6CE2470A5AAE0C760582C1CBFB94657EEFBCC9677D40A 8C38258B
 pnnl.gov.		10800	IN	NS	adns1.es.net.
 pnnl.gov.		10800	IN	NS	adns2.es.net.
-pnnl.gov.		3600	IN	DS	16611 7 2 555F6146EB39D34623A9D9D174A027C710F2445B8FE699BC244D62F9 0A87071E
+pnnl.gov.		3600	IN	DS	16050 7 2 F100FB729165C3DA55B1C8E3798C19D34589FE39D6BE3A391D73369D A2D43B32
 poarchcreekindians-nsn.gov. 10800 IN	NS	mns01.domaincontrol.com.
 poarchcreekindians-nsn.gov. 10800 IN	NS	mns02.domaincontrol.com.
 pocahontascountyiowa.gov. 10800	IN	NS	albert.ns.cloudflare.com.
