@@ -27,4 +27,5 @@ jobs:
           git add gov.txt
           timestamp=$(date -u)
           git commit -m "CZDS Update ${timestamp}" || exit 0
+          git pull
           git push
