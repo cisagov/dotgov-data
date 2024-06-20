@@ -1,4 +1,4 @@
-gov.			3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1718763900 3600 900 604800 300
+gov.			3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1718850300 3600 900 604800 300
 gov.			86400	IN	NS	a.ns.gov.
 gov.			86400	IN	NS	b.ns.gov.
 gov.			86400	IN	NS	c.ns.gov.
@@ -755,8 +755,8 @@ america.gov.		3600	IN	DS	12637 8 1 60088B27C68F8D6823A476CC8E206D80394EDB20
 america.gov.		3600	IN	DS	12637 8 2 2AF28FF50D2C3C0AAEB080B248978F91D509A46D53D5707FE29D6A99 CC723C20
 america250.gov.		10800	IN	NS	pdns01.domaincontrol.com.
 america250.gov.		10800	IN	NS	pdns02.domaincontrol.com.
-americancanyon.gov.	10800	IN	NS	ns1.gov-server.net.
-americancanyon.gov.	10800	IN	NS	ns2.gov-server.net.
+americancanyon.gov.	10800	IN	NS	ns1.dni.net.
+americancanyon.gov.	10800	IN	NS	ns2.dni.net.
 americanclimatecorps.gov. 10800	IN	NS	ns1-37.azure-dns.com.
 americanclimatecorps.gov. 10800	IN	NS	ns2-37.azure-dns.net.
 americanclimatecorps.gov. 10800	IN	NS	ns3-37.azure-dns.org.
@@ -4205,6 +4205,8 @@ catchteamca.gov.	10800	IN	NS	curt.ns.cloudflare.com.
 catchteamca.gov.	10800	IN	NS	maya.ns.cloudflare.com.
 catchthecometsc.gov.	10800	IN	NS	ns1.it1cloud.com.
 catchthecometsc.gov.	10800	IN	NS	ns2.it1cloud.com.
+catchthecometsc.gov.	10800	IN	NS	candy.ns.cloudflare.com.
+catchthecometsc.gov.	10800	IN	NS	arnold.ns.cloudflare.com.
 cathedralcity.gov.	10800	IN	NS	ns12.zoneedit.com.
 cathedralcity.gov.	10800	IN	NS	ns14.zoneedit.com.
 catlettsburgky.gov.	10800	IN	NS	ns0.wixdns.net.
@@ -5792,6 +5794,10 @@ cityoftulsa.gov.	10800	IN	NS	ns1.tulsaconnect.com.
 cityoftulsa.gov.	10800	IN	NS	ns2.tulsaconnect.com.
 cityoftybee.gov.	10800	IN	NS	garret.ns.cloudflare.com.
 cityoftybee.gov.	10800	IN	NS	ryleigh.ns.cloudflare.com.
+cityofunionms.gov.	10800	IN	NS	ns1-38.azure-dns.com.
+cityofunionms.gov.	10800	IN	NS	ns2-38.azure-dns.net.
+cityofunionms.gov.	10800	IN	NS	ns3-38.azure-dns.org.
+cityofunionms.gov.	10800	IN	NS	ns4-38.azure-dns.info.
 cityofvacaville.gov.	10800	IN	NS	cbru.br.ns.els-gms.att.net.
 cityofvacaville.gov.	10800	IN	NS	cmtu.mt.ns.els-gms.att.net.
 cityofvermilionohio.gov. 10800	IN	NS	dns1.easydns.com.
@@ -14950,6 +14956,10 @@ jpo.gov.		10800	IN	NS	ns3-36.azure-dns.org.
 jpo.gov.		10800	IN	NS	ns4-36.azure-dns.info.
 juabcounty.gov.		10800	IN	NS	ns1.bluehost.com.
 juabcounty.gov.		10800	IN	NS	ns2.bluehost.com.
+juabsheriff.gov.	10800	IN	NS	ns2.juabsheriff.gov.
+juabsheriff.gov.	10800	IN	NS	www.juabsheriff.gov.
+ns2.juabsheriff.gov.	3600	IN	A	199.34.228.71
+www.juabsheriff.gov.	3600	IN	A	199.34.228.71
 judicialconference.gov.	10800	IN	NS	a2-66.akam.net.
 judicialconference.gov.	10800	IN	NS	a7-64.akam.net.
 judicialconference.gov.	10800	IN	NS	a1-221.akam.net.
@@ -19969,6 +19979,8 @@ ns1.newtonma.gov.	3600	IN	A	209.6.175.194
 ns2.newtonma.gov.	3600	IN	A	108.49.74.194
 newtonnc.gov.		10800	IN	NS	dbru.br.ns.els-gms.att.net.
 newtonnc.gov.		10800	IN	NS	dmtu.mt.ns.els-gms.att.net.
+newtonutah.gov.		10800	IN	NS	ns1.hostmonster.com.
+newtonutah.gov.		10800	IN	NS	ns2.hostmonster.com.
 newtown-ct.gov.		10800	IN	NS	dns3.civicplus.com.
 newtown-ct.gov.		10800	IN	NS	dns4.civicplus.com.
 newtownohio.gov.	10800	IN	NS	gabe.ns.cloudflare.com.
@@ -26650,6 +26662,8 @@ srbc.gov.		10800	IN	NS	irena.ns.cloudflare.com.
 srbc.gov.		10800	IN	NS	gabriel.ns.cloudflare.com.
 srcpa.gov.		10800	IN	NS	ns23.domaincontrol.com.
 srcpa.gov.		10800	IN	NS	ns24.domaincontrol.com.
+srfdaz.gov.		10800	IN	NS	ns1.siteground.net.
+srfdaz.gov.		10800	IN	NS	ns2.siteground.net.
 srmt-nsn.gov.		10800	IN	NS	ns1.mysuperpageshosting.com.
 srmt-nsn.gov.		10800	IN	NS	ns2.mysuperpageshosting.com.
 srmt-nsn.gov.		10800	IN	NS	ns3.mysuperpageshosting.com.
@@ -32105,8 +32119,8 @@ winnebagocountyiowa.gov. 10800	IN	NS	zara.ns.cloudflare.com.
 winnebagocountyiowa.gov. 3600	IN	DS	2371 13 2 E46DDD1553FE710E59748FFAC8D29974756B129E4EA059912DCECDD6 4887BDE9
 winnebagocountywi.gov.	10800	IN	NS	harley.ns.cloudflare.com.
 winnebagocountywi.gov.	10800	IN	NS	paloma.ns.cloudflare.com.
-winnebagosheriffia.gov.	10800	IN	NS	ns17.domaincontrol.com.
-winnebagosheriffia.gov.	10800	IN	NS	ns18.domaincontrol.com.
+winnebagosheriffia.gov.	10800	IN	NS	garrett.ns.cloudflare.com.
+winnebagosheriffia.gov.	10800	IN	NS	harleigh.ns.cloudflare.com.
 winneconnesd3wi.gov.	10800	IN	NS	dell.ns.cloudflare.com.
 winneconnesd3wi.gov.	10800	IN	NS	major.ns.cloudflare.com.
 winneconnewi.gov.	10800	IN	NS	dell.ns.cloudflare.com.
