@@ -1,6 +1,3 @@
-"""Authenticates into ICANN using Github Actions secrets credentials and downloads .gov zone file"""
-ICANN_username=$1
-ICANN_password=$2
-authentication_data="{\"username\":\"$ICANN_username\",\"password\":\"$ICANN_password\"}"
-token=$(curl -X POST -H "Accept: application/json" -H "Content-Type: application/json" -d $authentication_data https://account-api.icann.org/api/authenticate | jq -r .accessToken)
-[ ! -z "$token" ] && curl -X GET --output gov.txt.gz -H "Accept: application/json" -H "Content-Type: application/json" -H "Authorization: Bearer $token" https://czds-api.icann.org/czds/downloads/gov.zone && gunzip -f ./gov.txt.gz > gov.txt
+zone=$1
+token=$2
+curl --request GET --url https://api.cloudflare.com/client/v4/zones/$zone/dns_records/export --header 'Content-Type: application/json' --header "Authorization: Bearer $token"
