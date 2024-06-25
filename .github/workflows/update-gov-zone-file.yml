@@ -47,7 +47,6 @@ jobs:
           git add gov.txt
           timestamp=$(date -u)
           git commit -m "Pull Cloudflare zone data ${timestamp}" || exit 0
-          git pull
           git push -u origin actions/cf-zone-file-${{ steps.date.outputs.date }}
           gh pr create -B main -H actions/cf-zone-file-${{ steps.date.outputs.date }} --title 'Pull ${timestamp} Cloudflare zone file data' --body 'Created by Github action Pull Cloudflare data into gov.txt'
           
