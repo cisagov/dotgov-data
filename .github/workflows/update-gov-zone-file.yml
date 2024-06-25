@@ -44,10 +44,10 @@ jobs:
       # Push daily zone file to branch only if a diff is found
       - name: If pulled data has changes, commit and push zone file. Create and merge pull request for changes.
         run: |-
+          git pull origin actions/cf-zone-file-${{ steps.date.outputs.date }}
           git add gov.txt
           timestamp=$(date -u)
           git commit -m "Pull Cloudflare zone data ${timestamp}" || exit 0
-          git pull origin actions/cf-zone-file-${{ steps.date.outputs.date }}
           git push origin actions/cf-zone-file-${{ steps.date.outputs.date }}
           gh pr create -B main -H actions/cf-zone-file-${{ steps.date.outputs.date }} --title 'Pull ${timestamp} Cloudflare zone file data' --body 'Created by Github action Pull Cloudflare data into gov.txt'
           
