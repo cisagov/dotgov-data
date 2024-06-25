@@ -26,10 +26,11 @@ jobs:
           BRANCH_NAME: actions/cf-zone-file-${{ steps.date.outputs.date }}
         run:
           git checkout -b $BRANCH_NAME
-      - name: Initialize git config
+      - name: Initialize git config and sets pull to merge
         run: |-
           git config user.name "botgov"
           git config user.email "help@get.gov"
+          git config pull.rebase false
 
       - name: Pull latest Cloudflare zone file into gov.txt
         env:
