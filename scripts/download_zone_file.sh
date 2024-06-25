@@ -1,2 +1,3 @@
-"""Authenticates into ICANN using Github Actions secrets credentials and downloads .gov zone file"""
-curl --request GET --url https://api.cloudflare.com/client/v4/zones/86b4010ebf86cb587d189fb14c565280/dns_records/export --header 'Content-Type: application/json' --header 'Authorization: Bearer Li74eWOsCC-66_zzGhbfxX4ICTZ99mLFhI5mAmS3' > gov.txt
+zone=$1
+token=$2
+curl --request GET --url https://api.cloudflare.com/client/v4/zones/$zone/dns_records/export --header 'Content-Type: application/json' --header "Authorization: Bearer $token"
