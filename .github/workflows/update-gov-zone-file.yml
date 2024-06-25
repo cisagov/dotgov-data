@@ -43,6 +43,8 @@ jobs:
 
       # Push daily zone file to branch only if a diff is found
       - name: If pulled data has changes, commit and push zone file. Create and merge pull request for changes.
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |-
           git add gov.txt
           timestamp=$(date -u)
