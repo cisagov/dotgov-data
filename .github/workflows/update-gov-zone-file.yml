@@ -18,20 +18,10 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-      - name: Get current date
-        id: date
-        run: echo "::set-output name=date::$(date +'%m-%d-%Y')"
-      - name: Create daily zone file update branch
-        env:
-          BRANCH_NAME: actions/cf-zone-file-${{ steps.date.outputs.date }}
-        run: |
-          git checkout -b $BRANCH_NAME
       - name: Initialize git config and sets pull to merge
         run: |-
           git config user.name "botgov"
           git config user.email "help@get.gov"
-          git config pull.rebase false
-
       - name: Pull latest Cloudflare zone file into gov.txt
         env:
           CLOUDFLARE_ZONE: '${{ secrets.CLOUDFLARE_ZONE }}'
@@ -40,15 +30,11 @@ jobs:
           chmod +x ./scripts/download_zone_file.sh
           ./scripts/download_zone_file.sh '${{ env.CLOUDFLARE_ZONE }}' '${{ env.CLOUDFLARE_TOKEN }}' > gov.txt
         shell: sh
-
       # Push daily zone file to branch only if a diff is found
-      - name: If pulled data has changes, commit and push zone file. Create and merge pull request for changes.
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: If pulled data has changes, commit and push changes to zone file.
         run: |-
           git add gov.txt
           timestamp=$(date -u)
           git commit -m "Pull Cloudflare zone data ${timestamp}" || exit 0
-          git push -u origin actions/cf-zone-file-${{ steps.date.outputs.date }}
-          gh pr create -B main -H actions/cf-zone-file-${{ steps.date.outputs.date }} --title 'Pull ${timestamp} Cloudflare zone file data' --body 'Created by Github action Pull Cloudflare data into gov.txt'
-          
+          git pull
+          git push
