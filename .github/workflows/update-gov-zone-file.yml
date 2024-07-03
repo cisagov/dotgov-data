@@ -22,6 +22,7 @@ jobs:
         run: |-
           git config user.name "botgov"
           git config user.email "help@get.gov"
+          git config pull.rebase false
       - name: Pull latest Cloudflare zone file into gov.txt
         env:
           CLOUDFLARE_ZONE: '${{ secrets.CLOUDFLARE_ZONE }}'
