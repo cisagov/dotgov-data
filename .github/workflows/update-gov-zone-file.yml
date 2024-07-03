@@ -2,12 +2,6 @@ name: Update gov.txt from Cloudflare zone file
 run-name: Update gov.txt from Cloudflare zone file
 
 on:
-  pull_request:
-    branches: 
-      - es/118-cf-govtxt-workflow
-  push:
-    branches:
-      - es/118-cf-govtxt-workflow
   workflow_dispatch: {}
   schedule:
     - cron: "5 7 * * *"
