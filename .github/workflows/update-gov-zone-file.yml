@@ -1,5 +1,5 @@
-name: Update gov.txt from CZDS API zone file
-run-name: Update gov.txt from CZDS API zone file
+name: Update gov.txt from Cloudflare zone file
+run-name: Update gov.txt from Cloudflare zone file
 
 on:
   workflow_dispatch: {}
@@ -10,22 +10,26 @@ jobs:
   update_zone_file:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - name: Download gov.txt.gz
-        env:
-          ICANN_USERNAME: '${{ secrets.ICANN_USERNAME }}'
-          ICANN_PASSWORD: '${{ secrets.ICANN_PASSWORD }}'
-        run: |
-          chmod +x ./scripts/download_zone_file.sh
-          ./scripts/download_zone_file.sh '${{ env.ICANN_USERNAME }}' '${{ env.ICANN_PASSWORD }}' > gov.txt
-        shell: sh
-      # Push daily zone file to branch only if a diff is found
-      - name: Commit and push updated zone file update to branch
+      - name: Checkout code
+        uses: actions/checkout@v4
+      - name: Initialize git config and sets pull to merge
         run: |-
           git config user.name "botgov"
           git config user.email "help@get.gov"
+          git config pull.rebase false
+      - name: Pull latest Cloudflare zone file into gov.txt
+        env:
+          CLOUDFLARE_ZONE: '${{ secrets.CLOUDFLARE_ZONE }}'
+          CLOUDFLARE_TOKEN: '${{ secrets.CLOUDFLARE_TOKEN }}'
+        run: |
+          chmod +x ./scripts/download_zone_file.sh
+          ./scripts/download_zone_file.sh '${{ env.CLOUDFLARE_ZONE }}' '${{ env.CLOUDFLARE_TOKEN }}' > gov.txt
+        shell: sh
+      # Push daily zone file to branch only if a diff is found
+      - name: If pulled data has changes, commit and push changes to zone file.
+        run: |-
           git add gov.txt
           timestamp=$(date -u)
-          git commit -m "CZDS Update ${timestamp}" || exit 0
+          git commit -m "Pull Cloudflare zone data ${timestamp}" || exit 0
           git pull
           git push
