@@ -31,7 +31,7 @@ If we use Cloudflare’s API to check these zone files generated every 5 minutes
 - Implementing this approach requires more time as we determine the frequency we check with, becoming familiar with the Cloudflare API, and implementing in an Action.
 
 ## Decision
-Update July 8, 2024: gov.txt now pulls zone file data from Cloudflare rather than CZDS, for the benefits described above.
+Update July 8, 2024: gov.txt now pulls zone file data from Cloudflare rather than CZDS to benefit from Cloudflare's more frequent zone file updates and to set up synchronous updates with Cloudflare's zone file changes in the future.
 
 We will start with automating the zone file via CZDS since it provides easier access over updated domain data and it presents as the most efficient path to prototyping continuous updates of the zone file.
 
