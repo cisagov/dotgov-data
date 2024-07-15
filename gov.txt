@@ -1,6 +1,6 @@
 ;;
 ;; Domain:     gov.
-;; Exported:   2024-07-14 07:11:42
+;; Exported:   2024-07-15 07:11:24
 ;;
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -24,7 +24,7 @@
 ;;
 ;; Use at your own risk.
 ;; SOA Record
-gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1720940700 3600 900 604800 300
+gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1721027101 3600 900 604800 300
 
 ;; A Records
 acs-ns1-aws.akcourts.gov.	3600	IN	A	205.251.198.140
@@ -297,7 +297,6 @@ ns1.cityoftorranceca.gov.	3600	IN	A	204.145.129.2
 ns1.cityofwhitefish.gov.	3600	IN	A	205.251.192.55
 ns1.cjis.gov.	3600	IN	A	153.31.113.139
 ns1.clarkcountynv.gov.	3600	IN	A	198.190.190.33
-ns1.clevelandcountync.gov.	3600	IN	A	50.116.75.197
 ns1.clintoncountyny.gov.	3600	IN	A	173.242.101.195
 ns1.clintonok.gov.	3600	IN	A	98.142.78.141
 ns1.coloradosos.gov.	3600	IN	A	162.159.0.246
@@ -549,7 +548,6 @@ ns2.cityoftorranceca.gov.	3600	IN	A	204.145.132.2
 ns2.cityofwhitefish.gov.	3600	IN	A	205.251.195.252
 ns2.cjis.gov.	3600	IN	A	153.31.192.139
 ns2.clarkcountynv.gov.	3600	IN	A	198.190.190.137
-ns2.clevelandcountync.gov.	3600	IN	A	50.116.75.195
 ns2.clintoncountyny.gov.	3600	IN	A	69.43.212.2
 ns2.clintonok.gov.	3600	IN	A	12.165.152.74
 ns2.coloradosos.gov.	3600	IN	A	162.159.1.243
@@ -842,6 +840,8 @@ ns4.sweetwatercountywy.gov.	3600	IN	A	169.148.152.99
 ns4.tarrantcountytx.gov.	3600	IN	A	192.84.53.8
 ns4.wvc-ut.gov.	3600	IN	A	50.73.40.50
 ns4x.va.gov.	3600	IN	A	152.133.16.7
+ns55.mountainlakes.gov.	3600	IN	A	72.167.86.118
+ns56.mountainlakes.gov.	3600	IN	A	72.167.86.118
 ns5.arklegaudit.gov.	3600	IN	A	170.94.21.10
 ns5.cap.gov.	3600	IN	A	108.166.170.104
 ns5.cityofpigeonforgetn.gov.	3600	IN	A	96.33.117.140
@@ -1592,6 +1592,7 @@ cjis.gov.	3600	IN	DS	57487 8 2 BF27C57CE47DADFA137D615B2704E33C6225101CF057E4890
 cleanenergy.gov.	3600	IN	DS	2371 13 2 2290EE46884817E9B208425554B7BC4DADF0C1366FDDC195EC4B2AB795E963D9
 clearviewok.gov.	3600	IN	DS	2371 13 2 86D57CEC0CCC77B3A9302546724B3BEF753478E09638A91E80B72E407DCF2447
 clerkpbc.gov.	3600	IN	DS	35062 8 2 C7507C05A923E1138E40D9B2C704618DAC8C8FDD7B79C4EFC3607A4AA14B67EE
+clevelandcountync.gov.	3600	IN	DS	2371 13 2 6F30AED615E376508B71B8D60F5D651C7DB0A56340DBC61EAFE1C5B8F4F22208
 climate.gov.	3600	IN	DS	14252 8 2 D5646305035DAA0537AFA2D6CBCCFA0FFD291E9D2CED205BC90DC9336F050FA9
 clinicaltrial.gov.	3600	IN	DS	43789 8 2 0291BA65537D8A74203F4FE13D3FF816C877FFA662882F4534C6082863139731
 clinicaltrial.gov.	3600	IN	DS	58792 8 2 C6922B10FB82CD2C2AF3512B5B4BBCEA75E68D85B4B3B579185C4CD6702A0231
@@ -3869,6 +3870,8 @@ adamscountypa.gov.	10800	IN	NS	ns2-07.azuregov-dns.us.
 adamscountypa.gov.	10800	IN	NS	ns4-07.azuregov-dns.us.
 adamscountypa.gov.	10800	IN	NS	ns1-07.azuregov-dns.us.
 adamscountypa.gov.	10800	IN	NS	ns3-07.azuregov-dns.us.
+adaoh.gov.	10800	IN	NS	diva.ns.cloudflare.com.
+adaoh.gov.	10800	IN	NS	corey.ns.cloudflare.com.
 addisontx.gov.	10800	IN	NS	ns3.dnsmadeeasy.com.
 addisontx.gov.	10800	IN	NS	ns1.dnsmadeeasy.com.
 addisontx.gov.	10800	IN	NS	ns2.dnsmadeeasy.com.
@@ -9239,8 +9242,8 @@ clermontfl.gov.	10800	IN	NS	ns-1845.awsdns-38.co.uk.
 clermontfl.gov.	10800	IN	NS	ns-850.awsdns-42.net.
 clermontfl.gov.	10800	IN	NS	ns-116.awsdns-14.com.
 clermontfl.gov.	10800	IN	NS	ns-1432.awsdns-51.org.
-clevelandcountync.gov.	10800	IN	NS	ns1.clevelandcountync.gov.
-clevelandcountync.gov.	10800	IN	NS	ns2.clevelandcountync.gov.
+clevelandcountync.gov.	10800	IN	NS	zainab.ns.cloudflare.com.
+clevelandcountync.gov.	10800	IN	NS	pete.ns.cloudflare.com.
 clevelandheights.gov.	10800	IN	NS	ryleigh.ns.cloudflare.com.
 clevelandheights.gov.	10800	IN	NS	anirban.ns.cloudflare.com.
 clevelandmetroparks.gov.	10800	IN	NS	ns4.oar.net.
@@ -20569,6 +20572,8 @@ mountaingrovemo.gov.	10800	IN	NS	ns-161.awsdns-20.com.
 mountaingrovemo.gov.	10800	IN	NS	ns-2000.awsdns-58.co.uk.
 mountainhouseca.gov.	10800	IN	NS	jen.ns.cloudflare.com.
 mountainhouseca.gov.	10800	IN	NS	keaton.ns.cloudflare.com.
+mountainlakes.gov.	10800	IN	NS	ns55.mountainlakes.gov.
+mountainlakes.gov.	10800	IN	NS	ns56.mountainlakes.gov.
 mountainview.gov.	10800	IN	NS	auth1.dns.cogentco.com.
 mountainview.gov.	10800	IN	NS	auth2.dns.cogentco.com.
 mountairymd.gov.	10800	IN	NS	dns3.easydns.ca.
