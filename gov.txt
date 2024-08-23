@@ -1,6 +1,6 @@
 ;;
 ;; Domain:     gov.
-;; Exported:   2024-08-22 07:11:32
+;; Exported:   2024-08-23 07:11:38
 ;;
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -24,7 +24,7 @@
 ;;
 ;; Use at your own risk.
 ;; SOA Record
-gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1724310300 3600 900 604800 300
+gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1724396701 3600 900 604800 300
 
 ;; A Records
 acs-ns1-aws.akcourts.gov.	3600	IN	A	205.251.198.140
@@ -336,6 +336,7 @@ ns1.fsoc.gov.	3600	IN	A	162.159.0.233
 ns1.gahanna.gov.	3600	IN	A	198.30.8.30
 ns1g.flcourts.gov.	3600	IN	A	199.242.64.25
 ns1.govinfo.gov.	3600	IN	A	162.159.4.127
+ns1.gpo.gov.	3600	IN	A	162.159.4.237
 ns1.hallcountyne.gov.	3600	IN	A	208.94.148.4
 ns1.hamiltontn.gov.	3600	IN	A	184.174.171.17
 ns1.hayscountytx.gov.	3600	IN	A	66.90.254.50
@@ -594,6 +595,7 @@ ns2.gahanna.gov.	3600	IN	A	198.30.8.31
 ns2g.flcourts.gov.	3600	IN	A	199.242.115.25
 ns2.glastonbury-ct.gov.	3600	IN	A	207.210.153.2
 ns2.govinfo.gov.	3600	IN	A	162.159.5.58
+ns2.gpo.gov.	3600	IN	A	162.159.6.243
 ns2.hallcountyne.gov.	3600	IN	A	208.80.124.4
 ns2.hamiltontn.gov.	3600	IN	A	184.174.171.18
 ns2.hayscountytx.gov.	3600	IN	A	66.90.254.51
@@ -777,7 +779,6 @@ ns3.fortbendisd.gov.	3600	IN	A	13.65.112.229
 ns3.gahanna.gov.	3600	IN	A	75.118.44.194
 ns3.glastonbury-ct.gov.	3600	IN	A	104.226.6.226
 ns3.gpodev.gov.	3600	IN	A	162.140.15.100
-ns3.gpo.gov.	3600	IN	A	162.140.15.100
 ns3.groton-ct.gov.	3600	IN	A	64.251.55.48
 ns3.hallcountyne.gov.	3600	IN	A	208.80.126.4
 ns3.hud.gov.	3600	IN	A	170.97.167.45
@@ -828,7 +829,6 @@ ns4d.fl.gov.	3600	IN	A	204.90.18.15
 ns4.dhhs.gov.	3600	IN	A	158.74.35.12
 ns4.durhamcountync.gov.	3600	IN	A	168.215.112.166
 ns4.gpodev.gov.	3600	IN	A	162.140.254.200
-ns4.gpo.gov.	3600	IN	A	162.140.254.200
 ns4.groton-ct.gov.	3600	IN	A	64.251.55.49
 ns4.hallcountyne.gov.	3600	IN	A	208.80.125.4
 ns4.hawaii.gov.	3600	IN	A	162.221.245.155
@@ -1027,6 +1027,7 @@ ns1.financialstability.gov.	3600	IN	AAAA	2400:cb00:2049:1::a29f:e9
 ns1.fincen.gov.	3600	IN	AAAA	2400:cb00:2049:1::a29f:e9
 ns1.fnal.gov.	3600	IN	AAAA	2620:6a:0:1203::208:71
 ns1.fsoc.gov.	3600	IN	AAAA	2400:cb00:2049:1::a29f:e9
+ns1.gpo.gov.	3600	IN	AAAA	2400:cb00:2049:1::a29f:4ed
 ns1.helpwithmybank.gov.	3600	IN	AAAA	2400:cb00:2049:1::a29f:e9
 ns1.helpwithmycheckingaccount.gov.	3600	IN	AAAA	2400:cb00:2049:1::a29f:e9
 ns1.helpwithmycreditcardbank.gov.	3600	IN	AAAA	2400:cb00:2049:1::a29f:e9
@@ -1128,6 +1129,7 @@ ns2.financialstability.gov.	3600	IN	AAAA	2400:cb00:2049:1::a29f:1f5
 ns2.fincen.gov.	3600	IN	AAAA	2400:cb00:2049:1::a29f:1f5
 ns2.fnal.gov.	3600	IN	AAAA	2620:6a:0:1203::208:70
 ns2.fsoc.gov.	3600	IN	AAAA	2400:cb00:2049:1::a29f:1f5
+ns2.gpo.gov.	3600	IN	AAAA	2400:cb00:2049:1::a29f:6f3
 ns2.helpwithmybank.gov.	3600	IN	AAAA	2400:cb00:2049:1::a29f:1f5
 ns2.helpwithmycheckingaccount.gov.	3600	IN	AAAA	2400:cb00:2049:1::a29f:1f5
 ns2.helpwithmycreditcardbank.gov.	3600	IN	AAAA	2400:cb00:2049:1::a29f:1f5
@@ -1545,6 +1547,7 @@ chanhassenmn.gov.	3600	IN	DS	19564 8 1 019F6C4FB330FFA5042867CC63819B45A87166BE
 chcoc.gov.	3600	IN	DS	49571 8 2 8FC107DBA75B37B93ECE05C7BFB8F146B7E728A5752DEAA55C19C9840A510FA0
 cheektowaga.gov.	3600	IN	DS	12337 8 2 531891427C3A71EF4B0D364FD163A592246DAD176A8F281185EC527BBCFC4A6A
 cheektowaga.gov.	3600	IN	DS	58814 8 2 531891427C3A71EF4B0D364FD163A592246DAD176A8F281185EC527BBCFC4A6A
+chesterar.gov.	3600	IN	DS	2371 13 2 701B48B5A9AD3171ED55CEA1EC919C807807760E46636636BC5F993A12347A43
 chesterfield.gov.	3600	IN	DS	54210 13 2 FA0D192574AF44D42E2EF5B5426B98FE4FF92670D6ECE560DED20A200674A576
 chicagoelections.gov.	3600	IN	DS	2371 13 1 F74ECD04FAB7C7B07351F4D9201484AF45C6801F
 chicagoelections.gov.	3600	IN	DS	2371 13 2 40B6C2B29C9C2E5E60FE101DDE9C3F653DB4E26A9C2AB251AA77B9649A4571D8
@@ -1578,6 +1581,7 @@ cityofclintoniowa.gov.	3600	IN	DS	21139 8 2 E39351EA900A610040226A63FDE8C5E485BB
 cityofcrandonwi.gov.	3600	IN	DS	59640 13 2 47A4112FFA1A5C72930E7DF60F8DB013CD12C0ABF0C38F981F7D7163360AB705
 cityofeatonrapids.gov.	3600	IN	DS	2371 13 2 B29C1942F2DB2D5CFB2264CAB841FAA42873AD47DE6BB98D38231B0AA1F9E5AA
 cityofgeronimo.gov.	3600	IN	DS	22352 8 2 3457540C89482446EF8430AB1F74988ED4ADC61F622459E821A7C11312DD1F80
+cityofpalmview.gov.	3600	IN	DS	2371 13 2 6329537D7B9AD1D3B083C49A495E1AEF007EABC94189578171EC5CFAA6E99767
 cityofpeekskillny.gov.	3600	IN	DS	2371 13 2 F39095FB84CCCB2F0231ED09681000764C511D92430950FF8007404E8626B97F
 cityofsarasotafl.gov.	3600	IN	DS	17281 8 1 2A3044D853D116EE13176BD481C2A2AE39AB58CA
 cityofsarasotafl.gov.	3600	IN	DS	17281 8 2 B3E5B1A27FD8242C44EB211D9C18F1DB1A42D3AA8AFA69BBBA526E6C5CDCD674
@@ -2146,7 +2150,7 @@ govinfo.gov.	3600	IN	DS	2371 13 2 DC6DCA2FB4C506C1D7C4FEB310C078D1C31DCA5C235C69
 govloans.gov.	3600	IN	DS	9618 13 2 AE91763593434DB6D53391E5055E5AAA9429EC2AEC530133805C9D2E139B44F6
 gpodev.gov.	3600	IN	DS	58960 8 2 BE0C5AB99354AAE734B209CCE1572819144EA65B93A39976E35D419DF99C33CF
 gpodev.gov.	3600	IN	DS	25954 8 2 DB2159EBD2AFC76F7C936C1C47B425BD6FEEE7AEA68F4CB7F1AB00B882E3B308
-gpo.gov.	3600	IN	DS	49264 8 2 851538DDD37615CBC587BED75B13748A3203610F19C726E5AE68A4FA292E7AC2
+gpo.gov.	3600	IN	DS	2371 13 2 633CA88EA8526550AFFDF84C3AC9E623DE1798525D62F7966DD339DBD4EEF82C
 gps.gov.	3600	IN	DS	46250 8 2 71CA79F939FEFBD889208EF1E26F0698C60F8BF289C24A0B9E37C04FAC886C9A
 graftonnd.gov.	3600	IN	DS	27580 8 2 48808EFE1E1E237CEA0977BF96889E7D5CE187BA81B5013AF8C4D167973B05E6
 grandblanctwpmi.gov.	3600	IN	DS	2371 13 2 77B996CFF3DB2468600D8FCAE21C90F972828BCA787A85E2A68D6E600E41D6A8
@@ -2981,6 +2985,7 @@ piedrasblancas.gov.	3600	IN	DS	2371 13 2 085D96630290EA770DDEF9720E27EEE6BBD4394
 piketonohio.gov.	3600	IN	DS	42214 8 2 23DC3CF6A99B9C1193F05F2E52B4784D69C720FA050E5033C9AAFA07F723212E
 pinelandtx.gov.	3600	IN	DS	52865 8 2 2D1F71E216F67024E5CB4BE26D43A7276854E048A8366673342EF690643D8692
 pitctestdomain.gov.	3600	IN	DS	2371 13 2 55BD9BC3F85C8FA4958BB9CCFCCB4CDBDD1E2E7A53C0492307A2295F8BDBA149
+pittcountyschools.gov.	3600	IN	DS	2371 13 2 78F2EE7C89B2549D592EAA18A499D1480C21D828531F7022335F0E4C0618DDAC
 pittsvillemd.gov.	3600	IN	DS	2371 13 2 819C74C838F18C0F60D2BA892BC243A30105679AF76ECD9CD8807335CA04D1B4
 pki.gov.	3600	IN	DS	14542 8 2 582F0B18C66A3A5212F225C02F0EA9D4BFE808CD126F8EBE6CB7CAF7395BD880
 pki-lab.gov.	3600	IN	DS	20164 8 2 1D2782F6EFAC5BA8BAC1721111B9B2E0950493681461C7D3D5A985825B54A4E5
@@ -8126,6 +8131,8 @@ chesapeakewv.gov.	10800	IN	NS	ns4.bdm.microsoftonline.com.
 chesapeakewv.gov.	10800	IN	NS	ns2.bdm.microsoftonline.com.
 cheshire-ma.gov.	10800	IN	NS	adam.ns.cloudflare.com.
 cheshire-ma.gov.	10800	IN	NS	mona.ns.cloudflare.com.
+chesterar.gov.	10800	IN	NS	andronicus.ns.cloudflare.com.
+chesterar.gov.	10800	IN	NS	irma.ns.cloudflare.com.
 chestercountysc.gov.	10800	IN	NS	a8.uberns.com.
 chestercountysc.gov.	10800	IN	NS	a8.uberns.net.
 chestercountysc.gov.	10800	IN	NS	b8.uberns.com.
@@ -10184,8 +10191,10 @@ costillacounty-co.gov.	10800	IN	NS	ns1.easydns.com.
 costillacounty-co.gov.	10800	IN	NS	remote2.easydns.com.
 cosumnescsd.gov.	10800	IN	NS	a8.uberns.com.
 cosumnescsd.gov.	10800	IN	NS	b8.uberns.com.
-cotak.gov.	10800	IN	NS	ns2.cofiretech.org.
-cotak.gov.	10800	IN	NS	ns1.cofiretech.org.
+cotak.gov.	10800	IN	NS	ns-156.awsdns-19.com.
+cotak.gov.	10800	IN	NS	ns-715.awsdns-25.net.
+cotak.gov.	10800	IN	NS	ns-1274.awsdns-31.org.
+cotak.gov.	10800	IN	NS	ns-1590.awsdns-06.co.uk.
 cotaticity.gov.	10800	IN	NS	ns17.domaincontrol.com.
 cotaticity.gov.	10800	IN	NS	ns18.domaincontrol.com.
 cottagecitymd.gov.	10800	IN	NS	carlane.ns.cloudflare.com.
@@ -11644,8 +11653,8 @@ eagle-wi.gov.	10800	IN	NS	ns4.stackdns.com.
 eagle-wi.gov.	10800	IN	NS	ns1.stackdns.com.
 eagle-wi.gov.	10800	IN	NS	ns2.stackdns.com.
 eagle-wi.gov.	10800	IN	NS	ns3.stackdns.com.
-earmarks.gov.	10800	IN	NS	hugh.ns.cloudflare.com.
-earmarks.gov.	10800	IN	NS	lisa.ns.cloudflare.com.
+earmarks.gov.	10800	IN	NS	arch.ns.cloudflare.com.
+earmarks.gov.	10800	IN	NS	nadia.ns.cloudflare.com.
 earnandlearniowa.gov.	10800	IN	NS	a26-66.akam.net.
 earnandlearniowa.gov.	10800	IN	NS	a11-67.akam.net.
 earnandlearniowa.gov.	10800	IN	NS	a1-195.akam.net.
@@ -14571,8 +14580,8 @@ govotetn.gov.	10800	IN	NS	ns-786.awsdns-34.net.
 govotetn.gov.	10800	IN	NS	ns-1082.awsdns-07.org.
 gpodev.gov.	10800	IN	NS	ns4.gpodev.gov.
 gpodev.gov.	10800	IN	NS	ns3.gpodev.gov.
-gpo.gov.	10800	IN	NS	ns3.gpo.gov.
-gpo.gov.	10800	IN	NS	ns4.gpo.gov.
+gpo.gov.	10800	IN	NS	ns1.gpo.gov.
+gpo.gov.	10800	IN	NS	ns2.gpo.gov.
 gps.gov.	10800	IN	NS	ns-03.noaa.gov.
 gps.gov.	10800	IN	NS	ns-01.noaa.gov.
 gps.gov.	10800	IN	NS	ns-02.noaa.gov.
@@ -15166,10 +15175,9 @@ hancockcountyga.gov.	10800	IN	NS	ns1-08.azure-dns.com.
 hancockcountyga.gov.	10800	IN	NS	ns2-08.azure-dns.net.
 hancockcountyia.gov.	10800	IN	NS	ns18.domaincontrol.com.
 hancockcountyia.gov.	10800	IN	NS	ns17.domaincontrol.com.
-hancockcounty-il.gov.	10800	IN	NS	ns1.lostboy.host.
-hancockcounty-il.gov.	10800	IN	NS	ns2.lostboy.host.
-hancockcounty-il.gov.	10800	IN	NS	ns3.lostboy.host.
-hancockcounty-il.gov.	10800	IN	NS	ns4.lostboy.host.
+hancockcounty-il.gov.	10800	IN	NS	ns1.wpdns.host.
+hancockcounty-il.gov.	10800	IN	NS	ns2.wpdns.host.
+hancockcounty-il.gov.	10800	IN	NS	ns3.wpdns.host.
 hancockcountyky.gov.	10800	IN	NS	ns37.domaincontrol.com.
 hancockcountyky.gov.	10800	IN	NS	ns38.domaincontrol.com.
 hancockcountymaine.gov.	10800	IN	NS	ns15.digicertdns.net.
@@ -24747,6 +24755,8 @@ pitrivertribe.gov.	10800	IN	NS	ns04.domaincontrol.com.
 pitrivertribe.gov.	10800	IN	NS	ns03.domaincontrol.com.
 pittcountync.gov.	10800	IN	NS	dns2.pittcounty.us.
 pittcountync.gov.	10800	IN	NS	dns1.pittcounty.us.
+pittcountyschools.gov.	10800	IN	NS	guss.ns.cloudflare.com.
+pittcountyschools.gov.	10800	IN	NS	colette.ns.cloudflare.com.
 pittmancentertn.gov.	10800	IN	NS	pdns14.domaincontrol.com.
 pittmancentertn.gov.	10800	IN	NS	pdns13.domaincontrol.com.
 pittsboronc.gov.	10800	IN	NS	ns2.dnsmadeeasy.com.
@@ -29351,6 +29361,8 @@ tellercounty.gov.	10800	IN	NS	ns.integraonline.com.
 tellercounty.gov.	10800	IN	NS	ns2.integraonline.com.
 telluride-co.gov.	10800	IN	NS	sneh.ns.cloudflare.com.
 telluride-co.gov.	10800	IN	NS	brett.ns.cloudflare.com.
+telluride.gov.	10800	IN	NS	sneh.ns.cloudflare.com.
+telluride.gov.	10800	IN	NS	brett.ns.cloudflare.com.
 temeculaca.gov.	10800	IN	NS	ns62.domaincontrol.com.
 temeculaca.gov.	10800	IN	NS	ns61.domaincontrol.com.
 tempe.gov.	10800	IN	NS	karina.ns.cloudflare.com.
@@ -33581,6 +33593,8 @@ woodcountywi.gov.	10800	IN	NS	pdns04.domaincontrol.com.
 woodcountywi.gov.	10800	IN	NS	pdns03.domaincontrol.com.
 woodcreektx.gov.	10800	IN	NS	ns74.domaincontrol.com.
 woodcreektx.gov.	10800	IN	NS	ns73.domaincontrol.com.
+woodcreekwaterky.gov.	10800	IN	NS	ns1.domain.com.
+woodcreekwaterky.gov.	10800	IN	NS	ns2.domain.com.
 woodfin-nc.gov.	10800	IN	NS	ns2.softlayer.com.
 woodfin-nc.gov.	10800	IN	NS	ns1.softlayer.com.
 woodfordcountyil.gov.	10800	IN	NS	ns06.domaincontrol.com.
