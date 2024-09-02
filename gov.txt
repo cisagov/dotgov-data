@@ -1,6 +1,6 @@
 ;;
 ;; Domain:     gov.
-;; Exported:   2024-09-01 07:11:05
+;; Exported:   2024-09-02 07:11:44
 ;;
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -24,7 +24,7 @@
 ;;
 ;; Use at your own risk.
 ;; SOA Record
-gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1725174300 3600 900 604800 300
+gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1725260701 3600 900 604800 300
 
 ;; A Records
 acs-ns1-aws.akcourts.gov.	3600	IN	A	205.251.198.140
@@ -1095,6 +1095,7 @@ ns1.usmint.gov.	3600	IN	AAAA	2400:cb00:2049:1::a29f:e9
 ns1.ustreas.gov.	3600	IN	AAAA	2400:cb00:2049:1::a29f:e9
 ns1v6.douglasco.gov.	3600	IN	AAAA	2400:cb00:2049:1::a29f:f3
 ns1v6.douglascountycolorado.gov.	3600	IN	AAAA	2400:cb00:2049:1::a29f:f3
+ns1.vaidenms.gov.	3600	IN	AAAA	2a00:1768:1001:9::168
 ns1.williamsfieldil.gov.	3600	IN	AAAA	2600:1800::1:1f
 ns1.wizard.gov.	3600	IN	AAAA	2400:cb00:2049:1::a29f:e9
 ns1.workplace.gov.	3600	IN	AAAA	2400:cb00:2049:1::a29f:e9
@@ -1196,6 +1197,7 @@ ns2.usmint.gov.	3600	IN	AAAA	2400:cb00:2049:1::a29f:1f5
 ns2.ustreas.gov.	3600	IN	AAAA	2400:cb00:2049:1::a29f:1f5
 ns2v6.douglasco.gov.	3600	IN	AAAA	2400:cb00:2049:1::a29f:4f0
 ns2v6.douglascountycolorado.gov.	3600	IN	AAAA	2400:cb00:2049:1::a29f:4f0
+ns2.vaidenms.gov.	3600	IN	AAAA	2a01:4ff:f0:cba1::1
 ns2.williamsfieldil.gov.	3600	IN	AAAA	2600:1801:1::1:1f
 ns2.wizard.gov.	3600	IN	AAAA	2400:cb00:2049:1::a29f:1f5
 ns2.workplace.gov.	3600	IN	AAAA	2400:cb00:2049:1::a29f:1f5
@@ -1209,10 +1211,12 @@ ns3.nj.gov.	3600	IN	AAAA	2600:9000:5307:2900::1
 ns3.nrd.gov.	3600	IN	AAAA	2600:1f12:cf5:601:6ffb:8ad6:57c5:3b9c
 ns3.nsf.gov.	3600	IN	AAAA	2607:f478:80:1::242
 ns3.usap.gov.	3600	IN	AAAA	2620:11d:3001:1104::399
+ns3.vaidenms.gov.	3600	IN	AAAA	2001:41d0:304:200::455b
 ns3x.va.gov.	3600	IN	AAAA	2600:8020:0:5::151
 ns4.malwareinvestigator.gov.	3600	IN	AAAA	2600:1f18:6632:7a01:af97:a2eb:54cf:dcf0
 ns4.max.gov.	3600	IN	AAAA	2620:10f:b000:406::177
 ns4.nj.gov.	3600	IN	AAAA	2600:9000:5302:5300::1
+ns4.vaidenms.gov.	3600	IN	AAAA	2a0b:1640:1:1:1:1:15ee:539e
 ns4x.va.gov.	3600	IN	AAAA	2600:8030:0:5::151
 ns5.hanford.gov.	3600	IN	AAAA	2604:2180:109:2100::65
 ns5.max.gov.	3600	IN	AAAA	2620:10f:b001:6::49
@@ -27466,11 +27470,8 @@ scra.gov.	10800	IN	NS	novalee.ns.cloudflare.com.
 scra.gov.	10800	IN	NS	jonah.ns.cloudflare.com.
 scrantonpa.gov.	10800	IN	NS	piotr.ns.cloudflare.com.
 scrantonpa.gov.	10800	IN	NS	emily.ns.cloudflare.com.
-scrc.gov.	10800	IN	NS	ns4.dnsmadeeasy.com.
-scrc.gov.	10800	IN	NS	ns2.dnsmadeeasy.com.
-scrc.gov.	10800	IN	NS	ns0.dnsmadeeasy.com.
-scrc.gov.	10800	IN	NS	ns1.dnsmadeeasy.com.
-scrc.gov.	10800	IN	NS	ns3.dnsmadeeasy.com.
+scrc.gov.	10800	IN	NS	theo.ns.cloudflare.com.
+scrc.gov.	10800	IN	NS	emerie.ns.cloudflare.com.
 screvencosheriffga.gov.	10800	IN	NS	ns70.domaincontrol.com.
 screvencosheriffga.gov.	10800	IN	NS	ns69.domaincontrol.com.
 screvencountyga.gov.	10800	IN	NS	ns4.no-ip.com.
@@ -31815,6 +31816,10 @@ va.gov.	10800	IN	NS	ns1x.va.gov.
 va.gov.	10800	IN	NS	ns2x.va.gov.
 va.gov.	10800	IN	NS	ns4x.va.gov.
 va.gov.	10800	IN	NS	ns3x.va.gov.
+vaidenms.gov.	10800	IN	NS	ns3.vaidenms.gov.
+vaidenms.gov.	10800	IN	NS	ns4.vaidenms.gov.
+vaidenms.gov.	10800	IN	NS	ns1.vaidenms.gov.
+vaidenms.gov.	10800	IN	NS	ns2.vaidenms.gov.
 vail.gov.	10800	IN	NS	ns-648.awsdns-17.net.
 vail.gov.	10800	IN	NS	ns-1471.awsdns-55.org.
 vail.gov.	10800	IN	NS	ns-1548.awsdns-01.co.uk.
