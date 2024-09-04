@@ -16,6 +16,9 @@ jobs:
           deno-version: v1.x
       - name: Check out repo
         uses: actions/checkout@v2
+      - name: Pull from main
+        run: |-
+          git pull
       - name: Fetch data
         uses: githubocto/flat@v3
         with:
