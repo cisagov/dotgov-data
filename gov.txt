@@ -1,6 +1,6 @@
 ;;
 ;; Domain:     gov.
-;; Exported:   2024-09-28 07:11:26
+;; Exported:   2024-09-29 07:11:11
 ;;
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -24,7 +24,7 @@
 ;;
 ;; Use at your own risk.
 ;; SOA Record
-gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1727507105 3600 900 604800 300
+gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1727593505 3600 900 604800 300
 
 ;; A Records
 acs-ns1-aws.akcourts.gov.	3600	IN	A	205.251.198.140
@@ -232,6 +232,7 @@ ns07.usaid.gov.	3600	IN	A	12.96.42.221
 ns08.usaid.gov.	3600	IN	A	206.118.0.93
 ns0.artrs.gov.	3600	IN	A	18.223.80.208
 ns0.ashlandoregon.gov.	3600	IN	A	66.241.64.5
+ns0.gdcnynj.gov.	3600	IN	A	208.94.148.159
 ns0.llnl.gov.	3600	IN	A	192.12.17.1
 ns0.rocklandcountyny.gov.	3600	IN	A	208.94.148.159
 ns0.sammamishwa.gov.	3600	IN	A	208.94.148.4
@@ -337,6 +338,7 @@ ns1.franklincountypa.gov.	3600	IN	A	50.236.86.145
 ns1.fremont.gov.	3600	IN	A	198.199.140.62
 ns1.fsoc.gov.	3600	IN	A	162.159.0.233
 ns1.gahanna.gov.	3600	IN	A	198.30.8.30
+ns1.gdcnynj.gov.	3600	IN	A	208.80.124.159
 ns1g.flcourts.gov.	3600	IN	A	199.242.64.25
 ns1.glenvillewv.gov.	3600	IN	A	104.21.75.121
 ns1.govinfo.gov.	3600	IN	A	162.159.4.127
@@ -602,6 +604,7 @@ ns2.franklincountypa.gov.	3600	IN	A	67.235.63.97
 ns2.fremont.gov.	3600	IN	A	50.201.169.182
 ns2.fsoc.gov.	3600	IN	A	162.159.1.245
 ns2.gahanna.gov.	3600	IN	A	198.30.8.31
+ns2.gdcnynj.gov.	3600	IN	A	208.80.126.159
 ns2g.flcourts.gov.	3600	IN	A	199.242.115.25
 ns2.glastonbury-ct.gov.	3600	IN	A	207.210.153.2
 ns2.glenvillewv.gov.	3600	IN	A	172.67.175.149
@@ -790,6 +793,7 @@ ns3.dhhs.gov.	3600	IN	A	158.74.35.11
 ns3.eseclab.gov.	3600	IN	A	63.234.40.71
 ns3.fortbendisd.gov.	3600	IN	A	13.65.112.229
 ns3.gahanna.gov.	3600	IN	A	75.118.44.194
+ns3.gdcnynj.gov.	3600	IN	A	208.80.125.159
 ns3.glastonbury-ct.gov.	3600	IN	A	104.226.6.226
 ns3.gpodev.gov.	3600	IN	A	162.140.15.100
 ns3.groton-ct.gov.	3600	IN	A	64.251.55.48
@@ -14386,8 +14390,10 @@ gcwatx.gov.	10800	IN	NS	ns45.domaincontrol.com.
 gcwatx.gov.	10800	IN	NS	ns46.domaincontrol.com.
 gcwcid1tx.gov.	10800	IN	NS	ns41.cloudns.net.
 gcwcid1tx.gov.	10800	IN	NS	ns42.cloudns.net.
-gdcnynj.gov.	10800	IN	NS	ns14.digicertdns.com.
-gdcnynj.gov.	10800	IN	NS	ns13.digicertdns.com.
+gdcnynj.gov.	10800	IN	NS	ns1.gdcnynj.gov.
+gdcnynj.gov.	10800	IN	NS	ns2.gdcnynj.gov.
+gdcnynj.gov.	10800	IN	NS	ns0.gdcnynj.gov.
+gdcnynj.gov.	10800	IN	NS	ns3.gdcnynj.gov.
 gearupiowa.gov.	10800	IN	NS	a13-65.akam.net.
 gearupiowa.gov.	10800	IN	NS	a16-66.akam.net.
 gearupiowa.gov.	10800	IN	NS	a26-66.akam.net.
