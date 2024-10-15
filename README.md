@@ -3,27 +3,28 @@
 
 
 
-The [.gov top-level domain](https://home.dotgov.gov) is operated so that the online services of US-based government organizations are easy to identify on the internet. In support of that aim, we publish .gov domain data publicly.
+The [.gov top-level domain](https://get.gov) exists so that the online services of U.S.-based government organizations are easy to identify on the internet. In support of that aim, the .gov registry publishes information about our domains.
 
-This repository contains the official, full list of registered domains in the .gov zone. The US Government's executive, legislative, and judicial branches are represented, as are US-based state, territory, tribal, city, and county governments.
+This repository contains the official, full list of registered domains in the .gov zone. The U.S. Government's executive, legislative, and judicial branches are represented, as are U.S.-based state, territory, tribal, city, and county governments.
 
-Two files are updated daily (when there is activity):
+Three files are updated daily (when there is activity):
 * [current-full.csv](https://github.com/cisagov/dotgov-data/blob/main/current-full.csv) – a CSV of all domains, including federal domains
 * [current-federal.csv](https://github.com/cisagov/dotgov-data/blob/main/current-federal.csv) – a CSV of only federal domains
+* [gov.txt](https://github.com/cisagov/dotgov-data/blob/main/gov.txt) – a copy of the .gov zone file
 
-These files list the "second-level domains" (e.g., cisa.gov) that are actively registered in the .gov zone; they do not list every _hostname_ (e.g., presidentscup.cisa.gov) in use in the .gov namespace. Note that not all registered domains offer an online service (e.g., a website, an email server) at the domain.
+current-full.csv and current-federal.csv are, in effect, decorated versions of the data in our zone file: they include data about the registrant organization. They include all domains in the "Ready" and "On hold" states of our registrar. 
 
-This repo hosts several other files that include .gov hostnames, though they are not complete. 
+These 3 files list the "second-level domains" (e.g., get.gov) that are actively registered in the .gov zone; they do not list every _hostname_ (e.g., manage.get.gov) in use in the .gov namespace. This repo hosts several other files that include .gov hostnames, though they are not complete. 
+
+Note that not all registered domains offer an online service (e.g., a website, an email server) at the domain.
 
 ## Spot an issue?
 
-**This repo doesn't accept pull requests on current-{full,federal}**. If you manage a domain in these files and you:
-* notice that metadata about it is incorrect, log in to the [.gov registrar](https://domains.dotgov.gov) to correct it.
-* want to transfer it to a different agency, step through the [domain ownership transfer process](https://home.dotgov.gov/management/#how-do-i-transfer-my-domain-to-a-different-agency).
+**This repo doesn't accept pull requests on current-{full,federal}**. If you manage a domain in these files and you notice that metadata about it is incorrect, log in to the [.gov registrar](https://manage.get.gov) to correct it.
 
-If you use any of this data or just have a question, let us know by [opening an issue](https://github.com/cisagov/dotgov-data/issues).
+* If you use any of this data or just have a question, let us know by [opening an issue](https://github.com/cisagov/dotgov-data/issues).
 
-Find a **security or privacy issue** on one of these domains? Review our [security policy](https://github.com/cisagov/dotgov-data/security/policy).
+* Find a **security or privacy issue** on one of these domains? Review our [security policy](https://github.com/cisagov/dotgov-data/security/policy).
 
 ## Unofficial uses
 
