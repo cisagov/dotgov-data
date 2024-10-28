@@ -1,6 +1,6 @@
 ;;
 ;; Domain:     gov.
-;; Exported:   2024-10-27 07:11:23
+;; Exported:   2024-10-28 07:11:51
 ;;
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -24,7 +24,7 @@
 ;;
 ;; Use at your own risk.
 ;; SOA Record
-gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1730012705 3600 900 604800 300
+gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1730099105 3600 900 604800 300
 
 ;; A Records
 acs-ns1-aws.akcourts.gov.	3600	IN	A	205.251.198.140
@@ -444,6 +444,7 @@ ns1.sd.gov.	3600	IN	A	164.154.62.76
 ns1.senatecalendar.gov.	3600	IN	A	162.159.4.127
 ns1.shermancountyks.gov.	3600	IN	A	66.232.207.190
 ns1.sigpr.gov.	3600	IN	A	162.159.0.233
+ns1.sld1.inf.doddns.gov.	3600	IN	A	62.10.208.16
 ns1.slgs.gov.	3600	IN	A	162.159.0.233
 ns1.southjordanutah.gov.	3600	IN	A	63.226.77.22
 ns1.spanishfork.gov.	3600	IN	A	67.199.160.100
@@ -705,6 +706,7 @@ ns2.sd.gov.	3600	IN	A	164.154.62.77
 ns2.senatecalendar.gov.	3600	IN	A	162.159.5.58
 ns2.shermancountyks.gov.	3600	IN	A	66.232.207.190
 ns2.sigpr.gov.	3600	IN	A	162.159.1.245
+ns2.sld1.inf.doddns.gov.	3600	IN	A	20.141.182.72
 ns2.slgs.gov.	3600	IN	A	162.159.1.245
 ns2.southjordanutah.gov.	3600	IN	A	63.226.77.23
 ns2.spanishfork.gov.	3600	IN	A	160.7.240.160
@@ -814,6 +816,7 @@ ns3.rocklandcountyny.gov.	3600	IN	A	208.80.125.159
 ns3.sammamishwa.gov.	3600	IN	A	208.80.125.4
 ns3.sandiego.gov.	3600	IN	A	156.29.4.6
 ns3.sbwsb.gov.	3600	IN	A	205.251.196.39
+ns3.sld1.inf.doddns.gov.	3600	IN	A	20.158.136.8
 ns3.spanishfork.gov.	3600	IN	A	67.199.160.101
 ns3.spokane.gov.	3600	IN	A	208.80.126.223
 ns3.stlucieco.gov.	3600	IN	A	23.74.25.64
@@ -4527,6 +4530,8 @@ annapolis.gov.	10800	IN	NS	ns3.annapolis.gov.
 annapolis.gov.	10800	IN	NS	ns.annapolis.gov.
 annapolismd.gov.	10800	IN	NS	ns.annapolis.gov.
 annapolismd.gov.	10800	IN	NS	ns2.annapolis.gov.
+annapolismo.gov.	10800	IN	NS	ns2.justhost.com.
+annapolismo.gov.	10800	IN	NS	ns1.justhost.com.
 annatexas.gov.	10800	IN	NS	dns2.civicplus.com.
 annatexas.gov.	10800	IN	NS	dns1.civicplus.com.
 annettatx.gov.	10800	IN	NS	ns2.wixdns.net.
@@ -11670,9 +11675,9 @@ doc.gov.	10800	IN	NS	max.ns.cloudflare.com.
 docline.gov.	10800	IN	NS	gslb01.nlm.nih.gov.
 docline.gov.	10800	IN	NS	gslb02.nlm.nih.gov.
 docline.gov.	10800	IN	NS	gslb03.nlm.nih.gov.
-doddns.gov.	10800	IN	NS	ns1.sld1.inf.usdnsi.com.
-doddns.gov.	10800	IN	NS	ns2.sld1.inf.usdnsi.com.
-doddns.gov.	10800	IN	NS	ns3.sld1.inf.usdnsi.com.
+doddns.gov.	10800	IN	NS	ns1.sld1.inf.doddns.gov.
+doddns.gov.	10800	IN	NS	ns2.sld1.inf.doddns.gov.
+doddns.gov.	10800	IN	NS	ns3.sld1.inf.doddns.gov.
 doddridgecountywv.gov.	10800	IN	NS	lisa.ns.cloudflare.com.
 doddridgecountywv.gov.	10800	IN	NS	rick.ns.cloudflare.com.
 dodgecountymn.gov.	10800	IN	NS	ns3.state.mn.us.
@@ -12236,6 +12241,9 @@ ecrums.gov.	10800	IN	NS	ns-cloud-c1.googledomains.com.
 ecrums.gov.	10800	IN	NS	ns-cloud-c4.googledomains.com.
 ecrums.gov.	10800	IN	NS	ns-cloud-c2.googledomains.com.
 ecrums.gov.	10800	IN	NS	ns-cloud-c3.googledomains.com.
+ecs.gov.	10800	IN	NS	ns3.sld1.inf.doddns.gov.
+ecs.gov.	10800	IN	NS	ns2.sld1.inf.doddns.gov.
+ecs.gov.	10800	IN	NS	ns1.sld1.inf.doddns.gov.
 ectorcountytx.gov.	10800	IN	NS	ns1.cira.state.tx.us.
 ectorcountytx.gov.	10800	IN	NS	ns4.cira.state.tx.us.
 ectorcountytx.gov.	10800	IN	NS	ns5.cira.state.tx.us.
@@ -14273,6 +14281,8 @@ fremontne.gov.	10800	IN	NS	dns2.civicplus.com.
 fremontne.gov.	10800	IN	NS	dns1.civicplus.com.
 fremontpolice.gov.	10800	IN	NS	ns3.level3.net.
 fremontpolice.gov.	10800	IN	NS	ns4.level3.net.
+frenchcreektownshippa.gov.	10800	IN	NS	shane.ns.cloudflare.com.
+frenchcreektownshippa.gov.	10800	IN	NS	marlowe.ns.cloudflare.com.
 frenchsettlement-la.gov.	10800	IN	NS	megan.ns.cloudflare.com.
 frenchsettlement-la.gov.	10800	IN	NS	sean.ns.cloudflare.com.
 frenchtownmi.gov.	10800	IN	NS	ns6.monroehosting.com.
@@ -14556,6 +14566,8 @@ garfieldcountyne.gov.	10800	IN	NS	pdns13.domaincontrol.com.
 garfieldcountyne.gov.	10800	IN	NS	pdns14.domaincontrol.com.
 garfieldcountywa.gov.	10800	IN	NS	dns4.civicplus.com.
 garfieldcountywa.gov.	10800	IN	NS	dns3.civicplus.com.
+garfieldtwpmcmi.gov.	10800	IN	NS	coco.bunny.net.
+garfieldtwpmcmi.gov.	10800	IN	NS	kiki.bunny.net.
 garibaldi.gov.	10800	IN	NS	ns04.domaincontrol.com.
 garibaldi.gov.	10800	IN	NS	ns03.domaincontrol.com.
 garlandcountyar.gov.	10800	IN	NS	ns41.domaincontrol.com.
@@ -20841,6 +20853,9 @@ md.gov.	10800	IN	NS	nsc.mdsa.net.
 md.gov.	10800	IN	NS	nsd.mdsa.net.
 md.gov.	10800	IN	NS	nsb.mdarchives.state.md.us.
 md.gov.	10800	IN	NS	nsa.mdarchives.state.md.us.
+mds.gov.	10800	IN	NS	ns3.sld1.inf.doddns.gov.
+mds.gov.	10800	IN	NS	ns1.sld1.inf.doddns.gov.
+mds.gov.	10800	IN	NS	ns2.sld1.inf.doddns.gov.
 mdtaxconnect.gov.	10800	IN	NS	piotr.ns.cloudflare.com.
 mdtaxconnect.gov.	10800	IN	NS	sydney.ns.cloudflare.com.
 meadco.gov.	10800	IN	NS	ns01.domaincontrol.com.
@@ -32815,6 +32830,9 @@ us.gov.	10800	IN	NS	dns3.gsa.gov.
 us.gov.	10800	IN	NS	dns2.gsa.gov.
 us.gov.	10800	IN	NS	dns5.gsa.gov.
 us.gov.	10800	IN	NS	dns4.gsa.gov.
+usgovdod.gov.	10800	IN	NS	ns1.sld1.inf.doddns.gov.
+usgovdod.gov.	10800	IN	NS	ns3.sld1.inf.doddns.gov.
+usgovdod.gov.	10800	IN	NS	ns2.sld1.inf.doddns.gov.
 usgovernmentmanual.gov.	10800	IN	NS	ns2.usgovernmentmanual.gov.
 usgovernmentmanual.gov.	10800	IN	NS	ns1.usgovernmentmanual.gov.
 usgs.gov.	10800	IN	NS	chin.ns.cloudflare.com.
