@@ -1,6 +1,6 @@
 ;;
 ;; Domain:     gov.
-;; Exported:   2024-11-02 10:19:18
+;; Exported:   2024-11-03 07:11:23
 ;;
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -24,7 +24,7 @@
 ;;
 ;; Use at your own risk.
 ;; SOA Record
-gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1730542501 3600 900 604800 300
+gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1730617501 3600 900 604800 300
 
 ;; A Records
 acs-ns1-aws.akcourts.gov.	3600	IN	A	205.251.198.140
@@ -2475,6 +2475,7 @@ know2protect.gov.	3600	IN	DS	2371 13 2 FCCFADCD0B92A97ACF08151B1296683CB7832120C
 ksexec.gov.	3600	IN	DS	50212 8 2 0836FB93E586638159758FCFFECD23038BF3DBCE2D7CC50E9FC44990947BDA52
 kslegislature.gov.	3600	IN	DS	2371 13 2 BA45FE1E128171513769F0E752385337E64FD7AC9751310B24EB7FE7E4BEFA4C
 ky.gov.	3600	IN	DS	5106 7 2 2BD1FE28FB2B316DEE40DBC8BBE87A89D9329A11B35680C695D3DE1ECE330BC0
+labor.gov.	3600	IN	DS	51907 13 2 B3680C03B38E5942C165160D9998ED6388CA3DDEFA18692C1221D58CBF72D437
 lacera.gov.	3600	IN	DS	2371 13 2 4CA6455E2166C26405C5268BA6EC5B0EF5899E0EEA3378A5357FF03C4353E792
 lackcopa.gov.	3600	IN	DS	2371 13 2 918E33179E06563BE1BA81D41665904BD66D87DC3914621C9EB2FE21ADF663B7
 lacoast.gov.	3600	IN	DS	2371 13 2 C74EF087CF6DC7E9451D6C06B5D6A8AB2A1341A933D0E66EE084CF88C1468976
@@ -6005,6 +6006,8 @@ bellmeadtx.gov.	10800	IN	NS	ns67.domaincontrol.com.
 bellmeadtx.gov.	10800	IN	NS	ns68.domaincontrol.com.
 bellportvillageny.gov.	10800	IN	NS	ns47.domaincontrol.com.
 bellportvillageny.gov.	10800	IN	NS	ns48.domaincontrol.com.
+bellwi.gov.	10800	IN	NS	ns1.siteground.net.
+bellwi.gov.	10800	IN	NS	ns2.siteground.net.
 belmont.gov.	10800	IN	NS	ns3.smrn.com.
 belmont.gov.	10800	IN	NS	ns2.smrn.com.
 belmont.gov.	10800	IN	NS	ns1.smrn.com.
@@ -18720,8 +18723,12 @@ ky.gov.	10800	IN	NS	azure.state.ky.us.
 kylegislature.gov.	10800	IN	NS	udns1.ultradns.net.
 kynect.gov.	10800	IN	NS	azure.state.ky.us.
 kynect.gov.	10800	IN	NS	midnight.state.ky.us.
-labor.gov.	10800	IN	NS	ns1.dol.gov.
-labor.gov.	10800	IN	NS	ns2.dol.gov.
+labor.gov.	10800	IN	NS	a10-66.akam.net.
+labor.gov.	10800	IN	NS	a24-67.akam.net.
+labor.gov.	10800	IN	NS	a5-64.akam.net.
+labor.gov.	10800	IN	NS	a6-65.akam.net.
+labor.gov.	10800	IN	NS	a7-66.akam.net.
+labor.gov.	10800	IN	NS	a1-165.akam.net.
 lacahsa.gov.	10800	IN	NS	ns-849.awsdns-42.net.
 lacahsa.gov.	10800	IN	NS	ns-1733.awsdns-24.co.uk.
 lacahsa.gov.	10800	IN	NS	ns-1032.awsdns-01.org.
