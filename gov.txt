@@ -1,6 +1,6 @@
 ;;
 ;; Domain:     gov.
-;; Exported:   2024-11-05 07:11:31
+;; Exported:   2024-11-06 07:11:37
 ;;
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -24,7 +24,7 @@
 ;;
 ;; Use at your own risk.
 ;; SOA Record
-gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1730790305 3600 900 604800 300
+gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1730876701 3600 900 604800 300
 
 ;; A Records
 acs-ns1-aws.akcourts.gov.	3600	IN	A	205.251.198.140
@@ -225,7 +225,6 @@ ns02.santaclaracounty.gov.	3600	IN	A	146.74.235.68
 ns02.treasury.gov.	3600	IN	A	162.159.1.245
 ns03.fhfa.gov.	3600	IN	A	12.183.69.4
 ns-03.noaa.gov.	3600	IN	A	137.75.112.58
-ns04.fhfa.gov.	3600	IN	A	35.171.11.110
 ns07.usaid.gov.	3600	IN	A	12.96.42.221
 ns08.usaid.gov.	3600	IN	A	206.118.0.93
 ns0.artrs.gov.	3600	IN	A	18.223.80.208
@@ -2345,6 +2344,7 @@ inl.gov.	3600	IN	DS	2371 13 2 62A77116CBB03F4990A14B7995CBF19F2FB72A601C74779313
 insurekidsnow.gov.	3600	IN	DS	4966 7 2 444CD8740A4AF410E1D822A5E69F6FF6BBBE4F6DE5D3A1B8923EF7F0A851C4C4
 integrity.gov.	3600	IN	DS	1691 13 2 30D391228BC49A66232660093F5A03B79907B54E71CCA1601E176906408DE1E6
 integrity.gov.	3600	IN	DS	1691 13 1 3FB8E33483ADA8A8E08D3E9D21D3677EF484BBBB
+intel.gov.	3600	IN	DS	46186 8 2 676A4DBCD552D7A1BE875FAFB51BCF6EEA4C2C4B4071EB51801CE55A21DC709C
 intel.gov.	3600	IN	DS	31409 8 2 6D8C9005CE2DF483779D418100F972495D8618E5AF6A670F395C90EA913E6343
 intelligencecareers.gov.	3600	IN	DS	62806 7 2 56EE1BA7B5AF9021A97EB9A29624F3A609F5F84D39576110C45699C750C3B108
 intelligencecareers.gov.	3600	IN	DS	14971 8 2 0BAD5901BB6A47CC5323C282BCE99E9C21D95946048616A2DC803A3F827075BF
@@ -2486,6 +2486,7 @@ lakecountyca.gov.	3600	IN	DS	2371 13 2 ABD4CA4FBECDC6BF3BD81CC2717B109A0A6CA8180
 lakecountyohio.gov.	3600	IN	DS	2371 13 2 BC1BCFB2B8FF786FA77EF5AC36F87EF8C74468150D8AF3D6EA9A93A5696A2CD9
 lakestevenswa.gov.	3600	IN	DS	13234 13 2 0B93EEBE6E8BE1BEA0365DB72781665C927472A7F027063ED49CD3B1C3A24D99
 lakestevenswa.gov.	3600	IN	DS	13234 13 1 83A989040B631F2CBDF74950903BBE19687B73F6
+landerso.gov.	3600	IN	DS	2371 13 2 5097C7C7ECD1C7C2D22688A5E5F459A759AFE073CA82729EFF5B3D868C2F92CA
 landfire.gov.	3600	IN	DS	2371 13 2 EC45D30F8D1E4A92BA61B2D4249B1AC2ED1565F9A4C91B88FC64F9701E4BD4B8
 landimaging.gov.	3600	IN	DS	2371 13 2 4277706EBBAD99EE9058FC696D4C1A6F1E7F6EC50CE8FA40D5AE2650135BACE6
 langleyok.gov.	3600	IN	DS	2371 13 2 96E3B6B928FAE470F941F5B3484EAE0D754800426C084B6A5EEDAF64C5E06278
@@ -2823,14 +2824,14 @@ northplains.gov.	3600	IN	DS	55735 8 2 31EC8FF53DDAF15119E57DDF4581133CF50E1F90F8
 northsalemny.gov.	3600	IN	DS	2371 13 2 E50291FA8973D65EC4418F477314E4044CD51C581FC1755D213DB769309E0706
 northtopsailbeachnc.gov.	3600	IN	DS	2371 13 2 173EF21837DB5AA7FD29611F587DB4827F42337B73479E32879556FFDDE33899
 nps.gov.	3600	IN	DS	2371 13 2 7DA20B58F7CAB7143B2657706DEE2B0068FEEAE3769D3FAA65500DEC99764289
+nrc-gateway.gov.	3600	IN	DS	45946 8 1 64E9305AE755228279300232A14F3FB8615DB9D3
+nrc-gateway.gov.	3600	IN	DS	45946 8 2 D49E4EE7AB05168FB48592E7B1B400E209A53A0229FEF3C75438239CB1352704
 nrc-gateway.gov.	3600	IN	DS	7282 8 2 65AC997718AE259FE626392B1E0C12180354C8FEBBB3FCAFA12CCB06378D96EF
-nrc-gateway.gov.	3600	IN	DS	24730 8 1 F08DC2C2D0EA7C1F2154D650F4E0C3BE291706CF
 nrc-gateway.gov.	3600	IN	DS	7282 8 1 E1207D9D45563E8DB3246B8F4F95A92020A49802
-nrc-gateway.gov.	3600	IN	DS	24730 8 2 E1343F5DDA1317C34D1EFD9B4A7419A6CAC805CD28379AC759CE87213037871D
+nrc.gov.	3600	IN	DS	4057 8 1 58CA5409D4718F57F302267CE3FCDF1FDB5CAE57
+nrc.gov.	3600	IN	DS	4057 8 2 AEB5F4B57ECE69F28868CB7FEA86B16CA7B9D07CEE7E9FAD9CD684878616407F
 nrc.gov.	3600	IN	DS	17389 8 2 D7BEBC364DCD54941FD658440FEB917B4028CB5B2D5BF3135FFD69FEE25B8328
-nrc.gov.	3600	IN	DS	36277 8 1 403FE47F19C931F85926E3F322FE0F40E6A89394
 nrc.gov.	3600	IN	DS	17389 8 1 2B05C805293D97E445B81BDAE4E7DA2188E4F05D
-nrc.gov.	3600	IN	DS	36277 8 2 EBD0AAFBD89F7CE0C2B81F2F22331EA74FA468D8B3A2EB6A4BB12D4D394C249F
 nrd.gov.	3600	IN	DS	31156 8 1 EA6D3198A583E1705ACFC3C80499A8B662B71433
 nrd.gov.	3600	IN	DS	31156 8 2 811F672A8071B973836AA169F93807F2FF1B8A7AA18BF3436E39DF980179F1AB
 nrd.gov.	3600	IN	DS	28061 8 1 BBD727FDB000C6381A95CB75A71022B937629B27
@@ -6830,6 +6831,8 @@ bridgeportct.gov.	10800	IN	NS	ns1.cen.ct.gov.
 bridgeportct.gov.	10800	IN	NS	ns2.cen.ct.gov.
 bridgeportne.gov.	10800	IN	NS	ns6.wixdns.net.
 bridgeportne.gov.	10800	IN	NS	ns7.wixdns.net.
+bridgeportohiopd.gov.	10800	IN	NS	ns45.domaincontrol.com.
+bridgeportohiopd.gov.	10800	IN	NS	ns46.domaincontrol.com.
 bridgeportwv.gov.	10800	IN	NS	lisa.ns.cloudflare.com.
 bridgeportwv.gov.	10800	IN	NS	rick.ns.cloudflare.com.
 bridgercanyonfiremt.gov.	10800	IN	NS	ns2.wordpress.com.
@@ -9701,6 +9704,8 @@ clayncsheriff.gov.	10800	IN	NS	dns2.name-services.com.
 clayncsheriff.gov.	10800	IN	NS	dns3.name-services.com.
 clayncsheriff.gov.	10800	IN	NS	dns4.name-services.com.
 clayncsheriff.gov.	10800	IN	NS	dns5.name-services.com.
+claypoolpolice.gov.	10800	IN	NS	ns31.domaincontrol.com.
+claypoolpolice.gov.	10800	IN	NS	ns32.domaincontrol.com.
 claytonca.gov.	10800	IN	NS	ns65.domaincontrol.com.
 claytonca.gov.	10800	IN	NS	ns66.domaincontrol.com.
 claytoncapolice.gov.	10800	IN	NS	ns2.ci.concord.ca.us.
@@ -13486,7 +13491,6 @@ fgdc.gov.	10800	IN	NS	ram.ns.cloudflare.com.
 fgdc.gov.	10800	IN	NS	chin.ns.cloudflare.com.
 fha.gov.	10800	IN	NS	hudgater.hud.gov.
 fha.gov.	10800	IN	NS	hudgate.hud.gov.
-fhfa.gov.	10800	IN	NS	ns04.fhfa.gov.
 fhfa.gov.	10800	IN	NS	ns03.fhfa.gov.
 fhfa.gov.	10800	IN	NS	ns02.fhfa.gov.
 fhfa.gov.	10800	IN	NS	ns01.fhfa.gov.
@@ -14390,6 +14394,9 @@ fridleymn.gov.	10800	IN	NS	ns4.dnsmadeeasy.com.
 fridleymn.gov.	10800	IN	NS	ns1.dnsmadeeasy.com.
 fridleymn.gov.	10800	IN	NS	ns0.dnsmadeeasy.com.
 fridleymn.gov.	10800	IN	NS	ns3.dnsmadeeasy.com.
+friendne.gov.	10800	IN	NS	ns10.digicertdns.com.
+friendne.gov.	10800	IN	NS	ns11.digicertdns.com.
+friendne.gov.	10800	IN	NS	ns12.digicertdns.com.
 friendshipheightsmd.gov.	10800	IN	NS	ada.ns.cloudflare.com.
 friendshipheightsmd.gov.	10800	IN	NS	ezra.ns.cloudflare.com.
 friendshipwi.gov.	10800	IN	NS	adam.ns.cloudflare.com.
@@ -22012,7 +22019,6 @@ morrowcountyor.gov.	10800	IN	NS	raegan.ns.cloudflare.com.
 morrowga.gov.	10800	IN	NS	ns2.siteground.net.
 morrowga.gov.	10800	IN	NS	ns1.siteground.net.
 mortgagetranslations.gov.	10800	IN	NS	ns01.fhfa.gov.
-mortgagetranslations.gov.	10800	IN	NS	ns04.fhfa.gov.
 mortgagetranslations.gov.	10800	IN	NS	ns02.fhfa.gov.
 mortgagetranslations.gov.	10800	IN	NS	ns03.fhfa.gov.
 morton-il.gov.	10800	IN	NS	art.ns.cloudflare.com.
@@ -23248,8 +23254,8 @@ newtoncountymo.gov.	10800	IN	NS	ns4-09.azure-dns.info.
 newtoncountymo.gov.	10800	IN	NS	ns2-09.azure-dns.net.
 newtoncountysheriffms.gov.	10800	IN	NS	ns2.onecallinc.com.
 newtoncountysheriffms.gov.	10800	IN	NS	ns.onecallinc.com.
-newtonfallsoh.gov.	10800	IN	NS	pdns13.domaincontrol.com.
-newtonfallsoh.gov.	10800	IN	NS	pdns14.domaincontrol.com.
+newtonfallsoh.gov.	10800	IN	NS	phil.ns.cloudflare.com.
+newtonfallsoh.gov.	10800	IN	NS	haley.ns.cloudflare.com.
 newtonma.gov.	10800	IN	NS	ns2.newtonma.gov.
 newtonma.gov.	10800	IN	NS	ns1.newtonma.gov.
 newtonnc.gov.	10800	IN	NS	dbru.br.ns.els-gms.att.net.
@@ -26891,8 +26897,6 @@ ramseycountynd.gov.	10800	IN	NS	ns4.ndnic.com.
 ramseycountynd.gov.	10800	IN	NS	ns2.ndnic.com.
 ranchesterwy.gov.	10800	IN	NS	ns27.domaincontrol.com.
 ranchesterwy.gov.	10800	IN	NS	ns28.domaincontrol.com.
-ranchocordova.gov.	10800	IN	NS	dee.ns.cloudflare.com.
-ranchocordova.gov.	10800	IN	NS	jeff.ns.cloudflare.com.
 ranchocucamonga.gov.	10800	IN	NS	pdns1.ultradns.net.
 ranchocucamonga.gov.	10800	IN	NS	pdns2.ultradns.net.
 ranchomirageca.gov.	10800	IN	NS	ns38.domaincontrol.com.
@@ -29363,6 +29367,10 @@ skykomishwa.gov.	10800	IN	NS	ns21.domaincontrol.com.
 skykomishwa.gov.	10800	IN	NS	ns22.domaincontrol.com.
 slc.gov.	10800	IN	NS	dca-ans-01.inet.qwest.net.
 slc.gov.	10800	IN	NS	svl-ans-01.inet.qwest.net.
+slcmadutah.gov.	10800	IN	NS	ns.xmission.com.
+slcmadutah.gov.	10800	IN	NS	ns1.xmission.com.
+slcmadutah.gov.	10800	IN	NS	ns2.xmission.com.
+slcmadutah.gov.	10800	IN	NS	ns3.xmission.com.
 sleepyhollowny.gov.	10800	IN	NS	dns4.civicplus.com.
 sleepyhollowny.gov.	10800	IN	NS	dns3.civicplus.com.
 slgs.gov.	10800	IN	NS	ns1.slgs.gov.
@@ -33698,6 +33706,8 @@ villageofwitheewi.gov.	10800	IN	NS	ns37.domaincontrol.com.
 villageofwitheewi.gov.	10800	IN	NS	ns38.domaincontrol.com.
 villageofwoodlandmi.gov.	10800	IN	NS	ns1.bluehost.com.
 villageofwoodlandmi.gov.	10800	IN	NS	ns2.bluehost.com.
+villageofyatescity.gov.	10800	IN	NS	todd.ns.cloudflare.com.
+villageofyatescity.gov.	10800	IN	NS	poppy.ns.cloudflare.com.
 villalbapr.gov.	10800	IN	NS	jobs.ns.cloudflare.com.
 villalbapr.gov.	10800	IN	NS	melina.ns.cloudflare.com.
 villaparkil.gov.	10800	IN	NS	dns4.civicplus.com.
