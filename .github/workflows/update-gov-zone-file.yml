@@ -12,7 +12,6 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: GitHubSecurityLab/actions-permissions/monitor@v1
       - name: Checkout code
         uses: actions/checkout@v4
       - name: Initialize git config and sets pull to merge
