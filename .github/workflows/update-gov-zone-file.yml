@@ -9,6 +9,8 @@ on:
 jobs:
   update_zone_file:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: GitHubSecurityLab/actions-permissions/monitor@v1
       - name: Checkout code
