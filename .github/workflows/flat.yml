@@ -9,6 +9,8 @@ on:
 jobs:
   scheduled:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Setup deno
         uses: denoland/setup-deno@main
