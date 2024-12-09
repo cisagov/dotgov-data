@@ -1,6 +1,6 @@
 ;;
 ;; Domain:     gov.
-;; Exported:   2024-12-08 07:12:22
+;; Exported:   2024-12-09 07:11:58
 ;;
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -24,7 +24,7 @@
 ;;
 ;; Use at your own risk.
 ;; SOA Record
-gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1733641501 3600 900 604800 300
+gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1733727906 3600 900 604800 300
 
 ;; A Records
 acs-ns1-aws.akcourts.gov.	3600	IN	A	205.251.198.140
@@ -112,7 +112,6 @@ dns1.fpki-lab.gov.	3600	IN	A	199.167.92.100
 dns1.ic3.gov.	3600	IN	A	20.141.170.64
 dns1.maurycounty-tn.gov.	3600	IN	A	66.211.16.166
 dns1.newhavenct.gov.	3600	IN	A	151.181.45.173
-dns1.nm.gov.	3600	IN	A	164.64.1.6
 dns1.pki.gov.	3600	IN	A	199.167.92.100
 dns1.pki-lab.gov.	3600	IN	A	199.167.92.100
 dns1.ssa.gov.	3600	IN	A	137.200.43.8
@@ -129,7 +128,6 @@ dns2.ic3.gov.	3600	IN	A	52.126.48.246
 dns2.lawrenceburgtn.gov.	3600	IN	A	97.89.92.210
 dns2.maurycounty-tn.gov.	3600	IN	A	66.211.16.167
 dns2.newhavenct.gov.	3600	IN	A	151.181.45.174
-dns2.nm.gov.	3600	IN	A	164.64.3.6
 dns2.pa.gov.	3600	IN	A	164.156.185.10
 dns2.pki.gov.	3600	IN	A	199.167.93.100
 dns2.pki-lab.gov.	3600	IN	A	199.167.93.100
@@ -140,11 +138,9 @@ dns3.azcc.gov.	3600	IN	A	20.245.34.246
 dns3.edmondswa.gov.	3600	IN	A	74.112.48.13
 dns3.gsa.gov.	3600	IN	A	13.248.144.182
 dns3.newhavenct.gov.	3600	IN	A	50.227.180.230
-dns3.nm.gov.	3600	IN	A	164.64.39.56
 dns3.pa.gov.	3600	IN	A	52.167.180.201
 dns3.salemva.gov.	3600	IN	A	67.221.119.153
 dns4.gsa.gov.	3600	IN	A	13.248.149.147
-dns4.nm.gov.	3600	IN	A	164.64.2.115
 dns4.pa.gov.	3600	IN	A	52.191.213.124
 dns4.salemva.gov.	3600	IN	A	67.221.119.154
 dns4.tn.gov.	3600	IN	A	170.141.167.222
@@ -23913,10 +23909,10 @@ nmdataxchange.gov.	10800	IN	NS	auth2.nmcourts.com.
 nmdataxchange.gov.	10800	IN	NS	auth1.nmcourts.gov.
 nmdoj.gov.	10800	IN	NS	dale.ns.cloudflare.com.
 nmdoj.gov.	10800	IN	NS	haley.ns.cloudflare.com.
-nm.gov.	10800	IN	NS	dns2.nm.gov.
-nm.gov.	10800	IN	NS	dns1.nm.gov.
-nm.gov.	10800	IN	NS	dns4.nm.gov.
-nm.gov.	10800	IN	NS	dns3.nm.gov.
+nm.gov.	10800	IN	NS	ns1-201.azure-dns.com.
+nm.gov.	10800	IN	NS	ns2-201.azure-dns.net.
+nm.gov.	10800	IN	NS	ns3-201.azure-dns.org.
+nm.gov.	10800	IN	NS	ns4-201.azure-dns.info.
 nmijudiciary.gov.	10800	IN	NS	ns8.wixdns.net.
 nmijudiciary.gov.	10800	IN	NS	ns9.wixdns.net.
 nmjusticedata.gov.	10800	IN	NS	ns2.nmcourts.gov.
@@ -25406,8 +25402,8 @@ owc.gov.	10800	IN	NS	ns1-32.azure-dns.com.
 owc.gov.	10800	IN	NS	ns2-32.azure-dns.net.
 owc.gov.	10800	IN	NS	ns3-32.azure-dns.org.
 owc.gov.	10800	IN	NS	ns4-32.azure-dns.info.
-owensboroky.gov.	10800	IN	NS	dns.owensboro.org.
-owensboroky.gov.	10800	IN	NS	dns1.owensboro.org.
+owensboroky.gov.	10800	IN	NS	cora.ns.cloudflare.com.
+owensboroky.gov.	10800	IN	NS	yisroel.ns.cloudflare.com.
 owenscrossroadsal.gov.	10800	IN	NS	ns38.domaincontrol.com.
 owenscrossroadsal.gov.	10800	IN	NS	ns37.domaincontrol.com.
 owensvilleoh.gov.	10800	IN	NS	ns0.dnsmadeeasy.com.
