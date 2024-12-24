@@ -1,6 +1,6 @@
 ;;
 ;; Domain:     gov.
-;; Exported:   2024-12-23 07:11:39
+;; Exported:   2024-12-24 07:11:29
 ;;
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -24,7 +24,7 @@
 ;;
 ;; Use at your own risk.
 ;; SOA Record
-gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1734937506 3600 900 604800 300
+gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1735023905 3600 900 604800 300
 
 ;; A Records
 acs-ns1-aws.akcourts.gov.	3600	IN	A	205.251.198.140
@@ -368,7 +368,6 @@ ns1.k12.sd.gov.	3600	IN	A	206.176.52.2
 ns1.kbcr.gov.	3600	IN	A	67.222.24.161
 ns1.kbic-nsn.gov.	3600	IN	A	206.51.125.68
 ns1.kerrcountytx.gov.	3600	IN	A	150.220.23.170
-ns1.klamathswcd.gov.	3600	IN	A	52.32.196.230
 ns1.kscjis.gov.	3600	IN	A	165.201.73.86
 ns1.ksde.gov.	3600	IN	A	165.201.8.2
 ns1.lahabra.gov.	3600	IN	A	74.62.212.83
@@ -635,7 +634,6 @@ ns2.jerseycitynj.gov.	3600	IN	A	50.222.161.234
 ns2.kbcr.gov.	3600	IN	A	67.222.24.163
 ns2.kbic-nsn.gov.	3600	IN	A	206.51.125.69
 ns2.kerrcountytx.gov.	3600	IN	A	24.227.204.202
-ns2.klamathswcd.gov.	3600	IN	A	52.70.155.240
 ns2.ksde.gov.	3600	IN	A	165.201.8.49
 ns2.lahabra.gov.	3600	IN	A	74.62.212.84
 ns2.lakewoodcourtoh.gov.	3600	IN	A	72.167.42.19
@@ -1990,7 +1988,7 @@ fedrooms.gov.	3600	IN	DS	32156 8 2 CA146681B6A2E1D25B4B4EF417B2047EA37DBE1A1261B
 fedrooms.gov.	3600	IN	DS	61675 8 2 CDD842BB77AAD6F851B09F6964E147CD29FE60AE6EE545C304C367B8AAFE5B90
 fedsfeedfamilies.gov.	3600	IN	DS	9919 13 2 45C7E86804DE17203A9F1C994A1E7AF614C291A192EC98F3ED68FAD92257619E
 fedsfeedfamilies.gov.	3600	IN	DS	63466 13 2 8327E67DD3D3C5D805B2F0F047B44D7B356C3290F1C7DCE70308BC27F0DE424C
-fedshirevets.gov.	3600	IN	DS	23471 8 2 FA2527B698EE4E6BCC2EC286F4A947D0090F858ACA2DFF2941DB6BB22756E347
+fedshirevets.gov.	3600	IN	DS	29252 8 2 7A85537CA235A7680815853623144B994F73A45A9E291101CD02EB56774647C8
 feedthefuture.gov.	3600	IN	DS	30934 8 2 E9CC4F8023C9D7920E626379053EB5A6D309B922343AA347FD2574EF9D90A53A
 feedthefuture.gov.	3600	IN	DS	37720 8 2 019E74989C781802F36FF030B05AC694E53083826B55F3365598F9B7D3395FEB
 fegli.gov.	3600	IN	DS	22432 8 2 AE506722464B0E43E136CA3637F4667F337C64B557AB0267590B9802D181F207
@@ -3101,7 +3099,6 @@ republicanwhip.gov.	3600	IN	DS	42430 8 2 055C8D11823AE63708E16B3379D25734AE1D0DA
 research.gov.	3600	IN	DS	20524 5 2 28767BFC58C02AC5241360354A0CCF7247D079A089ED41E23A64B9B2E46CE03E
 research.gov.	3600	IN	DS	65521 5 2 FCB72E462354E2B91756C0D336F5A9A37728DE88B373ED3CD9C039F525C0DFF4
 restorethegulf.gov.	3600	IN	DS	43594 8 2 C0E6CD9CD33433FC0A8F07FF1B7C0A1D71DE59BA8BFEC8763F377A0F8EB88BD2
-richlandtexas.gov.	3600	IN	DS	2371 8 2 FC45712CC2624FFD59B450524D59E9061A772C884B54CE6B79CCD83450454666
 richmondri.gov.	3600	IN	DS	2371 13 2 9700E221B6553F399B9BE5195CFE2C70C02E9AF33D0B28A1D2EF7AA1A2B47117
 rideelectric.gov.	3600	IN	DS	5620 13 2 D3AA242910841B04467FD5BF27011A04A70E00F0D64FC8FCB2D83A69A5C68565
 ridgecrest-ca.gov.	3600	IN	DS	2371 13 2 AC29EA8A854D06E967FF6D704E31F2D7CD5B14AEA07C78B185717C62C5B08A1F
@@ -4487,6 +4484,8 @@ andoverma.gov.	10800	IN	NS	ns4.andoverma.us.
 andoverma.gov.	10800	IN	NS	ns1.andoverma.us.
 andoverma.gov.	10800	IN	NS	ns3.andoverma.us.
 andoverma.gov.	10800	IN	NS	ns2.andoverma.us.
+andovermaine.gov.	10800	IN	NS	ns1.exacthosting.com.
+andovermaine.gov.	10800	IN	NS	ns2.exacthosting.com.
 andovermn.gov.	10800	IN	NS	dns1.civicplus.com.
 andovermn.gov.	10800	IN	NS	dns2.civicplus.com.
 andover-nh.gov.	10800	IN	NS	dns4.name-services.com.
@@ -18419,8 +18418,8 @@ jerseycitynj.gov.	10800	IN	NS	ns1.jerseycitynj.gov.
 jerseycitynj.gov.	10800	IN	NS	ns2.jerseycitynj.gov.
 jerseycountyclerk-il.gov.	10800	IN	NS	nitin.ns.cloudflare.com.
 jerseycountyclerk-il.gov.	10800	IN	NS	grace.ns.cloudflare.com.
-jerseycounty-il.gov.	10800	IN	NS	ns1.gtec.com.
-jerseycounty-il.gov.	10800	IN	NS	ns2.gtec.com.
+jerseycounty-il.gov.	10800	IN	NS	stan.ns.cloudflare.com.
+jerseycounty-il.gov.	10800	IN	NS	luciana.ns.cloudflare.com.
 jessamineky.gov.	10800	IN	NS	ns77.domaincontrol.com.
 jessamineky.gov.	10800	IN	NS	ns78.domaincontrol.com.
 jessaminesheriff.gov.	10800	IN	NS	vera.ns.cloudflare.com.
@@ -18925,9 +18924,8 @@ klamath911.gov.	10800	IN	NS	pedro.ns.cloudflare.com.
 klamath911.gov.	10800	IN	NS	leah.ns.cloudflare.com.
 klamathcountyor.gov.	10800	IN	NS	dns4.civicplus.com.
 klamathcountyor.gov.	10800	IN	NS	dns3.civicplus.com.
-klamathswcd.gov.	10800	IN	NS	www.production.getstreamline.net.
-klamathswcd.gov.	10800	IN	NS	ns1.klamathswcd.gov.
-klamathswcd.gov.	10800	IN	NS	ns2.klamathswcd.gov.
+klamathswcd.gov.	10800	IN	NS	ns1.production.getstreamline.net.
+klamathswcd.gov.	10800	IN	NS	ns2.production.getstreamline.net.
 klamathtribalhealth.gov.	10800	IN	NS	freedns2.registrar-servers.com.
 klamathtribalhealth.gov.	10800	IN	NS	freedns4.registrar-servers.com.
 klamathtribalhealth.gov.	10800	IN	NS	freedns3.registrar-servers.com.
@@ -29368,8 +29366,6 @@ sedgwick.gov.	10800	IN	NS	pdns09.domaincontrol.com.
 sedgwick.gov.	10800	IN	NS	pdns10.domaincontrol.com.
 sedonaaz.gov.	10800	IN	NS	lisa.ns.cloudflare.com.
 sedonaaz.gov.	10800	IN	NS	arch.ns.cloudflare.com.
-sedonaaz.gov.	10800	IN	NS	pdns07.domaincontrol.com.
-sedonaaz.gov.	10800	IN	NS	pdns08.domaincontrol.com.
 sedro-woolley.gov.	10800	IN	NS	ns32.domaincontrol.com.
 sedro-woolley.gov.	10800	IN	NS	ns31.domaincontrol.com.
 seekonk-ma.gov.	10800	IN	NS	reuben.meganet.net.
@@ -33946,6 +33942,8 @@ vaoig.gov.	10800	IN	NS	a20-64.akam.net.
 vaoig.gov.	10800	IN	NS	a5-64.akam.net.
 vaoig.gov.	10800	IN	NS	a1-142.akam.net.
 vaoig.gov.	10800	IN	NS	a28-66.akam.net.
+vasamn.gov.	10800	IN	NS	will.ns.cloudflare.com.
+vasamn.gov.	10800	IN	NS	adrian.ns.cloudflare.com.
 vatax.gov.	10800	IN	NS	cnsa.vita.virginia.gov.
 vatax.gov.	10800	IN	NS	cnsb.vita.virginia.gov.
 vatax.gov.	10800	IN	NS	snsb.vita.virginia.gov.
@@ -35037,6 +35035,8 @@ washingtonstate.gov.	10800	IN	NS	nsoly1.wa.gov.
 washingtonstate.gov.	10800	IN	NS	nsspo1.wa.gov.
 washingtonterracecity.gov.	10800	IN	NS	tadeo.ns.cloudflare.com.
 washingtonterracecity.gov.	10800	IN	NS	celeste.ns.cloudflare.com.
+washingtonterrace.gov.	10800	IN	NS	lochlan.ns.cloudflare.com.
+washingtonterrace.gov.	10800	IN	NS	leanna.ns.cloudflare.com.
 washingtontwpacpa.gov.	10800	IN	NS	ns-cloud-e2.googledomains.com.
 washingtontwpacpa.gov.	10800	IN	NS	ns-cloud-e4.googledomains.com.
 washingtontwpacpa.gov.	10800	IN	NS	ns-cloud-e3.googledomains.com.
