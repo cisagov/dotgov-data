@@ -1,6 +1,6 @@
 ;;
 ;; Domain:     gov.
-;; Exported:   2024-12-24 07:11:29
+;; Exported:   2024-12-25 07:11:31
 ;;
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -24,7 +24,7 @@
 ;;
 ;; Use at your own risk.
 ;; SOA Record
-gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1735023905 3600 900 604800 300
+gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1735110301 3600 900 604800 300
 
 ;; A Records
 acs-ns1-aws.akcourts.gov.	3600	IN	A	205.251.198.140
@@ -1478,7 +1478,6 @@ build.gov.	3600	IN	DS	2371 13 2 A47F281C73CD35336F6520BFCAA9729BE9DD8FAACFF48604
 buildingamerica.gov.	3600	IN	DS	45484 8 1 8E47C4EFB56D27A4616B248BF0A28A844D9B2BFF
 buildingamerica.gov.	3600	IN	DS	45484 8 2 8A1422619C8C0DD242D5D71A02572A5395A89608294DE56FB8B484F53976A4B5
 burlingtonct.gov.	3600	IN	DS	2371 13 2 A48115DD837B118EFE3ECE1F83EC159D9BC3C5A35283EA3BDE38DBF48DCA8A03
-burlingtonvt.gov.	3600	IN	DS	51058 5 1 78CF018462533AEF50EB5EB6006FE1AFAAEA805C
 burtonmi.gov.	3600	IN	DS	2371 13 2 B9FBC85F2169002CC247777FAE38322ED994CA261A52D48F01C24CEB3F328D16
 bush41library.gov.	3600	IN	DS	26959 8 2 6918E821DB5E7CA2EF0B03CE5AF63BA408E8602E77685847CDCAA61BC131E708
 businessdefense.gov.	3600	IN	DS	11866 8 1 FFC0E962212699EDDCFC0CB71C77FC3EAFF84099
@@ -13277,10 +13276,8 @@ falloncountymt.gov.	10800	IN	NS	kip.ns.cloudflare.com.
 falloncountymt.gov.	10800	IN	NS	sima.ns.cloudflare.com.
 fallonnevada.gov.	10800	IN	NS	ns1.usbluemoon.hosting.
 fallonnevada.gov.	10800	IN	NS	ns2.usbluemoon.hosting.
-fallriverma.gov.	10800	IN	NS	ns1-37.azure-dns.com.
-fallriverma.gov.	10800	IN	NS	ns4-37.azure-dns.info.
-fallriverma.gov.	10800	IN	NS	ns2-37.azure-dns.net.
-fallriverma.gov.	10800	IN	NS	ns3-37.azure-dns.org.
+fallriverma.gov.	10800	IN	NS	rayne.ns.cloudflare.com.
+fallriverma.gov.	10800	IN	NS	zahir.ns.cloudflare.com.
 fallschurchcityva.gov.	10800	IN	NS	ns1.dsl.net.
 fallschurchcityva.gov.	10800	IN	NS	ns2.dsl.net.
 fallschurchva.gov.	10800	IN	NS	ns12.zoneedit.com.
@@ -14327,8 +14324,8 @@ fortsumner.gov.	10800	IN	NS	ns13.digicertdns.net.
 fortsumner.gov.	10800	IN	NS	ns14.digicertdns.net.
 fortsumner.gov.	10800	IN	NS	ns15.digicertdns.net.
 fortsumner.gov.	10800	IN	NS	ns10.digicertdns.com.
-fortwinn.gov.	10800	IN	NS	ns5.wixdns.net.
-fortwinn.gov.	10800	IN	NS	ns4.wixdns.net.
+fortwinn.gov.	10800	IN	NS	adam.ns.cloudflare.com.
+fortwinn.gov.	10800	IN	NS	mona.ns.cloudflare.com.
 fortworthtexasalerts.gov.	10800	IN	NS	ns-1890.awsdns-44.co.uk.
 fortworthtexasalerts.gov.	10800	IN	NS	ns-1226.awsdns-25.org.
 fortworthtexasalerts.gov.	10800	IN	NS	ns-655.awsdns-17.net.
@@ -28303,6 +28300,8 @@ roxandtwp.gov.	10800	IN	NS	kallie.ns.cloudflare.com.
 roxburyvt.gov.	10800	IN	NS	ns2.wordpress.com.
 roxburyvt.gov.	10800	IN	NS	ns3.wordpress.com.
 roxburyvt.gov.	10800	IN	NS	ns1.wordpress.com.
+roxwaterco.gov.	10800	IN	NS	ns07.domaincontrol.com.
+roxwaterco.gov.	10800	IN	NS	ns08.domaincontrol.com.
 royaloakmi.gov.	10800	IN	NS	dns2.civicplus.com.
 royaloakmi.gov.	10800	IN	NS	dns1.civicplus.com.
 royalpalmbeachfl.gov.	10800	IN	NS	pdns13.domaincontrol.com.
@@ -30770,6 +30769,8 @@ stockbridge-ma.gov.	10800	IN	NS	ns35.domaincontrol.com.
 stockbridge-ma.gov.	10800	IN	NS	ns36.domaincontrol.com.
 stockbridgevt.gov.	10800	IN	NS	adam.ns.cloudflare.com.
 stockbridgevt.gov.	10800	IN	NS	mona.ns.cloudflare.com.
+stockdaletx.gov.	10800	IN	NS	ns6.wixdns.net.
+stockdaletx.gov.	10800	IN	NS	ns7.wixdns.net.
 stockportny.gov.	10800	IN	NS	patrick.ns.cloudflare.com.
 stockportny.gov.	10800	IN	NS	luciane.ns.cloudflare.com.
 stocktonca.gov.	10800	IN	NS	ns2.stocktonca.gov.
@@ -33918,6 +33919,8 @@ vanburencountymi.gov.	10800	IN	NS	ns2.btc-bci.com.
 vanburencountytn.gov.	10800	IN	NS	ns2.dreamhost.com.
 vanburencountytn.gov.	10800	IN	NS	ns1.dreamhost.com.
 vanburencountytn.gov.	10800	IN	NS	ns3.dreamhost.com.
+vanburenny.gov.	10800	IN	NS	ns57.domaincontrol.com.
+vanburenny.gov.	10800	IN	NS	ns58.domaincontrol.com.
 vancouver.gov.	10800	IN	NS	cvdns01.cityofvancouver.us.
 vancouver.gov.	10800	IN	NS	cvdns03.cityofvancouver.us.
 vandaliaohio.gov.	10800	IN	NS	ns54.domaincontrol.com.
