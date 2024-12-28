@@ -1,6 +1,6 @@
 ;;
 ;; Domain:     gov.
-;; Exported:   2024-12-27 07:11:43
+;; Exported:   2024-12-28 07:11:14
 ;;
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -24,7 +24,7 @@
 ;;
 ;; Use at your own risk.
 ;; SOA Record
-gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1735283101 3600 900 604800 300
+gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1735369505 3600 900 604800 300
 
 ;; A Records
 acs-ns1-aws.akcourts.gov.	3600	IN	A	205.251.198.140
@@ -966,6 +966,8 @@ spdns8.pima.gov.	3600	IN	A	159.233.38.92
 srv21.nysed.gov.	3600	IN	A	149.10.221.48
 srvhojnsv241.sandiegoda.gov.	3600	IN	A	64.149.99.130
 srvncrnsv260.sandiegoda.gov.	3600	IN	A	12.232.16.130
+svr-dns1.kankakeecountyil.gov.	3600	IN	A	209.37.64.108
+svr-dns2.kankakeecountyil.gov.	3600	IN	A	209.37.64.109
 t1dns1.anl.gov.	3600	IN	A	130.202.101.6
 t1dns2.anl.gov.	3600	IN	A	130.202.101.37
 tsoodzil.dineh-nsn.gov.	3600	IN	A	12.196.248.3
@@ -2384,11 +2386,16 @@ iprcenter.gov.	3600	IN	DS	3865 8 2 E054DB4F5C0D8463CC869CEC3A934FCE1422CE85390F9
 iprcenter.gov.	3600	IN	DS	65244 8 1 F7CB790AB1B1DE370BC2138A0A862042652B0041
 iprcenter.gov.	3600	IN	DS	65244 8 2 C4F06154D7AFF449658E43B76745DCCCDA3490819EA0A8DCE20388F33DE7D462
 iprcenter.gov.	3600	IN	DS	3865 8 1 B831AA397A3AC2CFB2B50ABBE6B1E673F7EE4566
+irsauctions.gov.	3600	IN	DS	47591 8 2 678D758336E05A062D846784D78419DC0BFF36BB71D72ACE5D5746D0EDD34298
 irsauctions.gov.	3600	IN	DS	63757 8 2 32EEE85CBC936020467277A30CE68A1279C34AFCAB5FF855140E02F0B8818F8A
+irs.gov.	3600	IN	DS	10226 8 2 C94F81E17566EBB0ACA0227E07297E9B3236B9DCAFC018BBE72CE0C9229630BB
 irs.gov.	3600	IN	DS	17425 8 2 F66A04CA1DEC4F11AE80C357FE110C71593051A0D342176DF468499789D890DA
+irsnet.gov.	3600	IN	DS	11359 8 2 9EF0FF186A8481D32125C9C173EFED7A35AAA9703E01213044A643F8F2F54D55
 irsnet.gov.	3600	IN	DS	36691 8 2 098E3589DB90636A68A604E66B674DE1801A4F6291E2D94CA733126358F1CD71
 irsnet.gov.	3600	IN	DS	19507 8 2 8AED51874DF5542411232CA108A7D4684E57FCBBA013A9F4987EC3BA8744D3F8
+irssales.gov.	3600	IN	DS	47315 8 2 326A0BB3D03EDD6B8B4425A9B1D0964E0E21D48E833308E47C86B02C2F0C0B2C
 irssales.gov.	3600	IN	DS	61429 8 2 75AAD7A3EC49FB4B9881853FED32E3FDEFDE139115691D56FF1710DD9CE840A3
+irsvideos.gov.	3600	IN	DS	39190 8 2 305A120622BE03EF2FDD882B4178735D7E2B8C06EC27B5680279E7585B5E161B
 irsvideos.gov.	3600	IN	DS	22540 8 2 5CA910D5D6E48BF570BE2AF2A36118A005E1688D60980DC5D96F78D357BCAF8B
 irvingtonva.gov.	3600	IN	DS	26336 8 2 DE16EF4F6A602118697C188706F5662723447D6D5616580DD35F9631B7C553F9
 ise.gov.	3600	IN	DS	44876 8 2 25F36D3CBCE38FC80D0CE1BCA6A3E9D4B751590E283A9D456719E5B9DE1F3EF7
@@ -3323,6 +3330,7 @@ tasefiling.gov.	3600	IN	DS	40857 13 2 E4CBFA90B285A73597AF87DF9DC8AAB5F62BDA37AF
 tauntonmlpma.gov.	3600	IN	DS	48553 13 2 58B32410AC51A64A3029EAABF42BB8824B7FEBFEC5030A48C245596E7CD0E774
 tavaresfl.gov.	3600	IN	DS	55996 8 2 E321511EACD1D8024A765E758B31961FCCA72B0EABF78627CF65DC0E0658B28A
 tavaresfl.gov.	3600	IN	DS	55996 8 1 5260900C4E53028603DF06023338A285B908DA43
+tax.gov.	3600	IN	DS	4361 8 2 01A196CC7207B0A3C7AA40EDF675A1F19C0FF7963F65530637BDE59B015C6F6D
 tax.gov.	3600	IN	DS	1030 8 2 F3B4935E07F1E7ADFEC9F3482C4362811E20781B0B7C05FF0B94CFFBD1E254D3
 taxreform.gov.	3600	IN	DS	7540 8 2 79F0D2B4A6F1DD8E065C40083246D5228F8EC38B9895B68101D0DDED19C7D057
 taxreform.gov.	3600	IN	DS	62506 8 2 EE7EFC58878530F19FFD8C13872E0CA592D5EBAB509B8478FADCC2FA037A9235
@@ -6931,6 +6939,10 @@ bristolri.gov.	10800	IN	NS	luciana.ns.cloudflare.com.
 bristolri.gov.	10800	IN	NS	dion.ns.cloudflare.com.
 bristoltn.gov.	10800	IN	NS	dns3.civicplus.com.
 bristoltn.gov.	10800	IN	NS	dns4.civicplus.com.
+bristoltwppa.gov.	10800	IN	NS	ns1.bdm.microsoftonline.com.
+bristoltwppa.gov.	10800	IN	NS	ns2.bdm.microsoftonline.com.
+bristoltwppa.gov.	10800	IN	NS	ns3.bdm.microsoftonline.com.
+bristoltwppa.gov.	10800	IN	NS	ns4.bdm.microsoftonline.com.
 bristolva.gov.	10800	IN	NS	ns25.worldnic.com.
 bristolva.gov.	10800	IN	NS	ns26.worldnic.com.
 bristowlibraryok.gov.	10800	IN	NS	a8.uberns.com.
@@ -7364,6 +7376,10 @@ cabarruscountync.gov.	10800	IN	NS	ns-01.mcnc.org.
 cabarruscountync.gov.	10800	IN	NS	ns-02.mcnc.org.
 cabazonindians-nsn.gov.	10800	IN	NS	ns2.biz.rr.com.
 cabazonindians-nsn.gov.	10800	IN	NS	ns1.biz.rr.com.
+caboolmo.gov.	10800	IN	NS	ns-166.awsdns-20.com.
+caboolmo.gov.	10800	IN	NS	ns-611.awsdns-12.net.
+caboolmo.gov.	10800	IN	NS	ns-1059.awsdns-04.org.
+caboolmo.gov.	10800	IN	NS	ns-1789.awsdns-31.co.uk.
 cabotar.gov.	10800	IN	NS	dns2.civicplus.com.
 cabotar.gov.	10800	IN	NS	dns1.civicplus.com.
 cabq.gov.	10800	IN	NS	ns4.level3.net.
@@ -15435,6 +15451,8 @@ granby-ct.gov.	10800	IN	NS	dns3.civicplus.com.
 granby-ct.gov.	10800	IN	NS	dns4.civicplus.com.
 granby-ma.gov.	10800	IN	NS	pdns02.domaincontrol.com.
 granby-ma.gov.	10800	IN	NS	pdns01.domaincontrol.com.
+granbyvt.gov.	10800	IN	NS	ns12.wixdns.net.
+granbyvt.gov.	10800	IN	NS	ns13.wixdns.net.
 grandblanctwpmi.gov.	10800	IN	NS	anderson.ns.cloudflare.com.
 grandblanctwpmi.gov.	10800	IN	NS	sunny.ns.cloudflare.com.
 grandchutewi.gov.	10800	IN	NS	pdns03.domaincontrol.com.
@@ -16380,6 +16398,8 @@ haysivirginia.gov.	10800	IN	NS	ns15.wixdns.net.
 haysivirginia.gov.	10800	IN	NS	ns14.wixdns.net.
 haysks.gov.	10800	IN	NS	ns5.ruraltel.net.
 haysks.gov.	10800	IN	NS	ns6.ruraltel.net.
+haytimo.gov.	10800	IN	NS	pdns09.domaincontrol.com.
+haytimo.gov.	10800	IN	NS	pdns10.domaincontrol.com.
 hayward-ca.gov.	10800	IN	NS	ns-838.awsdns-40.net.
 hayward-ca.gov.	10800	IN	NS	ns-1862.awsdns-40.co.uk.
 hayward-ca.gov.	10800	IN	NS	ns-363.awsdns-45.com.
@@ -18615,6 +18635,8 @@ kanecountyil.gov.	10800	IN	NS	ns1.countyofkane.com.
 kanecountyil.gov.	10800	IN	NS	ns2.countyofkane.com.
 kankakeecountyclerk.gov.	10800	IN	NS	ns2.inmotionhosting.com.
 kankakeecountyclerk.gov.	10800	IN	NS	ns1.inmotionhosting.com.
+kankakeecountyil.gov.	10800	IN	NS	svr-dns1.kankakeecountyil.gov.
+kankakeecountyil.gov.	10800	IN	NS	svr-dns2.kankakeecountyil.gov.
 kannapolisnc.gov.	10800	IN	NS	ns45.domaincontrol.com.
 kannapolisnc.gov.	10800	IN	NS	ns46.domaincontrol.com.
 kansascitymo.gov.	10800	IN	NS	pubdns3.kcmo.org.
@@ -18922,7 +18944,7 @@ klamath911.gov.	10800	IN	NS	pedro.ns.cloudflare.com.
 klamath911.gov.	10800	IN	NS	leah.ns.cloudflare.com.
 klamathcountyor.gov.	10800	IN	NS	dns4.civicplus.com.
 klamathcountyor.gov.	10800	IN	NS	dns3.civicplus.com.
-klamathswcd.gov.	10800	IN	NS	ns1.production.getstreamline.net.
+klamathswcd.gov.	10800	IN	NS	ns1.kswcd.specialdistrict.org.
 klamathswcd.gov.	10800	IN	NS	ns2.production.getstreamline.net.
 klamathtribalhealth.gov.	10800	IN	NS	freedns2.registrar-servers.com.
 klamathtribalhealth.gov.	10800	IN	NS	freedns4.registrar-servers.com.
@@ -24760,6 +24782,10 @@ ocfodc.gov.	10800	IN	NS	vicky.ns.cloudflare.com.
 oc.gov.	10800	IN	NS	ns1.ocgov.com.
 oc.gov.	10800	IN	NS	ns2.ocgov.com.
 oc.gov.	10800	IN	NS	ns3.ocgov.com.
+ocheyedaniowa.gov.	10800	IN	NS	ns2-08.azure-dns.net.
+ocheyedaniowa.gov.	10800	IN	NS	ns3-08.azure-dns.org.
+ocheyedaniowa.gov.	10800	IN	NS	ns4-08.azure-dns.info.
+ocheyedaniowa.gov.	10800	IN	NS	ns1-08.azure-dns.com.
 oconlakewi.gov.	10800	IN	NS	daphne.ns.cloudflare.com.
 oconlakewi.gov.	10800	IN	NS	nolan.ns.cloudflare.com.
 oconomowoc-wi.gov.	10800	IN	NS	ns2.p201.dns.oraclecloud.net.
@@ -35053,6 +35079,12 @@ washingtonva.gov.	10800	IN	NS	ns77.domaincontrol.com.
 washingtonva.gov.	10800	IN	NS	ns78.domaincontrol.com.
 washingtonville-ny.gov.	10800	IN	NS	ns69.domaincontrol.com.
 washingtonville-ny.gov.	10800	IN	NS	ns70.domaincontrol.com.
+washitaso.gov.	10800	IN	NS	ns25.digicertdns.net.
+washitaso.gov.	10800	IN	NS	ns20.digicertdns.com.
+washitaso.gov.	10800	IN	NS	ns21.digicertdns.com.
+washitaso.gov.	10800	IN	NS	ns22.digicertdns.com.
+washitaso.gov.	10800	IN	NS	ns23.digicertdns.net.
+washitaso.gov.	10800	IN	NS	ns24.digicertdns.net.
 washmo.gov.	10800	IN	NS	eva.ns.cloudflare.com.
 washmo.gov.	10800	IN	NS	mario.ns.cloudflare.com.
 washoecounty.gov.	10800	IN	NS	pdns10.domaincontrol.com.
