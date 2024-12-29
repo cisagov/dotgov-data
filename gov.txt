@@ -1,6 +1,6 @@
 ;;
 ;; Domain:     gov.
-;; Exported:   2024-12-28 07:11:14
+;; Exported:   2024-12-29 07:11:20
 ;;
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -24,7 +24,7 @@
 ;;
 ;; Use at your own risk.
 ;; SOA Record
-gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1735369505 3600 900 604800 300
+gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1735455901 3600 900 604800 300
 
 ;; A Records
 acs-ns1-aws.akcourts.gov.	3600	IN	A	205.251.198.140
@@ -777,6 +777,8 @@ ns31.fairfaxcounty.gov.	3600	IN	A	166.94.11.161
 ns31.fairfaxcountyva.gov.	3600	IN	A	166.94.11.161
 ns31.fairfaxcountyvirginia.gov.	3600	IN	A	166.94.11.161
 ns31.lincolncountymt.gov.	3600	IN	A	43.247.170.1
+ns35.sumnersherifftn.gov.	3600	IN	A	97.74.107.18
+ns36.sumnersherifftn.gov.	3600	IN	A	173.201.75.18
 ns3.alacourt.gov.	3600	IN	A	72.159.229.132
 ns3.albanycountywy.gov.	3600	IN	A	185.136.98.200
 ns3.albanyoregon.gov.	3600	IN	A	45.79.171.24
@@ -2390,6 +2392,7 @@ irsauctions.gov.	3600	IN	DS	47591 8 2 678D758336E05A062D846784D78419DC0BFF36BB71
 irsauctions.gov.	3600	IN	DS	63757 8 2 32EEE85CBC936020467277A30CE68A1279C34AFCAB5FF855140E02F0B8818F8A
 irs.gov.	3600	IN	DS	10226 8 2 C94F81E17566EBB0ACA0227E07297E9B3236B9DCAFC018BBE72CE0C9229630BB
 irs.gov.	3600	IN	DS	17425 8 2 F66A04CA1DEC4F11AE80C357FE110C71593051A0D342176DF468499789D890DA
+irsnet.gov.	3600	IN	DS	20185 8 2 1B9A439291D7BE29FE9A1360FB1E6B338448FD458A14ECE0760C493CFB8ADDD9
 irsnet.gov.	3600	IN	DS	11359 8 2 9EF0FF186A8481D32125C9C173EFED7A35AAA9703E01213044A643F8F2F54D55
 irsnet.gov.	3600	IN	DS	36691 8 2 098E3589DB90636A68A604E66B674DE1801A4F6291E2D94CA733126358F1CD71
 irsnet.gov.	3600	IN	DS	19507 8 2 8AED51874DF5542411232CA108A7D4684E57FCBBA013A9F4987EC3BA8744D3F8
@@ -31000,6 +31003,8 @@ sumnercountytn.gov.	10800	IN	NS	ns22.cloudns.net.
 sumnercountytn.gov.	10800	IN	NS	ns21.cloudns.net.
 sumner-jc-wi.gov.	10800	IN	NS	ns5.wixdns.net.
 sumner-jc-wi.gov.	10800	IN	NS	ns4.wixdns.net.
+sumnersherifftn.gov.	10800	IN	NS	ns35.sumnersherifftn.gov.
+sumnersherifftn.gov.	10800	IN	NS	ns36.sumnersherifftn.gov.
 sumnertnecd.gov.	10800	IN	NS	valentin.ns.cloudflare.com.
 sumnertnecd.gov.	10800	IN	NS	marge.ns.cloudflare.com.
 sumnerwa.gov.	10800	IN	NS	ns59.domaincontrol.com.
