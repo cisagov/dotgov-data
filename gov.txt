@@ -1,6 +1,6 @@
 ;;
 ;; Domain:     gov.
-;; Exported:   2025-02-08 07:11:26
+;; Exported:   2025-02-09 07:11:18
 ;;
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -24,7 +24,7 @@
 ;;
 ;; Use at your own risk.
 ;; SOA Record
-gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1738998300 3600 900 604800 300
+gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1739084700 3600 900 604800 300
 
 ;; A Records
 acs-ns1-aws.akcourts.gov.	3600	IN	A	205.251.198.140 ; cf_tags=cf-proxied:false
@@ -473,6 +473,7 @@ ns1.tigta.gov.	3600	IN	A	162.159.0.233 ; cf_tags=cf-proxied:false
 ns1.tigtanet.gov.	3600	IN	A	162.159.0.233 ; cf_tags=cf-proxied:false
 ns1.tmdci-nsn.gov.	3600	IN	A	64.60.169.117 ; cf_tags=cf-proxied:false
 ns1.torresmartinez-nsn.gov.	3600	IN	A	64.60.169.117 ; cf_tags=cf-proxied:false
+ns1.townofbrunswicknc.gov.	3600	IN	A	160.153.0.118 ; cf_tags=cf-proxied:false
 ns1.townofrowlandnc.gov.	3600	IN	A	192.168.0.18 ; cf_tags=cf-proxied:false
 ns1.townofvictorny.gov.	3600	IN	A	198.179.108.150 ; cf_tags=cf-proxied:false
 ns1.townofyoderwy.gov.	3600	IN	A	184.164.124.151 ; cf_tags=cf-proxied:false
@@ -740,6 +741,7 @@ ns2.tigta.gov.	3600	IN	A	162.159.1.245 ; cf_tags=cf-proxied:false
 ns2.tigtanet.gov.	3600	IN	A	162.159.1.245 ; cf_tags=cf-proxied:false
 ns2.tmdci-nsn.gov.	3600	IN	A	65.60.89.85 ; cf_tags=cf-proxied:false
 ns2.torresmartinez-nsn.gov.	3600	IN	A	65.60.89.85 ; cf_tags=cf-proxied:false
+ns2.townofbrunswicknc.gov.	3600	IN	A	160.153.0.118 ; cf_tags=cf-proxied:false
 ns2.townofvictorny.gov.	3600	IN	A	24.213.157.114 ; cf_tags=cf-proxied:false
 ns2.townofyoderwy.gov.	3600	IN	A	184.164.124.151 ; cf_tags=cf-proxied:false
 ns2.transparency.gov.	3600	IN	A	162.159.1.245 ; cf_tags=cf-proxied:false
@@ -2822,7 +2824,6 @@ nj.gov.	3600	IN	DS	46414 13 2 73D2429ED720BAAEB12ADA416522E3C9621385921018E22080
 nlm.gov.	3600	IN	DS	6820 8 2 62587EC50C137C166E75F734347EBAAFD4A1EDF180CAA931B45D89E341806C0C
 nlm.gov.	3600	IN	DS	16604 8 2 115529DCD0A43F134368947D19F822B709F985EAAB0F75B34C8AD3199AABB8E5
 nlrb.gov.	3600	IN	DS	47467 8 2 16622DEE308E7263810B9D93A6A2B59C819ACACB2AE4DA49F77AF1FE193C3F25
-nlrb.gov.	3600	IN	DS	62524 8 2 D4E909FD6ED492BD4AA82BEA4BE0B72258A4C675EA439D559C32857AAD037889
 nls.gov.	3600	IN	DS	24189 7 2 21A29E80AAFFFB4A2A6F6841E295C42B4CF9248815F36C5C81617B458353216A
 nls.gov.	3600	IN	DS	24189 7 1 E57F875785E17C921D4AB94F082206B50698D256
 nmag.gov.	3600	IN	DS	2371 13 2 9EDEF1AC9758A0BDEF998F407B3627BF89457D817C805BFE5FCFC0FFDAA6C12A
@@ -8027,6 +8028,8 @@ cassclayalerts.gov.	10800	IN	NS	ns3.ndnic.com.
 cassclayalerts.gov.	10800	IN	NS	ns3.state.nd.us.
 casscoroadmi.gov.	10800	IN	NS	barbara.ns.cloudflare.com.
 casscoroadmi.gov.	10800	IN	NS	sean.ns.cloudflare.com.
+casscountyesd2tx.gov.	10800	IN	NS	ns10.wixdns.net.
+casscountyesd2tx.gov.	10800	IN	NS	ns11.wixdns.net.
 casscountyia.gov.	10800	IN	NS	guss.ns.cloudflare.com.
 casscountyia.gov.	10800	IN	NS	meg.ns.cloudflare.com.
 casscountyil.gov.	10800	IN	NS	ns43.cloudns.net.
@@ -31732,6 +31735,8 @@ sutherlinwcdor.gov.	10800	IN	NS	ns-310.awsdns-38.com.
 sutherlinwcdor.gov.	10800	IN	NS	ns-877.awsdns-45.net.
 sutherlinwcdor.gov.	10800	IN	NS	ns-1330.awsdns-38.org.
 sutherlinwcdor.gov.	10800	IN	NS	ns-1964.awsdns-53.co.uk.
+suvpsutah.gov.	10800	IN	NS	ns59.domaincontrol.com.
+suvpsutah.gov.	10800	IN	NS	ns60.domaincontrol.com.
 suwanneecountyfl.gov.	10800	IN	NS	eloise.ns.cloudflare.com.
 suwanneecountyfl.gov.	10800	IN	NS	cesar.ns.cloudflare.com.
 suwcountyfl.gov.	10800	IN	NS	ns2.webdesignconnection.com.
@@ -32740,6 +32745,8 @@ townofbrothertownwi.gov.	10800	IN	NS	adam.ns.cloudflare.com.
 townofbrothertownwi.gov.	10800	IN	NS	mona.ns.cloudflare.com.
 townofbrucetontn.gov.	10800	IN	NS	ns1.bluehost.com.
 townofbrucetontn.gov.	10800	IN	NS	ns2.bluehost.com.
+townofbrunswicknc.gov.	10800	IN	NS	ns1.townofbrunswicknc.gov.
+townofbrunswicknc.gov.	10800	IN	NS	ns2.townofbrunswicknc.gov.
 townofbrunswickwi.gov.	10800	IN	NS	adam.ns.cloudflare.com.
 townofbrunswickwi.gov.	10800	IN	NS	mona.ns.cloudflare.com.
 townofburlingtonwi.gov.	10800	IN	NS	adam.ns.cloudflare.com.
