@@ -1,6 +1,6 @@
 ;;
 ;; Domain:     gov.
-;; Exported:   2025-02-09 07:11:18
+;; Exported:   2025-02-10 07:11:38
 ;;
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -24,7 +24,7 @@
 ;;
 ;; Use at your own risk.
 ;; SOA Record
-gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1739084700 3600 900 604800 300
+gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1739171101 3600 900 604800 300
 
 ;; A Records
 acs-ns1-aws.akcourts.gov.	3600	IN	A	205.251.198.140 ; cf_tags=cf-proxied:false
@@ -473,7 +473,6 @@ ns1.tigta.gov.	3600	IN	A	162.159.0.233 ; cf_tags=cf-proxied:false
 ns1.tigtanet.gov.	3600	IN	A	162.159.0.233 ; cf_tags=cf-proxied:false
 ns1.tmdci-nsn.gov.	3600	IN	A	64.60.169.117 ; cf_tags=cf-proxied:false
 ns1.torresmartinez-nsn.gov.	3600	IN	A	64.60.169.117 ; cf_tags=cf-proxied:false
-ns1.townofbrunswicknc.gov.	3600	IN	A	160.153.0.118 ; cf_tags=cf-proxied:false
 ns1.townofrowlandnc.gov.	3600	IN	A	192.168.0.18 ; cf_tags=cf-proxied:false
 ns1.townofvictorny.gov.	3600	IN	A	198.179.108.150 ; cf_tags=cf-proxied:false
 ns1.townofyoderwy.gov.	3600	IN	A	184.164.124.151 ; cf_tags=cf-proxied:false
@@ -512,6 +511,7 @@ ns1.whitmancountyem.gov.	3600	IN	A	192.168.27.244 ; cf_tags=cf-proxied:false
 ns1.wichitafallstx.gov.	3600	IN	A	64.57.225.10 ; cf_tags=cf-proxied:false
 ns1.wicourts.gov.	3600	IN	A	165.219.245.1 ; cf_tags=cf-proxied:false
 ns1.williamsfieldil.gov.	3600	IN	A	208.94.148.159 ; cf_tags=cf-proxied:false
+ns1.wilmatownship.gov.	3600	IN	A	162.159.24.157 ; cf_tags=cf-proxied:false
 ns1.wizard.gov.	3600	IN	A	162.159.0.233 ; cf_tags=cf-proxied:false
 ns1.worcesterma.gov.	3600	IN	A	131.239.4.118 ; cf_tags=cf-proxied:false
 ns1.workplace.gov.	3600	IN	A	162.159.0.233 ; cf_tags=cf-proxied:false
@@ -741,7 +741,6 @@ ns2.tigta.gov.	3600	IN	A	162.159.1.245 ; cf_tags=cf-proxied:false
 ns2.tigtanet.gov.	3600	IN	A	162.159.1.245 ; cf_tags=cf-proxied:false
 ns2.tmdci-nsn.gov.	3600	IN	A	65.60.89.85 ; cf_tags=cf-proxied:false
 ns2.torresmartinez-nsn.gov.	3600	IN	A	65.60.89.85 ; cf_tags=cf-proxied:false
-ns2.townofbrunswicknc.gov.	3600	IN	A	160.153.0.118 ; cf_tags=cf-proxied:false
 ns2.townofvictorny.gov.	3600	IN	A	24.213.157.114 ; cf_tags=cf-proxied:false
 ns2.townofyoderwy.gov.	3600	IN	A	184.164.124.151 ; cf_tags=cf-proxied:false
 ns2.transparency.gov.	3600	IN	A	162.159.1.245 ; cf_tags=cf-proxied:false
@@ -780,6 +779,7 @@ ns2.whitmancountyem.gov.	3600	IN	A	192.168.27.243 ; cf_tags=cf-proxied:false
 ns2.wichitafallstx.gov.	3600	IN	A	64.57.225.20 ; cf_tags=cf-proxied:false
 ns2.wicourts.gov.	3600	IN	A	165.219.245.2 ; cf_tags=cf-proxied:false
 ns2.williamsfieldil.gov.	3600	IN	A	208.80.124.159 ; cf_tags=cf-proxied:false
+ns2.wilmatownship.gov.	3600	IN	A	162.159.25.186 ; cf_tags=cf-proxied:false
 ns2.wizard.gov.	3600	IN	A	162.159.1.245 ; cf_tags=cf-proxied:false
 ns2.worcesterma.gov.	3600	IN	A	131.239.4.119 ; cf_tags=cf-proxied:false
 ns2.workplace.gov.	3600	IN	A	162.159.1.245 ; cf_tags=cf-proxied:false
@@ -8465,6 +8465,9 @@ charlestonwv.gov.	10800	IN	NS	ns2.digitalocean.com.
 charlestonwv.gov.	10800	IN	NS	ns1.digitalocean.com.
 charlestown-nh.gov.	10800	IN	NS	ns2.mydyndns.org.
 charlestown-nh.gov.	10800	IN	NS	ns1.mydyndns.org.
+charlestownrifd.gov.	10800	IN	NS	gv-nmgi5o2inkw7ir.dv.googlehosted.com.
+charlestownrifd.gov.	10800	IN	NS	ns25.domaincontrol.com.
+charlestownrifd.gov.	10800	IN	NS	ns26.domaincontrol.com.
 charlestownri.gov.	10800	IN	NS	pns33.cloudns.net.
 charlestownri.gov.	10800	IN	NS	ns32.cloudns.net.
 charlestownri.gov.	10800	IN	NS	pns34.cloudns.net.
@@ -32745,8 +32748,8 @@ townofbrothertownwi.gov.	10800	IN	NS	adam.ns.cloudflare.com.
 townofbrothertownwi.gov.	10800	IN	NS	mona.ns.cloudflare.com.
 townofbrucetontn.gov.	10800	IN	NS	ns1.bluehost.com.
 townofbrucetontn.gov.	10800	IN	NS	ns2.bluehost.com.
-townofbrunswicknc.gov.	10800	IN	NS	ns1.townofbrunswicknc.gov.
-townofbrunswicknc.gov.	10800	IN	NS	ns2.townofbrunswicknc.gov.
+townofbrunswicknc.gov.	10800	IN	NS	ns12.wixdns.net.
+townofbrunswicknc.gov.	10800	IN	NS	ns13.wixdns.net.
 townofbrunswickwi.gov.	10800	IN	NS	adam.ns.cloudflare.com.
 townofbrunswickwi.gov.	10800	IN	NS	mona.ns.cloudflare.com.
 townofburlingtonwi.gov.	10800	IN	NS	adam.ns.cloudflare.com.
@@ -36626,6 +36629,8 @@ willowsprings-il.gov.	10800	IN	NS	ns11.digicertdns.com.
 willowsprings-il.gov.	10800	IN	NS	ns14.digicertdns.net.
 willspointtx.gov.	10800	IN	NS	pdns11.domaincontrol.com.
 willspointtx.gov.	10800	IN	NS	pdns12.domaincontrol.com.
+wilmatownship.gov.	10800	IN	NS	ns1.wilmatownship.gov.
+wilmatownship.gov.	10800	IN	NS	ns2.wilmatownship.gov.
 wilmette.gov.	10800	IN	NS	ns21.domaincontrol.com.
 wilmette.gov.	10800	IN	NS	ns22.domaincontrol.com.
 wilmingtonde.gov.	10800	IN	NS	ns1.safesecureweb.com.
