@@ -1,6 +1,6 @@
 ;;
 ;; Domain:     gov.
-;; Exported:   2025-02-24 07:11:41
+;; Exported:   2025-02-25 07:11:38
 ;;
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -24,7 +24,7 @@
 ;;
 ;; Use at your own risk.
 ;; SOA Record
-gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1740380701 3600 900 604800 300
+gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1740467101 3600 900 604800 300
 
 ;; A Records
 acs-ns1-aws.akcourts.gov.	3600	IN	A	205.251.198.140 ; cf_tags=cf-proxied:false
@@ -208,6 +208,7 @@ ns01.fhfa.gov.	3600	IN	A	12.183.70.4 ; cf_tags=cf-proxied:false
 ns01.hendersonnevada.gov.	3600	IN	A	205.174.31.81 ; cf_tags=cf-proxied:false
 ns01.hendersonnv.gov.	3600	IN	A	205.174.31.81 ; cf_tags=cf-proxied:false
 ns01.houstontx.gov.	3600	IN	A	204.235.234.112 ; cf_tags=cf-proxied:false
+ns01.medinacounty.gov.	3600	IN	A	198.160.238.11 ; cf_tags=cf-proxied:false
 ns-01.noaa.gov.	3600	IN	A	137.75.116.93 ; cf_tags=cf-proxied:false
 ns01.portcanaveral.gov.	3600	IN	A	23.184.0.10 ; cf_tags=cf-proxied:false
 ns01.santaclaracounty.gov.	3600	IN	A	146.74.209.68 ; cf_tags=cf-proxied:false
@@ -219,6 +220,7 @@ ns02.fhfa.gov.	3600	IN	A	12.183.70.5 ; cf_tags=cf-proxied:false
 ns02.hendersonnevada.gov.	3600	IN	A	205.174.31.82 ; cf_tags=cf-proxied:false
 ns02.hendersonnv.gov.	3600	IN	A	205.174.31.82 ; cf_tags=cf-proxied:false
 ns02.houstontx.gov.	3600	IN	A	204.235.229.57 ; cf_tags=cf-proxied:false
+ns02.medinacounty.gov.	3600	IN	A	198.160.238.12 ; cf_tags=cf-proxied:false
 ns-02.noaa.gov.	3600	IN	A	137.75.112.7 ; cf_tags=cf-proxied:false
 ns02.portcanaveral.gov.	3600	IN	A	23.184.0.11 ; cf_tags=cf-proxied:false
 ns02.santaclaracounty.gov.	3600	IN	A	146.74.235.68 ; cf_tags=cf-proxied:false
@@ -436,6 +438,8 @@ ns1.ots.gov.	3600	IN	A	162.159.0.233 ; cf_tags=cf-proxied:false
 ns1.pacodeandbulletin.gov.	3600	IN	A	216.157.112.130 ; cf_tags=cf-proxied:false
 ns1.paloshills-il.gov.	3600	IN	A	12.226.45.227 ; cf_tags=cf-proxied:false
 ns1.patriotbonds.gov.	3600	IN	A	162.159.0.233 ; cf_tags=cf-proxied:false
+ns1.pittstoncity.gov.	3600	IN	A	192.168.42.12 ; cf_tags=cf-proxied:false
+ns1.pittstoncity.gov.	3600	IN	A	192.168.42.10 ; cf_tags=cf-proxied:false
 ns1.portlandoregon.gov.	3600	IN	A	74.120.152.97 ; cf_tags=cf-proxied:false
 ns1.pppo.gov.	3600	IN	A	74.143.212.82 ; cf_tags=cf-proxied:false
 ns1.reno.gov.	3600	IN	A	162.159.8.202 ; cf_tags=cf-proxied:false
@@ -704,6 +708,8 @@ ns2.ots.gov.	3600	IN	A	162.159.1.245 ; cf_tags=cf-proxied:false
 ns2.pacodeandbulletin.gov.	3600	IN	A	216.157.112.129 ; cf_tags=cf-proxied:false
 ns2.paloshills-il.gov.	3600	IN	A	12.226.45.228 ; cf_tags=cf-proxied:false
 ns2.patriotbonds.gov.	3600	IN	A	162.159.1.245 ; cf_tags=cf-proxied:false
+ns2.pittstoncity.gov.	3600	IN	A	192.168.42.12 ; cf_tags=cf-proxied:false
+ns2.pittstoncity.gov.	3600	IN	A	192.168.42.10 ; cf_tags=cf-proxied:false
 ns2.portlandoregon.gov.	3600	IN	A	74.120.152.197 ; cf_tags=cf-proxied:false
 ns2.pppo.gov.	3600	IN	A	152.117.81.228 ; cf_tags=cf-proxied:false
 ns2.reno.gov.	3600	IN	A	162.159.9.132 ; cf_tags=cf-proxied:false
@@ -832,6 +838,8 @@ ns3.nsf.gov.	3600	IN	A	204.14.134.242 ; cf_tags=cf-proxied:false
 ns3.nwtrb.gov.	3600	IN	A	96.89.3.213 ; cf_tags=cf-proxied:false
 ns3.nyc.gov.	3600	IN	A	157.188.197.38 ; cf_tags=cf-proxied:false
 ns3.paloshills-il.gov.	3600	IN	A	50.249.210.210 ; cf_tags=cf-proxied:false
+ns3.pittstoncity.gov.	3600	IN	A	192.168.42.12 ; cf_tags=cf-proxied:false
+ns3.pittstoncity.gov.	3600	IN	A	192.168.42.10 ; cf_tags=cf-proxied:false
 ns3.rocklandcountyny.gov.	3600	IN	A	208.80.125.159 ; cf_tags=cf-proxied:false
 ns3.sammamishwa.gov.	3600	IN	A	208.80.125.4 ; cf_tags=cf-proxied:false
 ns3.sandiego.gov.	3600	IN	A	156.29.4.6 ; cf_tags=cf-proxied:false
@@ -3308,6 +3316,7 @@ ssab.gov.	3600	IN	DS	36304 5 2 3829538D6ABC91516BC78F349EB31268AC9239C61FD28A222
 ssa.gov.	3600	IN	DS	59046 13 2 BF0D797F535684441EAC08C1C4D540BA6F7B44FCD95B89BE23631C837672AF56
 ssjid.gov.	3600	IN	DS	2371 13 2 06419CF5A9E972D9F83B871EE2DB1DEE3264E0E5FA19D704DCD6EBEE6737CAF1
 sslc.gov.	3600	IN	DS	2371 13 2 01E7BAE6FDEB5F7FE404A918B2DF5B3673F8DA0B1EB13334443A04AB896BD761
+sss.gov.	3600	IN	DS	38900 13 2 98801DBBAE56BB4FA91D7DFF08C6FB77E75275B8A75940DE303132F619BD2543
 sss.gov.	3600	IN	DS	55410 7 2 3E84CD3E1458DCB9DB96CCC6E994D2D7B13A7CA00C25B2878D59E56607EF5460
 sss.gov.	3600	IN	DS	65325 7 2 30C54CC73EE1CF951E30C86962B0AB2288E6517F65DC0BC143E9E2D5BCF459CD
 standards.gov.	3600	IN	DS	2371 13 2 2CFA86E6262D8C12277D3077AEA030A03A77B24457FA6872A92DCEC251063D05
@@ -3704,6 +3713,10 @@ worker.gov.	3600	IN	DS	58874 13 2 D225C3DB8D439DE981EC27FB9734B9D66DA926B3C77544
 workplace.gov.	3600	IN	DS	2371 13 2 3495984BBA8988D15CDD53A4017DBA57C37ABA7138852146066B77D1B9E14944
 workwithusaid.gov.	3600	IN	DS	21889 8 2 6B4E5512B53D816DCE3067E79BC397FA2BF378D52C6C1469B13CB6E28E39FDF9
 workwithusaid.gov.	3600	IN	DS	904 8 2 66E7AA376F20FD338C797619DCA6EAA5B8FBFC82DF129306A7D51853BB568EB4
+wrightcountymn.gov.	3600	IN	DS	45217 8 1 D157ED5F119E602A05376DB9BD5535A612D74D54
+wrightcountymn.gov.	3600	IN	DS	45217 8 2 4FD98D100912D1985B42BD88A0E03D3BF756457381B9B747A6DC9D63EB0BEBF9
+wrightcountymn.gov.	3600	IN	DS	54439 8 1 7834528E3A8450BF3A07216A03445FC8C01DE5D1
+wrightcountymn.gov.	3600	IN	DS	54439 8 2 C109838646973AA04C10792F7FD7F64B084F8E482DD468D244FA17DCF0627DF3
 wrp.gov.	3600	IN	DS	60097 13 2 2A04E460308F4F608E6D766E63547CD39502A23F59F0E0523BEE945B66BB1E6A
 wsd6lewiscountywa.gov.	3600	IN	DS	2371 13 2 91DECD14BCA1665F565D319DA1F011F5E8B4F4134C571546BCFB9AC0EF81AEEC
 wwcowa.gov.	3600	IN	DS	2507 13 2 50EFBB00C4B7508D679CEAF0C4066D359B7B7B9B53BADA3E893B8B1CCB6AAC42
@@ -6634,9 +6647,8 @@ boiseidaho.gov.	10800	IN	NS	pdns05.domaincontrol.com.
 boiseidaho.gov.	10800	IN	NS	pdns06.domaincontrol.com.
 boisforte-nsn.gov.	10800	IN	NS	ns11.dnsmadeeasy.com.
 boisforte-nsn.gov.	10800	IN	NS	ns10.dnsmadeeasy.com.
-bolingbrook.gov.	10800	IN	NS	ns67.domaincontrol.com.
-bolingbrook.gov.	10800	IN	NS	ns1.govoffice.com.
-bolingbrook.gov.	10800	IN	NS	ns2.govoffice.com.
+bolingbrook.gov.	10800	IN	NS	ns31.domaincontrol.com.
+bolingbrook.gov.	10800	IN	NS	ns32.domaincontrol.com.
 boltonct.gov.	10800	IN	NS	ns2.cen.ct.gov.
 boltonct.gov.	10800	IN	NS	ns1.cen.ct.gov.
 bolton-ma.gov.	10800	IN	NS	edns3.ultradns.biz.
@@ -7386,11 +7398,8 @@ burienwa.gov.	10800	IN	NS	ns-1325.awsdns-37.org.
 burienwa.gov.	10800	IN	NS	ns-1862.awsdns-40.co.uk.
 burienwa.gov.	10800	IN	NS	ns-54.awsdns-06.com.
 burienwa.gov.	10800	IN	NS	ns-560.awsdns-06.net.
-burkecounty-ga.gov.	10800	IN	NS	dns1.name-services.com.
-burkecounty-ga.gov.	10800	IN	NS	dns2.name-services.com.
-burkecounty-ga.gov.	10800	IN	NS	dns5.name-services.com.
-burkecounty-ga.gov.	10800	IN	NS	dns3.name-services.com.
-burkecounty-ga.gov.	10800	IN	NS	dns4.name-services.com.
+burkecounty-ga.gov.	10800	IN	NS	nero.ns.cloudflare.com.
+burkecounty-ga.gov.	10800	IN	NS	connie.ns.cloudflare.com.
 burkittsville-md.gov.	10800	IN	NS	ns2.fatcow.com.
 burkittsville-md.gov.	10800	IN	NS	ns1.fatcow.com.
 burleigh.gov.	10800	IN	NS	ns3-08.azure-dns.org.
@@ -12965,8 +12974,6 @@ elearningnc.gov.	10800	IN	NS	ns1.nc.gov.
 elearningnc.gov.	10800	IN	NS	ns2.nc.gov.
 electionsshelbytn.gov.	10800	IN	NS	raina.ns.cloudflare.com.
 electionsshelbytn.gov.	10800	IN	NS	kellen.ns.cloudflare.com.
-electionsslcfl.gov.	10800	IN	NS	joel.ns.cloudflare.com.
-electionsslcfl.gov.	10800	IN	NS	brenda.ns.cloudflare.com.
 elginil.gov.	10800	IN	NS	leah.ns.cloudflare.com.
 elginil.gov.	10800	IN	NS	piotr.ns.cloudflare.com.
 elgintexas.gov.	10800	IN	NS	dns3.easydns.org.
@@ -19415,6 +19422,8 @@ klamathtribalhealth.gov.	10800	IN	NS	freedns4.registrar-servers.com.
 klamathtribalhealth.gov.	10800	IN	NS	freedns3.registrar-servers.com.
 klamathtribalhealth.gov.	10800	IN	NS	freedns5.registrar-servers.com.
 klamathtribalhealth.gov.	10800	IN	NS	freedns1.registrar-servers.com.
+klickitatcounty.gov.	10800	IN	NS	dns3.civicplus.com.
+klickitatcounty.gov.	10800	IN	NS	dns4.civicplus.com.
 klrd.gov.	10800	IN	NS	ns1.wordpress.com.
 klrd.gov.	10800	IN	NS	ns2.wordpress.com.
 klrd.gov.	10800	IN	NS	ns3.wordpress.com.
@@ -19969,6 +19978,8 @@ laurelcountysheriff.gov.	10800	IN	NS	ns2.bluehost.com.
 laurelcountysheriff.gov.	10800	IN	NS	ns1.bluehost.com.
 laurelmd.gov.	10800	IN	NS	phil.ns.cloudflare.com.
 laurelmd.gov.	10800	IN	NS	dana.ns.cloudflare.com.
+laurenscountysc.gov.	10800	IN	NS	ns47.domaincontrol.com.
+laurenscountysc.gov.	10800	IN	NS	ns48.domaincontrol.com.
 lauriemo.gov.	10800	IN	NS	ns1.inmotionhosting.com.
 lauriemo.gov.	10800	IN	NS	ns2.inmotionhosting.com.
 lavergnetn.gov.	10800	IN	NS	ns1145.dns.dyn.com.
@@ -22024,8 +22035,8 @@ medicare.gov.	10800	IN	NS	a8-67.akam.net.
 medicare.gov.	10800	IN	NS	a10-67.akam.net.
 medicare.gov.	10800	IN	NS	a13-64.akam.net.
 medicare.gov.	10800	IN	NS	a24-65.akam.net.
-medinacounty.gov.	10800	IN	NS	mcns01.medinaco.net.
-medinacounty.gov.	10800	IN	NS	mcns02.medinaco.net.
+medinacounty.gov.	10800	IN	NS	ns01.medinacounty.gov.
+medinacounty.gov.	10800	IN	NS	ns02.medinacounty.gov.
 medinamn.gov.	10800	IN	NS	ns3175.dns.dyn.com.
 medinamn.gov.	10800	IN	NS	ns1146.dns.dyn.com.
 medinamn.gov.	10800	IN	NS	ns4162.dns.dyn.com.
@@ -26038,6 +26049,8 @@ osceolacountyfl.gov.	10800	IN	NS	ns3-33.azure-dns.org.
 osceolacountyfl.gov.	10800	IN	NS	ns4-33.azure-dns.info.
 osceolacountyia.gov.	10800	IN	NS	ns2.siteground.net.
 osceolacountyia.gov.	10800	IN	NS	ns1.siteground.net.
+osceolacountymi.gov.	10800	IN	NS	ns65.domaincontrol.com.
+osceolacountymi.gov.	10800	IN	NS	ns66.domaincontrol.com.
 osceolafdar.gov.	10800	IN	NS	naya.ns.cloudflare.com.
 osceolafdar.gov.	10800	IN	NS	keanu.ns.cloudflare.com.
 osceolane.gov.	10800	IN	NS	freedns1.registrar-servers.com.
@@ -27128,6 +27141,9 @@ pittsfield-mi.gov.	10800	IN	NS	ns2.hmsns.com.
 pittsfield-mi.gov.	10800	IN	NS	ns1.hmsns.com.
 pittsfieldnh.gov.	10800	IN	NS	dns3.civicplus.com.
 pittsfieldnh.gov.	10800	IN	NS	dns4.civicplus.com.
+pittstoncity.gov.	10800	IN	NS	ns2.pittstoncity.gov.
+pittstoncity.gov.	10800	IN	NS	ns1.pittstoncity.gov.
+pittstoncity.gov.	10800	IN	NS	ns3.pittstoncity.gov.
 pittsvillemd.gov.	10800	IN	NS	gerald.ns.cloudflare.com.
 pittsvillemd.gov.	10800	IN	NS	deborah.ns.cloudflare.com.
 pittsvillewi.gov.	10800	IN	NS	mona.ns.cloudflare.com.
@@ -33495,8 +33511,9 @@ townoframapo-ny.gov.	10800	IN	NS	aiden.ns.cloudflare.com.
 townoframapo-ny.gov.	10800	IN	NS	meadow.ns.cloudflare.com.
 townofransomcanyon.gov.	10800	IN	NS	ns4.wixdns.net.
 townofransomcanyon.gov.	10800	IN	NS	ns5.wixdns.net.
-townofredriverwis.gov.	10800	IN	NS	ns16.domaincontrol.com.
-townofredriverwis.gov.	10800	IN	NS	ns15.domaincontrol.com.
+townofredriverwis.gov.	10800	IN	NS	ns-447.awsdns-55.com.
+townofredriverwis.gov.	10800	IN	NS	ns-868.awsdns-44.net.
+townofredriverwis.gov.	10800	IN	NS	ns-1242.awsdns-27.org.
 townofreseburgwi.gov.	10800	IN	NS	ns37.domaincontrol.com.
 townofreseburgwi.gov.	10800	IN	NS	ns38.domaincontrol.com.
 townofriblakewi.gov.	10800	IN	NS	ns65.domaincontrol.com.
@@ -35034,6 +35051,8 @@ villageofbronxville.gov.	10800	IN	NS	dns3.civicplus.com.
 villageofbronxville.gov.	10800	IN	NS	dns4.civicplus.com.
 villageofbronxvillepd.gov.	10800	IN	NS	dns3.civicplus.com.
 villageofbronxvillepd.gov.	10800	IN	NS	dns4.civicplus.com.
+villageofbrookville.gov.	10800	IN	NS	ns1.startlogic.com.
+villageofbrookville.gov.	10800	IN	NS	ns2.startlogic.com.
 villageofcallawayne.gov.	10800	IN	NS	ns46.domaincontrol.com.
 villageofcallawayne.gov.	10800	IN	NS	ns45.domaincontrol.com.
 villageofcamillus-ny.gov.	10800	IN	NS	dns1.srsplus.com.
@@ -37129,6 +37148,9 @@ woodridgeil.gov.	10800	IN	NS	ns3-08.azuregov-dns.us.
 woodridgenj.gov.	10800	IN	NS	dns2.easydns.net.
 woodridgenj.gov.	10800	IN	NS	dns3.easydns.org.
 woodridgenj.gov.	10800	IN	NS	dns1.easydns.com.
+woodridgepdnj.gov.	10800	IN	NS	dns1.easydns.com.
+woodridgepdnj.gov.	10800	IN	NS	dns2.easydns.net.
+woodridgepdnj.gov.	10800	IN	NS	dns3.easydns.org.
 woodruffcircuitclerkar.gov.	10800	IN	NS	alexa.ns.cloudflare.com.
 woodruffcircuitclerkar.gov.	10800	IN	NS	charles.ns.cloudflare.com.
 woodruffcountyar.gov.	10800	IN	NS	ns1.mostwantedwebsites.net.
