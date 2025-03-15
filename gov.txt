@@ -1,6 +1,6 @@
 ;;
 ;; Domain:     gov.
-;; Exported:   2025-03-14 07:11:41
+;; Exported:   2025-03-15 07:11:32
 ;;
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -24,7 +24,7 @@
 ;;
 ;; Use at your own risk.
 ;; SOA Record
-gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1741935901 3600 900 604800 300
+gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1742022305 3600 900 604800 300
 
 ;; A Records
 acs-ns1-aws.akcourts.gov.	3600	IN	A	205.251.198.140 ; cf_tags=cf-proxied:false
@@ -2709,6 +2709,7 @@ mycreditunion.gov.	3600	IN	DS	24390 7 2 C266A48585A7566235D81F2F90DF4316967464CF
 myfdic.gov.	3600	IN	DS	19834 8 2 2726EB53C279A98F6F101F94DC821716CE870FE65C6315E446BB864674444EFD
 myira.gov.	3600	IN	DS	2371 13 2 4F83E18A7B9B2D71D10BEDC8A86BFA5E9B476A4EAE5A800E85C425259E68E26C
 mylacera.gov.	3600	IN	DS	2371 13 2 EF291A5B60F815D58F9E434861BB0B4A78319042B6AEFC520039E9A1E9021A4A
+mymass.gov.	3600	IN	DS	16390 8 2 EA06E079BC220D5B2ED6DA32A1A1B9BB401013CC754FE9B314DBB0C07359D2A0
 mymdtaxes.gov.	3600	IN	DS	2371 13 2 DFC2EF02A1655987EFE4FCF5DDF974A5A951FCCF971A9123AE304A03C5E8B832
 mymedicare.gov.	3600	IN	DS	14700 7 2 510052CD0D4120E7ADCC913302477DBE24321E1FD08A7C22A2A3B082DF407892
 mymoney.gov.	3600	IN	DS	2371 13 2 A3844B12E7FDBAD581FB09E9C8D19E8D590C23062BA7D92B629E20B20ABDE5E1
@@ -3473,10 +3474,10 @@ trumplibrary.gov.	3600	IN	DS	25936 8 2 595C25F746CD0DBAC4DCDF8454F3946AA13E2C7DF
 trumpwhitehouse.gov.	3600	IN	DS	50536 8 2 DBDEA851C1A22523828EFCB58A81FD3629C3B02B63F6B949B31A1DB03AF69098
 trumpwhitehouse.gov.	3600	IN	DS	42376 8 2 50C53A1881515D0FC6029310CEDC850A1A75940833F179D19232F2F95FECFBE0
 tsa.gov.	3600	IN	DS	2371 13 2 BE4246CEEF17F1BEDB23F21E43CB56931435A030BD76571FF4B67FBE8E09261A
-tsc.gov.	3600	IN	DS	10222 8 2 42714A61D1091901D89CC727DC3DA8F5139D03E4A37FEB466F650C35284FC2CF
-tsc.gov.	3600	IN	DS	10222 8 1 0EDAA71C89154C2E0F8079F29FC816C494CA403B
-tsc.gov.	3600	IN	DS	6919 8 1 D6B1922720B9A9F8FFB7265155D619817FE81F9E
-tsc.gov.	3600	IN	DS	6919 8 2 35246C65C91F0D9B655A963D639495E0D5FE520FF20880073950D96032D05563
+tsc.gov.	3600	IN	DS	16594 8 1 85471B15FCE81BAA6E4E9CE1793B8FEA6821390C
+tsc.gov.	3600	IN	DS	16594 8 2 C8F48EAC0B77D8ADFDFA3021F343B126B79C8370FE19509E707C39D3C0DD431B
+tsc.gov.	3600	IN	DS	20620 8 1 45F818EFC1C7FF8D31969AD95A110AFA84499541
+tsc.gov.	3600	IN	DS	20620 8 2 DD89980FCF3BE525D157FFEBA762EF0972926DFD76016F8693AFBA1AC5BC5522
 tsp.gov.	3600	IN	DS	2371 13 2 4E4B3D262B3FC7179A77F716643C9B6BE0B59C8C73A03882495413A879EF9879
 tsptest.gov.	3600	IN	DS	2371 13 2 60F8C239105185AD4A1C034A5701A92128F0022071DC3B6239D52662BB14A97E
 tsunami.gov.	3600	IN	DS	11021 8 2 9E1A1773B8972D2900289633AD692D8EF179DFEC23436747444684AE712F1A7E
@@ -9561,6 +9562,8 @@ cityoflynd.gov.	10800	IN	NS	ns1.gov-server.net.
 cityoflynd.gov.	10800	IN	NS	ns2.gov-server.net.
 cityofmacon-mo.gov.	10800	IN	NS	ns31.domaincontrol.com.
 cityofmacon-mo.gov.	10800	IN	NS	ns32.domaincontrol.com.
+cityofmadeliamn.gov.	10800	IN	NS	cloe.ns.cloudflare.com.
+cityofmadeliamn.gov.	10800	IN	NS	evan.ns.cloudflare.com.
 cityofmadera.gov.	10800	IN	NS	ns15.digicertdns.net.
 cityofmadera.gov.	10800	IN	NS	ns12.digicertdns.com.
 cityofmadera.gov.	10800	IN	NS	ns14.digicertdns.net.
@@ -10754,6 +10757,8 @@ concordnh.gov.	10800	IN	NS	ns43.domaincontrol.com.
 concordnh.gov.	10800	IN	NS	ns44.domaincontrol.com.
 concretewa.gov.	10800	IN	NS	ns2.bdm.microsoftonline.com.
 concretewa.gov.	10800	IN	NS	ns1.bdm.microsoftonline.com.
+condadodemonterey.gov.	10800	IN	NS	dbru.br.ns.els-gms.att.net.
+condadodemonterey.gov.	10800	IN	NS	ns2.co.monterey.ca.us.
 conejoopenspace.gov.	10800	IN	NS	ingrid.ns.cloudflare.com.
 conejoopenspace.gov.	10800	IN	NS	aragorn.ns.cloudflare.com.
 conesvilletown-ny.gov.	10800	IN	NS	ns2.inoc.net.
@@ -11663,6 +11668,8 @@ darenc.gov.	10800	IN	NS	ns-cloud-b4.googledomains.com.
 darenc.gov.	10800	IN	NS	ns-cloud-b1.googledomains.com.
 darenc.gov.	10800	IN	NS	ns-cloud-b2.googledomains.com.
 darenc.gov.	10800	IN	NS	ns-cloud-b3.googledomains.com.
+darencsheriff.gov.	10800	IN	NS	ns1.ipage.com.
+darencsheriff.gov.	10800	IN	NS	ns2.ipage.com.
 darienct.gov.	10800	IN	NS	ns1.dnsmadeeasy.com.
 darienct.gov.	10800	IN	NS	ns0.dnsmadeeasy.com.
 darienct.gov.	10800	IN	NS	ns3.dnsmadeeasy.com.
@@ -19105,6 +19112,8 @@ johnsoncountytn.gov.	10800	IN	NS	ns1.bluehost.com.
 johnsoncountytn.gov.	10800	IN	NS	ns2.bluehost.com.
 johnsoncowy.gov.	10800	IN	NS	cash.ns.cloudflare.com.
 johnsoncowy.gov.	10800	IN	NS	teresa.ns.cloudflare.com.
+johnsonsotn.gov.	10800	IN	NS	lovisa.ns.cloudflare.com.
+johnsonsotn.gov.	10800	IN	NS	alberto.ns.cloudflare.com.
 johnstonnc.gov.	10800	IN	NS	ns-155.awsdns-19.com.
 johnstonnc.gov.	10800	IN	NS	ns-602.awsdns-11.net.
 johnstonnc.gov.	10800	IN	NS	ns-1331.awsdns-38.org.
@@ -30739,6 +30748,11 @@ shelbycounty-il.gov.	10800	IN	NS	ns1-01.azure-dns.com.
 shelbycounty-il.gov.	10800	IN	NS	ns1.mytecsol.com.
 shelbycounty-il.gov.	10800	IN	NS	ns3-01.azure-dns.org.
 shelbycounty-il.gov.	10800	IN	NS	ns4-01.azure-dns.info.
+shelbycountymo.gov.	10800	IN	NS	ns3.linode.com.
+shelbycountymo.gov.	10800	IN	NS	ns4.linode.com.
+shelbycountymo.gov.	10800	IN	NS	ns5.linode.com.
+shelbycountymo.gov.	10800	IN	NS	ns1.linode.com.
+shelbycountymo.gov.	10800	IN	NS	ns2.linode.com.
 shelbycountytn.gov.	10800	IN	NS	kellen.ns.cloudflare.com.
 shelbycountytn.gov.	10800	IN	NS	raina.ns.cloudflare.com.
 sheldoniowa.gov.	10800	IN	NS	ns2.siteground.net.
@@ -30997,6 +31011,8 @@ sjbparish.gov.	10800	IN	NS	ns05.domaincontrol.com.
 sjbparish.gov.	10800	IN	NS	ns06.domaincontrol.com.
 sjcindiana.gov.	10800	IN	NS	david.ns.cloudflare.com.
 sjcindiana.gov.	10800	IN	NS	monroe.ns.cloudflare.com.
+sjcountycahcs.gov.	10800	IN	NS	ns.sjchcs.org.
+sjcountycahcs.gov.	10800	IN	NS	ns2.sjchcs.org.
 sjcpa.gov.	10800	IN	NS	sasha.ns.cloudflare.com.
 sjcpa.gov.	10800	IN	NS	randall.ns.cloudflare.com.
 sji.gov.	10800	IN	NS	dnssec12.datamtn.com.
@@ -34025,6 +34041,10 @@ townoftroutville-va.gov.	10800	IN	NS	ns1.jlinternet.biz.
 townoftroutville-va.gov.	10800	IN	NS	ns2.jlinternet.biz.
 townoftruckee.gov.	10800	IN	NS	ns23.domaincontrol.com.
 townoftruckee.gov.	10800	IN	NS	ns24.domaincontrol.com.
+townofturinny.gov.	10800	IN	NS	dns200.cmsdefender.com.
+townofturinny.gov.	10800	IN	NS	dns300.cmsdefender.com.
+townofturinny.gov.	10800	IN	NS	dns400.cmsdefender.com.
+townofturinny.gov.	10800	IN	NS	dns100.cmsdefender.com.
 townofturtlewi.gov.	10800	IN	NS	ns26.domaincontrol.com.
 townofturtlewi.gov.	10800	IN	NS	ns25.domaincontrol.com.
 townofulyssesny.gov.	10800	IN	NS	ns25.domaincontrol.com.
@@ -36069,6 +36089,8 @@ waitsfieldvt.gov.	10800	IN	NS	ns20.digicertdns.com.
 waitsfieldvt.gov.	10800	IN	NS	ns25.digicertdns.net.
 wakecountync.gov.	10800	IN	NS	ns-02.mcnc.org.
 wakecountync.gov.	10800	IN	NS	ns-01.mcnc.org.
+wakefieldma.gov.	10800	IN	NS	meadow.ns.cloudflare.com.
+wakefieldma.gov.	10800	IN	NS	rustam.ns.cloudflare.com.
 wakefieldmapd.gov.	10800	IN	NS	meadow.ns.cloudflare.com.
 wakefieldmapd.gov.	10800	IN	NS	rustam.ns.cloudflare.com.
 wakeforestnc.gov.	10800	IN	NS	marty.ns.cloudflare.com.
