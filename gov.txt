@@ -1,6 +1,6 @@
 ;;
 ;; Domain:     gov.
-;; Exported:   2025-03-22 07:11:32
+;; Exported:   2025-03-23 07:11:22
 ;;
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -24,7 +24,7 @@
 ;;
 ;; Use at your own risk.
 ;; SOA Record
-gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1742627101 3600 900 604800 300
+gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1742713505 3600 900 604800 300
 
 ;; A Records
 acs-ns1-aws.akcourts.gov.	3600	IN	A	205.251.198.140 ; cf_tags=cf-proxied:false
@@ -445,7 +445,6 @@ ns1.reno.gov.	3600	IN	A	162.159.8.202 ; cf_tags=cf-proxied:false
 ns1.richmondvaems.gov.	3600	IN	A	209.59.187.1 ; cf_tags=cf-proxied:false
 ns1.riversidesheriff.gov.	3600	IN	A	158.61.20.150 ; cf_tags=cf-proxied:false
 ns1.rocklandcountyny.gov.	3600	IN	A	208.80.124.159 ; cf_tags=cf-proxied:false
-ns1.rsa-al.gov.	3600	IN	A	74.254.150.10 ; cf_tags=cf-proxied:false
 ns1.sammamishwa.gov.	3600	IN	A	208.80.124.4 ; cf_tags=cf-proxied:false
 ns1.sanantonio.gov.	3600	IN	A	161.226.130.135 ; cf_tags=cf-proxied:false
 ns1.savingsbond.gov.	3600	IN	A	162.159.0.233 ; cf_tags=cf-proxied:false
@@ -717,7 +716,6 @@ ns2.richmondvaems.gov.	3600	IN	A	209.59.187.1 ; cf_tags=cf-proxied:false
 ns2.rileytwpmi.gov.	3600	IN	A	184.72.229.176 ; cf_tags=cf-proxied:false
 ns2.riversidesheriff.gov.	3600	IN	A	158.61.20.151 ; cf_tags=cf-proxied:false
 ns2.rocklandcountyny.gov.	3600	IN	A	208.80.126.159 ; cf_tags=cf-proxied:false
-ns2.rsa-al.gov.	3600	IN	A	74.254.150.11 ; cf_tags=cf-proxied:false
 ns2.sammamishwa.gov.	3600	IN	A	208.80.126.4 ; cf_tags=cf-proxied:false
 ns2.sanantonio.gov.	3600	IN	A	161.226.134.135 ; cf_tags=cf-proxied:false
 ns2.savingsbond.gov.	3600	IN	A	162.159.1.245 ; cf_tags=cf-proxied:false
@@ -29484,8 +29482,9 @@ rrcbc-nsn.gov.	10800	IN	NS	arushi.ns.cloudflare.com.
 rrcbc-nsn.gov.	10800	IN	NS	andy.ns.cloudflare.com.
 rrnm.gov.	10800	IN	NS	pdns06.domaincontrol.com.
 rrnm.gov.	10800	IN	NS	pdns05.domaincontrol.com.
-rsa-al.gov.	10800	IN	NS	ns2.rsa-al.gov.
-rsa-al.gov.	10800	IN	NS	ns1.rsa-al.gov.
+rsa-al.gov.	10800	IN	NS	blue.foundationdns.org.
+rsa-al.gov.	10800	IN	NS	blue.foundationdns.com.
+rsa-al.gov.	10800	IN	NS	blue.foundationdns.net.
 rst-nsn.gov.	10800	IN	NS	mns01.domaincontrol.com.
 rst-nsn.gov.	10800	IN	NS	mns02.domaincontrol.com.
 rubiconwi.gov.	10800	IN	NS	mona.ns.cloudflare.com.
@@ -35679,6 +35678,8 @@ villageofgrandview.gov.	10800	IN	NS	mdns6.hostwindsdns.com.
 villageofgrandview.gov.	10800	IN	NS	mdns5.hostwindsdns.com.
 villageofgrantsburg.gov.	10800	IN	NS	aurora.ns.cloudflare.com.
 villageofgrantsburg.gov.	10800	IN	NS	merlin.ns.cloudflare.com.
+villageofgranvilleil.gov.	10800	IN	NS	ns1.softlayer.com.
+villageofgranvilleil.gov.	10800	IN	NS	ns2.softlayer.com.
 villageofgreenwoodlake.gov.	10800	IN	NS	ns1045.ui-dns.de.
 villageofgreenwoodlake.gov.	10800	IN	NS	ns1045.ui-dns.biz.
 villageofgreenwoodlake.gov.	10800	IN	NS	ns1045.ui-dns.com.
