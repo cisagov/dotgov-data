@@ -1,6 +1,6 @@
 ;;
 ;; Domain:     gov.
-;; Exported:   2025-03-26 07:11:46
+;; Exported:   2025-03-27 07:12:14
 ;;
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -24,7 +24,7 @@
 ;;
 ;; Use at your own risk.
 ;; SOA Record
-gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1742972705 3600 900 604800 300
+gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1743059101 3600 900 604800 300
 
 ;; A Records
 acs-ns1-aws.akcourts.gov.	3600	IN	A	205.251.198.140 ; cf_tags=cf-proxied:false
@@ -3197,6 +3197,7 @@ sandia.gov.	3600	IN	DS	36033 7 2 4677626ABE69FD1D8DD8E5DE10533D2B264A91A7BF1AB3A
 sandia.gov.	3600	IN	DS	36033 7 1 E33B4526CECF2A1B7C733D645B30CD5C912D9538
 sandia.gov.	3600	IN	DS	20739 7 2 0C5F4CDFF8824665ACD1D8A132951B193C59FA7FE6CF7B1F82484C25B410CDC6
 sandia.gov.	3600	IN	DS	20739 7 1 3CA461FF5496BC72A772056489D944621EDA774E
+sandscisdtx.gov.	3600	IN	DS	2371 13 2 D242DB1129705566C609FDA7FA1A3ED82E05FA20F5454CA5AD22646C443E9E2A
 sanfernando.gov.	3600	IN	DS	2371 13 2 20C82DEB63913361BD88F4A1C5453BA096721F8E7C4981B964C58419E3B25C75
 sanmarcosca.gov.	3600	IN	DS	1606 13 2 4A3AF9F6040CFB57A2F286DC1ED3FD1D234A3DDF0FB35D743701558ACE104DBD
 sanmiguelcountyco.gov.	3600	IN	DS	6109 13 2 F6424FCBE849A5AD1AA720EA43AD233B475C0205C1DA2DC603491CFDD0A90EA6
@@ -10699,6 +10700,8 @@ columbiacountyor.gov.	10800	IN	NS	ns-413.awsdns-51.com.
 columbiacountyor.gov.	10800	IN	NS	ns-796.awsdns-35.net.
 columbiacountyor.gov.	10800	IN	NS	ns-1296.awsdns-34.org.
 columbiacountyor.gov.	10800	IN	NS	ns-1952.awsdns-52.co.uk.
+columbiacountywa.gov.	10800	IN	NS	ns1.dnsimple.com.
+columbiacountywa.gov.	10800	IN	NS	ns2.dnsimple-edge.net.
 columbiacountywi.gov.	10800	IN	NS	pdns10.domaincontrol.com.
 columbiacountywi.gov.	10800	IN	NS	pdns09.domaincontrol.com.
 columbiact.gov.	10800	IN	NS	jean.ns.cloudflare.com.
@@ -10858,6 +10861,8 @@ constablevilleny.gov.	10800	IN	NS	dns100.cmsdefender.com.
 constablevilleny.gov.	10800	IN	NS	dns200.cmsdefender.com.
 constablevilleny.gov.	10800	IN	NS	dns300.cmsdefender.com.
 constablevilleny.gov.	10800	IN	NS	dns400.cmsdefender.com.
+constantiany.gov.	10800	IN	NS	ns1.i-heart-corp.com.
+constantiany.gov.	10800	IN	NS	ns2.i-heart-corp.com.
 consumeraction.gov.	10800	IN	NS	dns2.gsa.gov.
 consumeraction.gov.	10800	IN	NS	dns3.gsa.gov.
 consumeraction.gov.	10800	IN	NS	dns4.gsa.gov.
@@ -20115,6 +20120,8 @@ lakewoodoh.gov.	10800	IN	NS	ns2.lakewoodoh.gov.
 lakewoodoh.gov.	10800	IN	NS	ns1.lakewoodoh.gov.
 lakeworthbeachfl.gov.	10800	IN	NS	troy.ns.cloudflare.com.
 lakeworthbeachfl.gov.	10800	IN	NS	hope.ns.cloudflare.com.
+lamarcountyal.gov.	10800	IN	NS	ns1.bluehost.com.
+lamarcountyal.gov.	10800	IN	NS	ns2.bluehost.com.
 lamarcountyms.gov.	10800	IN	NS	ns2.mediatemple.net.
 lamarcountyms.gov.	10800	IN	NS	ns1.mediatemple.net.
 lamarmo.gov.	10800	IN	NS	ns1-01.azure-dns.com.
@@ -23876,6 +23883,8 @@ mypinellasclerk.gov.	10800	IN	NS	ns3.level3.net.
 mypinellasclerk.gov.	10800	IN	NS	ns4.level3.net.
 myplate.gov.	10800	IN	NS	ns1.usda.gov.
 myplate.gov.	10800	IN	NS	ns2.usda.gov.
+myrtlebeach.gov.	10800	IN	NS	ns19.domaincontrol.com.
+myrtlebeach.gov.	10800	IN	NS	ns20.domaincontrol.com.
 mysamcera.gov.	10800	IN	NS	ns-333.awsdns-41.com.
 mysamcera.gov.	10800	IN	NS	ns-1004.awsdns-61.net.
 mysamcera.gov.	10800	IN	NS	ns-1281.awsdns-32.org.
@@ -25091,8 +25100,9 @@ nola311.gov.	10800	IN	NS	julio.ns.cloudflare.com.
 nola311.gov.	10800	IN	NS	melany.ns.cloudflare.com.
 nolaeoc.gov.	10800	IN	NS	ns05.domaincontrol.com.
 nolaeoc.gov.	10800	IN	NS	ns06.domaincontrol.com.
-nolaerb.gov.	10800	IN	NS	ns53.domaincontrol.com.
-nolaerb.gov.	10800	IN	NS	ns54.domaincontrol.com.
+nolaerb.gov.	10800	IN	NS	ns1.nolaerb.com.
+nolaerb.gov.	10800	IN	NS	ns63.domaincontrol.com.
+nolaerb.gov.	10800	IN	NS	ns64.domaincontrol.com.
 nola.gov.	10800	IN	NS	ernest.ns.cloudflare.com.
 nola.gov.	10800	IN	NS	leah.ns.cloudflare.com.
 nolaipm.gov.	10800	IN	NS	pdns07.domaincontrol.com.
@@ -29869,8 +29879,8 @@ sandownpolicenh.gov.	10800	IN	NS	ryleigh.ns.cloudflare.com.
 sandownpolicenh.gov.	10800	IN	NS	plato.ns.cloudflare.com.
 sandpointidaho.gov.	10800	IN	NS	pdns11.domaincontrol.com.
 sandpointidaho.gov.	10800	IN	NS	pdns12.domaincontrol.com.
-sandscisdtx.gov.	10800	IN	NS	ns1.freehosting.com.
-sandscisdtx.gov.	10800	IN	NS	ns2.freehosting.com.
+sandscisdtx.gov.	10800	IN	NS	dave.ns.cloudflare.com.
+sandscisdtx.gov.	10800	IN	NS	lina.ns.cloudflare.com.
 sandspoint.gov.	10800	IN	NS	ns42.domaincontrol.com.
 sandspoint.gov.	10800	IN	NS	ns41.domaincontrol.com.
 sandspringsok.gov.	10800	IN	NS	ns99.worldnic.com.
@@ -31754,6 +31764,8 @@ ssa.gov.	10800	IN	NS	dns1.ssa.gov.
 ssa.gov.	10800	IN	NS	dns2.ssa.gov.
 ssfca.gov.	10800	IN	NS	bruce.ns.cloudflare.com.
 ssfca.gov.	10800	IN	NS	fiona.ns.cloudflare.com.
+ssidut.gov.	10800	IN	NS	ns63.worldnic.com.
+ssidut.gov.	10800	IN	NS	ns64.worldnic.com.
 ssjid.gov.	10800	IN	NS	ned.ns.cloudflare.com.
 ssjid.gov.	10800	IN	NS	violet.ns.cloudflare.com.
 sslc.gov.	10800	IN	NS	rudy.ns.cloudflare.com.
@@ -33645,8 +33657,8 @@ townofdunnwi.gov.	10800	IN	NS	ns1.bdm.microsoftonline.com.
 townofdunnwi.gov.	10800	IN	NS	ns3.bdm.microsoftonline.com.
 townofdunnwi.gov.	10800	IN	NS	ns4.bdm.microsoftonline.com.
 townofdunnwi.gov.	10800	IN	NS	ns2.bdm.microsoftonline.com.
-townofeaglewi.gov.	10800	IN	NS	ns2.gov-server.net.
-townofeaglewi.gov.	10800	IN	NS	ns1.gov-server.net.
+townofeaglewi.gov.	10800	IN	NS	adam.ns.cloudflare.com.
+townofeaglewi.gov.	10800	IN	NS	mona.ns.cloudflare.com.
 townofeastonwi.gov.	10800	IN	NS	adam.ns.cloudflare.com.
 townofeastonwi.gov.	10800	IN	NS	mona.ns.cloudflare.com.
 townofeasttroywi.gov.	10800	IN	NS	mcgrory.ns.cloudflare.com.
@@ -33700,8 +33712,8 @@ townofgardenvalleywi.gov.	10800	IN	NS	adam.ns.cloudflare.com.
 townofgardenvalleywi.gov.	10800	IN	NS	mona.ns.cloudflare.com.
 townofgardnerwi.gov.	10800	IN	NS	mona.ns.cloudflare.com.
 townofgardnerwi.gov.	10800	IN	NS	adam.ns.cloudflare.com.
-townofgatesny.gov.	10800	IN	NS	ns56.domaincontrol.com.
-townofgatesny.gov.	10800	IN	NS	ns55.domaincontrol.com.
+townofgatesny.gov.	10800	IN	NS	ns39.domaincontrol.com.
+townofgatesny.gov.	10800	IN	NS	ns40.domaincontrol.com.
 townofgenevany.gov.	10800	IN	NS	ns1.softlayer.com.
 townofgenevany.gov.	10800	IN	NS	ns2.softlayer.com.
 townofgermantownwi.gov.	10800	IN	NS	joselyn.ns.cloudflare.com.
