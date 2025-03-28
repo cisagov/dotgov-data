@@ -1,6 +1,6 @@
 ;;
 ;; Domain:     gov.
-;; Exported:   2025-03-27 07:12:14
+;; Exported:   2025-03-28 07:11:44
 ;;
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -24,7 +24,7 @@
 ;;
 ;; Use at your own risk.
 ;; SOA Record
-gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1743059101 3600 900 604800 300
+gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1743145506 3600 900 604800 300
 
 ;; A Records
 acs-ns1-aws.akcourts.gov.	3600	IN	A	205.251.198.140 ; cf_tags=cf-proxied:false
@@ -1390,6 +1390,7 @@ auroratexas.gov.	3600	IN	DS	2371 13 2 43A35212323B3AF25D9127A60F0554C54886EC1A82
 aviationweather.gov.	3600	IN	DS	57377 8 2 10B4B803CEF6DF1D9F60D696FA802D5ACD4B4511A2C22F82B84811FFDD285E76
 azag.gov.	3600	IN	DS	2371 13 2 56472FBD9F49932FC867016A92698CAC8344B39D500E2A2AC0120D3FB9A829B1
 azmag.gov.	3600	IN	DS	2371 13 2 495B3C884DD069605C99775F906160EE9AA8CD26F85F6FA9DD4D4FBF16CA5BA5
+azmvdnow.gov.	3600	IN	DS	2371 13 2 6DBEE8D3FB3EEAA49E44A512B91FAB437726BF4695D0C4548D38C45598D72B12
 bakersfield.gov.	3600	IN	DS	28057 13 2 DC6FFB4F706CB083460625F28FC33CC6A05A25EE6E0B194DB84348048985B672
 bam.gov.	3600	IN	DS	27260 13 2 AAEFCF2AC657F7C3ACEB8536F346A961D156CE9A6137271452F35B82830FD87B
 bankanswers.gov.	3600	IN	DS	2371 13 2 9BF0E2E87EC6B330F613FF6FCD8E4FE39543CE569386EED4C8FEBED26E16789D
@@ -1513,6 +1514,7 @@ ca.gov.	3600	IN	DS	2371 13 2 27B709BA6CE7E22250EE3210F4030F0D81D3AABA7B70AD2C754
 cahwnet.gov.	3600	IN	DS	2371 13 2 874E883A105DB5CD1D4CD6F9A3424AF8077B1F95EF6ADB030979DE8976546099
 california.gov.	3600	IN	DS	2371 13 2 10133D437A994612F7069584BEF1798823B704132E516E67E13545D64572C9F5
 campusdrugprevention.gov.	3600	IN	DS	32669 8 2 E889320DE16880732E84EFD079942E2DCC097E62CBFB7BAE867B6A15A60B7C2B
+cancer.gov.	3600	IN	DS	22820 8 2 CFB97D8B53FCA2187C154F5A475F1E238674B2A26A47DF344AAF54112D4AFFFF
 cancer.gov.	3600	IN	DS	40045 8 2 2C71722D8BA07044DC1C2FC424CDE6B3CAB023B2065B214CAFDDD305F8716511
 cao.gov.	3600	IN	DS	17624 8 2 B51F0ECFC5DA2D5D3ECEEF2336B7BC5C77912DB3906F4408C86D9D8706E36A6E
 cao.gov.	3600	IN	DS	37556 8 2 9C1DD8168483E7DF6959248FA27FA2E39B790665F98FBF8AEE7D9F0AAFB20954
@@ -1623,6 +1625,7 @@ cityofcolbyks.gov.	3600	IN	DS	13234 13 2 0996E4E3663CEC42A9FC4FDF6D92A2BC724238F
 cityofconroe.gov.	3600	IN	DS	35500 13 2 11A05A5919CB90C18C341D9FBF4627D525AD4E1DEB19262F4E6322A408FEDA59
 cityofcrandonwi.gov.	3600	IN	DS	59640 13 2 47A4112FFA1A5C72930E7DF60F8DB013CD12C0ABF0C38F981F7D7163360AB705
 cityofeatonrapids.gov.	3600	IN	DS	2371 13 2 B29C1942F2DB2D5CFB2264CAB841FAA42873AD47DE6BB98D38231B0AA1F9E5AA
+cityofelkhartin.gov.	3600	IN	DS	2371 13 2 5184D68D65EFB822C5296EA6FFE16CDEFE0CEECE1FB20F2CF1730BBB0581704B
 cityofgeronimo.gov.	3600	IN	DS	22352 8 2 3457540C89482446EF8430AB1F74988ED4ADC61F622459E821A7C11312DD1F80
 cityofnewlondontx.gov.	3600	IN	DS	2371 13 2 76196FA93DE2956051986ED117F1759EB31320B4CBA46F4618E29B4AFA8516D3
 cityofpacificgrove.gov.	3600	IN	DS	48642 13 2 7B6691A8A6BEF2F42B52DE503E3173C03A099516CE36524C233657992144B40E
@@ -2763,13 +2766,14 @@ ncd.gov.	3600	IN	DS	2371 13 2 D8BBB3BEB8FAC1A672481B6E6C31513F80AB4D82A821A3ECE4
 ncdpi.gov.	3600	IN	DS	2371 13 2 94448D86461135904664008703BB49E91228491F133398FCB622F64EEA10873C
 ncdrc.gov.	3600	IN	DS	2371 13 2 84E5BCD99430DE51AEFFB943032D12D9CD73F81A3CA0C42700649BE3D005B1ED
 ncedcloud.gov.	3600	IN	DS	2371 13 2 E111F8E0153E4FDADC18BFD40A45AB4FB5B9B6A4E2EAFE811DB61F27CB385BAF
+ncifcrf.gov.	3600	IN	DS	16994 8 2 417215CFB534FDDF6A82F54EA0181797D40DC4867FDCAAA567231DE09AA4FEB2
 ncifcrf.gov.	3600	IN	DS	28606 8 2 99CC99700D7DD66F83D38BE0FB5D1BCBD90D7B522202FF9FC36463C3968D9D3C
 ncjrs.gov.	3600	IN	DS	2371 13 2 6117694A537F3DE36CF7CA6EDC3EE94718F039D8384C409E9026F4B8984C9E29
 ncjsc.gov.	3600	IN	DS	2371 13 2 401C57DE6C57C951743D7F9D1BB8A56660B8C58F41E73E9D78AF43910F6FBE18
 nclea.gov.	3600	IN	DS	2371 13 2 2346D47B7CF8C5A70D701F99B0B347258FB4E7361AE5441D59DB436FDEB88F5A
 ncpc.gov.	3600	IN	DS	2371 13 2 0749F1D81BDFE68015E123F01DF1BD0819C6986CED0C3A710B14A9DCC5757451
 ncrc.gov.	3600	IN	DS	37628 13 2 1F637AC259C409A77CECBF63AAC8598EC80898B7BF7E1E962DFA98F84464C8B8
-ncsc.gov.	3600	IN	DS	10244 8 2 2DA0872470DF2B9288B990982201C15D0AB25D989199DF6FC6A28C9D41A71358
+ncsc.gov.	3600	IN	DS	39122 8 2 97273107DCA32A126C2EEB5F69F5D785DB187C5DAD45979C2B9EF7D76FA058B3
 nctc.gov.	3600	IN	DS	26126 8 2 717F77E56DAEDC3209C1F56845B1ABBE171D93E31A202F49DC5CC3E178AC74FD
 ncua.gov.	3600	IN	DS	31428 7 2 C632E6830C249C670A0BC3A5B0551D9502BF5A3B4B9F8B21175D3B3D305C3A2F
 ncua.gov.	3600	IN	DS	40650 7 2 7ED19BADA0EC077C203EF5EBE18BEEC21C80CDB48CB370322350DC96A39F4DE9
@@ -3297,6 +3301,7 @@ smithsonian.gov.	3600	IN	DS	9191 13 2 40A8C3352D96B23492376B5BC518B7CD9B002BC098
 smithsstational.gov.	3600	IN	DS	15545 8 2 BAB9A2067180DC0512B2992E3C7D7868E9A9B9E676D5E786594E821FFAD2C0D9
 smithtownny.gov.	3600	IN	DS	13234 13 2 7BBB25B32995B069089807DD031BF2C441AC8283E1556B63856CCAC0C42FD3F8
 smithtownny.gov.	3600	IN	DS	13234 13 1 AC8E0AE530762AB33836D875805E695D9C3C20DF
+smokefree.gov.	3600	IN	DS	58406 8 2 D72CB6A24C2FF9E73B13AE258437815E3168D1E2EDAFC989799B21E3258D3D60
 smokefree.gov.	3600	IN	DS	29926 8 2 636A3FDA32803EDCA0A59031BD4CB72CD9B14C1B4DA239CEB9A50D73BFFB8FAC
 sns.gov.	3600	IN	DS	63808 13 2 4DF6386BE0F8EBF64132D8F497BC22303C11F93EB6F7F806428F037B32C01A90
 sns.gov.	3600	IN	DS	61248 13 2 92014685AEEE4096C4727C507ACEBC34D6B4EDDD5D072CE4B12246EE5E37D2C9
@@ -5511,10 +5516,8 @@ azminorityhealth.gov.	10800	IN	NS	ns-163.awsdns-20.com.
 azminorityhealth.gov.	10800	IN	NS	ns-1412.awsdns-48.org.
 azminorityhealth.gov.	10800	IN	NS	ns-1015.awsdns-62.net.
 azminorityhealth.gov.	10800	IN	NS	ns-2037.awsdns-62.co.uk.
-azmvdnow.gov.	10800	IN	NS	ns-316.awsdns-39.com.
-azmvdnow.gov.	10800	IN	NS	ns-1247.awsdns-27.org.
-azmvdnow.gov.	10800	IN	NS	ns-915.awsdns-50.net.
-azmvdnow.gov.	10800	IN	NS	ns-1925.awsdns-48.co.uk.
+azmvdnow.gov.	10800	IN	NS	zariyah.ns.cloudflare.com.
+azmvdnow.gov.	10800	IN	NS	ashton.ns.cloudflare.com.
 aznet.gov.	10800	IN	NS	ns-1178.awsdns-19.org.
 aznet.gov.	10800	IN	NS	ns-407.awsdns-50.com.
 aznet.gov.	10800	IN	NS	ns-1806.awsdns-33.co.uk.
@@ -8493,10 +8496,10 @@ cerrogordo.gov.	10800	IN	NS	ns15.dnsmadeeasy.com.
 cerrogordo.gov.	10800	IN	NS	ns10.dnsmadeeasy.com.
 cerrogordo.gov.	10800	IN	NS	ns11.dnsmadeeasy.com.
 cerrogordo.gov.	10800	IN	NS	ns12.dnsmadeeasy.com.
-certnaca.gov.	10800	IN	NS	ns1-05.azure-dns.com.
-certnaca.gov.	10800	IN	NS	ns2-05.azure-dns.net.
-certnaca.gov.	10800	IN	NS	ns3-05.azure-dns.org.
-certnaca.gov.	10800	IN	NS	ns4-05.azure-dns.info.
+certnaca.gov.	10800	IN	NS	ns1-33.azuregov-dns.us.
+certnaca.gov.	10800	IN	NS	ns2-33.azuregov-dns.us.
+certnaca.gov.	10800	IN	NS	ns3-33.azuregov-dns.us.
+certnaca.gov.	10800	IN	NS	ns4-33.azuregov-dns.us.
 cfa.gov.	10800	IN	NS	dns5.gsa.gov.
 cfa.gov.	10800	IN	NS	dns.gsa.gov.
 cfa.gov.	10800	IN	NS	dns3.gsa.gov.
@@ -13242,6 +13245,8 @@ elmwoodmi.gov.	10800	IN	NS	ns0.dnsmadeeasy.com.
 elmwoodmi.gov.	10800	IN	NS	ns4.dnsmadeeasy.com.
 elmwoodmi.gov.	10800	IN	NS	ns2.dnsmadeeasy.com.
 elmwoodmi.gov.	10800	IN	NS	ns3.dnsmadeeasy.com.
+elmwoodparkwi.gov.	10800	IN	NS	hgns1.hostgator.com.
+elmwoodparkwi.gov.	10800	IN	NS	hgns2.hostgator.com.
 elmwoodplace-oh.gov.	10800	IN	NS	journey.ns.cloudflare.com.
 elmwoodplace-oh.gov.	10800	IN	NS	ezra.ns.cloudflare.com.
 elon.gov.	10800	IN	NS	ns63.domaincontrol.com.
@@ -15598,6 +15603,8 @@ germantown-tn.gov.	10800	IN	NS	pdns07.domaincontrol.com.
 germantown-tn.gov.	10800	IN	NS	pdns08.domaincontrol.com.
 germantownwi.gov.	10800	IN	NS	dns3.civicplus.com.
 germantownwi.gov.	10800	IN	NS	dns4.civicplus.com.
+germanvalleyil.gov.	10800	IN	NS	finley.ns.cloudflare.com.
+germanvalleyil.gov.	10800	IN	NS	dara.ns.cloudflare.com.
 getcoveredillinois.gov.	10800	IN	NS	ns2.state.il.us.
 getcoveredillinois.gov.	10800	IN	NS	ns1.state.il.us.
 get.gov.	10800	IN	NS	barbara.ns.cloudflare.com.
@@ -16358,6 +16365,12 @@ greenwoodoceanami.gov.	10800	IN	NS	ns3.supercp.com.
 greenwoodoceanami.gov.	10800	IN	NS	ns1.supercp.com.
 greenwoodsc.gov.	10800	IN	NS	dns2.vc3.com.
 greenwoodsc.gov.	10800	IN	NS	dns1.vc3.com.
+greenwoodtwpcolumbiacopa.gov.	10800	IN	NS	ns20.digicertdns.com.
+greenwoodtwpcolumbiacopa.gov.	10800	IN	NS	ns23.digicertdns.net.
+greenwoodtwpcolumbiacopa.gov.	10800	IN	NS	ns24.digicertdns.net.
+greenwoodtwpcolumbiacopa.gov.	10800	IN	NS	ns25.digicertdns.net.
+greenwoodtwpcolumbiacopa.gov.	10800	IN	NS	ns21.digicertdns.com.
+greenwoodtwpcolumbiacopa.gov.	10800	IN	NS	ns22.digicertdns.com.
 greenwoodtwpcrawfordpa.gov.	10800	IN	NS	ns-cloud-a3.googledomains.com.
 greenwoodtwpcrawfordpa.gov.	10800	IN	NS	ns-cloud-a4.googledomains.com.
 greenwoodtwpcrawfordpa.gov.	10800	IN	NS	ns-cloud-a1.googledomains.com.
@@ -21102,8 +21115,6 @@ loraincountyrecorder.gov.	10800	IN	NS	ns15.wixdns.net.
 loraincountyrecorder.gov.	10800	IN	NS	ns14.wixdns.net.
 lorenatx.gov.	10800	IN	NS	mns01.domaincontrol.com.
 lorenatx.gov.	10800	IN	NS	mns02.domaincontrol.com.
-losalamos.gov.	10800	IN	NS	bunter.lacnm.us.
-losalamos.gov.	10800	IN	NS	hunter.lacnm.us.
 losaltosca.gov.	10800	IN	NS	ns14.zoneedit.com.
 losaltosca.gov.	10800	IN	NS	ns2.zoneedit.com.
 losbanos.gov.	10800	IN	NS	ns63.worldnic.com.
@@ -21874,6 +21885,10 @@ marioncountysheriffar.gov.	10800	IN	NS	ns1.mostwantedwebsites.net.
 marioncountysheriffar.gov.	10800	IN	NS	ns2.mostwantedwebsites.net.
 marioncountytn.gov.	10800	IN	NS	ns51.domaincontrol.com.
 marioncountytn.gov.	10800	IN	NS	ns52.domaincontrol.com.
+marioncountywv.gov.	10800	IN	NS	ns-884.awsdns-46.net.
+marioncountywv.gov.	10800	IN	NS	ns-1249.awsdns-28.org.
+marioncountywv.gov.	10800	IN	NS	ns-202.awsdns-25.com.
+marioncountywv.gov.	10800	IN	NS	ns-1780.awsdns-30.co.uk.
 marionflclerk.gov.	10800	IN	NS	ns1.marionflclerk.gov.
 marionflclerk.gov.	10800	IN	NS	ns1.ocalanet.com.
 marionilpd.gov.	10800	IN	NS	ns1.marionilpd.gov.
@@ -21895,6 +21910,8 @@ mariontownshipbeavercountypa.gov.	10800	IN	NS	ns1.siteground.net.
 mariontownshipbeavercountypa.gov.	10800	IN	NS	ns2.siteground.net.
 mariontwpcvxmi.gov.	10800	IN	NS	ns1.softlayer.com.
 mariontwpcvxmi.gov.	10800	IN	NS	ns2.softlayer.com.
+mariontwplinncoia.gov.	10800	IN	NS	ns4.wixdns.net.
+mariontwplinncoia.gov.	10800	IN	NS	ns5.wixdns.net.
 marionvillemo.gov.	10800	IN	NS	ns1.kellinet.net.
 marionvillemo.gov.	10800	IN	NS	ns2.kellinet.net.
 markedtreepd.gov.	10800	IN	NS	ns2.wixdns.net.
@@ -22397,6 +22414,8 @@ medinamn.gov.	10800	IN	NS	ns3175.dns.dyn.com.
 medinamn.gov.	10800	IN	NS	ns1146.dns.dyn.com.
 medinamn.gov.	10800	IN	NS	ns4162.dns.dyn.com.
 medinamn.gov.	10800	IN	NS	ns2139.dns.dyn.com.
+medinatx.gov.	10800	IN	NS	ns57.domaincontrol.com.
+medinatx.gov.	10800	IN	NS	ns58.domaincontrol.com.
 medina-wa.gov.	10800	IN	NS	ns-47.awsdns-05.com.
 medina-wa.gov.	10800	IN	NS	ns-1015.awsdns-62.net.
 medina-wa.gov.	10800	IN	NS	ns-1530.awsdns-63.org.
@@ -31782,8 +31801,9 @@ staffordcountyva.gov.	10800	IN	NS	snsa.vita.virginia.gov.
 staffordcountyva.gov.	10800	IN	NS	cnsb.vita.virginia.gov.
 staffordcountyva.gov.	10800	IN	NS	cnsa.vita.virginia.gov.
 staffordcountyva.gov.	10800	IN	NS	snsb.vita.virginia.gov.
-staffordnj.gov.	10800	IN	NS	pdns08.domaincontrol.com.
-staffordnj.gov.	10800	IN	NS	pdns07.domaincontrol.com.
+staffordnj.gov.	10800	IN	NS	dns1.easydns.com.
+staffordnj.gov.	10800	IN	NS	dns2.easydns.net.
+staffordnj.gov.	10800	IN	NS	dns3.easydns.org.
 staffordtx.gov.	10800	IN	NS	ns6531.hostgator.com.
 staffordtx.gov.	10800	IN	NS	ns6532.hostgator.com.
 stagingaz.gov.	10800	IN	NS	ns-1698.awsdns-20.co.uk.
