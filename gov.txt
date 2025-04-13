@@ -1,6 +1,6 @@
 ;;
 ;; Domain:     gov.
-;; Exported:   2025-04-12 07:11:37
+;; Exported:   2025-04-13 07:11:34
 ;;
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -24,7 +24,7 @@
 ;;
 ;; Use at your own risk.
 ;; SOA Record
-gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1744441505 3600 900 604800 300
+gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1744527901 3600 900 604800 300
 
 ;; A Records
 acs-ns1-aws.akcourts.gov.	3600	IN	A	205.251.198.140 ; cf_tags=cf-proxied:false
@@ -419,7 +419,6 @@ ns1.nc.gov.	3600	IN	A	149.168.11.11 ; cf_tags=cf-proxied:false
 ns1.newtonma.gov.	3600	IN	A	209.6.175.194 ; cf_tags=cf-proxied:false
 ns1.niagaracounty.gov.	3600	IN	A	67.222.116.100 ; cf_tags=cf-proxied:false
 ns1.nj.gov.	3600	IN	A	205.251.192.191 ; cf_tags=cf-proxied:false
-ns1.nlrb.gov.	3600	IN	A	4.4.91.87 ; cf_tags=cf-proxied:false
 ns1.nmsc.gov.	3600	IN	A	50.79.80.196 ; cf_tags=cf-proxied:false
 ns1.nnss.gov.	3600	IN	A	192.100.51.206 ; cf_tags=cf-proxied:false
 ns1.norcopa.gov.	3600	IN	A	209.173.16.94 ; cf_tags=cf-proxied:false
@@ -686,7 +685,6 @@ ns2.newtonma.gov.	3600	IN	A	108.49.74.194 ; cf_tags=cf-proxied:false
 ns2.niagaracounty.gov.	3600	IN	A	24.169.93.222 ; cf_tags=cf-proxied:false
 ns2.nih.gov.	3600	IN	A	128.231.64.1 ; cf_tags=cf-proxied:false
 ns2.nj.gov.	3600	IN	A	205.251.196.68 ; cf_tags=cf-proxied:false
-ns2.nlrb.gov.	3600	IN	A	4.4.91.88 ; cf_tags=cf-proxied:false
 ns2.nmcourts.gov.	3600	IN	A	74.50.132.45 ; cf_tags=cf-proxied:false
 ns2.nmsc.gov.	3600	IN	A	50.79.80.196 ; cf_tags=cf-proxied:false
 ns2.nnss.gov.	3600	IN	A	192.100.51.207 ; cf_tags=cf-proxied:false
@@ -2834,7 +2832,8 @@ nixonlibrary.gov.	3600	IN	DS	62281 8 2 4B896C0CE462EFAB30B979268ADB01D7B61D3E0C3
 nj.gov.	3600	IN	DS	46414 13 2 73D2429ED720BAAEB12ADA416522E3C9621385921018E2208047FAFE03C7A4D3
 nlm.gov.	3600	IN	DS	6820 8 2 62587EC50C137C166E75F734347EBAAFD4A1EDF180CAA931B45D89E341806C0C
 nlm.gov.	3600	IN	DS	16604 8 2 115529DCD0A43F134368947D19F822B709F985EAAB0F75B34C8AD3199AABB8E5
-nlrb.gov.	3600	IN	DS	47467 8 2 16622DEE308E7263810B9D93A6A2B59C819ACACB2AE4DA49F77AF1FE193C3F25
+nlrb.gov.	3600	IN	DS	39918 7 2 BF138CF50620DAADA5AC3FB5C8BD6407245CE495C7CC8028969857CF97AA3A4A
+nlrb.gov.	3600	IN	DS	43008 7 2 8228307761AD29E6EFA3AB81E51B0C42572C55185CD46BA0BFF5AA65C8F04708
 nls.gov.	3600	IN	DS	24189 7 2 21A29E80AAFFFB4A2A6F6841E295C42B4CF9248815F36C5C81617B458353216A
 nls.gov.	3600	IN	DS	24189 7 1 E57F875785E17C921D4AB94F082206B50698D256
 nmag.gov.	3600	IN	DS	2371 13 2 9EDEF1AC9758A0BDEF998F407B3627BF89457D817C805BFE5FCFC0FFDAA6C12A
@@ -21500,6 +21499,8 @@ lunenburgva.gov.	10800	IN	NS	pdns12.domaincontrol.com.
 lunenburgva.gov.	10800	IN	NS	pdns11.domaincontrol.com.
 lunenburgwater.gov.	10800	IN	NS	ns55.domaincontrol.com.
 lunenburgwater.gov.	10800	IN	NS	ns56.domaincontrol.com.
+luthersville.gov.	10800	IN	NS	ns39.domaincontrol.com.
+luthersville.gov.	10800	IN	NS	ns40.domaincontrol.com.
 lvd-nsn.gov.	10800	IN	NS	ns4.bdm.microsoftonline.com.
 lvd-nsn.gov.	10800	IN	NS	ns2.bdm.microsoftonline.com.
 lvd-nsn.gov.	10800	IN	NS	ns3.bdm.microsoftonline.com.
@@ -25212,8 +25213,8 @@ nlm.gov.	10800	IN	NS	ns.nih.gov.
 nlm.gov.	10800	IN	NS	lhcns1.nlm.nih.gov.
 nlm.gov.	10800	IN	NS	lhcns2.nlm.nih.gov.
 nlm.gov.	10800	IN	NS	ns2.nih.gov.
-nlrb.gov.	10800	IN	NS	ns1.nlrb.gov.
-nlrb.gov.	10800	IN	NS	ns2.nlrb.gov.
+nlrb.gov.	10800	IN	NS	auth40.ns.uu.net.
+nlrb.gov.	10800	IN	NS	auth20.ns.wcom.com.
 nlrwu.gov.	10800	IN	NS	ns4.wixdns.net.
 nlrwu.gov.	10800	IN	NS	ns5.wixdns.net.
 nls.gov.	10800	IN	NS	hudgate.hud.gov.
@@ -32408,6 +32409,12 @@ stoneham-ma.gov.	10800	IN	NS	ns11.dnsmadeeasy.com.
 stoneham-ma.gov.	10800	IN	NS	ns13.dnsmadeeasy.com.
 stoneham-ma.gov.	10800	IN	NS	ns14.dnsmadeeasy.com.
 stoneham-ma.gov.	10800	IN	NS	ns15.dnsmadeeasy.com.
+stonewallcounty.gov.	10800	IN	NS	ns10.tx.gold.
+stonewallcounty.gov.	10800	IN	NS	ns11.tx.gold.
+stonewallcounty.gov.	10800	IN	NS	ns12.tx.gold.
+stonewallcounty.gov.	10800	IN	NS	ns13.tx.gold.
+stonewallcounty.gov.	10800	IN	NS	ns14.tx.gold.
+stonewallcounty.gov.	10800	IN	NS	ns15.tx.gold.
 stonewallwcidtx.gov.	10800	IN	NS	megan.ns.cloudflare.com.
 stonewallwcidtx.gov.	10800	IN	NS	sean.ns.cloudflare.com.
 stoningtonboroughct.gov.	10800	IN	NS	ns13.wixdns.net.
