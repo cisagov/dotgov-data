@@ -1,6 +1,6 @@
 ;;
 ;; Domain:     gov.
-;; Exported:   2025-05-26 07:12:18
+;; Exported:   2025-05-27 07:11:56
 ;;
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -24,7 +24,7 @@
 ;;
 ;; Use at your own risk.
 ;; SOA Record
-gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1748243101 3600 900 604800 300
+gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1748329506 3600 900 604800 300
 
 ;; A Records
 acs-ns1-aws.akcourts.gov.	3600	IN	A	205.251.198.140 ; cf_tags=cf-proxied:false
@@ -3241,6 +3241,7 @@ sba.gov.	3600	IN	DS	57911 8 1 530CF48BA705861CCC40FF5944412A6CBA127FCB
 sba.gov.	3600	IN	DS	41222 8 1 7470EB84B4B7E52773FB8E27FB74C2339DFC1717
 sba.gov.	3600	IN	DS	41222 8 2 6B43E7E11848F0F7896F6716E3E9A8F8C57EF711D6E37C2E07B48A8CCC0EC24F
 sba.gov.	3600	IN	DS	57911 8 2 BFB4C8DD23D614693F6BB6BA3A2FCCAE72C8C67054B662F0C4DC6A6BC7508271
+sbgny.gov.	3600	IN	DS	2371 13 2 8C2CEAC7E3F67DB22A7CFC4C99949786FF743B4032F8F82E86D2CCA3FAB8DF14
 sbir.gov.	3600	IN	DS	28810 8 2 F0B029FF3022B10D266A312DB5A3CC1AAC9AD945D1ABF4AA9DF13739956DD02C
 sbir.gov.	3600	IN	DS	28810 8 1 8794A01F7B79F329E66E41B7925453BF2051DF6D
 sbir.gov.	3600	IN	DS	736 8 1 D13221BF50215EED639FCFE80146B726D8376174
@@ -4445,8 +4446,8 @@ allianceoh.gov.	10800	IN	NS	ns1.biz.rr.com.
 allianceoh.gov.	10800	IN	NS	dns4.rr.com.
 almaarkansas.gov.	10800	IN	NS	ns1.stabiliservers.com.
 almaarkansas.gov.	10800	IN	NS	ns2.stabiliservers.com.
-almacenterwi.gov.	10800	IN	NS	dns2.namecheaphosting.com.
-almacenterwi.gov.	10800	IN	NS	dns1.namecheaphosting.com.
+almacenterwi.gov.	10800	IN	NS	ns1.fallenoracle.com.
+almacenterwi.gov.	10800	IN	NS	ns2.fallenoracle.com.
 almenatownship.gov.	10800	IN	NS	ns5999.hostgator.com.
 almenatownship.gov.	10800	IN	NS	ns6000.hostgator.com.
 almiratownshipmi.gov.	10800	IN	NS	ns1.gridfast.net.
@@ -22093,6 +22094,8 @@ lyonsny.gov.	10800	IN	NS	ns-cloud-d1.googledomains.com.
 lyonsny.gov.	10800	IN	NS	ns-cloud-d2.googledomains.com.
 lyonsny.gov.	10800	IN	NS	ns-cloud-d3.googledomains.com.
 lyonsny.gov.	10800	IN	NS	ns-cloud-d4.googledomains.com.
+lyonsor.gov.	10800	IN	NS	ns1.allprowebworks5.com.
+lyonsor.gov.	10800	IN	NS	ns2.allprowebworks5.com.
 lyonstownshipil.gov.	10800	IN	NS	ns57.domaincontrol.com.
 lyonstownshipil.gov.	10800	IN	NS	ns58.domaincontrol.com.
 lyonswisd2.gov.	10800	IN	NS	mark.ns.cloudflare.com.
@@ -23155,8 +23158,8 @@ me.gov.	10800	IN	NS	ns1.a1.impervasecuredns.net.
 me.gov.	10800	IN	NS	ns1.a2.impervasecuredns.net.
 melrosefireny.gov.	10800	IN	NS	jarred.ns.cloudflare.com.
 melrosefireny.gov.	10800	IN	NS	grannbo.ns.cloudflare.com.
-melrosewi.gov.	10800	IN	NS	dns1.namecheaphosting.com.
-melrosewi.gov.	10800	IN	NS	dns2.namecheaphosting.com.
+melrosewi.gov.	10800	IN	NS	ns1.fallenoracle.com.
+melrosewi.gov.	10800	IN	NS	ns2.fallenoracle.com.
 memphistn.gov.	10800	IN	NS	ns3.memphistn.gov.
 memphistn.gov.	10800	IN	NS	ns2.memphistn.gov.
 memphistn.gov.	10800	IN	NS	ns1.memphistn.gov.
@@ -23255,8 +23258,8 @@ merkeltx.gov.	10800	IN	NS	quincy.ns.cloudflare.com.
 merkeltx.gov.	10800	IN	NS	grannbo.ns.cloudflare.com.
 merrickcountyne.gov.	10800	IN	NS	pdns05.domaincontrol.com.
 merrickcountyne.gov.	10800	IN	NS	pdns06.domaincontrol.com.
-merrillanwi.gov.	10800	IN	NS	dns2.namecheaphosting.com.
-merrillanwi.gov.	10800	IN	NS	dns1.namecheaphosting.com.
+merrillanwi.gov.	10800	IN	NS	ns2.fallenoracle.com.
+merrillanwi.gov.	10800	IN	NS	ns1.fallenoracle.com.
 merrimacknh.gov.	10800	IN	NS	b8.uberns.com.
 merrimacknh.gov.	10800	IN	NS	a8.uberns.com.
 merrimacwi.gov.	10800	IN	NS	ns29.domaincontrol.com.
@@ -31186,8 +31189,8 @@ sbtribalhealth.gov.	10800	IN	NS	pdns07.domaincontrol.com.
 sbtribalhealth.gov.	10800	IN	NS	pdns08.domaincontrol.com.
 sbvt.gov.	10800	IN	NS	pdns07.domaincontrol.com.
 sbvt.gov.	10800	IN	NS	pdns08.domaincontrol.com.
-sbwrd-ut.gov.	10800	IN	NS	pdns09.domaincontrol.com.
-sbwrd-ut.gov.	10800	IN	NS	pdns10.domaincontrol.com.
+sbwrd-ut.gov.	10800	IN	NS	pdns07.domaincontrol.com.
+sbwrd-ut.gov.	10800	IN	NS	pdns08.domaincontrol.com.
 sbwsb.gov.	10800	IN	NS	ns1.sbwsb.gov.
 sbwsb.gov.	10800	IN	NS	ns2.sbwsb.gov.
 sbwsb.gov.	10800	IN	NS	ns3.sbwsb.gov.
@@ -34802,8 +34805,8 @@ townofdeweybeach.gov.	10800	IN	NS	ns-1261.awsdns-29.org.
 townofdeweybeach.gov.	10800	IN	NS	ns-1593.awsdns-07.co.uk.
 townofdeweybeach.gov.	10800	IN	NS	ns-82.awsdns-10.com.
 townofdeweybeach.gov.	10800	IN	NS	ns-805.awsdns-36.net.
-townofdewhurstwi.gov.	10800	IN	NS	dns1.namecheaphosting.com.
-townofdewhurstwi.gov.	10800	IN	NS	dns2.namecheaphosting.com.
+townofdewhurstwi.gov.	10800	IN	NS	ns2.fallenoracle.com.
+townofdewhurstwi.gov.	10800	IN	NS	ns1.fallenoracle.com.
 townofdexterwi.gov.	10800	IN	NS	adam.ns.cloudflare.com.
 townofdexterwi.gov.	10800	IN	NS	mona.ns.cloudflare.com.
 townofdrammen-wi.gov.	10800	IN	NS	adam.ns.cloudflare.com.
