@@ -1,6 +1,6 @@
 ;;
 ;; Domain:     gov.
-;; Exported:   2025-06-01 07:11:44
+;; Exported:   2025-06-02 07:12:16
 ;;
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -24,7 +24,7 @@
 ;;
 ;; Use at your own risk.
 ;; SOA Record
-gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1748761502 3600 900 604800 300
+gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1748847901 3600 900 604800 300
 
 ;; A Records
 acs-ns1-aws.akcourts.gov.	3600	IN	A	205.251.198.140 ; cf_tags=cf-proxied:false
@@ -497,7 +497,7 @@ ns1.usdebitcard.gov.	3600	IN	A	162.159.0.233 ; cf_tags=cf-proxied:false
 ns1.usgovernmentmanual.gov.	3600	IN	A	162.159.4.127 ; cf_tags=cf-proxied:false
 ns1.usmint.gov.	3600	IN	A	162.159.0.233 ; cf_tags=cf-proxied:false
 ns1.ustreas.gov.	3600	IN	A	162.159.0.233 ; cf_tags=cf-proxied:false
-ns1.utah.gov.	3600	IN	A	204.113.19.5 ; cf_tags=cf-proxied:false
+ns1.utah.gov.	3600	IN	A	165.239.154.210 ; cf_tags=cf-proxied:false
 ns1.vaidenms.gov.	3600	IN	A	45.83.248.16 ; cf_tags=cf-proxied:false
 ns1.vermilionsheriff.gov.	3600	IN	A	69.59.44.136 ; cf_tags=cf-proxied:false
 ns1.walkerton.gov.	3600	IN	A	38.79.130.30 ; cf_tags=cf-proxied:false
@@ -4421,6 +4421,8 @@ alexandercountync.gov.	10800	IN	NS	ns-01.mcnc.org.
 alexandercountync.gov.	10800	IN	NS	ns-02.mcnc.org.
 alexandercountyncvotes.gov.	10800	IN	NS	ns-01.mcnc.org.
 alexandercountyncvotes.gov.	10800	IN	NS	ns-02.mcnc.org.
+alexandriaky.gov.	10800	IN	NS	dane.ns.cloudflare.com.
+alexandriaky.gov.	10800	IN	NS	poppy.ns.cloudflare.com.
 alexandrianh.gov.	10800	IN	NS	ns11.domaincontrol.com.
 alexandrianh.gov.	10800	IN	NS	ns12.domaincontrol.com.
 alexandrianj.gov.	10800	IN	NS	dora.ns.cloudflare.com.
