@@ -1,6 +1,6 @@
 ;;
 ;; Domain:     gov.
-;; Exported:   2025-06-07 07:11:38
+;; Exported:   2025-06-08 07:11:38
 ;;
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -24,7 +24,7 @@
 ;;
 ;; Use at your own risk.
 ;; SOA Record
-gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1749279901 3600 900 604800 300
+gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1749366301 3600 900 604800 300
 
 ;; A Records
 acs-ns1-aws.akcourts.gov.	3600	IN	A	205.251.198.140 ; cf_tags=cf-proxied:false
@@ -34,12 +34,14 @@ acs-ns4-aws.akcourts.gov.	3600	IN	A	205.251.197.184 ; cf_tags=cf-proxied:false
 adm-dns2.idaho.gov.	3600	IN	A	192.102.16.252 ; cf_tags=cf-proxied:false
 admdns.idaho.gov.	3600	IN	A	192.102.16.251 ; cf_tags=cf-proxied:false
 adns.lbl.gov.	3600	IN	A	131.243.5.53 ; cf_tags=cf-proxied:false
+a.hhsops.gov.	3600	IN	A	158.74.35.12 ; cf_tags=cf-proxied:false
 auth1.nmcourts.gov.	3600	IN	A	173.46.32.10 ; cf_tags=cf-proxied:false
 auth2.nmcourts.gov.	3600	IN	A	173.46.32.11 ; cf_tags=cf-proxied:false
 bcns1.brazoscountytx.gov.	3600	IN	A	66.97.166.5 ; cf_tags=cf-proxied:false
 bcns2.brazoscountytx.gov.	3600	IN	A	66.97.166.6 ; cf_tags=cf-proxied:false
 beowulf.highpoint-nc.gov.	3600	IN	A	216.237.226.50 ; cf_tags=cf-proxied:false
 beowulf.highpointnc.gov.	3600	IN	A	216.237.226.50 ; cf_tags=cf-proxied:false
+b.hhsops.gov.	3600	IN	A	158.74.35.11 ; cf_tags=cf-proxied:false
 bigred3.wi.gov.	3600	IN	A	165.189.56.3 ; cf_tags=cf-proxied:false
 bigred5.wi.gov.	3600	IN	A	165.189.240.36 ; cf_tags=cf-proxied:false
 brahmaputra.sba.gov.	3600	IN	A	40.80.220.233 ; cf_tags=cf-proxied:false
@@ -431,6 +433,7 @@ ns1.occhelps.gov.	3600	IN	A	162.159.0.233 ; cf_tags=cf-proxied:false
 ns1.occnet.gov.	3600	IN	A	162.159.0.233 ; cf_tags=cf-proxied:false
 ns1.ofr.gov.	3600	IN	A	162.159.4.127 ; cf_tags=cf-proxied:false
 ns1.onondaga.gov.	3600	IN	A	66.192.47.130 ; cf_tags=cf-proxied:false
+ns1.osagecountyok.gov.	3600	IN	A	208.109.35.145 ; cf_tags=cf-proxied:false
 ns1.osbornecounty.gov.	3600	IN	A	24.225.24.7 ; cf_tags=cf-proxied:false
 ns1.ots.gov.	3600	IN	A	162.159.0.233 ; cf_tags=cf-proxied:false
 ns1.pacodeandbulletin.gov.	3600	IN	A	216.157.112.130 ; cf_tags=cf-proxied:false
@@ -701,6 +704,7 @@ ns2.occnet.gov.	3600	IN	A	162.159.1.245 ; cf_tags=cf-proxied:false
 ns2.ofr.gov.	3600	IN	A	162.159.5.58 ; cf_tags=cf-proxied:false
 ns2.ohiocountyin.gov.	3600	IN	A	208.184.128.26 ; cf_tags=cf-proxied:false
 ns2.onondaga.gov.	3600	IN	A	38.77.48.254 ; cf_tags=cf-proxied:false
+ns2.osagecountyok.gov.	3600	IN	A	208.109.35.145 ; cf_tags=cf-proxied:false
 ns2.osbornecounty.gov.	3600	IN	A	24.225.24.150 ; cf_tags=cf-proxied:false
 ns2.ots.gov.	3600	IN	A	162.159.1.245 ; cf_tags=cf-proxied:false
 ns2.pacodeandbulletin.gov.	3600	IN	A	216.157.112.129 ; cf_tags=cf-proxied:false
@@ -999,6 +1003,8 @@ acs-ns2-aws.akcourts.gov.	3600	IN	AAAA	2600:9000:5301:6700::1 ; cf_tags=cf-proxi
 acs-ns3-aws.akcourts.gov.	3600	IN	AAAA	2600:9000:5303:9400::1 ; cf_tags=cf-proxied:false
 acs-ns4-aws.akcourts.gov.	3600	IN	AAAA	2600:9000:5305:b800::1 ; cf_tags=cf-proxied:false
 adns.lbl.gov.	3600	IN	AAAA	2620:83:8000:a:53::a ; cf_tags=cf-proxied:false
+a.hhsops.gov.	3600	IN	AAAA	2607:f220:0:1::3a ; cf_tags=cf-proxied:false
+b.hhsops.gov.	3600	IN	AAAA	2607:f220:0:1::3b ; cf_tags=cf-proxied:false
 cfns1.avondaleaz.gov.	3600	IN	AAAA	2400:cb00:2049:1::a29f:f9 ; cf_tags=cf-proxied:false
 cfns2.avondaleaz.gov.	3600	IN	AAAA	2400:cb00:2049:1::a29f:1f1 ; cf_tags=cf-proxied:false
 dcns1.epa.gov.	3600	IN	AAAA	2620:117:5071:d4::f005 ; cf_tags=cf-proxied:false
@@ -1485,6 +1491,7 @@ brookhavenny.gov.	3600	IN	DS	41195 7 2 9B7BA854432E00AFCDA5A2E9F4D0D288617EEC13B
 bsee.gov.	3600	IN	DS	2371 13 2 E245AF03FF1B55006C9BBA366D69897E452418D37C9AD13FAC2A1474F6022645
 btfa.gov.	3600	IN	DS	2371 13 2 CD2057BA1CFC4B795F084DC25D4C43D82EBF4AC441C8071EDFA7D392E686B66D
 bts.gov.	3600	IN	DS	14721 13 2 1028DBB7DBA316D0C4D6AD3E42058EF1783559C8A280E8B35855340BA7A13D91
+buckholtstxpolice.gov.	3600	IN	DS	11964 13 2 BE445D01A75A9A48217179C7637C5C1BF0B51BE7B4FAB78DC09F9E4F8B69A88B
 budget.gov.	3600	IN	DS	2371 13 2 7FF36D3DF96AE15C6E4F0E892F7252315C226984B96713BF0CF128ED5634E3E9
 budgetlob.gov.	3600	IN	DS	55209 13 2 CA9DD8BDFEBA1BE434AD9329C228CBC5CA7BBA5D563901A5EDD43255810F526B
 buildingamerica.gov.	3600	IN	DS	45484 8 2 8A1422619C8C0DD242D5D71A02572A5395A89608294DE56FB8B484F53976A4B5
@@ -4713,6 +4720,8 @@ andrewcountymo.gov.	10800	IN	NS	ns31.constellix.com.
 andrewcountymo.gov.	10800	IN	NS	ns41.constellix.net.
 andrewcountymo.gov.	10800	IN	NS	ns51.constellix.net.
 andrewcountymo.gov.	10800	IN	NS	ns61.constellix.net.
+andrewsnc.gov.	10800	IN	NS	jay.ns.cloudflare.com.
+andrewsnc.gov.	10800	IN	NS	pola.ns.cloudflare.com.
 andrewsnc.gov.	10800	IN	NS	ns1.hoster912.com.
 andrewsnc.gov.	10800	IN	NS	ns2.hoster912.com.
 androscoggincountyema.gov.	10800	IN	NS	ns1.dns-parking.com.
@@ -7598,6 +7607,10 @@ buckheartfire.gov.	10800	IN	NS	ns4.bdm.microsoftonline.com.
 buckheartfire.gov.	10800	IN	NS	ns1.bdm.microsoftonline.com.
 buckheartfire.gov.	10800	IN	NS	ns2.bdm.microsoftonline.com.
 buckheartfire.gov.	10800	IN	NS	ns3.bdm.microsoftonline.com.
+buckholtstxpolice.gov.	10800	IN	NS	ns3-04.azure-dns.org.
+buckholtstxpolice.gov.	10800	IN	NS	ns4-04.azure-dns.info.
+buckholtstxpolice.gov.	10800	IN	NS	ns1-04.azure-dns.com.
+buckholtstxpolice.gov.	10800	IN	NS	ns2-04.azure-dns.net.
 bucklinmo.gov.	10800	IN	NS	ns14.wixdns.net.
 bucklinmo.gov.	10800	IN	NS	ns15.wixdns.net.
 buckscounty.gov.	10800	IN	NS	cortney.ns.cloudflare.com.
@@ -18008,6 +18021,8 @@ hhsoig.gov.	10800	IN	NS	ns11.hhs.gov.
 hhsoig.gov.	10800	IN	NS	ns12.hhs.gov.
 hhsops.gov.	10800	IN	NS	ns11.hhs.gov.
 hhsops.gov.	10800	IN	NS	ns12.hhs.gov.
+hhsops.gov.	10800	IN	NS	b.hhsops.gov.
+hhsops.gov.	10800	IN	NS	a.hhsops.gov.
 hialeahfl.gov.	10800	IN	NS	ns2.ccf-dns.net.
 hialeahfl.gov.	10800	IN	NS	ns1.ccf-dns.com.
 hialeahflpd.gov.	10800	IN	NS	ns1.ccf-dns.com.
@@ -25837,6 +25852,8 @@ niem.gov.	10800	IN	NS	mario.ns.cloudflare.com.
 niem.gov.	10800	IN	NS	autumn.ns.cloudflare.com.
 nifc.gov.	10800	IN	NS	guss.ns.cloudflare.com.
 nifc.gov.	10800	IN	NS	diva.ns.cloudflare.com.
+nigc.gov.	10800	IN	NS	auth120.ns.uu.net.
+nigc.gov.	10800	IN	NS	auth111.ns.uu.net.
 nigc.gov.	10800	IN	NS	sauthns1.qwest.net.
 nigc.gov.	10800	IN	NS	sauthns2.qwest.net.
 nih.gov.	10800	IN	NS	ns2.nih.gov.
@@ -27523,8 +27540,8 @@ osagecountymo.gov.	10800	IN	NS	ns11.domaincontrol.com.
 osagecountymo.gov.	10800	IN	NS	ns12.domaincontrol.com.
 osagecounty-ok.gov.	10800	IN	NS	ns18.domaincontrol.com.
 osagecounty-ok.gov.	10800	IN	NS	ns17.domaincontrol.com.
-osagecountyok.gov.	10800	IN	NS	145.35.109.208.host.secureserver.net.
-osagecountyok.gov.	10800	IN	NS	208-109-35-145.cprapid.com.
+osagecountyok.gov.	10800	IN	NS	ns1.osagecountyok.gov.
+osagecountyok.gov.	10800	IN	NS	ns2.osagecountyok.gov.
 osagecourts-nsn.gov.	10800	IN	NS	ns1.linode.com.
 osagecourts-nsn.gov.	10800	IN	NS	ns2.linode.com.
 osagenation-nsn.gov.	10800	IN	NS	ns2.dnsmadeeasy.com.
@@ -39684,6 +39701,10 @@ worthtownshipmi.gov.	10800	IN	NS	ns2.shumakergrouphosting.com.
 worthtownshipmi.gov.	10800	IN	NS	ns1.shumakergrouphosting.com.
 wphsmn.gov.	10800	IN	NS	owen.ns.cloudflare.com.
 wphsmn.gov.	10800	IN	NS	nelly.ns.cloudflare.com.
+wprroadandfiredistrictutah.gov.	10800	IN	NS	nova.ns.cloudflare.com.
+wprroadandfiredistrictutah.gov.	10800	IN	NS	ricardo.ns.cloudflare.com.
+wprutilitydistrictutah.gov.	10800	IN	NS	nova.ns.cloudflare.com.
+wprutilitydistrictutah.gov.	10800	IN	NS	ricardo.ns.cloudflare.com.
 wrenthamfire.gov.	10800	IN	NS	ns51.domaincontrol.com.
 wrenthamfire.gov.	10800	IN	NS	ns52.domaincontrol.com.
 wrentham.gov.	10800	IN	NS	ns51.domaincontrol.com.
