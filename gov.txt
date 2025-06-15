@@ -1,6 +1,6 @@
 ;;
 ;; Domain:     gov.
-;; Exported:   2025-06-14 07:11:40
+;; Exported:   2025-06-15 07:11:46
 ;;
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -24,7 +24,7 @@
 ;;
 ;; Use at your own risk.
 ;; SOA Record
-gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1749884701 3600 900 604800 300
+gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1749971100 3600 900 604800 300
 
 ;; A Records
 a.acl.gov.	3600	IN	A	158.74.35.11 ; cf_tags=cf-proxied:false
@@ -2626,6 +2626,7 @@ libertymo.gov.	3600	IN	DS	42514 8 1 3A6B4B6297380250CA4F91A8385B84A39CDFB362
 libraryofcongress.gov.	3600	IN	DS	2371 13 2 5920E7C963298E1E9C2B0E253F2E67046A75D7C32628357F7C681606C7DF4699
 licensediniowa.gov.	3600	IN	DS	3211 13 2 BED4990A9CD1AFF5BA882AE236EA3DB81640798CE5A78BB8FDDA517332CDD1D2
 lickingcounty.gov.	3600	IN	DS	2371 13 2 7EA6651A8C6BFE78D67F0CCFA8FECB05AE9F1167491BDBC18A24BBA00C15DA6D
+lickingtwplc.gov.	3600	IN	DS	35926 8 2 64C987B7FE45C38D26C3AF154CCC67D333B958AD936FACA454559E61EBAEB358
 limaohio.gov.	3600	IN	DS	2371 13 2 E6E4F535DB920E3182B603AAC466A00A611AE2CBC27D07BDE61B83A8C82EC9B5
 lincolncountysd.gov.	3600	IN	DS	2371 13 2 01EF393EC6E08EA57F20FF676FD22E720707500495D62A2A070193C82E730E46
 lindenfd-nj.gov.	3600	IN	DS	43144 8 2 D62DC9BE2A38A9E8ACE0E3967EF0356E3CC4B730E103AF6A0D76D8D03DAE2C54
@@ -16120,6 +16121,8 @@ gardencityfireutah.gov.	10800	IN	NS	andy.ns.cloudflare.com.
 gardencityfireutah.gov.	10800	IN	NS	lara.ns.cloudflare.com.
 gardencity-ga.gov.	10800	IN	NS	ns2.zoneedit.com.
 gardencity-ga.gov.	10800	IN	NS	ns15.zoneedit.com.
+gardencityutahcemetery.gov.	10800	IN	NS	andy.ns.cloudflare.com.
+gardencityutahcemetery.gov.	10800	IN	NS	lara.ns.cloudflare.com.
 gardencityutah.gov.	10800	IN	NS	pdns05.domaincontrol.com.
 gardencityutah.gov.	10800	IN	NS	pdns06.domaincontrol.com.
 gardengroveca.gov.	10800	IN	NS	ns-1650.awsdns-14.co.uk.
@@ -25980,8 +25983,6 @@ nifc.gov.	10800	IN	NS	guss.ns.cloudflare.com.
 nifc.gov.	10800	IN	NS	diva.ns.cloudflare.com.
 nigc.gov.	10800	IN	NS	authns1.qwest.net.
 nigc.gov.	10800	IN	NS	authns2.qwest.net.
-nigc.gov.	10800	IN	NS	auth120.ns.uu.net.
-nigc.gov.	10800	IN	NS	auth111.ns.uu.net.
 nih.gov.	10800	IN	NS	ns2.nih.gov.
 nih.gov.	10800	IN	NS	ns3.nih.gov.
 nih.gov.	10800	IN	NS	ns.nih.gov.
@@ -32279,6 +32280,8 @@ shanikofireor.gov.	10800	IN	NS	ns46.domaincontrol.com.
 shanikofireor.gov.	10800	IN	NS	ns45.domaincontrol.com.
 shannoncounty.gov.	10800	IN	NS	ns21.domaincontrol.com.
 shannoncounty.gov.	10800	IN	NS	ns22.domaincontrol.com.
+shannonillinois.gov.	10800	IN	NS	sites.figma.net.
+shannonillinois.gov.	10800	IN	NS	divide-expand-56814935.figma.site.
 shapesouthcarolina.gov.	10800	IN	NS	ns21.constellix.com.
 shapesouthcarolina.gov.	10800	IN	NS	ns41.constellix.net.
 shapesouthcarolina.gov.	10800	IN	NS	ns51.constellix.net.
@@ -35238,6 +35241,8 @@ townofcohoctonny.gov.	10800	IN	NS	ns1-07.azure-dns.com.
 townofcohoctonny.gov.	10800	IN	NS	ns3-07.azure-dns.org.
 townofcoldspringny.gov.	10800	IN	NS	adam.ns.cloudflare.com.
 townofcoldspringny.gov.	10800	IN	NS	mona.ns.cloudflare.com.
+townofcolonie.gov.	10800	IN	NS	hank.ns.cloudflare.com.
+townofcolonie.gov.	10800	IN	NS	tani.ns.cloudflare.com.
 townofconcordny.gov.	10800	IN	NS	ns1.smdigitalcreations.net.
 townofconcordny.gov.	10800	IN	NS	ns2.smdigitalcreations.net.
 townofconklin.gov.	10800	IN	NS	ns1.clientaccountsupport.com.
@@ -35389,6 +35394,8 @@ townofgatesny.gov.	10800	IN	NS	ns2.bsquarewebhosting.net.
 townofgbma.gov.	10800	IN	NS	ns08.domaincontrol.com.
 townofgbma.gov.	10800	IN	NS	ns39.domaincontrol.com.
 townofgbma.gov.	10800	IN	NS	ns40.domaincontrol.com.
+townofgeneseeny.gov.	10800	IN	NS	angela.ns.cloudflare.com.
+townofgeneseeny.gov.	10800	IN	NS	bradley.ns.cloudflare.com.
 townofgenevany.gov.	10800	IN	NS	ns1.softlayer.com.
 townofgenevany.gov.	10800	IN	NS	ns2.softlayer.com.
 townofgermantownwi.gov.	10800	IN	NS	joselyn.ns.cloudflare.com.
