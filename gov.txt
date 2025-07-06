@@ -1,6 +1,6 @@
 ;;
 ;; Domain:     gov.
-;; Exported:   2025-07-05 07:11:41
+;; Exported:   2025-07-06 07:11:42
 ;;
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -24,7 +24,7 @@
 ;;
 ;; Use at your own risk.
 ;; SOA Record
-gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1751699101 3600 900 604800 300
+gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1751785506 3600 900 604800 300
 
 ;; A Records
 a.acl.gov.	3600	IN	A	158.74.35.11 ; cf_tags=cf-proxied:false
@@ -257,7 +257,7 @@ ns03.fhfa.gov.	3600	IN	A	12.183.69.4 ; cf_tags=cf-proxied:false
 ns-03.noaa.gov.	3600	IN	A	137.75.112.58 ; cf_tags=cf-proxied:false
 ns07.usaid.gov.	3600	IN	A	12.96.42.221 ; cf_tags=cf-proxied:false
 ns08.usaid.gov.	3600	IN	A	12.96.42.200 ; cf_tags=cf-proxied:false
-ns0.artrs.gov.	3600	IN	A	50.230.68.250 ; cf_tags=cf-proxied:false
+ns0.artrs.gov.	3600	IN	A	205.251.192.137 ; cf_tags=cf-proxied:false
 ns0.ashlandoregon.gov.	3600	IN	A	66.241.64.5 ; cf_tags=cf-proxied:false
 ns0.gdcnynj.gov.	3600	IN	A	208.94.148.159 ; cf_tags=cf-proxied:false
 ns0.llnl.gov.	3600	IN	A	192.12.17.1 ; cf_tags=cf-proxied:false
@@ -286,7 +286,7 @@ ns1.albanyoregon.gov.	3600	IN	A	69.1.99.33 ; cf_tags=cf-proxied:false
 ns1.ama.gov.	3600	IN	A	162.159.0.233 ; cf_tags=cf-proxied:false
 ns1.aoc.gov.	3600	IN	A	161.197.102.14 ; cf_tags=cf-proxied:false
 ns1.arlingtontx.gov.	3600	IN	A	172.83.48.58 ; cf_tags=cf-proxied:false
-ns1.artrs.gov.	3600	IN	A	18.223.80.208 ; cf_tags=cf-proxied:false
+ns1.artrs.gov.	3600	IN	A	205.251.194.245 ; cf_tags=cf-proxied:false
 ns1.ashlandoregon.gov.	3600	IN	A	66.241.64.11 ; cf_tags=cf-proxied:false
 ns1.ata.gov.	3600	IN	A	70.105.75.76 ; cf_tags=cf-proxied:false
 ns1.ayudaconmibanco.gov.	3600	IN	A	162.159.0.233 ; cf_tags=cf-proxied:false
@@ -553,7 +553,7 @@ ns2.annapolis.gov.	3600	IN	A	96.244.10.85 ; cf_tags=cf-proxied:false
 ns2.aoc.gov.	3600	IN	A	161.197.100.14 ; cf_tags=cf-proxied:false
 ns2.arklegaudit.gov.	3600	IN	A	170.94.21.11 ; cf_tags=cf-proxied:false
 ns2.arlingtontx.gov.	3600	IN	A	172.83.48.59 ; cf_tags=cf-proxied:false
-ns2.artrs.gov.	3600	IN	A	108.241.238.9 ; cf_tags=cf-proxied:false
+ns2.artrs.gov.	3600	IN	A	205.251.196.120 ; cf_tags=cf-proxied:false
 ns2.ashlandoregon.gov.	3600	IN	A	66.241.64.12 ; cf_tags=cf-proxied:false
 ns2.ayudaconmibanco.gov.	3600	IN	A	162.159.1.245 ; cf_tags=cf-proxied:false
 ns2.baltimorecountymd.gov.	3600	IN	A	167.102.138.11 ; cf_tags=cf-proxied:false
@@ -811,7 +811,7 @@ ns3.albanycountywy.gov.	3600	IN	A	185.136.98.200 ; cf_tags=cf-proxied:false
 ns3.albanyoregon.gov.	3600	IN	A	45.79.171.24 ; cf_tags=cf-proxied:false
 ns3.annapolis.gov.	3600	IN	A	96.234.156.25 ; cf_tags=cf-proxied:false
 ns3.arklegaudit.gov.	3600	IN	A	69.228.0.130 ; cf_tags=cf-proxied:false
-ns3.artrs.gov.	3600	IN	A	170.94.85.254 ; cf_tags=cf-proxied:false
+ns3.artrs.gov.	3600	IN	A	205.251.199.201 ; cf_tags=cf-proxied:false
 ns3.bellcountytexas911.gov.	3600	IN	A	195.154.94.174 ; cf_tags=cf-proxied:false
 ns3.bnl.gov.	3600	IN	A	130.199.3.8 ; cf_tags=cf-proxied:false
 ns3.brentwoodca.gov.	3600	IN	A	184.23.239.18 ; cf_tags=cf-proxied:false
@@ -5111,10 +5111,14 @@ artransparency.gov.	10800	IN	NS	ns36.domaincontrol.com.
 artransparency.gov.	10800	IN	NS	ns35.domaincontrol.com.
 artreasury.gov.	10800	IN	NS	dns3.state.ar.us.
 artreasury.gov.	10800	IN	NS	dns1.state.ar.us.
-artrs.gov.	10800	IN	NS	ns3.artrs.gov.
-artrs.gov.	10800	IN	NS	ns1.artrs.gov.
-artrs.gov.	10800	IN	NS	ns0.artrs.gov.
+artrs.gov.	10800	IN	NS	ns-137.awsdns-17.com.
 artrs.gov.	10800	IN	NS	ns2.artrs.gov.
+artrs.gov.	10800	IN	NS	ns3.artrs.gov.
+artrs.gov.	10800	IN	NS	ns-757.awsdns-30.net.
+artrs.gov.	10800	IN	NS	ns-1144.awsdns-15.org.
+artrs.gov.	10800	IN	NS	ns-1993.awsdns-57.co.uk.
+artrs.gov.	10800	IN	NS	ns0.artrs.gov.
+artrs.gov.	10800	IN	NS	ns1.artrs.gov.
 arts.gov.	10800	IN	NS	25munaguwq.cloudflare-gateway.com.
 arts.gov.	10800	IN	NS	sauthns2.qwest.net.
 arvadaco.gov.	10800	IN	NS	margo.ns.cloudflare.com.
@@ -14633,6 +14637,10 @@ farmers.gov.	10800	IN	NS	ns1.usda.gov.
 farmers.gov.	10800	IN	NS	ns2.usda.gov.
 farmersvilletx.gov.	10800	IN	NS	dns3.civicplus.com.
 farmersvilletx.gov.	10800	IN	NS	dns4.civicplus.com.
+farmingtonfireca.gov.	10800	IN	NS	ns-1853.awsdns-39.co.uk.
+farmingtonfireca.gov.	10800	IN	NS	ns-504.awsdns-63.com.
+farmingtonfireca.gov.	10800	IN	NS	ns-543.awsdns-03.net.
+farmingtonfireca.gov.	10800	IN	NS	ns-1359.awsdns-41.org.
 farmingtonfireca.gov.	10800	IN	NS	ns51.domaincontrol.com.
 farmingtonfireca.gov.	10800	IN	NS	ns52.domaincontrol.com.
 farmingtonlaxwi.gov.	10800	IN	NS	ns2.mcsnetworks.com.
