@@ -1,6 +1,6 @@
 ;;
 ;; Domain:     gov.
-;; Exported:   2025-08-16 07:11:37
+;; Exported:   2025-08-17 07:11:45
 ;;
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -24,7 +24,7 @@
 ;;
 ;; Use at your own risk.
 ;; SOA Record
-gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1755327905 3600 900 604800 300
+gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1755414301 3600 900 604800 300
 
 ;; A Records
 a.acl.gov.	3600	IN	A	158.74.35.11 ; cf_tags=cf-proxied:false
@@ -361,7 +361,6 @@ ns1.fortmyers.gov.	3600	IN	A	170.117.201.5 ; cf_tags=cf-proxied:false
 ns1.fountainhillsaz.gov.	3600	IN	A	184.178.192.163 ; cf_tags=cf-proxied:false
 ns1.franklincountypa.gov.	3600	IN	A	50.236.86.145 ; cf_tags=cf-proxied:false
 ns1.fremont.gov.	3600	IN	A	198.199.140.62 ; cf_tags=cf-proxied:false
-ns1.frenchcamp.gov.	3600	IN	A	162.240.174.137 ; cf_tags=cf-proxied:false
 ns1.fsoc.gov.	3600	IN	A	162.159.0.233 ; cf_tags=cf-proxied:false
 ns1.gahanna.gov.	3600	IN	A	198.30.8.30 ; cf_tags=cf-proxied:false
 ns1.gdcnynj.gov.	3600	IN	A	208.80.124.159 ; cf_tags=cf-proxied:false
@@ -629,7 +628,6 @@ ns2.fortbendisd.gov.	3600	IN	A	168.69.253.12 ; cf_tags=cf-proxied:false
 ns2.fortmyers.gov.	3600	IN	A	170.117.201.6 ; cf_tags=cf-proxied:false
 ns2.franklincountypa.gov.	3600	IN	A	67.235.63.97 ; cf_tags=cf-proxied:false
 ns2.fremont.gov.	3600	IN	A	50.201.169.182 ; cf_tags=cf-proxied:false
-ns2.frenchcamp.gov.	3600	IN	A	162.240.174.137 ; cf_tags=cf-proxied:false
 ns2.fsoc.gov.	3600	IN	A	162.159.1.245 ; cf_tags=cf-proxied:false
 ns2.gahanna.gov.	3600	IN	A	198.30.8.31 ; cf_tags=cf-proxied:false
 ns2.gdcnynj.gov.	3600	IN	A	208.80.126.159 ; cf_tags=cf-proxied:false
@@ -16130,8 +16128,8 @@ fremontohio.gov.	10800	IN	NS	ns1.siteground.net.
 fremontohio.gov.	10800	IN	NS	ns2.siteground.net.
 fremontpolice.gov.	10800	IN	NS	ns3.level3.net.
 fremontpolice.gov.	10800	IN	NS	ns4.level3.net.
-frenchcamp.gov.	10800	IN	NS	ns1.frenchcamp.gov.
-frenchcamp.gov.	10800	IN	NS	ns2.frenchcamp.gov.
+frenchcamp.gov.	10800	IN	NS	ns1.bluehost.com.
+frenchcamp.gov.	10800	IN	NS	ns2.bluehost.com.
 frenchcreektownshippa.gov.	10800	IN	NS	shane.ns.cloudflare.com.
 frenchcreektownshippa.gov.	10800	IN	NS	marlowe.ns.cloudflare.com.
 frenchsettlement-la.gov.	10800	IN	NS	ace.ns.cloudflare.com.
@@ -39083,8 +39081,11 @@ villarica.gov.	10800	IN	NS	junade.ns.cloudflare.com.
 villarica.gov.	10800	IN	NS	sneh.ns.cloudflare.com.
 vineyardutah.gov.	10800	IN	NS	ns09.domaincontrol.com.
 vineyardutah.gov.	10800	IN	NS	ns10.domaincontrol.com.
-vintoncountyohio.gov.	10800	IN	NS	serenity.ns.cloudflare.com.
-vintoncountyohio.gov.	10800	IN	NS	christian.ns.cloudflare.com.
+vintoncountyohio.gov.	10800	IN	NS	freedns5.registrar-servers.com.
+vintoncountyohio.gov.	10800	IN	NS	freedns1.registrar-servers.com.
+vintoncountyohio.gov.	10800	IN	NS	freedns2.registrar-servers.com.
+vintoncountyohio.gov.	10800	IN	NS	freedns3.registrar-servers.com.
+vintoncountyohio.gov.	10800	IN	NS	freedns4.registrar-servers.com.
 vintonengineer.gov.	10800	IN	NS	ns13.wixdns.net.
 vintonengineer.gov.	10800	IN	NS	ns12.wixdns.net.
 vintonia.gov.	10800	IN	NS	gina.ns.cloudflare.com.
