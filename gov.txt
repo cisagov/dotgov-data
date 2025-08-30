@@ -1,6 +1,6 @@
 ;;
 ;; Domain:     gov.
-;; Exported:   2025-08-29 07:12:05
+;; Exported:   2025-08-30 07:11:24
 ;;
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -24,7 +24,7 @@
 ;;
 ;; Use at your own risk.
 ;; SOA Record
-gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1756451105 3600 900 604800 300
+gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1756537501 3600 900 604800 300
 
 ;; A Records
 a.acl.gov.	3600	IN	A	158.74.35.11 ; cf_tags=cf-proxied:false
@@ -950,7 +950,7 @@ oxygen.house.gov.	3600	IN	A	216.218.141.197 ; cf_tags=cf-proxied:false
 phaeton.nrel.gov.	3600	IN	A	192.174.58.253 ; cf_tags=cf-proxied:false
 police2.richlands-va.gov.	3600	IN	A	69.27.94.72 ; cf_tags=cf-proxied:false
 police.richlands-va.gov.	3600	IN	A	69.27.94.71 ; cf_tags=cf-proxied:false
-publicdns1.templetx.gov.	3600	IN	A	67.79.126.62 ; cf_tags=cf-proxied:false
+publicdns1.templetx.gov.	3600	IN	A	199.200.69.14 ; cf_tags=cf-proxied:false
 publicdns2.templetx.gov.	3600	IN	A	24.155.0.30 ; cf_tags=cf-proxied:false
 rcdcserver2.rowancdcky.gov.	3600	IN	A	66.32.66.150 ; cf_tags=cf-proxied:false
 rcdcserver.rowancdcky.gov.	3600	IN	A	66.32.66.150 ; cf_tags=cf-proxied:false
@@ -6943,6 +6943,8 @@ bluemtnpolicems.gov.	10800	IN	NS	ns61.cloudns.net.
 bluemtnpolicems.gov.	10800	IN	NS	ns62.cloudns.com.
 bluemtnpolicems.gov.	10800	IN	NS	ns63.cloudns.net.
 bluemtnpolicems.gov.	10800	IN	NS	ns64.cloudns.uk.
+blueridgecitytx.gov.	10800	IN	NS	ns09.domaincontrol.com.
+blueridgecitytx.gov.	10800	IN	NS	ns10.domaincontrol.com.
 blueridgemanorky.gov.	10800	IN	NS	smtp.google.com.
 blueridgemanorky.gov.	10800	IN	NS	ns10.digicertdns.com.
 blueridgemanorky.gov.	10800	IN	NS	ns11.digicertdns.com.
@@ -7099,11 +7101,6 @@ boroughofnewtownct.gov.	10800	IN	NS	rex.ns.cloudflare.com.
 boroughofnewtownct.gov.	10800	IN	NS	cecelia.ns.cloudflare.com.
 boscawennh.gov.	10800	IN	NS	pdns13.domaincontrol.com.
 boscawennh.gov.	10800	IN	NS	pdns14.domaincontrol.com.
-boscobelwi.gov.	10800	IN	NS	ns4.dnsmadeeasy.com.
-boscobelwi.gov.	10800	IN	NS	ns3.dnsmadeeasy.com.
-boscobelwi.gov.	10800	IN	NS	ns0.dnsmadeeasy.com.
-boscobelwi.gov.	10800	IN	NS	ns2.dnsmadeeasy.com.
-boscobelwi.gov.	10800	IN	NS	ns1.dnsmadeeasy.com.
 bosquecounty.gov.	10800	IN	NS	kai.ns.cloudflare.com.
 bosquecounty.gov.	10800	IN	NS	fatima.ns.cloudflare.com.
 bosquefarmsnm.gov.	10800	IN	NS	ns65.domaincontrol.com.
@@ -11715,8 +11712,8 @@ cooperativecogohio.gov.	10800	IN	NS	june.ns.cloudflare.com.
 cooperativecogohio.gov.	10800	IN	NS	yoxall.ns.cloudflare.com.
 coopercityfl.gov.	10800	IN	NS	ns2.avenet.net.
 coopercityfl.gov.	10800	IN	NS	ns1.avenet.net.
-coopercity.gov.	10800	IN	NS	ns2.avenet.net.
-coopercity.gov.	10800	IN	NS	ns1.avenet.net.
+coopercity.gov.	10800	IN	NS	ns53.domaincontrol.com.
+coopercity.gov.	10800	IN	NS	ns54.domaincontrol.com.
 coopercohealth.gov.	10800	IN	NS	pdns06.domaincontrol.com.
 coopercohealth.gov.	10800	IN	NS	pdns05.domaincontrol.com.
 coopercountymo.gov.	10800	IN	NS	ns3.socket.net.
@@ -15282,11 +15279,11 @@ firescience.gov.	10800	IN	NS	diva.ns.cloudflare.com.
 firescience.gov.	10800	IN	NS	guss.ns.cloudflare.com.
 firestoneco.gov.	10800	IN	NS	ns1.tlhosted.com.
 firestoneco.gov.	10800	IN	NS	ns2.tlhosted.com.
-first5alameda.gov.	10800	IN	NS	freedns5.registrar-servers.com.
-first5alameda.gov.	10800	IN	NS	freedns1.registrar-servers.com.
+first5alameda.gov.	10800	IN	NS	freedns2.registrar-servers.com.
 first5alameda.gov.	10800	IN	NS	freedns3.registrar-servers.com.
 first5alameda.gov.	10800	IN	NS	freedns4.registrar-servers.com.
-first5alameda.gov.	10800	IN	NS	freedns2.registrar-servers.com.
+first5alameda.gov.	10800	IN	NS	freedns5.registrar-servers.com.
+first5alameda.gov.	10800	IN	NS	freedns1.registrar-servers.com.
 first5solano.gov.	10800	IN	NS	dzdnzp02.solanocounty.com.
 first5solano.gov.	10800	IN	NS	dzdnzp03.solanocounty.com.
 firstgov.gov.	10800	IN	NS	dns2.gsa.gov.
@@ -20859,8 +20856,6 @@ kansastag.gov.	10800	IN	NS	dns3.civicplus.com.
 kansastag.gov.	10800	IN	NS	dns4.civicplus.com.
 kansasui.gov.	10800	IN	NS	lex.ns.cloudflare.com.
 kansasui.gov.	10800	IN	NS	emma.ns.cloudflare.com.
-kansasvaccine.gov.	10800	IN	NS	ks01.state.ks.us.
-kansasvaccine.gov.	10800	IN	NS	ks11.state.ks.us.
 kansasvoterinfo.gov.	10800	IN	NS	ks11.state.ks.us.
 kansasvoterinfo.gov.	10800	IN	NS	ks01.state.ks.us.
 kansaswsp.gov.	10800	IN	NS	ns-cloud-c3.googledomains.com.
@@ -33000,6 +32995,8 @@ seagirt-nj.gov.	10800	IN	NS	dns4.civicplus.com.
 seagirt-nj.gov.	10800	IN	NS	dns3.civicplus.com.
 sealbeachca.gov.	10800	IN	NS	pdns07.domaincontrol.com.
 sealbeachca.gov.	10800	IN	NS	pdns08.domaincontrol.com.
+sealypolice.gov.	10800	IN	NS	hgns2.hostgator.com.
+sealypolice.gov.	10800	IN	NS	hgns1.hostgator.com.
 search.gov.	10800	IN	NS	ns-351.awsdns-43.com.
 search.gov.	10800	IN	NS	ns-1683.awsdns-18.co.uk.
 search.gov.	10800	IN	NS	ns-876.awsdns-45.net.
@@ -33881,6 +33878,8 @@ snowmass.gov.	10800	IN	NS	poppy.ns.cloudflare.com.
 snowmass.gov.	10800	IN	NS	gabriel.ns.cloudflare.com.
 snowshoedistrictwv.gov.	10800	IN	NS	ns10.wixdns.net.
 snowshoedistrictwv.gov.	10800	IN	NS	ns11.wixdns.net.
+snowvilletown.gov.	10800	IN	NS	riya.ns.cloudflare.com.
+snowvilletown.gov.	10800	IN	NS	sonny.ns.cloudflare.com.
 sns.gov.	10800	IN	NS	a4-66.akam.net.
 sns.gov.	10800	IN	NS	a1-62.akam.net.
 sns.gov.	10800	IN	NS	a3-65.akam.net.
@@ -34112,6 +34111,8 @@ southhutchinson.gov.	10800	IN	NS	ns59.domaincontrol.com.
 southhutchinson.gov.	10800	IN	NS	ns60.domaincontrol.com.
 southjacksonville-il.gov.	10800	IN	NS	ns1.giowm1027.siteground.biz.
 southjacksonville-il.gov.	10800	IN	NS	ns2.giowm1027.siteground.biz.
+southjerseyport.gov.	10800	IN	NS	ns17.domaincontrol.com.
+southjerseyport.gov.	10800	IN	NS	ns18.domaincontrol.com.
 southjordanutah.gov.	10800	IN	NS	ns2.southjordanutah.gov.
 southjordanutah.gov.	10800	IN	NS	ns1.southjordanutah.gov.
 southkingstownri.gov.	10800	IN	NS	a8.uberns.com.
@@ -39231,8 +39232,8 @@ villageofrhinebeck.gov.	10800	IN	NS	pdns04.domaincontrol.com.
 villageofrhinebeck.gov.	10800	IN	NS	pdns03.domaincontrol.com.
 villageofrhinebeckny.gov.	10800	IN	NS	pdns08.domaincontrol.com.
 villageofrhinebeckny.gov.	10800	IN	NS	pdns07.domaincontrol.com.
-villageofriverbendmo.gov.	10800	IN	NS	ns1.dns-parking.com.
-villageofriverbendmo.gov.	10800	IN	NS	ns2.dns-parking.com.
+villageofriverbendmo.gov.	10800	IN	NS	ns43.domaincontrol.com.
+villageofriverbendmo.gov.	10800	IN	NS	ns44.domaincontrol.com.
 villageofromeomi.gov.	10800	IN	NS	dns1.syo.com.
 villageofromeomi.gov.	10800	IN	NS	dns2.syo.com.
 villageofsabina.gov.	10800	IN	NS	ns1.inmotionhosting.com.
