@@ -1,6 +1,6 @@
 ;;
 ;; Domain:     gov.
-;; Exported:   2025-09-13 07:11:24
+;; Exported:   2025-09-14 07:11:36
 ;;
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -24,7 +24,7 @@
 ;;
 ;; Use at your own risk.
 ;; SOA Record
-gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1757747105 3600 900 604800 300
+gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1757833501 3600 900 604800 300
 
 ;; A Records
 a.aoa.gov.	3600	IN	A	158.74.30.98 ; cf_tags=cf-proxied:false
@@ -38,7 +38,6 @@ adm-dns2.idaho.gov.	3600	IN	A	192.102.16.252 ; cf_tags=cf-proxied:false
 admdns.idaho.gov.	3600	IN	A	192.102.16.251 ; cf_tags=cf-proxied:false
 adns.lbl.gov.	3600	IN	A	131.243.5.53 ; cf_tags=cf-proxied:false
 a.grants.gov.	3600	IN	A	158.74.35.11 ; cf_tags=cf-proxied:false
-a.hhs.gov.	3600	IN	A	158.74.30.98 ; cf_tags=cf-proxied:false
 a.samhsa.gov.	3600	IN	A	158.74.30.98 ; cf_tags=cf-proxied:false
 auth1.nmcourts.gov.	3600	IN	A	173.46.32.10 ; cf_tags=cf-proxied:false
 auth2.nmcourts.gov.	3600	IN	A	173.46.32.11 ; cf_tags=cf-proxied:false
@@ -50,7 +49,6 @@ b.dhhs.gov.	3600	IN	A	158.74.35.12 ; cf_tags=cf-proxied:false
 beowulf.highpoint-nc.gov.	3600	IN	A	216.237.226.50 ; cf_tags=cf-proxied:false
 beowulf.highpointnc.gov.	3600	IN	A	216.237.226.50 ; cf_tags=cf-proxied:false
 b.grants.gov.	3600	IN	A	158.74.35.12 ; cf_tags=cf-proxied:false
-b.hhs.gov.	3600	IN	A	158.74.30.99 ; cf_tags=cf-proxied:false
 bigred3.wi.gov.	3600	IN	A	165.189.56.3 ; cf_tags=cf-proxied:false
 bigred5.wi.gov.	3600	IN	A	165.189.240.36 ; cf_tags=cf-proxied:false
 brahmaputra.sba.gov.	3600	IN	A	40.80.220.233 ; cf_tags=cf-proxied:false
@@ -988,13 +986,11 @@ acs-ns4-aws.akcourts.gov.	3600	IN	AAAA	2600:9000:5305:b800::1 ; cf_tags=cf-proxi
 a.dhhs.gov.	3600	IN	AAAA	2607:f220:0:1::3a ; cf_tags=cf-proxied:false
 adns.lbl.gov.	3600	IN	AAAA	2620:83:8000:a:53::a ; cf_tags=cf-proxied:false
 a.grants.gov.	3600	IN	AAAA	2607:f220:0:1::3a ; cf_tags=cf-proxied:false
-a.hhs.gov.	3600	IN	AAAA	2607:f220:0:1::2a ; cf_tags=cf-proxied:false
 a.samhsa.gov.	3600	IN	AAAA	2607:f220:0:1::2a ; cf_tags=cf-proxied:false
 b.aoa.gov.	3600	IN	AAAA	2607:f220:0:1::2b ; cf_tags=cf-proxied:false
 b.aspr.gov.	3600	IN	AAAA	2607:f220:0:1::3b ; cf_tags=cf-proxied:false
 b.dhhs.gov.	3600	IN	AAAA	2607:f220:0:1::3b ; cf_tags=cf-proxied:false
 b.grants.gov.	3600	IN	AAAA	2607:f220:0:1::3b ; cf_tags=cf-proxied:false
-b.hhs.gov.	3600	IN	AAAA	2607:f220:0:1::2b ; cf_tags=cf-proxied:false
 b.samhsa.gov.	3600	IN	AAAA	2607:f220:0:1::2b ; cf_tags=cf-proxied:false
 cfns1.avondaleaz.gov.	3600	IN	AAAA	2400:cb00:2049:1::a29f:f9 ; cf_tags=cf-proxied:false
 cfns2.avondaleaz.gov.	3600	IN	AAAA	2400:cb00:2049:1::a29f:1f1 ; cf_tags=cf-proxied:false
@@ -2266,6 +2262,7 @@ henrycountyga.gov.	3600	IN	DS	24605 13 2 77E9AC51EAC93712CB47539E9253AEFB4CF262F
 henrycountysheriffga.gov.	3600	IN	DS	24605 13 2 A52ACDEDB481AF054953223369516C0E21BC76E487077034CF6761DC66E4DE7D
 heritageabroad.gov.	3600	IN	DS	2371 13 2 977CC3B83D9436EA002564FEC7EAD1B3C787497AA5C65248FC6E36F5F47C8A83
 hernandovotes.gov.	3600	IN	DS	2371 13 2 944C286F34B4AE630EB2B86CFC23F7CAEBACE30434C3D26D8D8470E901DACFBA
+hhs.gov.	3600	IN	DS	56293 13 2 11130CACE47929BAD3454FF0ECAF95E1DF5BCB2ECDAE21CAF2D7183256049F9D
 hhsoig.gov.	3600	IN	DS	3013 13 2 2031D262F57AC642D857D7C14D944FBF62003E09E90597D2C42697F055EAD57A
 hhsops.gov.	3600	IN	DS	23649 13 2 E71AAFD566FF9C63237A096DB7FCD38C21BF4449E52023AAF893E247F0313CAC
 hickmancountytn.gov.	3600	IN	DS	2371 13 2 1FB259FE19D28677E504E563729811303C23ABD9447E8EA095900E4806A9814E
@@ -2728,6 +2725,7 @@ moneyfactorystore.gov.	3600	IN	DS	2371 13 2 0D1EB4A1407791AF707A510D4627C5F0519D
 montanawi.gov.	3600	IN	DS	54906 13 1 54D309CA0D1262B291D8F83B4C0F556E9E6C8551
 montclairca.gov.	3600	IN	DS	2371 13 2 7307A0B42E51A30545C6952B3D7A4AA6AA9DE6AC7D89DCCC10A9FC1A788E914B
 montevista.gov.	3600	IN	DS	2371 13 2 7D6BCDB094B3D12568C5BA82FE06B28F78D89BC900983CDF7EEF881C5411A926
+montezumahospitalco.gov.	3600	IN	DS	2371 13 2 B5D62FC5A5D755B116C91D3E44EC05D969B71B3ABEF648B794E603E98161641B
 montgomerycountyar.gov.	3600	IN	DS	2371 13 2 9773DBFB2D72F73F574F604EC945F48142FA0985D9532CA514E3670E4D2BC5A0
 montgomerycountyia.gov.	3600	IN	DS	2371 13 2 841C66061699FC062AA331DEC7EE0234DD8A41ACCC1213DF015D71AF16F484C6
 moorecountync.gov.	3600	IN	DS	2371 13 2 04143C2C125B5B65D1C41BC91DBEF23166E0A4796BDBD672E29451E88FE3B7E2
@@ -18783,8 +18781,10 @@ h-gac.gov.	10800	IN	NS	ns3.h-gac.com.
 h-gac.gov.	10800	IN	NS	ns2.h-gac.com.
 hgcityca.gov.	10800	IN	NS	pdns14.domaincontrol.com.
 hgcityca.gov.	10800	IN	NS	pdns13.domaincontrol.com.
-hhs.gov.	10800	IN	NS	a.hhs.gov.
-hhs.gov.	10800	IN	NS	b.hhs.gov.
+hhs.gov.	10800	IN	NS	ns3-08.azure-dns.org.
+hhs.gov.	10800	IN	NS	ns4-08.azure-dns.info.
+hhs.gov.	10800	IN	NS	ns1-08.azure-dns.com.
+hhs.gov.	10800	IN	NS	ns2-08.azure-dns.net.
 hhsoig.gov.	10800	IN	NS	ns4-03.azure-dns.info.
 hhsoig.gov.	10800	IN	NS	ns1-03.azure-dns.com.
 hhsoig.gov.	10800	IN	NS	ns2-03.azure-dns.net.
@@ -25349,6 +25349,8 @@ montereypolicetn.gov.	10800	IN	NS	ns3.twlakes.net.
 montereypolicetn.gov.	10800	IN	NS	ns4.twlakes.net.
 montevista.gov.	10800	IN	NS	summer.ns.cloudflare.com.
 montevista.gov.	10800	IN	NS	noah.ns.cloudflare.com.
+montezumahospitalco.gov.	10800	IN	NS	audrey.ns.cloudflare.com.
+montezumahospitalco.gov.	10800	IN	NS	cris.ns.cloudflare.com.
 montgomeryal.gov.	10800	IN	NS	ns4.dnsmadeeasy.com.
 montgomeryal.gov.	10800	IN	NS	ns2.dnsmadeeasy.com.
 montgomeryal.gov.	10800	IN	NS	ns3.dnsmadeeasy.com.
@@ -31538,6 +31540,9 @@ reynoldsburg.gov.	10800	IN	NS	dns2.name-services.com.
 reynoldsburg.gov.	10800	IN	NS	dns1.name-services.com.
 reynoldscounty-mo.gov.	10800	IN	NS	ns21.worldnic.com.
 reynoldscounty-mo.gov.	10800	IN	NS	ns22.worldnic.com.
+reynoldsvilleborough.gov.	10800	IN	NS	freedns1.registrar-servers.com.
+reynoldsvilleborough.gov.	10800	IN	NS	freedns2.registrar-servers.com.
+reynoldsvilleborough.gov.	10800	IN	NS	freedns3.registrar-servers.com.
 rhanc.gov.	10800	IN	NS	ns13.digicertdns.net.
 rhanc.gov.	10800	IN	NS	ns14.digicertdns.net.
 rhanc.gov.	10800	IN	NS	ns15.digicertdns.net.
@@ -38131,8 +38136,8 @@ trumanlibrary.gov.	10800	IN	NS	ns1.fedmettel.net.
 trumanlibrary.gov.	10800	IN	NS	ns2.fedmettel.net.
 trumannpd.gov.	10800	IN	NS	ns-196.awsdns-24.com.
 trumannpd.gov.	10800	IN	NS	ns-1046.awsdns-02.org.
-trumansburg-ny.gov.	10800	IN	NS	nina.ns.cloudflare.com.
-trumansburg-ny.gov.	10800	IN	NS	noah.ns.cloudflare.com.
+trumansburg-ny.gov.	10800	IN	NS	zeus.ns.cloudflare.com.
+trumansburg-ny.gov.	10800	IN	NS	michelle.ns.cloudflare.com.
 trumbull-ct.gov.	10800	IN	NS	ns12.zoneedit.com.
 trumbull-ct.gov.	10800	IN	NS	ns5.zoneedit.com.
 trumpcard.gov.	10800	IN	NS	ollie.ns.cloudflare.com.
@@ -39489,6 +39494,8 @@ villageofhomerny.gov.	10800	IN	NS	ns26.domaincontrol.com.
 villageofhomerny.gov.	10800	IN	NS	ns25.domaincontrol.com.
 villageofhoneoyefalls.gov.	10800	IN	NS	ns56.domaincontrol.com.
 villageofhoneoyefalls.gov.	10800	IN	NS	ns55.domaincontrol.com.
+villageofhoyleton.gov.	10800	IN	NS	ns31.domaincontrol.com.
+villageofhoyleton.gov.	10800	IN	NS	ns32.domaincontrol.com.
 villageofhudsonfallsny.gov.	10800	IN	NS	ns1.ipower.com.
 villageofhudsonfallsny.gov.	10800	IN	NS	ns2.ipower.com.
 villageofjacksonwi.gov.	10800	IN	NS	ns4-08.azure-dns.info.
