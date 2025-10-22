@@ -1,6 +1,6 @@
 ;;
 ;; Domain:     gov.
-;; Exported:   2025-10-21 07:12:19
+;; Exported:   2025-10-22 07:12:02
 ;;
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -24,7 +24,7 @@
 ;;
 ;; Use at your own risk.
 ;; SOA Record
-gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1761030301 3600 900 604800 300
+gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1761116706 3600 900 604800 300
 
 ;; A Records
 a.aspr.gov.	3600	IN	A	158.74.35.11 ; cf_tags=cf-proxied:false
@@ -1726,6 +1726,7 @@ covid.gov.	3600	IN	DS	2371 13 2 A131EC7DF9856FE0968762504CC2891C65E093B3A40AFEA1
 covidtest.gov.	3600	IN	DS	2371 13 2 F1E6E306332742F325D4EEC911080DBC0D55D5703E4FA8FB75B18B0475019FB3
 covidtests.gov.	3600	IN	DS	2371 13 2 B8BECEA0139B509DFF72C80FA4C3C85DCFCF2A78B35D35E92A5DE52E6D44EC15
 cowetaga.gov.	3600	IN	DS	2371 13 2 1B0FE0B41D48915E120CFC138C5A8EBE37F084BF23717CD52A24684317D1410E
+cpars.gov.	3600	IN	DS	16804 8 2 17BB1DB4CFE526E2754E3E43CF44473B808D308A505DAB8FFBEE18C437E3BB8F
 cpnireporting.gov.	3600	IN	DS	2371 13 2 3CFA3A59C99147315D4492DD6AA3E0A85B6A94038700E7E0CA6F81F303825B6D
 cpsc.gov.	3600	IN	DS	29041 8 2 A71EE406BF414CE3FA8AF6B2869F4ADAE2030DFDA9D88E4234D6C5D71E297E05
 cpws.gov.	3600	IN	DS	8359 8 2 865853C511FF988E2C2E8F98A9C19854865FBAC1A33E0298E60032FF69C9A056
@@ -7676,6 +7677,8 @@ brookscountyga.gov.	10800	IN	NS	emily.ns.cloudflare.com.
 brookscountyga.gov.	10800	IN	NS	curt.ns.cloudflare.com.
 brookshiretx.gov.	10800	IN	NS	ns1.accountsupport.com.
 brookshiretx.gov.	10800	IN	NS	ns2.accountsupport.com.
+brookstownshipmi.gov.	10800	IN	NS	mary.ns.cloudflare.com.
+brookstownshipmi.gov.	10800	IN	NS	yadiel.ns.cloudflare.com.
 brookvillepoliceny.gov.	10800	IN	NS	ns17.domaincontrol.com.
 brookvillepoliceny.gov.	10800	IN	NS	ns18.domaincontrol.com.
 broomecountyny.gov.	10800	IN	NS	ns1-08.azure-dns.com.
@@ -9587,6 +9590,8 @@ chowancounty-nc.gov.	10800	IN	NS	ns1.avenet.net.
 chowancounty-nc.gov.	10800	IN	NS	ns2.avenet.net.
 chparksandrecut.gov.	10800	IN	NS	ns35.domaincontrol.com.
 chparksandrecut.gov.	10800	IN	NS	ns36.domaincontrol.com.
+chpdnj.gov.	10800	IN	NS	ns49.domaincontrol.com.
+chpdnj.gov.	10800	IN	NS	ns50.domaincontrol.com.
 christiancountyil.gov.	10800	IN	NS	ns2.ctitech.com.
 christiancountyil.gov.	10800	IN	NS	ns.ctitech.com.
 christiancountyky.gov.	10800	IN	NS	lady.ns.cloudflare.com.
@@ -10380,9 +10385,6 @@ cityoflorettotn.gov.	10800	IN	NS	ns27.domaincontrol.com.
 cityoflorettotn.gov.	10800	IN	NS	ns28.domaincontrol.com.
 cityoflouisvillems.gov.	10800	IN	NS	b8.uberns.com.
 cityoflouisvillems.gov.	10800	IN	NS	a8.uberns.com.
-cityoflubbocktx.gov.	10800	IN	NS	ladybug.ci.lubbock.tx.us.
-cityoflubbocktx.gov.	10800	IN	NS	wasp.ci.lubbock.tx.us.
-cityoflubbocktx.gov.	10800	IN	NS	spider.ci.lubbock.tx.us.
 cityofluverneal.gov.	10800	IN	NS	ns1.dreamhost.com.
 cityofluverneal.gov.	10800	IN	NS	ns2.dreamhost.com.
 cityofluverneal.gov.	10800	IN	NS	ns3.dreamhost.com.
@@ -10519,8 +10521,8 @@ cityofmtvernon-ia.gov.	10800	IN	NS	ns-386.awsdns-48.com.
 cityofmtvernon-ia.gov.	10800	IN	NS	ns-1531.awsdns-63.org.
 cityofnanticoke-pa.gov.	10800	IN	NS	ns46.domaincontrol.com.
 cityofnanticoke-pa.gov.	10800	IN	NS	ns45.domaincontrol.com.
-cityofnauvooil.gov.	10800	IN	NS	ns1.google.com.
-cityofnauvooil.gov.	10800	IN	NS	ns2.google.com.
+cityofnauvooil.gov.	10800	IN	NS	alec.ns.cloudflare.com.
+cityofnauvooil.gov.	10800	IN	NS	aitana.ns.cloudflare.com.
 cityofnevismn.gov.	10800	IN	NS	adam.ns.cloudflare.com.
 cityofnevismn.gov.	10800	IN	NS	mona.ns.cloudflare.com.
 cityofnewbuffalomi.gov.	10800	IN	NS	rayne.ns.cloudflare.com.
@@ -10862,6 +10864,8 @@ cityofvernonca.gov.	10800	IN	NS	ns14.digicertdns.com.
 cityofvernonca.gov.	10800	IN	NS	ns15.digicertdns.com.
 cityofvernonca.gov.	10800	IN	NS	ns10.digicertdns.com.
 cityofvernonca.gov.	10800	IN	NS	ns11.digicertdns.com.
+cityofveronams.gov.	10800	IN	NS	verify.squarespace.com.
+cityofveronams.gov.	10800	IN	NS	ext-cust.squarespace.com.
 cityofvidor.gov.	10800	IN	NS	ns21.domaincontrol.com.
 cityofvidor.gov.	10800	IN	NS	ns22.domaincontrol.com.
 cityofwakefieldmi.gov.	10800	IN	NS	dns2.merit.net.
@@ -15770,8 +15774,6 @@ flhealthcharts.gov.	10800	IN	NS	ns-wpns004.doh.state.fl.us.
 flhealthcharts.gov.	10800	IN	NS	ns-wpns002.doh.state.fl.us.
 flhealthcharts.gov.	10800	IN	NS	ns-wpns001.doh.state.fl.us.
 flhealthcharts.gov.	10800	IN	NS	ns-wpns003.doh.state.fl.us.
-flhealthcomplaint.gov.	10800	IN	NS	dohssvc02.doh.state.fl.us.
-flhealthcomplaint.gov.	10800	IN	NS	dohssvc04.doh.state.fl.us.
 flhealthcovid19.gov.	10800	IN	NS	ns-wpns002.doh.state.fl.us.
 flhealthcovid19.gov.	10800	IN	NS	ns-wpns003.doh.state.fl.us.
 flhealthcovid19.gov.	10800	IN	NS	ns-wpns001.doh.state.fl.us.
@@ -18460,8 +18462,8 @@ harkerheights.gov.	10800	IN	NS	hans.ns.cloudflare.com.
 harkerheights.gov.	10800	IN	NS	karina.ns.cloudflare.com.
 harlem-mt.gov.	10800	IN	NS	valentin.ns.cloudflare.com.
 harlem-mt.gov.	10800	IN	NS	liberty.ns.cloudflare.com.
-harleyvillesc.gov.	10800	IN	NS	otto.ns.cloudflare.com.
-harleyvillesc.gov.	10800	IN	NS	nucum.ns.cloudflare.com.
+harleyvillesc.gov.	10800	IN	NS	bryce.ns.cloudflare.com.
+harleyvillesc.gov.	10800	IN	NS	journey.ns.cloudflare.com.
 harlingentx.gov.	10800	IN	NS	ns1-34.azure-dns.com.
 harlingentx.gov.	10800	IN	NS	ns4-34.azure-dns.info.
 harlingentx.gov.	10800	IN	NS	ns3-34.azure-dns.org.
@@ -19332,6 +19334,8 @@ holmeselectionsfl.gov.	10800	IN	NS	brenda.ns.cloudflare.com.
 holsteinia.gov.	10800	IN	NS	ns-290.awsdns-36.com.
 holsteinia.gov.	10800	IN	NS	ns-1387.awsdns-45.org.
 holsteinia.gov.	10800	IN	NS	ns-1962.awsdns-53.co.uk.
+holtcountymo.gov.	10800	IN	NS	dns.fiber4.net.
+holtcountymo.gov.	10800	IN	NS	dns2.fiber4.net.
 holtcountyne.gov.	10800	IN	NS	pdns13.domaincontrol.com.
 holtcountyne.gov.	10800	IN	NS	pdns14.domaincontrol.com.
 holtssummit.gov.	10800	IN	NS	ns3-05.azure-dns.org.
@@ -25209,9 +25213,8 @@ milescitymt.gov.	10800	IN	NS	pns43.cloudns.net.
 milescitymt.gov.	10800	IN	NS	pns41.cloudns.net.
 milfordct.gov.	10800	IN	NS	ns2.cen.ct.gov.
 milfordct.gov.	10800	IN	NS	ns1.cen.ct.gov.
-milford-de.gov.	10800	IN	NS	ns3.comcastbusiness.net.
-milford-de.gov.	10800	IN	NS	ns1.comcastbusiness.net.
-milford-de.gov.	10800	IN	NS	ns2.comcastbusiness.net.
+milford-de.gov.	10800	IN	NS	adns.cs.siteprotect.com.
+milford-de.gov.	10800	IN	NS	bdns.cs.siteprotect.com.
 milfordfiremi.gov.	10800	IN	NS	pdns03.domaincontrol.com.
 milfordfiremi.gov.	10800	IN	NS	pdns04.domaincontrol.com.
 milfordma.gov.	10800	IN	NS	dns3.civicplus.com.
@@ -28527,8 +28530,6 @@ ocfdnh.gov.	10800	IN	NS	ns3.dnsmadeeasy.org.
 ocfdnh.gov.	10800	IN	NS	ns4.dnsmadeeasy.org.
 ocfelections.gov.	10800	IN	NS	nick.ns.cloudflare.com.
 ocfelections.gov.	10800	IN	NS	june.ns.cloudflare.com.
-ocfodc.gov.	10800	IN	NS	ns2-09.azuregov-dns.us.
-ocfodc.gov.	10800	IN	NS	ns1-09.azuregov-dns.us.
 ocfodc.gov.	10800	IN	NS	josephine.ns.cloudflare.com.
 ocfodc.gov.	10800	IN	NS	vicky.ns.cloudflare.com.
 oc.gov.	10800	IN	NS	ns1.ocgov.com.
@@ -34974,6 +34975,8 @@ southtrailfirefl.gov.	10800	IN	NS	ns1.unions-america.com.
 southtrailfirefl.gov.	10800	IN	NS	ns2.unions-america.com.
 southtucsonaz.gov.	10800	IN	NS	ns2.gseit-host10.com.
 southtucsonaz.gov.	10800	IN	NS	ns1.gseit-host10.com.
+southwaltonfire.gov.	10800	IN	NS	dns4.civicplus.com.
+southwaltonfire.gov.	10800	IN	NS	dns3.civicplus.com.
 southwebercity.gov.	10800	IN	NS	ns-1425.awsdns-50.org.
 southwebercity.gov.	10800	IN	NS	ns-1921.awsdns-48.co.uk.
 southwebercity.gov.	10800	IN	NS	ns-407.awsdns-50.com.
@@ -35156,6 +35159,8 @@ springvalleyil.gov.	10800	IN	NS	patryk.ns.cloudflare.com.
 springvalleyil.gov.	10800	IN	NS	rosalyn.ns.cloudflare.com.
 springvilleutah.gov.	10800	IN	NS	sky.ns.cloudflare.com.
 springvilleutah.gov.	10800	IN	NS	mark.ns.cloudflare.com.
+springwaterny.gov.	10800	IN	NS	albert.ns.cloudflare.com.
+springwaterny.gov.	10800	IN	NS	paloma.ns.cloudflare.com.
 sprucepine-nc.gov.	10800	IN	NS	ns1.accountsupport.com.
 sprucepine-nc.gov.	10800	IN	NS	ns2.accountsupport.com.
 spsava.gov.	10800	IN	NS	dns3.civicplus.com.
@@ -37864,8 +37869,8 @@ townoflynnpdal.gov.	10800	IN	NS	freedns4.registrar-servers.com.
 townoflynnpdal.gov.	10800	IN	NS	freedns5.registrar-servers.com.
 townofmackfordwi.gov.	10800	IN	NS	ns1.mcsnetworks.com.
 townofmackfordwi.gov.	10800	IN	NS	ns2.mcsnetworks.com.
-townofmadridny.gov.	10800	IN	NS	ns64.domaincontrol.com.
-townofmadridny.gov.	10800	IN	NS	ns63.domaincontrol.com.
+townofmadridny.gov.	10800	IN	NS	ns12.wixdns.net.
+townofmadridny.gov.	10800	IN	NS	ns13.wixdns.net.
 townofmaineny.gov.	10800	IN	NS	ns7.entirelydigital.com.
 townofmaineny.gov.	10800	IN	NS	ns8.entirelydigital.com.
 townofmaltany.gov.	10800	IN	NS	ricardo.ns.cloudflare.com.
@@ -38254,7 +38259,8 @@ townofschaghticoke.gov.	10800	IN	NS	ns2.namepure.com.
 townofschaghticoke.gov.	10800	IN	NS	ns3.namepure.com.
 townofschroonny.gov.	10800	IN	NS	ns1.inmotionhosting.com.
 townofschroonny.gov.	10800	IN	NS	ns2.inmotionhosting.com.
-townofschuylerny.gov.	10800	IN	NS	ns1.digitaltowpath.org.
+townofschuylerny.gov.	10800	IN	NS	ns3.digitaltowpathny.gov.
+townofschuylerny.gov.	10800	IN	NS	ns2.digitaltowpathny.gov.
 townofschuylerny.gov.	10800	IN	NS	ns2.digitaltowpath.org.
 townofschuylerny.gov.	10800	IN	NS	ns3.digitaltowpath.org.
 townofscipiony.gov.	10800	IN	NS	ns4.wixdns.net.
@@ -38555,7 +38561,6 @@ townofworcesterny.gov.	10800	IN	NS	ns23.domaincontrol.com.
 townofworcesterny.gov.	10800	IN	NS	ns24.domaincontrol.com.
 townofwordenwi.gov.	10800	IN	NS	ns78.domaincontrol.com.
 townofwordenwi.gov.	10800	IN	NS	ns77.domaincontrol.com.
-townofwrightstownwi.gov.	10800	IN	NS	dns1.stabletransit.com.
 townofwyomingwi.gov.	10800	IN	NS	jeremy.ns.cloudflare.com.
 townofwyomingwi.gov.	10800	IN	NS	nicole.ns.cloudflare.com.
 townofyoderwy.gov.	10800	IN	NS	ns1.townofyoderwy.gov.
@@ -39997,8 +40002,8 @@ villageofcaledoniany.gov.	10800	IN	NS	ns1.servconfig.com.
 villageofcaledoniany.gov.	10800	IN	NS	ns2.servconfig.com.
 villageofcallawayne.gov.	10800	IN	NS	ns46.domaincontrol.com.
 villageofcallawayne.gov.	10800	IN	NS	ns45.domaincontrol.com.
-villageofcamdenny.gov.	10800	IN	NS	darl.ns.cloudflare.com.
-villageofcamdenny.gov.	10800	IN	NS	arely.ns.cloudflare.com.
+villageofcamdenny.gov.	10800	IN	NS	ns20.domaincontrol.com.
+villageofcamdenny.gov.	10800	IN	NS	ns19.domaincontrol.com.
 villageofcamillus-ny.gov.	10800	IN	NS	dns1.srsplus.com.
 villageofcamillus-ny.gov.	10800	IN	NS	dns2.srsplus.com.
 villageofcanisteo.gov.	10800	IN	NS	ns1.ibdesignhosting.com.
