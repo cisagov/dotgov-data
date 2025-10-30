@@ -1,6 +1,6 @@
 ;;
 ;; Domain:     gov.
-;; Exported:   2025-10-29 07:12:05
+;; Exported:   2025-10-30 07:11:55
 ;;
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -24,7 +24,7 @@
 ;;
 ;; Use at your own risk.
 ;; SOA Record
-gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1761721501 3600 900 604800 300
+gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1761807901 3600 900 604800 300
 
 ;; A Records
 a.aspr.gov.	3600	IN	A	158.74.35.11 ; cf_tags=cf-proxied:false
@@ -3028,6 +3028,8 @@ ovcttac.gov.	3600	IN	DS	2371 13 2 C193B41895FACC930D8785B16FFBEA53BBB99DBD2AB4A0
 overlandparkks.gov.	3600	IN	DS	2371 13 2 1BA18887BB202C99242D6CE45D9240A7A1323442D572338904BAD8DB76F26817
 oversight.gov.	3600	IN	DS	21532 13 2 37047CC96F0ED32FC49083258B5D1B6DFA87A9D413C27216ABDD0A0A19312E81
 overtoncountytn.gov.	3600	IN	DS	2371 13 2 B63F5BCC86CDF599BBBEF30C5BA4C7A2EDFF6B6A7AFF4EDEDCA4BC7FAFD80CC3
+oxfordmi.gov.	3600	IN	DS	2371 13 2 6B116D02683D76CFD377F63E60C07DD4A3308258A1DEAB6C440F50F757782A16
+oxfordpdmi.gov.	3600	IN	DS	2371 13 2 79773D83770A7F632B62227F35D68022C3638286CB0D1FC4FB0C0677F67033F1
 oxnard.gov.	3600	IN	DS	2371 13 2 4D2ACE77AC804900684F65BFDE01F3C5B1EC9643AC86B6597C7C66B83F3E9B23
 pac.gov.	3600	IN	DS	46066 8 2 52EF16840722461388A7E032524293438A4BFD41EFD653FCFC19BB7B6A5E728D
 pageaz.gov.	3600	IN	DS	50214 13 1 E7C0C28163BFC88E42045CB5EDED264894DC9B5A
@@ -6115,8 +6117,8 @@ barrycountymo.gov.	10800	IN	NS	ns10.wixdns.net.
 barrycountymo.gov.	10800	IN	NS	ns11.wixdns.net.
 barrytownshipmn.gov.	10800	IN	NS	ns43.domaincontrol.com.
 barrytownshipmn.gov.	10800	IN	NS	ns44.domaincontrol.com.
-barstowca.gov.	10800	IN	NS	ns99.worldnic.com.
-barstowca.gov.	10800	IN	NS	ns100.worldnic.com.
+barstowca.gov.	10800	IN	NS	elaine.ns.cloudflare.com.
+barstowca.gov.	10800	IN	NS	armando.ns.cloudflare.com.
 bart.gov.	10800	IN	NS	ns.bart.gov.
 bart.gov.	10800	IN	NS	ns4.level3.net.
 bart.gov.	10800	IN	NS	ns3.level3.net.
@@ -9685,6 +9687,10 @@ cio.gov.	10800	IN	NS	dns2.gsa.gov.
 cio.gov.	10800	IN	NS	dns3.gsa.gov.
 cio.gov.	10800	IN	NS	dns4.gsa.gov.
 cio.gov.	10800	IN	NS	dns5.gsa.gov.
+circlepinesmn.gov.	10800	IN	NS	ns1.usinternet.com.
+circlepinesmn.gov.	10800	IN	NS	ns2.usinternet.com.
+circlepinesmn.gov.	10800	IN	NS	ns3.usinternet.com.
+circlepinesmn.gov.	10800	IN	NS	ns4.usinternet.com.
 circlevilleoh.gov.	10800	IN	NS	ns39.domaincontrol.com.
 circlevilleoh.gov.	10800	IN	NS	ns40.domaincontrol.com.
 circuitclerkmarioncountyms.gov.	10800	IN	NS	ns305.websitewelcome.com.
@@ -10566,8 +10572,9 @@ cityofnilesoh.gov.	10800	IN	NS	ns2.ep.webhsp.com.
 cityofnilesoh.gov.	10800	IN	NS	ns1.ep.webhsp.com.
 cityofnisswa.gov.	10800	IN	NS	boyd.ns.cloudflare.com.
 cityofnisswa.gov.	10800	IN	NS	raphaela.ns.cloudflare.com.
-cityofnorco.gov.	10800	IN	NS	cbru.br.ns.els-gms.att.net.
-cityofnorco.gov.	10800	IN	NS	cmtu.mt.ns.els-gms.att.net.
+cityofnorco.gov.	10800	IN	NS	blue.foundationdns.net.
+cityofnorco.gov.	10800	IN	NS	blue.foundationdns.org.
+cityofnorco.gov.	10800	IN	NS	blue.foundationdns.com.
 cityofnorforkar.gov.	10800	IN	NS	sean.ns.cloudflare.com.
 cityofnorforkar.gov.	10800	IN	NS	rita.ns.cloudflare.com.
 cityofnormandy.gov.	10800	IN	NS	elmo.ns.cloudflare.com.
@@ -16900,6 +16907,8 @@ gardencityfireutah.gov.	10800	IN	NS	andy.ns.cloudflare.com.
 gardencityfireutah.gov.	10800	IN	NS	lara.ns.cloudflare.com.
 gardencity-ga.gov.	10800	IN	NS	ns2.zoneedit.com.
 gardencity-ga.gov.	10800	IN	NS	ns15.zoneedit.com.
+gardencityny.gov.	10800	IN	NS	dns3.civicplus.com.
+gardencityny.gov.	10800	IN	NS	dns4.civicplus.com.
 gardencityutahcemetery.gov.	10800	IN	NS	andy.ns.cloudflare.com.
 gardencityutahcemetery.gov.	10800	IN	NS	lara.ns.cloudflare.com.
 gardencityutah.gov.	10800	IN	NS	pdns05.domaincontrol.com.
@@ -17357,8 +17366,8 @@ globe.gov.	10800	IN	NS	a12-64.akam.net.
 glocesterri.gov.	10800	IN	NS	dns3.easydns.ca.
 glocesterri.gov.	10800	IN	NS	dns2.easydns.net.
 glocesterri.gov.	10800	IN	NS	dns1.easydns.com.
-glotwpnjfd1.gov.	10800	IN	NS	ns17.domaincontrol.com.
-glotwpnjfd1.gov.	10800	IN	NS	ns18.domaincontrol.com.
+glotwpnjfd1.gov.	10800	IN	NS	ns63.domaincontrol.com.
+glotwpnjfd1.gov.	10800	IN	NS	ns64.domaincontrol.com.
 glotwpnjpd.gov.	10800	IN	NS	dns1.namecheaphosting.com.
 glotwpnjpd.gov.	10800	IN	NS	dns2.namecheaphosting.com.
 gloucestercitynj.gov.	10800	IN	NS	pns41.cloudns.net.
@@ -17950,6 +17959,8 @@ greenwoodoceanami.gov.	10800	IN	NS	ns3.supercp.com.
 greenwoodoceanami.gov.	10800	IN	NS	ns1.supercp.com.
 greenwoodsc.gov.	10800	IN	NS	dns2.vc3.com.
 greenwoodsc.gov.	10800	IN	NS	dns1.vc3.com.
+greenwoodtownshipil.gov.	10800	IN	NS	ns1.wunderwaveposting.com.
+greenwoodtownshipil.gov.	10800	IN	NS	ns2.wunderwaveposting.com.
 greenwoodtwpcolumbiacopa.gov.	10800	IN	NS	ns20.digicertdns.com.
 greenwoodtwpcolumbiacopa.gov.	10800	IN	NS	ns23.digicertdns.net.
 greenwoodtwpcolumbiacopa.gov.	10800	IN	NS	ns24.digicertdns.net.
@@ -19463,6 +19474,8 @@ hopewellva.gov.	10800	IN	NS	pdns07.domaincontrol.com.
 hopewellva.gov.	10800	IN	NS	pdns08.domaincontrol.com.
 hopi-nsn.gov.	10800	IN	NS	max.ns.cloudflare.com.
 hopi-nsn.gov.	10800	IN	NS	zoe.ns.cloudflare.com.
+hopkinsmn.gov.	10800	IN	NS	ns10.digicertdns.com.
+hopkinsmn.gov.	10800	IN	NS	ns13.digicertdns.net.
 hopkinsville-ky.gov.	10800	IN	NS	ns2.hop-electric.com.
 hopkinsville-ky.gov.	10800	IN	NS	ns1.hop-electric.com.
 hopkintonma.gov.	10800	IN	NS	ns-cloud-d2.googledomains.com.
@@ -21135,6 +21148,8 @@ jesuppd-ga.gov.	10800	IN	NS	ns27.domaincontrol.com.
 jesuppd-ga.gov.	10800	IN	NS	ns28.domaincontrol.com.
 jewellcountyks.gov.	10800	IN	NS	ns5.ruraltel.net.
 jewellcountyks.gov.	10800	IN	NS	ns6.ruraltel.net.
+jewettpdtx.gov.	10800	IN	NS	ns1.jewett.com.
+jewettpdtx.gov.	10800	IN	NS	ns2.jewett.com.
 jewishheritage.gov.	10800	IN	NS	alice.ns.cloudflare.com.
 jewishheritage.gov.	10800	IN	NS	kevin.ns.cloudflare.com.
 jewishheritagemonth.gov.	10800	IN	NS	alice.ns.cloudflare.com.
@@ -23673,6 +23688,8 @@ lyoncountyks.gov.	10800	IN	NS	ns4.dnsexit.com.
 lyoncountyks.gov.	10800	IN	NS	ns1.dnsexit.com.
 lyoncountyks.gov.	10800	IN	NS	ns2.dnsexit.com.
 lyoncountyks.gov.	10800	IN	NS	ns3.dnsexit.com.
+lyoncountymn.gov.	10800	IN	NS	buck.ns.cloudflare.com.
+lyoncountymn.gov.	10800	IN	NS	hadlee.ns.cloudflare.com.
 lyonsdaleny.gov.	10800	IN	NS	dns300.cmsdefender.com.
 lyonsdaleny.gov.	10800	IN	NS	dns400.cmsdefender.com.
 lyonsdaleny.gov.	10800	IN	NS	dns100.cmsdefender.com.
@@ -30067,6 +30084,8 @@ pendletonor.gov.	10800	IN	NS	cecelia.ns.cloudflare.com.
 pendletonor.gov.	10800	IN	NS	clyde.ns.cloudflare.com.
 pendoreille.gov.	10800	IN	NS	glen.ns.cloudflare.com.
 pendoreille.gov.	10800	IN	NS	sandra.ns.cloudflare.com.
+penfieldny.gov.	10800	IN	NS	ns63.worldnic.com.
+penfieldny.gov.	10800	IN	NS	ns64.worldnic.com.
 penncosd.gov.	10800	IN	NS	ns1.govoffice.com.
 penncosd.gov.	10800	IN	NS	ns2.govoffice.com.
 penndot.gov.	10800	IN	NS	dns2.pa.gov.
@@ -32409,6 +32428,8 @@ rocis.gov.	10800	IN	NS	dns4.gsa.gov.
 rocis.gov.	10800	IN	NS	dns5.gsa.gov.
 rocis.gov.	10800	IN	NS	dns3.gsa.gov.
 rocis.gov.	10800	IN	NS	dns2.gsa.gov.
+rockawaybeachoregon.gov.	10800	IN	NS	ns35.domaincontrol.com.
+rockawaybeachoregon.gov.	10800	IN	NS	ns36.domaincontrol.com.
 rockbridgecountyva.gov.	10800	IN	NS	ns1.lumos.net.
 rockbridgecountyva.gov.	10800	IN	NS	ns2.lumos.net.
 rockcastlecountysheriff.gov.	10800	IN	NS	becky.ns.cloudflare.com.
@@ -34575,8 +34596,8 @@ siskiyoucounty.gov.	10800	IN	NS	ns-1861.awsdns-40.co.uk.
 siskiyoucounty.gov.	10800	IN	NS	ns-121.awsdns-15.com.
 sisterbaywi.gov.	10800	IN	NS	noah.ns.cloudflare.com.
 sisterbaywi.gov.	10800	IN	NS	dawn.ns.cloudflare.com.
-sitkapd.gov.	10800	IN	NS	ns71.worldnic.com.
-sitkapd.gov.	10800	IN	NS	ns72.worldnic.com.
+sitkapd.gov.	10800	IN	NS	nova.ns.cloudflare.com.
+sitkapd.gov.	10800	IN	NS	brad.ns.cloudflare.com.
 sitkatribe-nsn.gov.	10800	IN	NS	udns2.ultradns.net.
 sitkatribe-nsn.gov.	10800	IN	NS	udns1.ultradns.net.
 sjbparishclerk.gov.	10800	IN	NS	ns1.siteground.net.
@@ -36465,6 +36486,8 @@ teanecknj.gov.	10800	IN	NS	noel.ns.cloudflare.com.
 teanecknj.gov.	10800	IN	NS	grannbo.ns.cloudflare.com.
 teche-vermilion.gov.	10800	IN	NS	cash.ns.cloudflare.com.
 teche-vermilion.gov.	10800	IN	NS	nadia.ns.cloudflare.com.
+techforce.gov.	10800	IN	NS	karsyn.ns.cloudflare.com.
+techforce.gov.	10800	IN	NS	mitchell.ns.cloudflare.com.
 techhubs.gov.	10800	IN	NS	cecelia.ns.cloudflare.com.
 techhubs.gov.	10800	IN	NS	max.ns.cloudflare.com.
 techsharetx.gov.	10800	IN	NS	ns3-02.azuregov-dns.us.
@@ -37633,10 +37656,10 @@ townoffortannny.gov.	10800	IN	NS	ns20.domaincontrol.com.
 townoffosterri.gov.	10800	IN	NS	dns1.easydns.com.
 townoffosterri.gov.	10800	IN	NS	dns2.easydns.net.
 townoffosterri.gov.	10800	IN	NS	dns3.easydns.ca.
-townoffrankfortny.gov.	10800	IN	NS	a1.googledomains.com.
-townoffrankfortny.gov.	10800	IN	NS	a2.googledomains.com.
-townoffrankfortny.gov.	10800	IN	NS	a3.googledomains.com.
-townoffrankfortny.gov.	10800	IN	NS	a4.googledomains.com.
+townoffrankfortny.gov.	10800	IN	NS	ns-cloud-a1.googledomains.com.
+townoffrankfortny.gov.	10800	IN	NS	ns-cloud-a2.googledomains.com.
+townoffrankfortny.gov.	10800	IN	NS	ns-cloud-a3.googledomains.com.
+townoffrankfortny.gov.	10800	IN	NS	ns-cloud-a4.googledomains.com.
 townoffranklinvilleny.gov.	10800	IN	NS	ns03.domaincontrol.com.
 townoffranklinvilleny.gov.	10800	IN	NS	ns04.domaincontrol.com.
 townoffreedomnh.gov.	10800	IN	NS	ns0.dnsmadeeasy.org.
@@ -39784,6 +39807,8 @@ vail.gov.	10800	IN	NS	ns-648.awsdns-17.net.
 vail.gov.	10800	IN	NS	ns-1471.awsdns-55.org.
 vail.gov.	10800	IN	NS	ns-1548.awsdns-01.co.uk.
 vail.gov.	10800	IN	NS	ns-492.awsdns-61.com.
+valatie.gov.	10800	IN	NS	ns6.wixdns.net.
+valatie.gov.	10800	IN	NS	ns7.wixdns.net.
 valdesenc.gov.	10800	IN	NS	ns78.domaincontrol.com.
 valdesenc.gov.	10800	IN	NS	ns77.domaincontrol.com.
 valdezak.gov.	10800	IN	NS	hadlee.ns.cloudflare.com.
@@ -42417,6 +42442,8 @@ wiltonrancheria-nsn.gov.	10800	IN	NS	ns2.bdm.microsoftonline.com.
 winchendon-ma.gov.	10800	IN	NS	dns1.easydns.com.
 winchendon-ma.gov.	10800	IN	NS	dns2.easydns.net.
 winchendon-ma.gov.	10800	IN	NS	dns3.easydns.ca.
+winchesterid.gov.	10800	IN	NS	graham.ns.cloudflare.com.
+winchesterid.gov.	10800	IN	NS	coco.ns.cloudflare.com.
 winchester-in.gov.	10800	IN	NS	ada.ns.cloudflare.com.
 winchester-in.gov.	10800	IN	NS	sevki.ns.cloudflare.com.
 winchester-nh.gov.	10800	IN	NS	dns4.civicplus.com.
