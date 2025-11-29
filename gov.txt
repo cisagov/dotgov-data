@@ -1,6 +1,6 @@
 ;;
 ;; Domain:     gov.
-;; Exported:   2025-11-28 07:12:17
+;; Exported:   2025-11-29 07:11:46
 ;;
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -24,7 +24,7 @@
 ;;
 ;; Use at your own risk.
 ;; SOA Record
-gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1764313505 3600 900 604800 300
+gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1764399901 3600 900 604800 300
 
 ;; A Records
 a.aspr.gov.	3600	IN	A	158.74.35.11 ; cf_tags=cf-proxied:false
@@ -9161,6 +9161,8 @@ cfa.gov.	10800	IN	NS	dns.gsa.gov.
 cfa.gov.	10800	IN	NS	dns3.gsa.gov.
 cfa.gov.	10800	IN	NS	dns4.gsa.gov.
 cfa.gov.	10800	IN	NS	dns2.gsa.gov.
+cfius.gov.	10800	IN	NS	tadeo.ns.cloudflare.com.
+cfius.gov.	10800	IN	NS	margot.ns.cloudflare.com.
 cfius.gov.	10800	IN	NS	ns1.cfius.gov.
 cfius.gov.	10800	IN	NS	ns2.cfius.gov.
 cfo.gov.	10800	IN	NS	dns.gsa.gov.
@@ -12091,11 +12093,10 @@ coopercohealth.gov.	10800	IN	NS	pdns06.domaincontrol.com.
 coopercohealth.gov.	10800	IN	NS	pdns05.domaincontrol.com.
 coopercountymo.gov.	10800	IN	NS	ns3.socket.net.
 coopercountymo.gov.	10800	IN	NS	ns1.socket.net.
-cooperstownny.gov.	10800	IN	NS	dns3.name-services.com.
-cooperstownny.gov.	10800	IN	NS	dns4.name-services.com.
-cooperstownny.gov.	10800	IN	NS	dns5.name-services.com.
-cooperstownny.gov.	10800	IN	NS	dns1.name-services.com.
-cooperstownny.gov.	10800	IN	NS	dns2.name-services.com.
+cooperstownny.gov.	10800	IN	NS	ns70.lowpricedomains.com.
+cooperstownny.gov.	10800	IN	NS	ns80.lowpricedomains.com.
+cooperstownny.gov.	10800	IN	NS	ns50.lowpricedomains.com.
+cooperstownny.gov.	10800	IN	NS	ns60.lowpricedomains.com.
 coosbayor.gov.	10800	IN	NS	sunny.ns.cloudflare.com.
 coosbayor.gov.	10800	IN	NS	ian.ns.cloudflare.com.
 cooscountynh.gov.	10800	IN	NS	ns41.constellix.net.
@@ -16397,8 +16398,10 @@ fortsillapache-nsn.gov.	10800	IN	NS	john.ns.cloudflare.com.
 fortsillapache-nsn.gov.	10800	IN	NS	aliza.ns.cloudflare.com.
 fortsmithar.gov.	10800	IN	NS	ns4.zoneedit.com.
 fortsmithar.gov.	10800	IN	NS	ns7.zoneedit.com.
-fortstockton.gov.	10800	IN	NS	ns49.domaincontrol.com.
-fortstockton.gov.	10800	IN	NS	ns50.domaincontrol.com.
+fortstockton.gov.	10800	IN	NS	ns1045.ui-dns.de.
+fortstockton.gov.	10800	IN	NS	ns1045.ui-dns.biz.
+fortstockton.gov.	10800	IN	NS	ns1045.ui-dns.com.
+fortstockton.gov.	10800	IN	NS	ns1045.ui-dns.org.
 fortsumner.gov.	10800	IN	NS	ns11.digicertdns.com.
 fortsumner.gov.	10800	IN	NS	ns12.digicertdns.com.
 fortsumner.gov.	10800	IN	NS	ns13.digicertdns.net.
@@ -27935,6 +27938,8 @@ nlm.gov.	10800	IN	NS	lhcns2.nlm.nih.gov.
 nlm.gov.	10800	IN	NS	ns2.nih.gov.
 nlrb.gov.	10800	IN	NS	auth40.ns.uu.net.
 nlrb.gov.	10800	IN	NS	auth20.ns.wcom.com.
+nlr.gov.	10800	IN	NS	adns1.es.net.
+nlr.gov.	10800	IN	NS	adns2.es.net.
 nlrwu.gov.	10800	IN	NS	ns4.wixdns.net.
 nlrwu.gov.	10800	IN	NS	ns5.wixdns.net.
 nls.gov.	10800	IN	NS	hudgate.hud.gov.
