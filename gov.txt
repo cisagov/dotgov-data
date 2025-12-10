@@ -1,6 +1,6 @@
 ;;
 ;; Domain:     gov.
-;; Exported:   2025-12-09 09:02:20
+;; Exported:   2025-12-10 07:13:04
 ;;
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -24,7 +24,7 @@
 ;;
 ;; Use at your own risk.
 ;; SOA Record
-gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1765270501 3600 900 604800 300
+gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1765350301 3600 900 604800 300
 
 ;; A Records
 a.aspr.gov.	3600	IN	A	158.74.35.11 ; cf_tags=cf-proxied:false
@@ -302,6 +302,7 @@ ns1.cooscountyor.gov.	3600	IN	A	67.219.235.7 ; cf_tags=cf-proxied:false
 ns1.cumberlandcoil.gov.	3600	IN	A	72.167.133.220 ; cf_tags=cf-proxied:false
 ns1.dahlonega.gov.	3600	IN	A	69.16.218.106 ; cf_tags=cf-proxied:false
 ns1.dc3on.gov.	3600	IN	A	66.102.236.215 ; cf_tags=cf-proxied:false
+ns1.domainops.gov.	3600	IN	A	162.159.11.179 ; cf_tags=cf-proxied:false
 ns1.draperutah.gov.	3600	IN	A	50.206.72.201 ; cf_tags=cf-proxied:false
 ns1.dublin-ca.gov.	3600	IN	A	12.138.195.226 ; cf_tags=cf-proxied:false
 ns1.dublinca.gov.	3600	IN	A	12.138.195.226 ; cf_tags=cf-proxied:false
@@ -402,6 +403,7 @@ ns1.nc.gov.	3600	IN	A	149.168.11.11 ; cf_tags=cf-proxied:false
 ns1.newtonma.gov.	3600	IN	A	209.6.175.194 ; cf_tags=cf-proxied:false
 ns1.niagaracounty.gov.	3600	IN	A	67.222.116.100 ; cf_tags=cf-proxied:false
 ns1.nj.gov.	3600	IN	A	205.251.192.191 ; cf_tags=cf-proxied:false
+ns1.nlr.gov.	3600	IN	A	192.174.58.2 ; cf_tags=cf-proxied:false
 ns1.nnss.gov.	3600	IN	A	192.100.51.206 ; cf_tags=cf-proxied:false
 ns1.norcopa.gov.	3600	IN	A	209.173.16.94 ; cf_tags=cf-proxied:false
 ns1.nrd.gov.	3600	IN	A	52.222.56.242 ; cf_tags=cf-proxied:false
@@ -659,6 +661,7 @@ ns2.newtonma.gov.	3600	IN	A	108.49.74.194 ; cf_tags=cf-proxied:false
 ns2.niagaracounty.gov.	3600	IN	A	24.169.93.222 ; cf_tags=cf-proxied:false
 ns2.nih.gov.	3600	IN	A	128.231.64.1 ; cf_tags=cf-proxied:false
 ns2.nj.gov.	3600	IN	A	205.251.196.68 ; cf_tags=cf-proxied:false
+ns2.nlr.gov.	3600	IN	A	192.174.58.253 ; cf_tags=cf-proxied:false
 ns2.nmcourts.gov.	3600	IN	A	74.50.132.45 ; cf_tags=cf-proxied:false
 ns2.nnss.gov.	3600	IN	A	192.100.51.207 ; cf_tags=cf-proxied:false
 ns2.norcopa.gov.	3600	IN	A	209.173.16.93 ; cf_tags=cf-proxied:false
@@ -1052,6 +1055,7 @@ ns1.nationalbanknet.gov.	3600	IN	AAAA	2400:cb00:2049:1::a29f:e9 ; cf_tags=cf-pro
 ns1.nationalresourcedirectory.gov.	3600	IN	AAAA	2600:1f12:cf5:601:a5ba:93b4:6c32:f169 ; cf_tags=cf-proxied:false
 ns1.navycash.gov.	3600	IN	AAAA	2400:cb00:2049:1::a29f:e9 ; cf_tags=cf-proxied:false
 ns1.nj.gov.	3600	IN	AAAA	2600:9000:5300:bf00::1 ; cf_tags=cf-proxied:false
+ns1.nlr.gov.	3600	IN	AAAA	2620:d0:8000:3::20 ; cf_tags=cf-proxied:false
 ns1.nnss.gov.	3600	IN	AAAA	2607:2080:0:2::320 ; cf_tags=cf-proxied:false
 ns1.nrd.gov.	3600	IN	AAAA	2600:1f12:cf5:601:a5ba:93b4:6c32:f169 ; cf_tags=cf-proxied:false
 ns1.nsf.gov.	3600	IN	AAAA	2620:10f:6001:2::55 ; cf_tags=cf-proxied:false
@@ -1142,6 +1146,7 @@ ns2.nationalbanknet.gov.	3600	IN	AAAA	2400:cb00:2049:1::a29f:1f5 ; cf_tags=cf-pr
 ns2.nationalresourcedirectory.gov.	3600	IN	AAAA	2600:1f12:cf5:602:7618:eea7:8c20:e4ad ; cf_tags=cf-proxied:false
 ns2.navycash.gov.	3600	IN	AAAA	2400:cb00:2049:1::a29f:1f5 ; cf_tags=cf-proxied:false
 ns2.nj.gov.	3600	IN	AAAA	2600:9000:5304:4400::1 ; cf_tags=cf-proxied:false
+ns2.nlr.gov.	3600	IN	AAAA	2620:d0:8000:3::21 ; cf_tags=cf-proxied:false
 ns2.nnss.gov.	3600	IN	AAAA	2607:2080:0:2::400 ; cf_tags=cf-proxied:false
 ns2.nrd.gov.	3600	IN	AAAA	2600:1f12:cf5:602:7618:eea7:8c20:e4ad ; cf_tags=cf-proxied:false
 ns2.nsf.gov.	3600	IN	AAAA	2620:10f:6001:2::56 ; cf_tags=cf-proxied:false
@@ -1268,6 +1273,7 @@ ahcpr.gov.	3600	IN	DS	31364 13 2 DF65580F1692920B21D3A9A06170645529886511C9212AD
 ahrq.gov.	3600	IN	DS	15968 13 2 F5EF656D44337291DF01CAB9F862F6A5B8FC3CA49DC0AFFBD2E3CA96A1AF8AAA
 aids.gov.	3600	IN	DS	5821 13 2 9C464B7B827F320B9710D3EC54D675CD9E4B634909E3B99E8FFEBEED23F04305
 ai.gov.	3600	IN	DS	2371 13 2 FBA8DD5D33D8951FCFF1FDB15C0013ED57BCD647691B14B7857D8195E86A0967
+ainsworthwi.gov.	3600	IN	DS	2371 13 2 55ECBABCB874DC6AE6A1E7BF6D59B85B5DB09D05A04B00CFBEA1B630C57D6DB2
 airknowledge.gov.	3600	IN	DS	33910 8 2 17035DFE7D9076823254BE1892E7D212B3515F9ED61D7E88895263CD0EFF207A
 airnow.gov.	3600	IN	DS	13009 8 2 3153A088767DFF5F4411037DCA8DC1CBFDB8880E7151DE61C91EBA6175A580C9
 airnow.gov.	3600	IN	DS	13180 8 2 371805368A372EC4C5B6C0A8E49FAA786317AE04D918B53599CF20E21E2C691A
@@ -1445,6 +1451,7 @@ bristowlibraryok.gov.	3600	IN	DS	19111 8 2 C63C1A27B31CD2482FE204534F3E03362A26C
 bristowpoliceok.gov.	3600	IN	DS	60349 8 2 88256C11EB3DE525BAD906C6546361F9933884E2CDEDC125CBDF74033C792319
 broadbandmap.gov.	3600	IN	DS	18970 13 2 74C268B05BC0C849038B5016C5DD89E14A7DC165AC3DA63AB29253174A504752
 broadbandmap.gov.	3600	IN	DS	64473 13 2 F03B5766C783BFA1977B7EEA1CDD2C1A6A0195D3861389CA7E1A25F72D9CCC08
+broadmoorpd.gov.	3600	IN	DS	2371 13 2 541B41AE4B20C5972A285FCB28F97990AD176C07D94F2480F350441931329774
 brookhavenny.gov.	3600	IN	DS	41195 7 1 8161540D0A1A522CEC34BD0069E6A215B13FF626
 brookhavenny.gov.	3600	IN	DS	41195 7 2 9B7BA854432E00AFCDA5A2E9F4D0D288617EEC13BEB4B36C32B2D6644602BA8F
 bsee.gov.	3600	IN	DS	2371 13 2 E245AF03FF1B55006C9BBA366D69897E452418D37C9AD13FAC2A1474F6022645
@@ -1749,6 +1756,7 @@ currencyreaderapplication.gov.	3600	IN	DS	2371 13 2 B754AB461543D05E1AA355D0E979
 currencyreader.gov.	3600	IN	DS	2371 13 2 730EEB9B57609831318C29B1FC020375CAEEFF9FDE7B885458EB4F62DDA58E7E
 currituckcountync.gov.	3600	IN	DS	2371 13 2 778C36F2C628CF9A910380C5449B09DA6DDCDA592BC1614B025B42C91B317F4D
 cuyahogaheights.gov.	3600	IN	DS	56145 13 2 D6249042C9A1D858028967C65A2BE00D275BAA742982ECD0080BA07DDAD6A9A6
+cwljonesboroar.gov.	3600	IN	DS	2371 13 2 5AD14771C280DDC6EDEDFCAE2BC6889D2748578F5C1921E7E301353D1301FC72
 cybercareers.gov.	3600	IN	DS	16867 8 2 036A3A84E0FD76922FA102F120E93D29BE3DBBCEB9611DE600E6CE3502C89375
 cybercrime.gov.	3600	IN	DS	2371 13 2 D2E7D87FF4DF95F5EF331C5DDB1F54C3DF708AB5A23396FC1814CAD18EB45F6C
 cyber.gov.	3600	IN	DS	62838 7 2 5CFA1895E9731F277A6E033326EB06CE619B0AE143D4FF469E2E7081F33E3572
@@ -1910,6 +1918,7 @@ energysaver.gov.	3600	IN	DS	8152 8 2 00F6934FA86ED83A38781C4D3C977C310DC0B60D08E
 energysavers.gov.	3600	IN	DS	59209 8 2 4625C8B632DA78B0B68B967BAFA7EDB42B1771D88476E78639D37F8D43C0CB4C
 energystar.gov.	3600	IN	DS	35770 8 2 837AAB88D553E0710FBA6811BB0E150214899B4C335867A0F8FC4F517C7FE46D
 energystar.gov.	3600	IN	DS	10357 8 2 986ED752C252A5C296FB18DFC9C668EF7FE9D32473AE42557678E925C76E38FD
+enterpriseal.gov.	3600	IN	DS	2371 13 2 001D865C883D069D9959407B89AFA34E851D4F2081BBFB9E486FCF89602FC5BC
 eop.gov.	3600	IN	DS	2371 13 2 7AF164C5BBA96B027ABA0D9300F1DE1E97174AE1D147AF1ADB0B03F985441BF3
 epa.gov.	3600	IN	DS	32804 8 2 7854B03A546EE2F217436C7BE0CDC05AEBBCB46EEAFA6B9D5077338CD9A6CE23
 epa.gov.	3600	IN	DS	7219 8 2 EC40E0AA6AEDDD6F187C94D2DE3A697EBDF396E5996DAE26762CD620D3B0344D
@@ -7699,6 +7708,8 @@ broadbandmap.gov.	10800	IN	NS	a7-67.akam.net.
 broadbandmap.gov.	10800	IN	NS	a22-66.akam.net.
 broadbandmap.gov.	10800	IN	NS	a26-66.akam.net.
 broadbandmap.gov.	10800	IN	NS	a16-66.akam.net.
+broadmoorpd.gov.	10800	IN	NS	trey.ns.cloudflare.com.
+broadmoorpd.gov.	10800	IN	NS	melany.ns.cloudflare.com.
 broadusmt.gov.	10800	IN	NS	ns3.afraid.org.
 broadusmt.gov.	10800	IN	NS	ns4.afraid.org.
 broadusmt.gov.	10800	IN	NS	ns1.afraid.org.
@@ -9026,10 +9037,10 @@ ceciltonmd.gov.	10800	IN	NS	chi-ns1.websitehostserver.net.
 ceciltonmd.gov.	10800	IN	NS	ams-ns1.websitehostserver.net.
 ceciltownship-pa.gov.	10800	IN	NS	dns3.civicplus.com.
 ceciltownship-pa.gov.	10800	IN	NS	dns4.civicplus.com.
-cedarbluffsne.gov.	10800	IN	NS	ns1-02.azure-dns.com.
-cedarbluffsne.gov.	10800	IN	NS	ns2-02.azure-dns.net.
-cedarbluffsne.gov.	10800	IN	NS	ns3-02.azure-dns.org.
-cedarbluffsne.gov.	10800	IN	NS	ns4-02.azure-dns.info.
+cedarbluffsne.gov.	10800	IN	NS	ns1.bdm.microsoftonline.com.
+cedarbluffsne.gov.	10800	IN	NS	ns2.bdm.microsoftonline.com.
+cedarbluffsne.gov.	10800	IN	NS	ns3.bdm.microsoftonline.com.
+cedarbluffsne.gov.	10800	IN	NS	ns4.bdm.microsoftonline.com.
 cedarcityut.gov.	10800	IN	NS	dns3.civicplus.com.
 cedarcityut.gov.	10800	IN	NS	dns4.civicplus.com.
 cedarcountymo.gov.	10800	IN	NS	ns3.bdm.microsoftonline.com.
@@ -12150,11 +12161,8 @@ coopercohealth.gov.	10800	IN	NS	pdns06.domaincontrol.com.
 coopercohealth.gov.	10800	IN	NS	pdns05.domaincontrol.com.
 coopercountymo.gov.	10800	IN	NS	ns3.socket.net.
 coopercountymo.gov.	10800	IN	NS	ns1.socket.net.
-cooperstownny.gov.	10800	IN	NS	dns1.name-services.com.
-cooperstownny.gov.	10800	IN	NS	dns2.name-services.com.
-cooperstownny.gov.	10800	IN	NS	dns3.name-services.com.
-cooperstownny.gov.	10800	IN	NS	dns4.name-services.com.
-cooperstownny.gov.	10800	IN	NS	dns5.name-services.com.
+cooperstownny.gov.	10800	IN	NS	imani.ns.cloudflare.com.
+cooperstownny.gov.	10800	IN	NS	bradley.ns.cloudflare.com.
 coosbayor.gov.	10800	IN	NS	sunny.ns.cloudflare.com.
 coosbayor.gov.	10800	IN	NS	ian.ns.cloudflare.com.
 cooscountynh.gov.	10800	IN	NS	ns41.constellix.net.
@@ -12807,6 +12815,8 @@ cwc.gov.	10800	IN	NS	ns1-03.azuregov-dns.us.
 cwc.gov.	10800	IN	NS	ns2-03.azuregov-dns.us.
 cwc.gov.	10800	IN	NS	ns3-03.azuregov-dns.us.
 cwc.gov.	10800	IN	NS	ns4-03.azuregov-dns.us.
+cwljonesboroar.gov.	10800	IN	NS	justin.ns.cloudflare.com.
+cwljonesboroar.gov.	10800	IN	NS	miki.ns.cloudflare.com.
 cybercareers.gov.	10800	IN	NS	a18-65.akam.net.
 cybercareers.gov.	10800	IN	NS	a5-67.akam.net.
 cybercareers.gov.	10800	IN	NS	a20-66.akam.net.
@@ -13766,6 +13776,7 @@ dolorescountyco.gov.	10800	IN	NS	ns53.cloudns.net.
 dolorescountyco.gov.	10800	IN	NS	ns54.cloudns.net.
 dolorescountyco.gov.	10800	IN	NS	ns51.cloudns.net.
 dolorescountyco.gov.	10800	IN	NS	ns52.cloudns.net.
+domainops.gov.	10800	IN	NS	ns1.domainops.gov.
 domainops.gov.	10800	IN	NS	hazel.ns.cloudflare.com.
 domainops.gov.	10800	IN	NS	vin.ns.cloudflare.com.
 donaana.gov.	10800	IN	NS	boyd.ns.cloudflare.com.
@@ -16924,6 +16935,8 @@ fullertonca.gov.	10800	IN	NS	ns-1762.awsdns-28.co.uk.
 fullertonca.gov.	10800	IN	NS	ns-1034.awsdns-01.org.
 fullertonca.gov.	10800	IN	NS	ns-931.awsdns-52.net.
 fullertonca.gov.	10800	IN	NS	ns-352.awsdns-44.com.
+fullertonne.gov.	10800	IN	NS	pdns01.domaincontrol.com.
+fullertonne.gov.	10800	IN	NS	pdns02.domaincontrol.com.
 fulsheartexas.gov.	10800	IN	NS	pdns08.domaincontrol.com.
 fulsheartexas.gov.	10800	IN	NS	pdns07.domaincontrol.com.
 fultoncoclerkky.gov.	10800	IN	NS	ns1.bluehost.com.
@@ -18489,6 +18502,8 @@ hamiltonil.gov.	10800	IN	NS	ns68.domaincontrol.com.
 hamiltonil.gov.	10800	IN	NS	ns67.domaincontrol.com.
 hamiltonma.gov.	10800	IN	NS	joselyn.ns.cloudflare.com.
 hamiltonma.gov.	10800	IN	NS	zod.ns.cloudflare.com.
+hamiltonmtruralfire.gov.	10800	IN	NS	ns-1463.awsdns-54.org.
+hamiltonmtruralfire.gov.	10800	IN	NS	ns-1647.awsdns-13.co.uk.
 hamilton-ny.gov.	10800	IN	NS	dns1.stabletransit.com.
 hamilton-ny.gov.	10800	IN	NS	dns2.stabletransit.com.
 hamilton-oh.gov.	10800	IN	NS	ns2.swoca.net.
@@ -20878,8 +20893,8 @@ irwincounty-ga.gov.	10800	IN	NS	ns-cloud-c4.googledomains.com.
 irwincounty-ga.gov.	10800	IN	NS	ns-cloud-c3.googledomains.com.
 irwindaleca.gov.	10800	IN	NS	sofia.ns.cloudflare.com.
 irwindaleca.gov.	10800	IN	NS	jim.ns.cloudflare.com.
-isanticountymn.gov.	10800	IN	NS	ns1.gov-server.net.
-isanticountymn.gov.	10800	IN	NS	ns2.gov-server.net.
+isanticountymn.gov.	10800	IN	NS	mary.ns.cloudflare.com.
+isanticountymn.gov.	10800	IN	NS	johnathan.ns.cloudflare.com.
 isd477mn.gov.	10800	IN	NS	ns49.domaincontrol.com.
 isd477mn.gov.	10800	IN	NS	ns50.domaincontrol.com.
 ise.gov.	10800	IN	NS	a22-66.akam.net.
@@ -21263,6 +21278,8 @@ jeffersoncountytn.gov.	10800	IN	NS	ns2-01.azure-dns.net.
 jeffersoncountytn.gov.	10800	IN	NS	ns4-01.azure-dns.info.
 jeffersoncountytn.gov.	10800	IN	NS	ns3-01.azure-dns.org.
 jeffersoncountytn.gov.	10800	IN	NS	ns1-01.azure-dns.com.
+jeffersoncountytx.gov.	10800	IN	NS	lloyd.ns.cloudflare.com.
+jeffersoncountytx.gov.	10800	IN	NS	lauryn.ns.cloudflare.com.
 jeffersoncountytx.gov.	10800	IN	NS	ns1.biz.rr.com.
 jeffersoncountytx.gov.	10800	IN	NS	ns2.biz.rr.com.
 jeffersoncountywi.gov.	10800	IN	NS	ns12.digicertdns.com.
@@ -21305,6 +21322,8 @@ jeffersontown-ny.gov.	10800	IN	NS	ns0.inoc.net.
 jeffersontown-ny.gov.	10800	IN	NS	ns1.inoc.net.
 jeffersontownshipwellsin.gov.	10800	IN	NS	ns71.cloudns.net.
 jeffersontownshipwellsin.gov.	10800	IN	NS	ns73.cloudns.net.
+jeffersontwphcmi.gov.	10800	IN	NS	ns1.shumakergrouphosting.com.
+jeffersontwphcmi.gov.	10800	IN	NS	ns2.shumakergrouphosting.com.
 jeffersontwplackawanna.gov.	10800	IN	NS	ns1.hallocktechnologies.com.
 jeffersontwplackawanna.gov.	10800	IN	NS	ns2.hallocktechnologies.com.
 jeffersonvilleoh.gov.	10800	IN	NS	ns29.domaincontrol.com.
@@ -24312,6 +24331,8 @@ manchester-vt.gov.	10800	IN	NS	ns1.hostmonster.com.
 manchester-vt.gov.	10800	IN	NS	ns2.hostmonster.com.
 manchesterwi.gov.	10800	IN	NS	mona.ns.cloudflare.com.
 manchesterwi.gov.	10800	IN	NS	adam.ns.cloudflare.com.
+manhassetlakevillewater.gov.	10800	IN	NS	gabe.ns.cloudflare.com.
+manhassetlakevillewater.gov.	10800	IN	NS	gracie.ns.cloudflare.com.
 manhassetparkdistrictny.gov.	10800	IN	NS	ns59.domaincontrol.com.
 manhassetparkdistrictny.gov.	10800	IN	NS	ns60.domaincontrol.com.
 manhattanbeach.gov.	10800	IN	NS	mcgrory.ns.cloudflare.com.
@@ -28066,8 +28087,10 @@ nlm.gov.	10800	IN	NS	lhcns2.nlm.nih.gov.
 nlm.gov.	10800	IN	NS	ns2.nih.gov.
 nlrb.gov.	10800	IN	NS	auth40.ns.uu.net.
 nlrb.gov.	10800	IN	NS	auth20.ns.wcom.com.
-nlr.gov.	10800	IN	NS	helios.nrel.gov.
-nlr.gov.	10800	IN	NS	phaeton.nrel.gov.
+nlr.gov.	10800	IN	NS	ns1.nlr.gov.
+nlr.gov.	10800	IN	NS	ns2.nlr.gov.
+nlr.gov.	10800	IN	NS	adns2.es.net.
+nlr.gov.	10800	IN	NS	adns1.es.net.
 nlrwu.gov.	10800	IN	NS	ns4.wixdns.net.
 nlrwu.gov.	10800	IN	NS	ns5.wixdns.net.
 nls.gov.	10800	IN	NS	hudgate.hud.gov.
@@ -28617,6 +28640,8 @@ nuclear.gov.	10800	IN	NS	foxbat.doe.gov.
 nuclear.gov.	10800	IN	NS	adns1.es.net.
 nuecescountytx.gov.	10800	IN	NS	dns2.esc2.net.
 nuecescountytx.gov.	10800	IN	NS	dns1.esc2.net.
+nueraut.gov.	10800	IN	NS	ns1.oldhamtechnology.com.
+nueraut.gov.	10800	IN	NS	ns2.oldhamtechnology.com.
 nuesut.gov.	10800	IN	NS	ns2.uen.net.
 nuesut.gov.	10800	IN	NS	ns.uen.net.
 nutrition.gov.	10800	IN	NS	ns2.usda.gov.
@@ -35770,8 +35795,6 @@ stantontn.gov.	10800	IN	NS	ns1.bluehost.com.
 stantontn.gov.	10800	IN	NS	ns2.bluehost.com.
 stanvote.gov.	10800	IN	NS	jule.ns.cloudflare.com.
 stanvote.gov.	10800	IN	NS	rayden.ns.cloudflare.com.
-stanwoodwa.gov.	10800	IN	NS	dns4.civicplus.com.
-stanwoodwa.gov.	10800	IN	NS	dns3.civicplus.com.
 staplestx.gov.	10800	IN	NS	ns57.domaincontrol.com.
 staplestx.gov.	10800	IN	NS	ns58.domaincontrol.com.
 starbuckmn.gov.	10800	IN	NS	ns10.digicertdns.com.
@@ -36758,6 +36781,8 @@ taosnm.gov.	10800	IN	NS	ns1.newmex.com.
 taosnm.gov.	10800	IN	NS	ns3.newmex.com.
 taospueblo-nsn.gov.	10800	IN	NS	ns1.brownrice.com.
 taospueblo-nsn.gov.	10800	IN	NS	ns2.brownrice.com.
+taosswcd-nm.gov.	10800	IN	NS	ns1.brownrice.com.
+taosswcd-nm.gov.	10800	IN	NS	ns2.brownrice.com.
 tappahannock-va.gov.	10800	IN	NS	ns51.domaincontrol.com.
 tappahannock-va.gov.	10800	IN	NS	ns52.domaincontrol.com.
 tarponsprings.gov.	10800	IN	NS	ns33.worldnic.com.
@@ -38088,6 +38113,8 @@ townoffortannny.gov.	10800	IN	NS	ns20.domaincontrol.com.
 townoffosterri.gov.	10800	IN	NS	dns1.easydns.com.
 townoffosterri.gov.	10800	IN	NS	dns2.easydns.net.
 townoffosterri.gov.	10800	IN	NS	dns3.easydns.ca.
+townoffountainlake.gov.	10800	IN	NS	ns1042.ui-dns.com.
+townoffountainlake.gov.	10800	IN	NS	ns1042.ui-dns.org.
 townoffrankfortny.gov.	10800	IN	NS	ns-cloud-a1.googledomains.com.
 townoffrankfortny.gov.	10800	IN	NS	ns-cloud-a2.googledomains.com.
 townoffrankfortny.gov.	10800	IN	NS	ns-cloud-a3.googledomains.com.
@@ -38746,10 +38773,6 @@ townofprairielake.gov.	10800	IN	NS	adam.ns.cloudflare.com.
 townofprairielake.gov.	10800	IN	NS	mona.ns.cloudflare.com.
 townofprentiss.gov.	10800	IN	NS	dom.ns.cloudflare.com.
 townofprentiss.gov.	10800	IN	NS	dolly.ns.cloudflare.com.
-townofprincessannemd.gov.	10800	IN	NS	ns-451.awsdns-56.com.
-townofprincessannemd.gov.	10800	IN	NS	ns-1941.awsdns-50.co.uk.
-townofprincessannemd.gov.	10800	IN	NS	ns-1483.awsdns-57.org.
-townofprincessannemd.gov.	10800	IN	NS	ns-560.awsdns-06.net.
 townofprincetonma.gov.	10800	IN	NS	ns59.domaincontrol.com.
 townofprincetonma.gov.	10800	IN	NS	ns60.domaincontrol.com.
 townofprospect.gov.	10800	IN	NS	adam.ns.cloudflare.com.
@@ -40479,6 +40502,8 @@ vernontwpfirehc.gov.	10800	IN	NS	ns09.domaincontrol.com.
 vernontwpfirehc.gov.	10800	IN	NS	ns10.domaincontrol.com.
 vernontwphc.gov.	10800	IN	NS	ns70.domaincontrol.com.
 vernontwphc.gov.	10800	IN	NS	ns69.domaincontrol.com.
+vernontwp-mi.gov.	10800	IN	NS	ns69.domaincontrol.com.
+vernontwp-mi.gov.	10800	IN	NS	ns70.domaincontrol.com.
 vernontwp-pa.gov.	10800	IN	NS	ns08.domaincontrol.com.
 vernontwp-pa.gov.	10800	IN	NS	ns07.domaincontrol.com.
 vernontx.gov.	10800	IN	NS	dns2.civicplus.com.
@@ -41024,6 +41049,8 @@ villageofsciooh.gov.	10800	IN	NS	earl.ns.cloudflare.com.
 villageofsciooh.gov.	10800	IN	NS	bailey.ns.cloudflare.com.
 villageofscotiany.gov.	10800	IN	NS	ns2.hostpapa.com.
 villageofscotiany.gov.	10800	IN	NS	ns1.hostpapa.com.
+villageofsgfny.gov.	10800	IN	NS	fred.ns.cloudflare.com.
+villageofsgfny.gov.	10800	IN	NS	gail.ns.cloudflare.com.
 villageofsheldonwi.gov.	10800	IN	NS	nick.ns.cloudflare.com.
 villageofsheldonwi.gov.	10800	IN	NS	dahlia.ns.cloudflare.com.
 villageofsherburneny.gov.	10800	IN	NS	adam.ns.cloudflare.com.
@@ -42384,6 +42411,8 @@ westhavenut.gov.	10800	IN	NS	zara.ns.cloudflare.com.
 westhavenut.gov.	10800	IN	NS	ernest.ns.cloudflare.com.
 westhaverstraw.gov.	10800	IN	NS	ns1.wordpress.com.
 westhaverstraw.gov.	10800	IN	NS	ns2.wordpress.com.
+westhillspolicepa.gov.	10800	IN	NS	marty.ns.cloudflare.com.
+westhillspolicepa.gov.	10800	IN	NS	annalise.ns.cloudflare.com.
 westhomesteadpa.gov.	10800	IN	NS	ns1.bdm.microsoftonline.com.
 westhomesteadpa.gov.	10800	IN	NS	ns2.bdm.microsoftonline.com.
 westhomesteadpa.gov.	10800	IN	NS	ns3.bdm.microsoftonline.com.
@@ -43005,6 +43034,8 @@ windsorct.gov.	10800	IN	NS	otto.ns.cloudflare.com.
 windsorct.gov.	10800	IN	NS	becky.ns.cloudflare.com.
 windsornc.gov.	10800	IN	NS	logan.ns.cloudflare.com.
 windsornc.gov.	10800	IN	NS	aria.ns.cloudflare.com.
+windsornh.gov.	10800	IN	NS	ns75.domaincontrol.com.
+windsornh.gov.	10800	IN	NS	ns76.domaincontrol.com.
 windsor-va.gov.	10800	IN	NS	shaz.ns.cloudflare.com.
 windsor-va.gov.	10800	IN	NS	dion.ns.cloudflare.com.
 windsorwi.gov.	10800	IN	NS	elmo.ns.cloudflare.com.
