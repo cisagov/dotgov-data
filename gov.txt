@@ -1,6 +1,6 @@
 ;;
 ;; Domain:     gov.
-;; Exported:   2025-12-14 07:12:13
+;; Exported:   2025-12-15 07:13:27
 ;;
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -24,7 +24,7 @@
 ;;
 ;; Use at your own risk.
 ;; SOA Record
-gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1765695901 3600 900 604800 300
+gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1765782302 3600 900 604800 300
 
 ;; A Records
 a.aspr.gov.	3600	IN	A	158.74.35.11 ; cf_tags=cf-proxied:false
@@ -455,6 +455,7 @@ ns1.tigtanet.gov.	3600	IN	A	162.159.0.233 ; cf_tags=cf-proxied:false
 ns1.tmdci-nsn.gov.	3600	IN	A	64.60.169.117 ; cf_tags=cf-proxied:false
 ns1.torresmartinez-nsn.gov.	3600	IN	A	64.60.169.117 ; cf_tags=cf-proxied:false
 ns1.townofbristolny.gov.	3600	IN	A	198.179.108.150 ; cf_tags=cf-proxied:false
+ns1.townofcorinthny.gov.	3600	IN	A	160.153.182.69 ; cf_tags=cf-proxied:false
 ns1.townofrowlandnc.gov.	3600	IN	A	192.168.0.18 ; cf_tags=cf-proxied:false
 ns1.townofvictorny.gov.	3600	IN	A	198.179.108.150 ; cf_tags=cf-proxied:false
 ns1.townofyoderwy.gov.	3600	IN	A	184.164.124.151 ; cf_tags=cf-proxied:false
@@ -715,6 +716,7 @@ ns2.tigtanet.gov.	3600	IN	A	162.159.1.245 ; cf_tags=cf-proxied:false
 ns2.tmdci-nsn.gov.	3600	IN	A	64.60.169.118 ; cf_tags=cf-proxied:false
 ns2.torresmartinez-nsn.gov.	3600	IN	A	64.60.169.118 ; cf_tags=cf-proxied:false
 ns2.townofbristolny.gov.	3600	IN	A	24.213.157.114 ; cf_tags=cf-proxied:false
+ns2.townofcorinthny.gov.	3600	IN	A	160.153.182.69 ; cf_tags=cf-proxied:false
 ns2.townofvictorny.gov.	3600	IN	A	24.213.157.114 ; cf_tags=cf-proxied:false
 ns2.townofyoderwy.gov.	3600	IN	A	184.164.124.151 ; cf_tags=cf-proxied:false
 ns2.transparency.gov.	3600	IN	A	162.159.1.245 ; cf_tags=cf-proxied:false
@@ -24568,8 +24570,6 @@ marineil.gov.	10800	IN	NS	ns1.canvashost.com.
 marineil.gov.	10800	IN	NS	ns3.canvashost.com.
 marinettecountywi.gov.	10800	IN	NS	ns2.wiscnet.net.
 marinettecountywi.gov.	10800	IN	NS	ns1.wiscnet.net.
-marinettecountywi.gov.	10800	IN	NS	dns.uw-mad.wiscnet.net.
-marinettecountywi.gov.	10800	IN	NS	dns.uw-mil.wiscnet.net.
 marinettewi.gov.	10800	IN	NS	ns1.wiscnet.net.
 marinettewi.gov.	10800	IN	NS	ns2.wiscnet.net.
 marinsheriff.gov.	10800	IN	NS	blue.foundationdns.com.
@@ -36320,6 +36320,8 @@ stuartfl.gov.	10800	IN	NS	ns0.dnsmadeeasy.com.
 stuartfl.gov.	10800	IN	NS	ns3.dnsmadeeasy.com.
 stuartfl.gov.	10800	IN	NS	ns1.dnsmadeeasy.com.
 stuartfl.gov.	10800	IN	NS	ns2.dnsmadeeasy.com.
+stuartrescueia.gov.	10800	IN	NS	grant.ns.cloudflare.com.
+stuartrescueia.gov.	10800	IN	NS	zainab.ns.cloudflare.com.
 studentaid.gov.	10800	IN	NS	a7-66.akam.net.
 studentaid.gov.	10800	IN	NS	a11-66.akam.net.
 studentaid.gov.	10800	IN	NS	a20-66.akam.net.
@@ -38005,8 +38007,8 @@ townofcooperstownwi.gov.	10800	IN	NS	adam.ns.cloudflare.com.
 townofcooperstownwi.gov.	10800	IN	NS	mona.ns.cloudflare.com.
 townofcopakeny.gov.	10800	IN	NS	brit.ns.cloudflare.com.
 townofcopakeny.gov.	10800	IN	NS	plato.ns.cloudflare.com.
-townofcorinthny.gov.	10800	IN	NS	ns65.domaincontrol.com.
-townofcorinthny.gov.	10800	IN	NS	ns66.domaincontrol.com.
+townofcorinthny.gov.	10800	IN	NS	ns1.townofcorinthny.gov.
+townofcorinthny.gov.	10800	IN	NS	ns2.townofcorinthny.gov.
 townofcorningny.gov.	10800	IN	NS	ns1.wordpress.com.
 townofcorningny.gov.	10800	IN	NS	ns2.wordpress.com.
 townofcortlandtny.gov.	10800	IN	NS	hadlee.ns.cloudflare.com.
