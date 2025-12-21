@@ -1,6 +1,6 @@
 ;;
 ;; Domain:     gov.
-;; Exported:   2025-12-20 07:11:52
+;; Exported:   2025-12-21 07:12:19
 ;;
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -24,7 +24,7 @@
 ;;
 ;; Use at your own risk.
 ;; SOA Record
-gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1766214301 3600 900 604800 300
+gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1766300701 3600 900 604800 300
 
 ;; A Records
 a.aspr.gov.	3600	IN	A	158.74.35.11 ; cf_tags=cf-proxied:false
@@ -1355,7 +1355,7 @@ arsusda.gov.	3600	IN	DS	43222 13 2 FFF72A9531858F6B249B4C5754F8C7A380F685C8169F1
 arsusda.gov.	3600	IN	DS	1758 13 2 2656CBE12786B6D1CA0D5F9CD941C2F434B49E52DB6CD9944C5950CD71C023FA
 artransparency.gov.	3600	IN	DS	2371 13 2 39F295B4FB14B8BDA8B362BE62A0B2EFBCAAFD74F13463D844C35BFD43F5B666
 arvadafireco.gov.	3600	IN	DS	23255 13 2 97E46B7AFD9F6359FE849E585665C08FD323F86574F6859802FB37FEB9E8F0E1
-asap.gov.	3600	IN	DS	21602 13 2 E0A92C76A29EE7ADB980A861C7EA77246BF9E0F59759B450284AA7AF72A4B04F
+asap.gov.	3600	IN	DS	2371 13 2 0389BED5876490AD4AB0C8C04A3E74707DAE2A79AF2632B87BAD576B659C18E4
 asc.gov.	3600	IN	DS	39908 13 2 FC00E82E373C54ED0F47B120C46B6E41283C714BAA0E7640466EF02D62F7EC9D
 asc.gov.	3600	IN	DS	39908 13 1 23B8CE97E13A9B6D5E7F46296BDDFCF650E91B27
 asianpacificheritage.gov.	3600	IN	DS	2371 13 2 18BE8BDB391B19409A6295B3C5E8D64676856E6AB6A887F2FA683D6C8AD9BBE1
@@ -5240,10 +5240,8 @@ arvadafireco.gov.	10800	IN	NS	ns-1146.awsdns-15.org.
 arvadafireco.gov.	10800	IN	NS	ns-1966.awsdns-53.co.uk.
 arvadafireco.gov.	10800	IN	NS	ns-109.awsdns-13.com.
 arvadafireco.gov.	10800	IN	NS	ns-756.awsdns-30.net.
-asap.gov.	10800	IN	NS	pdns108.ultradns.com.
-asap.gov.	10800	IN	NS	pdns108.ultradns.org.
-asap.gov.	10800	IN	NS	pdns108.ultradns.net.
-asap.gov.	10800	IN	NS	pdns108.ultradns.biz.
+asap.gov.	10800	IN	NS	tadeo.ns.cloudflare.com.
+asap.gov.	10800	IN	NS	margot.ns.cloudflare.com.
 asburyparkfd.gov.	10800	IN	NS	dns3.civicplus.com.
 asburyparkfd.gov.	10800	IN	NS	dns4.civicplus.com.
 asburypark.gov.	10800	IN	NS	dns3.civicplus.com.
