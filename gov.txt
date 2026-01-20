@@ -1,6 +1,6 @@
 ;;
 ;; Domain:     gov.
-;; Exported:   2026-01-19 07:17:10
+;; Exported:   2026-01-20 07:16:00
 ;;
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -24,7 +24,7 @@
 ;;
 ;; Use at your own risk.
 ;; SOA Record
-gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1768806605 3600 900 604800 300
+gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1768893001 3600 900 604800 300
 
 ;; A Records
 a.aspr.gov.	3600	IN	A	158.74.35.11 ; cf_tags=cf-proxied:false
@@ -3147,7 +3147,6 @@ pki.gov.	3600	IN	DS	51130 8 2 54A9E2B55DDAF8346BD00719298EA72FEBE408B24CC4547A10
 pki-lab.gov.	3600	IN	DS	57619 8 2 C2450730E38E921BA0C0F1FF3F818FA431C4419007B5309CBFC5F109F2F84C37
 pki-lab.gov.	3600	IN	DS	38869 8 2 E2E07DD94DE80DEE1918FA1F197E10BA8E34CE79518B04182E381ED0991DC857
 plaintownshipstarkoh.gov.	3600	IN	DS	2371 13 2 B12150E0500645B395AF3C2CFBBDFC9B354B9177A50E4278ED41A2C47AFC0D00
-pleasantfireclarkoh.gov.	3600	IN	DS	21755 8 2 33416DEAFA77CCEAF7337D570D960B09B7DA8EFCE10CE41CDAC1F320679DA1A9
 pmf.gov.	3600	IN	DS	57629 8 2 6EA71D0D9B493C8D7A59ED12326886A41101DD870FBB511E0E8786EF6A1DCFC4
 pmi.gov.	3600	IN	DS	25564 8 2 A56E3E2F631E743835F92C0F3C0031E904C59834116409FDEADA95F46D14B59B
 pnl.gov.	3600	IN	DS	30631 7 2 2166711751B20DEE27E7AF0AAB157DDD5697694F5F735B46342A01BC966E47D8
@@ -3814,8 +3813,7 @@ vernoniafire.gov.	3600	IN	DS	1600 8 2 7BC73B9F87325F94687B69E39DFAC73F5B33052109
 veterans.gov.	3600	IN	DS	31313 13 2 3D6667AD84D099EF1CD3F89DE8E6565BC8E9B4A281D7164872D31F4F0CB3048E
 vets.gov.	3600	IN	DS	7540 8 2 FA74525F780534C05B9275F4123589E965755E9416E3C34D8BD9E1A65C26791A
 victoriatx.gov.	3600	IN	DS	39326 8 2 53BD93F358F3CA31ADDDCF800B9403F11AD81C9DBAAF7C5705F0E48CB1DDB568
-viennany.gov.	3600	IN	DS	27650 8 1 E3237D3B3DEA146BF979C24287C8C22191B213A2
-viennany.gov.	3600	IN	DS	27650 8 2 243000C3BB449A8DCC922A0EA1484D6E57E54308247E94032A4D1E87A09ACDBD
+viennany.gov.	3600	IN	DS	2371 13 2 D0E4A24AA6299687168E1F08A3D23DA280940B64DC53141274045F917317DE0C
 villageofchesterny.gov.	3600	IN	DS	2371 13 2 99807AEA75830E539D4A95046723255E7F421A132ADBC2B8C7EC1AFF998E7E75
 villageofnassau.gov.	3600	IN	DS	21296 14 2 882AF7E390253BA2717B430FD3E5868CCE55E24E1F716DE9A018A08FC3267A2D
 villageofnewholland-oh.gov.	3600	IN	DS	16022 8 2 0E9797503DD6E7D94769B3EC542B83ECBDCB58540E8771898C9B33A33D26CBCD
@@ -4942,6 +4940,8 @@ antrimnh.gov.	10800	IN	NS	ns69.domaincontrol.com.
 antrimnh.gov.	10800	IN	NS	ns70.domaincontrol.com.
 antrimnhpd.gov.	10800	IN	NS	ns15.domaincontrol.com.
 antrimnhpd.gov.	10800	IN	NS	ns16.domaincontrol.com.
+antrimtownshipmi.gov.	10800	IN	NS	ns1.shumakergrouphosting.com.
+antrimtownshipmi.gov.	10800	IN	NS	ns3.shumakergrouphosting.com.
 antwerptownshipmi.gov.	10800	IN	NS	ns39.domaincontrol.com.
 antwerptownshipmi.gov.	10800	IN	NS	ns40.domaincontrol.com.
 aoa.gov.	10800	IN	NS	ns3-07.azure-dns.org.
@@ -9215,6 +9215,8 @@ centertonpd.gov.	10800	IN	NS	ns23.digicertdns.com.
 centertonpd.gov.	10800	IN	NS	ns24.digicertdns.com.
 centertonpd.gov.	10800	IN	NS	ns25.digicertdns.com.
 centertonpd.gov.	10800	IN	NS	ns20.digicertdns.com.
+centertwpcarrolloh.gov.	10800	IN	NS	ns1.shumakergrouphosting.com.
+centertwpcarrolloh.gov.	10800	IN	NS	ns2.shumakergrouphosting.com.
 centervilleohio.gov.	10800	IN	NS	dakota.ns.cloudflare.com.
 centervilleohio.gov.	10800	IN	NS	dawn.ns.cloudflare.com.
 centervilletx.gov.	10800	IN	NS	ns1.dns-parking.com.
@@ -19528,6 +19530,8 @@ hennikernh.gov.	10800	IN	NS	ns11.domaincontrol.com.
 hennikernh.gov.	10800	IN	NS	ns12.domaincontrol.com.
 henrico.gov.	10800	IN	NS	ns10.digicertdns.com.
 henrico.gov.	10800	IN	NS	ns11.digicertdns.com.
+henriettafiredistrictny.gov.	10800	IN	NS	ns9.worldnic.com.
+henriettafiredistrictny.gov.	10800	IN	NS	ns10.worldnic.com.
 henriettany.gov.	10800	IN	NS	ns25.domaincontrol.com.
 henriettany.gov.	10800	IN	NS	ns26.domaincontrol.com.
 henriettatownshipmi.gov.	10800	IN	NS	otto.ns.cloudflare.com.
@@ -25505,6 +25509,8 @@ meadeky.gov.	10800	IN	NS	dns3.civicplus.com.
 meadeky.gov.	10800	IN	NS	dns4.civicplus.com.
 meadowsplacetx.gov.	10800	IN	NS	ns02.domaincontrol.com.
 meadowsplacetx.gov.	10800	IN	NS	ns01.domaincontrol.com.
+meadtownshipoh.gov.	10800	IN	NS	ns2.shumakergrouphosting.com.
+meadtownshipoh.gov.	10800	IN	NS	ns1.shumakergrouphosting.com.
 meadvillems.gov.	10800	IN	NS	ns28.domaincontrol.com.
 meadvillems.gov.	10800	IN	NS	ns27.domaincontrol.com.
 measuretn.gov.	10800	IN	NS	dns6.tn.gov.
@@ -31556,10 +31562,8 @@ plattsburg-mo.gov.	10800	IN	NS	ns10.dnsmadeeasy.com.
 plattsburg-mo.gov.	10800	IN	NS	ns11.dnsmadeeasy.com.
 playwisefl.gov.	10800	IN	NS	ns1-38.azuregov-dns.us.
 playwisefl.gov.	10800	IN	NS	ns2-38.azuregov-dns.us.
-pleasantfireclarkoh.gov.	10800	IN	NS	ns-cloud-d1.googledomains.com.
-pleasantfireclarkoh.gov.	10800	IN	NS	ns-cloud-d2.googledomains.com.
-pleasantfireclarkoh.gov.	10800	IN	NS	ns-cloud-d3.googledomains.com.
-pleasantfireclarkoh.gov.	10800	IN	NS	ns-cloud-d4.googledomains.com.
+pleasantfireclarkoh.gov.	10800	IN	NS	colin.ns.cloudflare.com.
+pleasantfireclarkoh.gov.	10800	IN	NS	aspen.ns.cloudflare.com.
 pleasanthillca.gov.	10800	IN	NS	ns-690.awsdns-22.net.
 pleasanthillca.gov.	10800	IN	NS	ns-1569.awsdns-04.co.uk.
 pleasanthillca.gov.	10800	IN	NS	ns-1061.awsdns-04.org.
@@ -39125,6 +39129,8 @@ townoflewistonny.gov.	10800	IN	NS	cass.ns.cloudflare.com.
 townoflewistonny.gov.	10800	IN	NS	tosana.ns.cloudflare.com.
 townofleydenny.gov.	10800	IN	NS	ns2.digitaltowpath.org.
 townofleydenny.gov.	10800	IN	NS	ns3.digitaltowpath.org.
+townoflibertyny.gov.	10800	IN	NS	ns23.domaincontrol.com.
+townoflibertyny.gov.	10800	IN	NS	ns24.domaincontrol.com.
 townoflibertyocwi.gov.	10800	IN	NS	ns1.bluehost.com.
 townoflibertyocwi.gov.	10800	IN	NS	ns2.bluehost.com.
 townoflimagrantcountywi.gov.	10800	IN	NS	ns1.bdm.microsoftonline.com.
@@ -41361,9 +41367,8 @@ viejastribalcourts-nsn.gov.	10800	IN	NS	jack.ns.cloudflare.com.
 viejastribalcourts-nsn.gov.	10800	IN	NS	tara.ns.cloudflare.com.
 viennamo.gov.	10800	IN	NS	ns63.domaincontrol.com.
 viennamo.gov.	10800	IN	NS	ns64.domaincontrol.com.
-viennany.gov.	10800	IN	NS	ns1.websiteserverbox.com.
-viennany.gov.	10800	IN	NS	ns2.websiteserverbox.com.
-viennany.gov.	10800	IN	NS	ns3.websiteserverbox.com.
+viennany.gov.	10800	IN	NS	tim.ns.cloudflare.com.
+viennany.gov.	10800	IN	NS	lara.ns.cloudflare.com.
 viennatwpgc.gov.	10800	IN	NS	pdns03.domaincontrol.com.
 viennatwpgc.gov.	10800	IN	NS	pdns04.domaincontrol.com.
 viennava.gov.	10800	IN	NS	edns5.ultradns.biz.
@@ -42922,6 +42927,8 @@ waukeshacounty-wi.gov.	10800	IN	NS	ns1-03.azure-dns.com.
 waukeshacounty-wi.gov.	10800	IN	NS	ns2-03.azure-dns.net.
 waukesha-wi.gov.	10800	IN	NS	dns.uw-mad.wiscnet.net.
 waukesha-wi.gov.	10800	IN	NS	dns.uw-mil.wiscnet.net.
+waunakee.gov.	10800	IN	NS	a8.uberns.com.
+waunakee.gov.	10800	IN	NS	b8.uberns.com.
 waupacacounty-wi.gov.	10800	IN	NS	dns.uw-mad.wiscnet.net.
 waupacacounty-wi.gov.	10800	IN	NS	dns.uw-mil.wiscnet.net.
 waupacawi.gov.	10800	IN	NS	ns2.wordpress.com.
