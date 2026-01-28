@@ -1,6 +1,6 @@
 ;;
 ;; Domain:     gov.
-;; Exported:   2026-01-27 07:15:47
+;; Exported:   2026-01-28 07:14:51
 ;;
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -24,7 +24,7 @@
 ;;
 ;; Use at your own risk.
 ;; SOA Record
-gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1769497801 3600 900 604800 300
+gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1769583901 3600 900 604800 300
 
 ;; A Records
 a.aspr.gov.	3600	IN	A	158.74.35.11 ; cf_tags=cf-proxied:false
@@ -34,7 +34,6 @@ acs-ns3-aws.akcourts.gov.	3600	IN	A	205.251.195.148 ; cf_tags=cf-proxied:false
 acs-ns4-aws.akcourts.gov.	3600	IN	A	205.251.197.184 ; cf_tags=cf-proxied:false
 adm-dns2.idaho.gov.	3600	IN	A	192.102.16.252 ; cf_tags=cf-proxied:false
 admdns.idaho.gov.	3600	IN	A	192.102.16.251 ; cf_tags=cf-proxied:false
-admin.uniontownpdal.gov.	3600	IN	A	192.168.10.1 ; cf_tags=cf-proxied:false
 adns.lbl.gov.	3600	IN	A	131.243.5.53 ; cf_tags=cf-proxied:false
 a.grants.gov.	3600	IN	A	158.74.35.11 ; cf_tags=cf-proxied:false
 auth1.nmcourts.gov.	3600	IN	A	173.46.32.10 ; cf_tags=cf-proxied:false
@@ -57,7 +56,6 @@ cfns2.avondaleaz.gov.	3600	IN	A	162.159.1.241 ; cf_tags=cf-proxied:false
 cgns1.uscg.gov.	3600	IN	A	152.121.2.19 ; cf_tags=cf-proxied:false
 cgns4.uscg.gov.	3600	IN	A	152.121.33.3 ; cf_tags=cf-proxied:false
 cgns5.uscg.gov.	3600	IN	A	152.121.50.3 ; cf_tags=cf-proxied:false
-chief1.uniontownpdal.gov.	3600	IN	A	192.168.68.1 ; cf_tags=cf-proxied:false
 chromium.fresno.gov.	3600	IN	A	198.200.238.222 ; cf_tags=cf-proxied:false
 cins3.fresno.gov.	3600	IN	A	173.226.102.221 ; cf_tags=cf-proxied:false
 cnsa.vita.virginia.gov.	3600	IN	A	166.67.202.174 ; cf_tags=cf-proxied:false
@@ -277,7 +275,6 @@ ns1.chemungcountyny.gov.	3600	IN	A	104.255.86.206 ; cf_tags=cf-proxied:false
 ns1.cityofdefiance.gov.	3600	IN	A	72.11.0.21 ; cf_tags=cf-proxied:false
 ns1.cityofelmirany.gov.	3600	IN	A	104.255.86.206 ; cf_tags=cf-proxied:false
 ns1.cityofgeronimo.gov.	3600	IN	A	216.239.32.108 ; cf_tags=cf-proxied:false
-ns1.cityofhayward-ca.gov.	3600	IN	A	64.172.103.25 ; cf_tags=cf-proxied:false
 ns1.cityofmarionil.gov.	3600	IN	A	50.6.230.202 ; cf_tags=cf-proxied:false
 ns1.cityoftorranceca.gov.	3600	IN	A	204.145.129.2 ; cf_tags=cf-proxied:false
 ns1.cityofwewoka.gov.	3600	IN	A	192.254.224.87 ; cf_tags=cf-proxied:false
@@ -546,7 +543,6 @@ ns2.citruscounty.gov.	3600	IN	A	142.190.45.131 ; cf_tags=cf-proxied:false
 ns2.cityofdefiance.gov.	3600	IN	A	72.11.0.22 ; cf_tags=cf-proxied:false
 ns2.cityofelmirany.gov.	3600	IN	A	104.255.86.202 ; cf_tags=cf-proxied:false
 ns2.cityofgeronimo.gov.	3600	IN	A	216.239.34.108 ; cf_tags=cf-proxied:false
-ns2.cityofhayward-ca.gov.	3600	IN	A	64.172.103.15 ; cf_tags=cf-proxied:false
 ns2.cityofmarionil.gov.	3600	IN	A	50.6.230.202 ; cf_tags=cf-proxied:false
 ns2.cityoftorranceca.gov.	3600	IN	A	204.145.132.2 ; cf_tags=cf-proxied:false
 ns2.cityofwewoka.gov.	3600	IN	A	192.254.224.87 ; cf_tags=cf-proxied:false
@@ -2777,6 +2773,7 @@ mnccc.gov.	3600	IN	DS	2371 13 2 B96F750723F3B2DE5860A0B5727B014DB30D946E21CF8BE3
 mn.gov.	3600	IN	DS	10559 8 2 4E374D3E2202ABC0F96C7EF7CDAF23845DF3F3F20510805E2C10DD2C47C3D99F
 mn.gov.	3600	IN	DS	59062 8 1 5581D5225CF4A0AADF221A898E33A88EE72A5A47
 mn.gov.	3600	IN	DS	59062 8 2 68ED717E67984A0B94F9805A026145B9BBCB1F3750FFE35B10087FEFDB5A5CD8
+mobilecounty911.gov.	3600	IN	DS	22475 13 2 334687F35302D77D9FEEF0EF395D15356ECEB87387E3D000EDA57B0C009F4DB5
 moneyfactory.gov.	3600	IN	DS	2371 13 2 F65B64323B2B3896EEF3BE5330063700FAA6BCC4A43252F8F28FD340227DADAE
 moneyfactorystore.gov.	3600	IN	DS	2371 13 2 0D1EB4A1407791AF707A510D4627C5F0519D7209089B120D0A419532D1C9951D
 montanawi.gov.	3600	IN	DS	54906 13 1 54D309CA0D1262B291D8F83B4C0F556E9E6C8551
@@ -9866,6 +9863,10 @@ chocolay.gov.	10800	IN	NS	ns1.shumakergrouphosting.com.
 chocolay.gov.	10800	IN	NS	ns2.shumakergrouphosting.com.
 chocowinitync.gov.	10800	IN	NS	ns1.softlayer.com.
 chocowinitync.gov.	10800	IN	NS	ns2.softlayer.com.
+chokiomn.gov.	10800	IN	NS	ns4-05.azure-dns.info.
+chokiomn.gov.	10800	IN	NS	ns3-05.azure-dns.org.
+chokiomn.gov.	10800	IN	NS	ns1-05.azure-dns.com.
+chokiomn.gov.	10800	IN	NS	ns2-05.azure-dns.net.
 choosect.gov.	10800	IN	NS	ns2.cen.ct.gov.
 choosect.gov.	10800	IN	NS	ns1.cen.ct.gov.
 choosemyplate.gov.	10800	IN	NS	ns1.usda.gov.
@@ -10518,8 +10519,6 @@ cityofharveyil.gov.	10800	IN	NS	b7.uberns.org.
 cityofharveyil.gov.	10800	IN	NS	a7.uberns.com.
 cityofhaydenlake.gov.	10800	IN	NS	adam.ns.cloudflare.com.
 cityofhaydenlake.gov.	10800	IN	NS	mona.ns.cloudflare.com.
-cityofhayward-ca.gov.	10800	IN	NS	ns1.cityofhayward-ca.gov.
-cityofhayward-ca.gov.	10800	IN	NS	ns2.cityofhayward-ca.gov.
 cityofhaywardmn.gov.	10800	IN	NS	ns61.cloudns.net.
 cityofhaywardmn.gov.	10800	IN	NS	ns62.cloudns.com.
 cityofhaywardwi.gov.	10800	IN	NS	ns2.rackspace.com.
@@ -11398,8 +11397,6 @@ clarkcoky.gov.	10800	IN	NS	adi.ns.cloudflare.com.
 clarkcoky.gov.	10800	IN	NS	brett.ns.cloudflare.com.
 clarkcountyar.gov.	10800	IN	NS	pdns08.domaincontrol.com.
 clarkcountyar.gov.	10800	IN	NS	pdns07.domaincontrol.com.
-clarkcountyarlawlibrary.gov.	10800	IN	NS	ns6799.hostgator.com.
-clarkcountyarlawlibrary.gov.	10800	IN	NS	ns6800.hostgator.com.
 clarkcountyattyky.gov.	10800	IN	NS	pdns05.domaincontrol.com.
 clarkcountyattyky.gov.	10800	IN	NS	pdns06.domaincontrol.com.
 clarkcountydanv.gov.	10800	IN	NS	pdns03.domaincontrol.com.
@@ -12145,6 +12142,11 @@ comanchecountyks.gov.	10800	IN	NS	terry.ns.cloudflare.com.
 comanchecountyks.gov.	10800	IN	NS	ulla.ns.cloudflare.com.
 comanchecountyok.gov.	10800	IN	NS	cory.ns.cloudflare.com.
 comanchecountyok.gov.	10800	IN	NS	demi.ns.cloudflare.com.
+comanchecountytx.gov.	10800	IN	NS	ns1.cira.state.tx.us.
+comanchecountytx.gov.	10800	IN	NS	ns2.cira.state.tx.us.
+comanchecountytx.gov.	10800	IN	NS	ns3.cira.state.tx.us.
+comanchecountytx.gov.	10800	IN	NS	ns4.cira.state.tx.us.
+comanchecountytx.gov.	10800	IN	NS	ns5.cira.state.tx.us.
 comanchenationpolice.gov.	10800	IN	NS	mary.ns.cloudflare.com.
 comanchenationpolice.gov.	10800	IN	NS	cameron.ns.cloudflare.com.
 comanchetexas.gov.	10800	IN	NS	ns21.domaincontrol.com.
@@ -14760,6 +14762,8 @@ edison.gov.	10800	IN	NS	blue.foundationdns.net.
 edison.gov.	10800	IN	NS	blue.foundationdns.org.
 edisonnj.gov.	10800	IN	NS	ns60.domaincontrol.com.
 edisonnj.gov.	10800	IN	NS	ns59.domaincontrol.com.
+edmondks.gov.	10800	IN	NS	ns1.siteground.net.
+edmondks.gov.	10800	IN	NS	ns2.siteground.net.
 edmondok.gov.	10800	IN	NS	henry.ns.cloudflare.com.
 edmondok.gov.	10800	IN	NS	elly.ns.cloudflare.com.
 edmonds-wa.gov.	10800	IN	NS	dns2.edmonds.wa.us.
@@ -14956,6 +14960,10 @@ elmsford.gov.	10800	IN	NS	ns-1265.awsdns-30.org.
 elmsford.gov.	10800	IN	NS	ns-1575.awsdns-04.co.uk.
 elmsford.gov.	10800	IN	NS	ns-177.awsdns-22.com.
 elmsford.gov.	10800	IN	NS	ns-688.awsdns-22.net.
+elmspringsar.gov.	10800	IN	NS	ns21.domaincontrol.com.
+elmspringsar.gov.	10800	IN	NS	ns22.domaincontrol.com.
+elmspringsar.gov.	10800	IN	NS	ns23.domaincontrol.com.
+elmspringsar.gov.	10800	IN	NS	ns24.domaincontrol.com.
 elmwoodmi.gov.	10800	IN	NS	ns1.dnsmadeeasy.com.
 elmwoodmi.gov.	10800	IN	NS	ns0.dnsmadeeasy.com.
 elmwoodmi.gov.	10800	IN	NS	ns4.dnsmadeeasy.com.
@@ -17686,6 +17694,10 @@ gettysburgpa.gov.	10800	IN	NS	dns4.civicplus.com.
 gettysburgpa.gov.	10800	IN	NS	dns3.civicplus.com.
 gfnjfd.gov.	10800	IN	NS	ns12.wixdns.net.
 gfnjfd.gov.	10800	IN	NS	ns13.wixdns.net.
+gfsjpa-ca.gov.	10800	IN	NS	ns1045.ui-dns.org.
+gfsjpa-ca.gov.	10800	IN	NS	ns1045.ui-dns.de.
+gfsjpa-ca.gov.	10800	IN	NS	ns1045.ui-dns.biz.
+gfsjpa-ca.gov.	10800	IN	NS	ns1045.ui-dns.com.
 ggsc.gov.	10800	IN	NS	ns58.domaincontrol.com.
 ggsc.gov.	10800	IN	NS	ns57.domaincontrol.com.
 ghcwd2.gov.	10800	IN	NS	ns17.domaincontrol.com.
@@ -18554,6 +18566,8 @@ grfdaz.gov.	10800	IN	NS	ns2-36.azure-dns.net.
 grfdaz.gov.	10800	IN	NS	ns3-36.azure-dns.org.
 grfdaz.gov.	10800	IN	NS	ns4-36.azure-dns.info.
 grfdaz.gov.	10800	IN	NS	ns1-36.azure-dns.com.
+gridleyca.gov.	10800	IN	NS	ns95.worldnic.com.
+gridleyca.gov.	10800	IN	NS	ns96.worldnic.com.
 griffinga.gov.	10800	IN	NS	ruben.ns.cloudflare.com.
 griffinga.gov.	10800	IN	NS	dalary.ns.cloudflare.com.
 griggscountynd.gov.	10800	IN	NS	ns3.ndnic.com.
@@ -24374,6 +24388,8 @@ lummiswd.gov.	10800	IN	NS	ns70.domaincontrol.com.
 lummiswd.gov.	10800	IN	NS	ns69.domaincontrol.com.
 lumpkincounty.gov.	10800	IN	NS	ins2.georgiadns.net.
 lumpkincounty.gov.	10800	IN	NS	ins1.georgiadns.net.
+lunacounty.gov.	10800	IN	NS	ns1.hostmonster.com.
+lunacounty.gov.	10800	IN	NS	ns2.hostmonster.com.
 lunenburg-gilmanvt.gov.	10800	IN	NS	ns2.inmotionhosting.com.
 lunenburg-gilmanvt.gov.	10800	IN	NS	ns1.inmotionhosting.com.
 lunenburgma.gov.	10800	IN	NS	ns50.domaincontrol.com.
@@ -26435,6 +26451,10 @@ moablibrary.gov.	10800	IN	NS	pdns11.domaincontrol.com.
 moablibrary.gov.	10800	IN	NS	pdns12.domaincontrol.com.
 mobileccc.gov.	10800	IN	NS	ns21.domaincontrol.com.
 mobileccc.gov.	10800	IN	NS	ns22.domaincontrol.com.
+mobilecounty911.gov.	10800	IN	NS	ns2-03.azure-dns.net.
+mobilecounty911.gov.	10800	IN	NS	ns3-03.azure-dns.org.
+mobilecounty911.gov.	10800	IN	NS	ns4-03.azure-dns.info.
+mobilecounty911.gov.	10800	IN	NS	ns1-03.azure-dns.com.
 mobilecountyal.gov.	10800	IN	NS	ns7.ns0.com.
 mobilecountyal.gov.	10800	IN	NS	dns4.pair.com.
 mobilecountyema.gov.	10800	IN	NS	ns1.siteground.net.
@@ -27144,6 +27164,8 @@ mundytwp-mi.gov.	10800	IN	NS	ns-471.awsdns-58.com.
 mundytwp-mi.gov.	10800	IN	NS	ns-596.awsdns-10.net.
 munfordtn.gov.	10800	IN	NS	ns58.domaincontrol.com.
 munfordtn.gov.	10800	IN	NS	ns57.domaincontrol.com.
+munseypark.gov.	10800	IN	NS	ns59.worldnic.com.
+munseypark.gov.	10800	IN	NS	ns60.worldnic.com.
 munsontownshipmn.gov.	10800	IN	NS	ns1.dns-parking.com.
 munsontownshipmn.gov.	10800	IN	NS	ns2.dns-parking.com.
 munsontwpoh.gov.	10800	IN	NS	walk.ns.cloudflare.com.
@@ -30802,6 +30824,8 @@ parkerco.gov.	10800	IN	NS	joaquin.ns.cloudflare.com.
 parkercountytx.gov.	10800	IN	NS	a8.uberns.com.
 parkercountytx.gov.	10800	IN	NS	a8.uberns.net.
 parkercountytx.gov.	10800	IN	NS	b8.uberns.com.
+parkersburgiapolice.gov.	10800	IN	NS	fish.ns.cloudflare.com.
+parkersburgiapolice.gov.	10800	IN	NS	aragorn.ns.cloudflare.com.
 parkersburgwv.gov.	10800	IN	NS	ns21.domaincontrol.com.
 parkersburgwv.gov.	10800	IN	NS	ns22.domaincontrol.com.
 parkersburgwv.gov.	10800	IN	NS	pdns05.domaincontrol.com.
@@ -34797,6 +34821,9 @@ scidac.gov.	10800	IN	NS	ns3.ornl.gov.
 scidac.gov.	10800	IN	NS	ns8.ornl.gov.
 scidac.gov.	10800	IN	NS	ns7.ornl.gov.
 scidac.gov.	10800	IN	NS	ns6.ornl.gov.
+scideuwa.gov.	10800	IN	NS	dns1.zoneedit.com.
+scideuwa.gov.	10800	IN	NS	dns2.zoneedit.com.
+scideuwa.gov.	10800	IN	NS	dns3.zoneedit.com.
 sciencebase.gov.	10800	IN	NS	ram.ns.cloudflare.com.
 sciencebase.gov.	10800	IN	NS	chin.ns.cloudflare.com.
 science.gov.	10800	IN	NS	edns1.ultradns.net.
@@ -37103,6 +37130,8 @@ sugarcreekgcoh.gov.	10800	IN	NS	ns15.domaincontrol.com.
 sugarcreekgcoh.gov.	10800	IN	NS	ns16.domaincontrol.com.
 sugargroveil.gov.	10800	IN	NS	ns1.sourcedns.com.
 sugargroveil.gov.	10800	IN	NS	ns.sourcedns.com.
+sugarhillga.gov.	10800	IN	NS	eric.ns.cloudflare.com.
+sugarhillga.gov.	10800	IN	NS	simone.ns.cloudflare.com.
 sugarlandtx.gov.	10800	IN	NS	ns1.windstreamhosting.biz.
 sugarlandtx.gov.	10800	IN	NS	ns1.sugarlandtx.gov.
 sugarlandtx.gov.	10800	IN	NS	ns2.windstreamhosting.biz.
@@ -38460,6 +38489,8 @@ townofargyleny.gov.	10800	IN	NS	ns02.squarespacedns.com.
 townofargyleny.gov.	10800	IN	NS	ns03.squarespacedns.com.
 townofargyleny.gov.	10800	IN	NS	ns04.squarespacedns.com.
 townofargyleny.gov.	10800	IN	NS	ns01.squarespacedns.com.
+townofashlandwi.gov.	10800	IN	NS	ns2.ssdlinux36.accuwebhosting.com.
+townofashlandwi.gov.	10800	IN	NS	ns1.ssdlinux36.accuwebhosting.com.
 townofathensny.gov.	10800	IN	NS	alex.ns.cloudflare.com.
 townofathensny.gov.	10800	IN	NS	chin.ns.cloudflare.com.
 townofaurorany.gov.	10800	IN	NS	ns2.i-evolve.net.
@@ -40535,8 +40566,8 @@ twai.gov.	10800	IN	NS	pdns108.ultradns.org.
 twai.gov.	10800	IN	NS	pdns108.ultradns.biz.
 twai.gov.	10800	IN	NS	pdns108.ultradns.net.
 twai.gov.	10800	IN	NS	pdns108.ultradns.com.
-twinlakeswi.gov.	10800	IN	NS	ns42.cloudns.net.
-twinlakeswi.gov.	10800	IN	NS	ns41.cloudns.net.
+twinlakeswi.gov.	10800	IN	NS	dns3.civicplus.com.
+twinlakeswi.gov.	10800	IN	NS	dns4.civicplus.com.
 twnofsumpter.gov.	10800	IN	NS	adam.ns.cloudflare.com.
 twnofsumpter.gov.	10800	IN	NS	mona.ns.cloudflare.com.
 twoharborsmn.gov.	10800	IN	NS	ns1.bdm.microsoftonline.com.
@@ -40796,10 +40827,8 @@ unionspringsny.gov.	10800	IN	NS	freedns2.registrar-servers.com.
 unionspringsny.gov.	10800	IN	NS	freedns3.registrar-servers.com.
 unionspringsny.gov.	10800	IN	NS	freedns4.registrar-servers.com.
 unionspringsny.gov.	10800	IN	NS	freedns5.registrar-servers.com.
-uniontownpdal.gov.	10800	IN	NS	ns3.wixdns.net.
 uniontownpdal.gov.	10800	IN	NS	ns2.wixdns.net.
-uniontownpdal.gov.	10800	IN	NS	admin.uniontownpdal.gov.
-uniontownpdal.gov.	10800	IN	NS	chief1.uniontownpdal.gov.
+uniontownpdal.gov.	10800	IN	NS	ns3.wixdns.net.
 uniontwp-hcnj.gov.	10800	IN	NS	ns2.avenet.net.
 uniontwp-hcnj.gov.	10800	IN	NS	ns1.avenet.net.
 uniontwpluzernecopa.gov.	10800	IN	NS	ns2-04.azure-dns.net.
