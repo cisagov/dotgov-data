@@ -1,6 +1,6 @@
 ;;
 ;; Domain:     gov.
-;; Exported:   2026-02-28 07:15:26
+;; Exported:   2026-03-01 07:20:49
 ;;
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -24,7 +24,7 @@
 ;;
 ;; Use at your own risk.
 ;; SOA Record
-gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1772262605 3600 900 604800 300
+gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1772349305 3600 900 604800 300
 
 ;; A Records
 a.aspr.gov.	3600	IN	A	158.74.35.11 ; cf_tags=cf-proxied:false
@@ -1909,6 +1909,7 @@ educateiowa.gov.	3600	IN	DS	15708 13 2 EB66D8A61C25F62416876309C57BB9B1E5057723E
 eeoc.gov.	3600	IN	DS	17797 8 2 0FF233785D8D2CDC92112ECD6BEF877150335A830AD395A5139169CC6F867BD8
 eftps.gov.	3600	IN	DS	63731 8 2 B0F155BAA30FAC8330BE41BF9B37A475DB482835DBDFD0E779948F9BF25898A9
 ehtnj.gov.	3600	IN	DS	2371 13 2 82C4D13B4FECF645382DC94A5EDA3EDA1448287735770D77FFFC5CACFE672C96
+eia.gov.	3600	IN	DS	2371 13 2 7D73A8E68B08D790D1F3E09733EDBE8F5F13F495070A3081480332546915731E
 eisenhowerlibrary.gov.	3600	IN	DS	23474 8 2 CA018F9E3BCF99F48D20F86C921D2CC48122890EB6416E9DC4B6274F245844B7
 elcajon.gov.	3600	IN	DS	10244 8 2 DDB082B47EF80F6F5A16A4D1A40E78D5516947CF4BFF7226D87AB206F4A89E5F
 eldercare.gov.	3600	IN	DS	42972 13 2 988B528CB6A8C73F112D2F17B1D896A872D74A4DC9AA909AC3F69319F06AA4CE
@@ -3564,6 +3565,7 @@ sweetwateral.gov.	3600	IN	DS	2371 13 2 1673876E694ABBF2F5B6EA007100FF85632A868D6
 swocaoh.gov.	3600	IN	DS	18076 8 2 B4DA1D95DDBA1BAA3A1B3D4AC42713B79FEDE783CC390FC81813EAEFC894312D
 swocaoh.gov.	3600	IN	DS	47512 8 2 FC88DD7B4313A01BB4E71E8FE33E43DBF106E7D6BC0068054AE62F5E41D0BF54
 sworm.gov.	3600	IN	DS	40757 8 2 0A50224BD503E76059F63CE6A13A977EDB4EC82CA80976F24DCE07A540E8C81C
+swpa.gov.	3600	IN	DS	2371 13 2 79B39DE12C34B9DECFCFE3DF611781B9D0F7D12E0DC24A5FD5FAB306025FF7FE
 symbols.gov.	3600	IN	DS	17542 13 2 07BF6892D5E91448D7E8F9E2B5A8677FBDB7192FBB91569B766820CDE0C0A994
 symbols.gov.	3600	IN	DS	20237 13 2 8C988FFD078CB53AEE3B812744BE62BB6DD86CAC4C3687BD9A444ED40E01CFF5
 taaps.gov.	3600	IN	DS	2371 13 2 1984021E4DFF161ECD271D6C5507070D9794F97486850EADB43B0FACF02C2F50
@@ -3886,6 +3888,7 @@ walpolepdnh.gov.	3600	IN	DS	13654 13 2 3692870ABC0F6C58AF9E4728955770D8FBFD1ABD6
 waltonclerkfl.gov.	3600	IN	DS	2371 13 2 19FC9AFC41D73247B38771479A7E1B11F13D77203BE77661CAD50292F41C76C8
 waltonpafl.gov.	3600	IN	DS	2371 13 2 C957E84E2E4669C210946290633216832AFB85F3E41E0082AB9482BFCF1EFE00
 waltontaxcollectorfl.gov.	3600	IN	DS	2371 13 2 6D3D48EFD0036409C2E78386B559DE2B278C5D5A38052F42BD6C1E73EF08C41A
+wapa.gov.	3600	IN	DS	2371 13 2 6C72AE05BBB0544119D4802025564D05FA9CF911EE4A57C1028F7D47DB52E837
 war.gov.	3600	IN	DS	27207 13 2 8A16647059890015F7D0F48B201DA96189C7AAF3E994CD071C82F3302B8FED2D
 warnernh.gov.	3600	IN	DS	2371 13 2 020C90B46A1AF1F45C517E25F1B4BD0DB082670E599181C1CD812558B0F0C817
 warrencountypa.gov.	3600	IN	DS	62987 8 2 987B47353F88BFEAFCC537D1076D73D4203A0F520DBE1BF172EBC9742B917076
@@ -8934,10 +8937,8 @@ carrollcountymd.gov.	10800	IN	NS	ns2-03.azure-dns.net.
 carrollcountymd.gov.	10800	IN	NS	ns1-03.azure-dns.com.
 carrollcountymo.gov.	10800	IN	NS	gerald.ns.cloudflare.com.
 carrollcountymo.gov.	10800	IN	NS	jen.ns.cloudflare.com.
-carrollcountynhdeeds.gov.	10800	IN	NS	dns41.cloudns.net.
-carrollcountynhdeeds.gov.	10800	IN	NS	dns43.cloudns.net.
-carrollcountynhdeeds.gov.	10800	IN	NS	dns44.cloudns.net.
-carrollcountynhdeeds.gov.	10800	IN	NS	dns42.cloudns.net.
+carrollcountynhdeeds.gov.	10800	IN	NS	ua.ns.cloudflare.com.
+carrollcountynhdeeds.gov.	10800	IN	NS	fattouhe.ns.cloudflare.com.
 carrollcountynh.gov.	10800	IN	NS	uma.ns.cloudflare.com.
 carrollcountynh.gov.	10800	IN	NS	fattouche.ns.cloudflare.com.
 carrollcountyohioelections.gov.	10800	IN	NS	ace.ns.cloudflare.com.
@@ -15072,8 +15073,9 @@ ehr.gov.	10800	IN	NS	ns01-ee-gw.health.mil.
 ehr.gov.	10800	IN	NS	ns01-ncr-gw.health.mil.
 ehtnj.gov.	10800	IN	NS	pete.ns.cloudflare.com.
 ehtnj.gov.	10800	IN	NS	melina.ns.cloudflare.com.
-eia.gov.	10800	IN	NS	fulcrum.doe.gov.
-eia.gov.	10800	IN	NS	foxbat.doe.gov.
+eia.gov.	10800	IN	NS	blue.foundationdns.org.
+eia.gov.	10800	IN	NS	blue.foundationdns.com.
+eia.gov.	10800	IN	NS	blue.foundationdns.net.
 eisenhowerlibrary.gov.	10800	IN	NS	ns1.fedmettel.net.
 eisenhowerlibrary.gov.	10800	IN	NS	ns2.fedmettel.net.
 ekalaka.gov.	10800	IN	NS	freedns1.registrar-servers.com.
@@ -15336,8 +15338,8 @@ endteenvapingfl.gov.	10800	IN	NS	ns-wpns001.doh.state.fl.us.
 endteenvapingfl.gov.	10800	IN	NS	ns-wpns003.doh.state.fl.us.
 energycodes.gov.	10800	IN	NS	adns2.es.net.
 energycodes.gov.	10800	IN	NS	adns1.es.net.
-energy.gov.	10800	IN	NS	fulcrum.doe.gov.
 energy.gov.	10800	IN	NS	foxbat.doe.gov.
+energy.gov.	10800	IN	NS	fulcrum.doe.gov.
 energysaver.gov.	10800	IN	NS	blue.foundationdns.com.
 energysaver.gov.	10800	IN	NS	blue.foundationdns.net.
 energysaver.gov.	10800	IN	NS	blue.foundationdns.org.
@@ -17220,6 +17222,8 @@ franklindelco-ny.gov.	10800	IN	NS	ns13.domaincontrol.com.
 franklindelco-ny.gov.	10800	IN	NS	ns14.domaincontrol.com.
 franklinga.gov.	10800	IN	NS	ns64.domaincontrol.com.
 franklinga.gov.	10800	IN	NS	ns63.domaincontrol.com.
+franklinkewauneecowi.gov.	10800	IN	NS	ns1.dreamhost.com.
+franklinkewauneecowi.gov.	10800	IN	NS	ns2.dreamhost.com.
 franklinky.gov.	10800	IN	NS	ns2.bluehost.com.
 franklinky.gov.	10800	IN	NS	ns1.bluehost.com.
 franklinma.gov.	10800	IN	NS	dns3.civicplus.com.
@@ -20068,8 +20072,8 @@ highlandbeachfl.gov.	10800	IN	NS	ns67.hxc.zone.
 highlandbeachfl.gov.	10800	IN	NS	ns87.hxc.zone.
 highlandca.gov.	10800	IN	NS	dns3.civicplus.com.
 highlandca.gov.	10800	IN	NS	dns4.civicplus.com.
-highlandfallsny.gov.	10800	IN	NS	ns0.belsito.net.
-highlandfallsny.gov.	10800	IN	NS	ns1.belsito.net.
+highlandfallsny.gov.	10800	IN	NS	ns11.domaincontrol.com.
+highlandfallsny.gov.	10800	IN	NS	ns12.domaincontrol.com.
 highlandheights-ky.gov.	10800	IN	NS	ns31.domaincontrol.com.
 highlandheights-ky.gov.	10800	IN	NS	ns32.domaincontrol.com.
 highlandhtsohio.gov.	10800	IN	NS	dns3.civicplus.com.
@@ -26244,6 +26248,9 @@ mesquitenv.gov.	10800	IN	NS	marjory.ns.cloudflare.com.
 mesquitenv.gov.	10800	IN	NS	david.ns.cloudflare.com.
 mesquitetx.gov.	10800	IN	NS	may.ns.cloudflare.com.
 mesquitetx.gov.	10800	IN	NS	fred.ns.cloudflare.com.
+metalinefalls.gov.	10800	IN	NS	ns3.dreamhost.com.
+metalinefalls.gov.	10800	IN	NS	ns1.dreamhost.com.
+metalinefalls.gov.	10800	IN	NS	ns2.dreamhost.com.
 metcad911il.gov.	10800	IN	NS	pdns13.domaincontrol.com.
 metcad911il.gov.	10800	IN	NS	pdns14.domaincontrol.com.
 metcad911il.gov.	10800	IN	NS	ns05.domaincontrol.com.
@@ -37959,8 +37966,9 @@ swo-nsn.gov.	10800	IN	NS	ns1.gwtc.net.
 sworm.gov.	10800	IN	NS	ns-01.noaa.gov.
 sworm.gov.	10800	IN	NS	ns-02.noaa.gov.
 sworm.gov.	10800	IN	NS	ns-03.noaa.gov.
-swpa.gov.	10800	IN	NS	fulcrum.doe.gov.
-swpa.gov.	10800	IN	NS	foxbat.doe.gov.
+swpa.gov.	10800	IN	NS	blue.foundationdns.net.
+swpa.gov.	10800	IN	NS	blue.foundationdns.org.
+swpa.gov.	10800	IN	NS	blue.foundationdns.com.
 swparegionalcad.gov.	10800	IN	NS	dns1.zoneedit.com.
 swparegionalcad.gov.	10800	IN	NS	dns2.zoneedit.com.
 swparegionalcad.gov.	10800	IN	NS	dns3.zoneedit.com.
@@ -43377,8 +43385,9 @@ wanatah-in.gov.	10800	IN	NS	ns25.domaincontrol.com.
 wanatah-in.gov.	10800	IN	NS	ns26.domaincontrol.com.
 wanorthshoreny.gov.	10800	IN	NS	ns1.wanorthshoreny.gov.
 wanorthshoreny.gov.	10800	IN	NS	ns2.wanorthshoreny.gov.
-wapa.gov.	10800	IN	NS	foxbat.doe.gov.
-wapa.gov.	10800	IN	NS	fulcrum.doe.gov.
+wapa.gov.	10800	IN	NS	blue.foundationdns.net.
+wapa.gov.	10800	IN	NS	blue.foundationdns.org.
+wapa.gov.	10800	IN	NS	blue.foundationdns.com.
 wapatopdwa.gov.	10800	IN	NS	arya.ns.cloudflare.com.
 wapatopdwa.gov.	10800	IN	NS	kyle.ns.cloudflare.com.
 wapelloia.gov.	10800	IN	NS	ns2.usinternet.com.
