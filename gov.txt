@@ -1,6 +1,6 @@
 ;;
 ;; Domain:     gov.
-;; Exported:   2026-03-13 07:26:36
+;; Exported:   2026-03-14 07:22:12
 ;;
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -24,7 +24,7 @@
 ;;
 ;; Use at your own risk.
 ;; SOA Record
-gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1773386416 3600 900 604800 300
+gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1773472515 3600 900 604800 300
 
 ;; A Records
 a.aspr.gov.	3600	IN	A	158.74.35.11 ; cf_tags=cf-proxied:false
@@ -2315,6 +2315,7 @@ hhs.gov.	3600	IN	DS	56293 13 2 11130CACE47929BAD3454FF0ECAF95E1DF5BCB2ECDAE21CAF
 hhsoig.gov.	3600	IN	DS	3013 13 2 2031D262F57AC642D857D7C14D944FBF62003E09E90597D2C42697F055EAD57A
 hhsops.gov.	3600	IN	DS	23649 13 2 E71AAFD566FF9C63237A096DB7FCD38C21BF4449E52023AAF893E247F0313CAC
 hickmancountytn.gov.	3600	IN	DS	2371 13 2 1FB259FE19D28677E504E563729811303C23ABD9447E8EA095900E4806A9814E
+highshoals.gov.	3600	IN	DS	2371 13 2 36F9BF4A9F041A2B050ABD1D39909CCA97DF5F11FF7E1A572CC54EF836F2F9AF
 hi.gov.	3600	IN	DS	2371 13 2 C1131369059F1B3B42214BA7E17A3CA825CEA95CF936E868CFD2BD2B8EADFCE4
 hi.gov.	3600	IN	DS	19494 10 2 15499602342CC2B75F6DA1BCCF7DCD8FE7774ED6A81077132C9C08279C8E5E3C
 hi.gov.	3600	IN	DS	51861 10 2 E350349DDB1590B214069F2E351B9E5131BEF35EC9AABECCABC59F2CBC323EAB
@@ -3036,6 +3037,7 @@ opic.gov.	3600	IN	DS	42886 8 2 890A9C7F221D83342CE7F58EF9AE8BA991961EB725E7AC070
 opioids.gov.	3600	IN	DS	41589 13 2 BE5B2B51D1263736FF32F2137B2284B5F7C9D612A10AAC71894E1B063E7AB76D
 opkansas.gov.	3600	IN	DS	2371 13 2 73386240315539ECF96445EF1595166CC0675D8BB2CF636149DAB2AB4ED0DE11
 opm.gov.	3600	IN	DS	54229 8 2 ECF050B0550962727546C9F4107901A0A6B2D0C750F352BD6081F7C443A742FC
+opportunityiowa.gov.	3600	IN	DS	12295 13 2 68A9A3041B056CD641DBB1DAB1440B8FD4F02C707B12B2D27EB645EE86DFBC40
 opportunityzones.gov.	3600	IN	DS	37752 8 2 59D659F2A95A98FB7B5335BE011CA3EBC30F818AB6F3F84F951DA3CC5851B740
 orangecityfl.gov.	3600	IN	DS	2371 13 2 EB0C1225704D4C117E5ADA68EC33FD615D79793EBFB72E3FEECE107BD10EC09D
 orangecountync.gov.	3600	IN	DS	2371 13 2 5A0AAD5B9358D124325E810D0C95507FBCA5ED9353C4BC35D6C20AAB8626558D
@@ -4077,6 +4079,8 @@ abingtonpa.gov.	10800	IN	NS	dns3.civicplus.com.
 abingtonpa.gov.	10800	IN	NS	dns4.civicplus.com.
 abitaspringsla.gov.	10800	IN	NS	paityn.ns.cloudflare.com.
 abitaspringsla.gov.	10800	IN	NS	alex.ns.cloudflare.com.
+abletn.gov.	10800	IN	NS	ns0088.secondary.cloudflare.com.
+abletn.gov.	10800	IN	NS	ns0186.secondary.cloudflare.com.
 abletn.gov.	10800	IN	NS	dns7.tn.gov.
 abletn.gov.	10800	IN	NS	dns6.tn.gov.
 abletn.gov.	10800	IN	NS	dns5.tn.gov.
@@ -4821,6 +4825,8 @@ america.gov.	10800	IN	NS	a14-64.akam.net.
 america.gov.	10800	IN	NS	a26-65.akam.net.
 america.gov.	10800	IN	NS	a1-63.akam.net.
 america.gov.	10800	IN	NS	a3-66.akam.net.
+americancanyon.gov.	10800	IN	NS	ns1.dni.net.
+americancanyon.gov.	10800	IN	NS	ns2.dni.net.
 americanfork.gov.	10800	IN	NS	dns3.civicplus.com.
 americanfork.gov.	10800	IN	NS	dns4.civicplus.com.
 americanmemory.gov.	10800	IN	NS	kevin.ns.cloudflare.com.
@@ -4914,8 +4920,6 @@ andoverks.gov.	10800	IN	NS	dns3.civicplus.com.
 andoverks.gov.	10800	IN	NS	dns4.civicplus.com.
 andoverma.gov.	10800	IN	NS	ns64.domaincontrol.com.
 andoverma.gov.	10800	IN	NS	ns63.domaincontrol.com.
-andovermaine.gov.	10800	IN	NS	ns1.exacthosting.com.
-andovermaine.gov.	10800	IN	NS	ns2.exacthosting.com.
 andovermn.gov.	10800	IN	NS	evangeline.ns.cloudflare.com.
 andovermn.gov.	10800	IN	NS	sullivan.ns.cloudflare.com.
 andover-nh.gov.	10800	IN	NS	dns4.name-services.com.
@@ -5407,6 +5411,8 @@ ashwaubenon.gov.	10800	IN	NS	ns-306.awsdns-38.com.
 ashwaubenon.gov.	10800	IN	NS	ns-1148.awsdns-15.org.
 asianpacificheritage.gov.	10800	IN	NS	kevin.ns.cloudflare.com.
 asianpacificheritage.gov.	10800	IN	NS	alice.ns.cloudflare.com.
+asmsa.gov.	10800	IN	NS	cdn1.wixdns.net.
+asmsa.gov.	10800	IN	NS	cdn2.wixdns.net.
 asotincountywa.gov.	10800	IN	NS	dns3.civicplus.com.
 asotincountywa.gov.	10800	IN	NS	dns4.civicplus.com.
 aspen.gov.	10800	IN	NS	pdns13.domaincontrol.com.
@@ -8405,6 +8411,8 @@ buynjbonds.gov.	10800	IN	NS	ns4.nj.gov.
 buynjbonds.gov.	10800	IN	NS	ns2.nj.gov.
 buynjbonds.gov.	10800	IN	NS	ns3.nj.gov.
 buynjbonds.gov.	10800	IN	NS	ns1.nj.gov.
+buystateoftnsurplus.gov.	10800	IN	NS	ns0088.secondary.cloudflare.com.
+buystateoftnsurplus.gov.	10800	IN	NS	ns0186.secondary.cloudflare.com.
 buystateoftnsurplus.gov.	10800	IN	NS	dns6.tn.gov.
 buystateoftnsurplus.gov.	10800	IN	NS	dns7.tn.gov.
 buystateoftnsurplus.gov.	10800	IN	NS	dns5.tn.gov.
@@ -9911,9 +9919,8 @@ childstats.gov.	10800	IN	NS	a1-100.akam.net.
 childstats.gov.	10800	IN	NS	a6-64.akam.net.
 childstats.gov.	10800	IN	NS	a28-65.akam.net.
 childstats.gov.	10800	IN	NS	a13-64.akam.net.
-childsupportnd.gov.	10800	IN	NS	ns2.ndnic.com.
-childsupportnd.gov.	10800	IN	NS	ns3.ndnic.com.
-childsupportnd.gov.	10800	IN	NS	ns4.ndnic.com.
+childsupportnd.gov.	10800	IN	NS	ns2.ndnic.net.
+childsupportnd.gov.	10800	IN	NS	ns1.ndnic.net.
 childwelfare.gov.	10800	IN	NS	ns3-02.azure-dns.org.
 childwelfare.gov.	10800	IN	NS	ns2-02.azure-dns.net.
 childwelfare.gov.	10800	IN	NS	ns4-02.azure-dns.info.
@@ -9962,6 +9969,8 @@ chinopd.gov.	10800	IN	NS	ns4-37.azuregov-dns.us.
 chinopd.gov.	10800	IN	NS	ns1-37.azuregov-dns.us.
 chinopd.gov.	10800	IN	NS	ns2-37.azuregov-dns.us.
 chinopd.gov.	10800	IN	NS	ns3-37.azuregov-dns.us.
+chinovalleyaz.gov.	10800	IN	NS	pdns05.domaincontrol.com.
+chinovalleyaz.gov.	10800	IN	NS	pdns06.domaincontrol.com.
 chinovalleyaz.gov.	10800	IN	NS	ns43.domaincontrol.com.
 chinovalleyaz.gov.	10800	IN	NS	ns44.domaincontrol.com.
 chippewacountymi.gov.	10800	IN	NS	ns12.dnsmadeeasy.com.
@@ -10205,6 +10214,8 @@ cityofauburnwa.gov.	10800	IN	NS	pdns109.ultradns.net.
 cityofauburnwa.gov.	10800	IN	NS	pdns109.ultradns.org.
 cityofaudubonmn.gov.	10800	IN	NS	darwin.ns.cloudflare.com.
 cityofaudubonmn.gov.	10800	IN	NS	laylah.ns.cloudflare.com.
+cityofaugustaar.gov.	10800	IN	NS	ns1.skylightning.net.
+cityofaugustaar.gov.	10800	IN	NS	ns2.skylightning.net.
 cityofavalon.gov.	10800	IN	NS	zahir.ns.cloudflare.com.
 cityofavalon.gov.	10800	IN	NS	hadlee.ns.cloudflare.com.
 cityofavenal.gov.	10800	IN	NS	ns31.domaincontrol.com.
@@ -11576,6 +11587,8 @@ claimittexas.gov.	10800	IN	NS	ns-1375.awsdns-43.org.
 claimittexas.gov.	10800	IN	NS	ns-1980.awsdns-55.co.uk.
 claimittexas.gov.	10800	IN	NS	ns-820.awsdns-38.net.
 claimittexas.gov.	10800	IN	NS	ns-338.awsdns-42.com.
+claimittn.gov.	10800	IN	NS	ns0088.secondary.cloudflare.com.
+claimittn.gov.	10800	IN	NS	ns0186.secondary.cloudflare.com.
 claimittn.gov.	10800	IN	NS	dns7.tn.gov.
 claimittn.gov.	10800	IN	NS	dns6.tn.gov.
 claimittn.gov.	10800	IN	NS	dns5.tn.gov.
@@ -13335,6 +13348,8 @@ cyber.gov.	10800	IN	NS	a22-66.akam.net.
 cyber.gov.	10800	IN	NS	a8-65.akam.net.
 cyber.gov.	10800	IN	NS	a9-66.akam.net.
 cyber.gov.	10800	IN	NS	a1-91.akam.net.
+cybersafetn.gov.	10800	IN	NS	ns0088.secondary.cloudflare.com.
+cybersafetn.gov.	10800	IN	NS	ns0186.secondary.cloudflare.com.
 cybersafetn.gov.	10800	IN	NS	dns6.tn.gov.
 cybersafetn.gov.	10800	IN	NS	dns7.tn.gov.
 cybersafetn.gov.	10800	IN	NS	dns4.tn.gov.
@@ -13345,6 +13360,8 @@ cybersecurity.gov.	10800	IN	NS	a22-66.akam.net.
 cybersecurity.gov.	10800	IN	NS	a7-64.akam.net.
 cybersecurity.gov.	10800	IN	NS	a8-65.akam.net.
 cybersecurity.gov.	10800	IN	NS	a9-66.akam.net.
+cybertn.gov.	10800	IN	NS	ns0088.secondary.cloudflare.com.
+cybertn.gov.	10800	IN	NS	ns0186.secondary.cloudflare.com.
 cybertn.gov.	10800	IN	NS	dns6.tn.gov.
 cybertn.gov.	10800	IN	NS	dns7.tn.gov.
 cybertn.gov.	10800	IN	NS	dns4.tn.gov.
@@ -14768,8 +14785,8 @@ eastclintonfd.gov.	10800	IN	NS	ns3-05.azure-dns.org.
 eastclintonfd.gov.	10800	IN	NS	ns4-05.azure-dns.info.
 eastclintonfd.gov.	10800	IN	NS	ns1-05.azure-dns.com.
 eastclintonfd.gov.	10800	IN	NS	ns2-05.azure-dns.net.
-eastconemaughpa.gov.	10800	IN	NS	ns2.dns-parking.com.
-eastconemaughpa.gov.	10800	IN	NS	ns1.dns-parking.com.
+eastconemaughpa.gov.	10800	IN	NS	hermes.dns-parking.com.
+eastconemaughpa.gov.	10800	IN	NS	artemis.dns-parking.com.
 eastcoventry-pa.gov.	10800	IN	NS	journey.ns.cloudflare.com.
 eastcoventry-pa.gov.	10800	IN	NS	fonzie.ns.cloudflare.com.
 eastduchesnewater.gov.	10800	IN	NS	ns77.domaincontrol.com.
@@ -15503,6 +15520,8 @@ erwinmi.gov.	10800	IN	NS	dns2.merit.net.
 erwinmi.gov.	10800	IN	NS	dns1.merit.net.
 erwinny.gov.	10800	IN	NS	dns3.civicplus.com.
 erwinny.gov.	10800	IN	NS	dns4.civicplus.com.
+esatn.gov.	10800	IN	NS	ns0088.secondary.cloudflare.com.
+esatn.gov.	10800	IN	NS	ns0186.secondary.cloudflare.com.
 esatn.gov.	10800	IN	NS	dns6.tn.gov.
 esatn.gov.	10800	IN	NS	dns7.tn.gov.
 esatn.gov.	10800	IN	NS	dns5.tn.gov.
@@ -17881,6 +17900,8 @@ gearupiowa.gov.	10800	IN	NS	a26-66.akam.net.
 gearupiowa.gov.	10800	IN	NS	a1-195.akam.net.
 gearupiowa.gov.	10800	IN	NS	a24-67.akam.net.
 gearupiowa.gov.	10800	IN	NS	a11-67.akam.net.
+gearuptn.gov.	10800	IN	NS	ns0088.secondary.cloudflare.com.
+gearuptn.gov.	10800	IN	NS	ns0186.secondary.cloudflare.com.
 gearuptn.gov.	10800	IN	NS	dns6.tn.gov.
 gearuptn.gov.	10800	IN	NS	dns7.tn.gov.
 gearuptn.gov.	10800	IN	NS	dns4.tn.gov.
@@ -20168,6 +20189,8 @@ highpoint-nc.gov.	10800	IN	NS	ns101.digicertdns.com.
 highpointnc.gov.	10800	IN	NS	ns102.digicertdns.com.
 highpointnc.gov.	10800	IN	NS	ns100.digicertdns.com.
 highpointnc.gov.	10800	IN	NS	ns101.digicertdns.com.
+highshoals.gov.	10800	IN	NS	carlane.ns.cloudflare.com.
+highshoals.gov.	10800	IN	NS	elliott.ns.cloudflare.com.
 highspire.gov.	10800	IN	NS	macy.ns.cloudflare.com.
 highspire.gov.	10800	IN	NS	miguel.ns.cloudflare.com.
 highsprings.gov.	10800	IN	NS	tim.ns.cloudflare.com.
@@ -22249,6 +22272,8 @@ jobs4tn.gov.	10800	IN	NS	ns-644.awsdns-16.net.
 jobs4tn.gov.	10800	IN	NS	ns-83.awsdns-10.com.
 jobs4tn.gov.	10800	IN	NS	ns-1811.awsdns-34.co.uk.
 jobs4tn.gov.	10800	IN	NS	ns-1129.awsdns-13.org.
+jobsfortn.gov.	10800	IN	NS	ns0088.secondary.cloudflare.com.
+jobsfortn.gov.	10800	IN	NS	ns0186.secondary.cloudflare.com.
 jobsfortn.gov.	10800	IN	NS	dns7.tn.gov.
 jobsfortn.gov.	10800	IN	NS	dns6.tn.gov.
 jobsfortn.gov.	10800	IN	NS	dns5.tn.gov.
@@ -22704,10 +22729,14 @@ keystoneco.gov.	10800	IN	NS	derek.ns.cloudflare.com.
 keystoneco.gov.	10800	IN	NS	jessica.ns.cloudflare.com.
 kiawahisland.gov.	10800	IN	NS	ns92.worldnic.com.
 kiawahisland.gov.	10800	IN	NS	ns91.worldnic.com.
+kidcentraltennessee.gov.	10800	IN	NS	ns0186.secondary.cloudflare.com.
+kidcentraltennessee.gov.	10800	IN	NS	ns0088.secondary.cloudflare.com.
 kidcentraltennessee.gov.	10800	IN	NS	dns5.tn.gov.
 kidcentraltennessee.gov.	10800	IN	NS	dns7.tn.gov.
 kidcentraltennessee.gov.	10800	IN	NS	dns4.tn.gov.
 kidcentraltennessee.gov.	10800	IN	NS	dns6.tn.gov.
+kidcentraltn.gov.	10800	IN	NS	ns0088.secondary.cloudflare.com.
+kidcentraltn.gov.	10800	IN	NS	ns0186.secondary.cloudflare.com.
 kidcentraltn.gov.	10800	IN	NS	dns8.tn.gov.
 kidcentraltn.gov.	10800	IN	NS	dns9.tn.gov.
 kidcentraltn.gov.	10800	IN	NS	dns5.tn.gov.
@@ -26093,6 +26122,8 @@ meadtownshipoh.gov.	10800	IN	NS	ns2.shumakergrouphosting.com.
 meadtownshipoh.gov.	10800	IN	NS	ns1.shumakergrouphosting.com.
 meadvillems.gov.	10800	IN	NS	ns28.domaincontrol.com.
 meadvillems.gov.	10800	IN	NS	ns27.domaincontrol.com.
+measuretn.gov.	10800	IN	NS	ns0088.secondary.cloudflare.com.
+measuretn.gov.	10800	IN	NS	ns0186.secondary.cloudflare.com.
 measuretn.gov.	10800	IN	NS	dns6.tn.gov.
 measuretn.gov.	10800	IN	NS	dns7.tn.gov.
 measuretn.gov.	10800	IN	NS	dns4.tn.gov.
@@ -27937,10 +27968,16 @@ mysescutah.gov.	10800	IN	NS	ns2.uen.org.
 mysescutah.gov.	10800	IN	NS	ns.uen.org.
 myslc.gov.	10800	IN	NS	ned.ns.cloudflare.com.
 myslc.gov.	10800	IN	NS	raegan.ns.cloudflare.com.
+mytennessee.gov.	10800	IN	NS	ns0088.secondary.cloudflare.com.
+mytennessee.gov.	10800	IN	NS	ns0186.secondary.cloudflare.com.
 mytennessee.gov.	10800	IN	NS	dns4.tn.gov.
 mytennessee.gov.	10800	IN	NS	dns5.tn.gov.
+mytn.gov.	10800	IN	NS	ns0186.secondary.cloudflare.com.
+mytn.gov.	10800	IN	NS	ns0088.secondary.cloudflare.com.
 mytn.gov.	10800	IN	NS	dns4.tn.gov.
 mytn.gov.	10800	IN	NS	dns5.tn.gov.
+mytnwoods.gov.	10800	IN	NS	ns0186.secondary.cloudflare.com.
+mytnwoods.gov.	10800	IN	NS	ns0088.secondary.cloudflare.com.
 mytnwoods.gov.	10800	IN	NS	dns6.tn.gov.
 mytnwoods.gov.	10800	IN	NS	dns7.tn.gov.
 mytnwoods.gov.	10800	IN	NS	dns4.tn.gov.
@@ -31421,6 +31458,8 @@ parsonspdks.gov.	10800	IN	NS	ns2.mostwantedwebsites.net.
 parsonspdks.gov.	10800	IN	NS	ns1.mostwantedwebsites.net.
 parsonswv.gov.	10800	IN	NS	kip.ns.cloudflare.com.
 parsonswv.gov.	10800	IN	NS	ligia.ns.cloudflare.com.
+partnersforhealthtn.gov.	10800	IN	NS	ns0088.secondary.cloudflare.com.
+partnersforhealthtn.gov.	10800	IN	NS	ns0186.secondary.cloudflare.com.
 partnersforhealthtn.gov.	10800	IN	NS	dns6.tn.gov.
 partnersforhealthtn.gov.	10800	IN	NS	dns7.tn.gov.
 partnersforhealthtn.gov.	10800	IN	NS	dns4.tn.gov.
@@ -31614,6 +31653,8 @@ pearlandtx.gov.	10800	IN	NS	ns12.dnsmadeeasy.com.
 pearlandtx.gov.	10800	IN	NS	ns11.dnsmadeeasy.com.
 pearlandtx.gov.	10800	IN	NS	ns15.dnsmadeeasy.com.
 pearlandtx.gov.	10800	IN	NS	ns14.dnsmadeeasy.com.
+pecanhill.gov.	10800	IN	NS	carl.ns.cloudflare.com.
+pecanhill.gov.	10800	IN	NS	melinda.ns.cloudflare.com.
 pechanga-nsn.gov.	10800	IN	NS	ns4.p68.dns.oraclecloud.net.
 pechanga-nsn.gov.	10800	IN	NS	ns3.p68.dns.oraclecloud.net.
 pechanga-nsn.gov.	10800	IN	NS	ns2.p68.dns.oraclecloud.net.
@@ -32420,6 +32461,8 @@ pokysoia.gov.	10800	IN	NS	albert.ns.cloudflare.com.
 pokysoia.gov.	10800	IN	NS	serena.ns.cloudflare.com.
 polandtownship.gov.	10800	IN	NS	ns1.inmotionhosting.com.
 polandtownship.gov.	10800	IN	NS	ns2.inmotionhosting.com.
+police4tn.gov.	10800	IN	NS	ns0186.secondary.cloudflare.com.
+police4tn.gov.	10800	IN	NS	ns0088.secondary.cloudflare.com.
 police4tn.gov.	10800	IN	NS	dns6.tn.gov.
 police4tn.gov.	10800	IN	NS	dns7.tn.gov.
 police4tn.gov.	10800	IN	NS	dns4.tn.gov.
@@ -32677,6 +32720,8 @@ portofthedalles.gov.	10800	IN	NS	dave.ns.cloudflare.com.
 portofthedalles.gov.	10800	IN	NS	hattie.ns.cloudflare.com.
 portorchardwa.gov.	10800	IN	NS	seth.ns.cloudflare.com.
 portorchardwa.gov.	10800	IN	NS	amber.ns.cloudflare.com.
+portorfordlibrary.gov.	10800	IN	NS	ns1.server297.com.
+portorfordlibrary.gov.	10800	IN	NS	ns2.server297.com.
 portorfordor.gov.	10800	IN	NS	b8.uberns.com.
 portorfordor.gov.	10800	IN	NS	a8.uberns.com.
 portricheypd.gov.	10800	IN	NS	ns12.wixdns.net.
@@ -33151,6 +33196,8 @@ purcellok.gov.	10800	IN	NS	ns2.bdm.microsoftonline.com.
 purcellok.gov.	10800	IN	NS	ns3.bdm.microsoftonline.com.
 purcellvilleva.gov.	10800	IN	NS	dns1.civicplus.com.
 purcellvilleva.gov.	10800	IN	NS	dns2.civicplus.com.
+purchasetncrash.gov.	10800	IN	NS	ns0088.secondary.cloudflare.com.
+purchasetncrash.gov.	10800	IN	NS	ns0186.secondary.cloudflare.com.
 purchasetncrash.gov.	10800	IN	NS	dns6.tn.gov.
 purchasetncrash.gov.	10800	IN	NS	dns7.tn.gov.
 purchasetncrash.gov.	10800	IN	NS	dns5.tn.gov.
@@ -33649,6 +33696,10 @@ rehobothma.gov.	10800	IN	NS	pdns03.domaincontrol.com.
 rehobothma.gov.	10800	IN	NS	pdns04.domaincontrol.com.
 reidsvillenc.gov.	10800	IN	NS	ns29.domaincontrol.com.
 reidsvillenc.gov.	10800	IN	NS	ns30.domaincontrol.com.
+reidvillesc.gov.	10800	IN	NS	ns-1095.awsdns-08.org.
+reidvillesc.gov.	10800	IN	NS	ns-1868.awsdns-41.co.uk.
+reidvillesc.gov.	10800	IN	NS	ns-786.awsdns-34.net.
+reidvillesc.gov.	10800	IN	NS	ns-32.awsdns-04.com.
 relocatefeds.gov.	10800	IN	NS	nccns2.epa.gov.
 relocatefeds.gov.	10800	IN	NS	nccns1.epa.gov.
 relocatefeds.gov.	10800	IN	NS	dcns1.epa.gov.
@@ -33690,6 +33741,8 @@ reporting.gov.	10800	IN	NS	dns.gsa.gov.
 reporting.gov.	10800	IN	NS	dns3.gsa.gov.
 reporting.gov.	10800	IN	NS	dns2.gsa.gov.
 reporting.gov.	10800	IN	NS	dns4.gsa.gov.
+reportittn.gov.	10800	IN	NS	ns0088.secondary.cloudflare.com.
+reportittn.gov.	10800	IN	NS	ns0186.secondary.cloudflare.com.
 reportittn.gov.	10800	IN	NS	dns6.tn.gov.
 reportittn.gov.	10800	IN	NS	dns7.tn.gov.
 reportittn.gov.	10800	IN	NS	dns4.tn.gov.
@@ -33736,6 +33789,8 @@ restorethegulf.gov.	10800	IN	NS	ns-01.noaa.gov.
 restorethegulf.gov.	10800	IN	NS	ns-03.noaa.gov.
 resumemchenrycountyil.gov.	10800	IN	NS	miles.ns.cloudflare.com.
 resumemchenrycountyil.gov.	10800	IN	NS	ruth.ns.cloudflare.com.
+retirereadytn.gov.	10800	IN	NS	ns0088.secondary.cloudflare.com.
+retirereadytn.gov.	10800	IN	NS	ns0186.secondary.cloudflare.com.
 retirereadytn.gov.	10800	IN	NS	dns7.tn.gov.
 retirereadytn.gov.	10800	IN	NS	dns6.tn.gov.
 retirereadytn.gov.	10800	IN	NS	dns5.tn.gov.
@@ -36944,6 +36999,10 @@ spanishforklibrary.gov.	10800	IN	NS	ns2.spanishfork.gov.
 spanishforklibrary.gov.	10800	IN	NS	ns3.spanishfork.gov.
 spanishfortal.gov.	10800	IN	NS	blair.ns.cloudflare.com.
 spanishfortal.gov.	10800	IN	NS	jakub.ns.cloudflare.com.
+sparccoh.gov.	10800	IN	NS	ns4.oar.net.
+sparccoh.gov.	10800	IN	NS	ns5.oar.net.
+sparccoh.gov.	10800	IN	NS	ns6.oar.net.
+sparccoh.gov.	10800	IN	NS	ns7.oar.net.
 sparksga.gov.	10800	IN	NS	janet.ns.cloudflare.com.
 sparksga.gov.	10800	IN	NS	garret.ns.cloudflare.com.
 sparksnv.gov.	10800	IN	NS	ns1-34.azure-dns.com.
@@ -38396,6 +38455,8 @@ teamga.gov.	10800	IN	NS	sogns2.state.ga.us.
 teamga.gov.	10800	IN	NS	sogns1.state.ga.us.
 teamgeorgia.gov.	10800	IN	NS	sogns1.state.ga.us.
 teamgeorgia.gov.	10800	IN	NS	sogns2.state.ga.us.
+teamtn.gov.	10800	IN	NS	ns0186.secondary.cloudflare.com.
+teamtn.gov.	10800	IN	NS	ns0088.secondary.cloudflare.com.
 teamtn.gov.	10800	IN	NS	dns6.tn.gov.
 teamtn.gov.	10800	IN	NS	dns7.tn.gov.
 teamtn.gov.	10800	IN	NS	dns4.tn.gov.
@@ -38438,6 +38499,8 @@ telluride-co.gov.	10800	IN	NS	sneh.ns.cloudflare.com.
 telluride-co.gov.	10800	IN	NS	brett.ns.cloudflare.com.
 telluride.gov.	10800	IN	NS	sneh.ns.cloudflare.com.
 telluride.gov.	10800	IN	NS	brett.ns.cloudflare.com.
+tema-tn.gov.	10800	IN	NS	ns0088.secondary.cloudflare.com.
+tema-tn.gov.	10800	IN	NS	ns0186.secondary.cloudflare.com.
 tema-tn.gov.	10800	IN	NS	dns7.tn.gov.
 tema-tn.gov.	10800	IN	NS	dns6.tn.gov.
 tema-tn.gov.	10800	IN	NS	dns4.tn.gov.
@@ -38467,18 +38530,26 @@ tenncare.gov.	10800	IN	NS	ns-980.awsdns-58.net.
 tenncare.gov.	10800	IN	NS	ns-1989.awsdns-56.co.uk.
 tennesseeda.gov.	10800	IN	NS	dns1.namecheaphosting.com.
 tennesseeda.gov.	10800	IN	NS	dns2.namecheaphosting.com.
+tennessee.gov.	10800	IN	NS	ns0186.secondary.cloudflare.com.
+tennessee.gov.	10800	IN	NS	ns0088.secondary.cloudflare.com.
 tennessee.gov.	10800	IN	NS	dns7.tn.gov.
 tennessee.gov.	10800	IN	NS	dns6.tn.gov.
 tennessee.gov.	10800	IN	NS	dns4.tn.gov.
 tennessee.gov.	10800	IN	NS	dns5.tn.gov.
+tennesseeiis.gov.	10800	IN	NS	ns0088.secondary.cloudflare.com.
+tennesseeiis.gov.	10800	IN	NS	ns0186.secondary.cloudflare.com.
 tennesseeiis.gov.	10800	IN	NS	dns6.tn.gov.
 tennesseeiis.gov.	10800	IN	NS	dns7.tn.gov.
 tennesseeiis.gov.	10800	IN	NS	dns4.tn.gov.
 tennesseeiis.gov.	10800	IN	NS	dns5.tn.gov.
+tennesseepromise.gov.	10800	IN	NS	ns0088.secondary.cloudflare.com.
+tennesseepromise.gov.	10800	IN	NS	ns0186.secondary.cloudflare.com.
 tennesseepromise.gov.	10800	IN	NS	dns6.tn.gov.
 tennesseepromise.gov.	10800	IN	NS	dns7.tn.gov.
 tennesseepromise.gov.	10800	IN	NS	dns4.tn.gov.
 tennesseepromise.gov.	10800	IN	NS	dns5.tn.gov.
+tennesseereconnect.gov.	10800	IN	NS	ns0186.secondary.cloudflare.com.
+tennesseereconnect.gov.	10800	IN	NS	ns0088.secondary.cloudflare.com.
 tennesseereconnect.gov.	10800	IN	NS	dns6.tn.gov.
 tennesseereconnect.gov.	10800	IN	NS	dns7.tn.gov.
 tennesseereconnect.gov.	10800	IN	NS	dns4.tn.gov.
@@ -38850,14 +38921,20 @@ tnappointedcounsel.gov.	10800	IN	NS	ns-76.awsdns-09.com.
 tnappointedcounsel.gov.	10800	IN	NS	ns-759.awsdns-30.net.
 tnappointedcounsel.gov.	10800	IN	NS	ns-1503.awsdns-59.org.
 tnappointedcounsel.gov.	10800	IN	NS	ns-1783.awsdns-30.co.uk.
+tnbestforall.gov.	10800	IN	NS	ns0088.secondary.cloudflare.com.
+tnbestforall.gov.	10800	IN	NS	ns0186.secondary.cloudflare.com.
 tnbestforall.gov.	10800	IN	NS	dns6.tn.gov.
 tnbestforall.gov.	10800	IN	NS	dns7.tn.gov.
 tnbestforall.gov.	10800	IN	NS	dns5.tn.gov.
 tnbestforall.gov.	10800	IN	NS	dns4.tn.gov.
+tncollateralmanagement.gov.	10800	IN	NS	ns0186.secondary.cloudflare.com.
+tncollateralmanagement.gov.	10800	IN	NS	ns0088.secondary.cloudflare.com.
 tncollateralmanagement.gov.	10800	IN	NS	dns6.tn.gov.
 tncollateralmanagement.gov.	10800	IN	NS	dns7.tn.gov.
 tncollateralmanagement.gov.	10800	IN	NS	dns4.tn.gov.
 tncollateralmanagement.gov.	10800	IN	NS	dns5.tn.gov.
+tncourts.gov.	10800	IN	NS	ns0186.secondary.cloudflare.com.
+tncourts.gov.	10800	IN	NS	ns0088.secondary.cloudflare.com.
 tncourts.gov.	10800	IN	NS	dns6.tn.gov.
 tncourts.gov.	10800	IN	NS	dns7.tn.gov.
 tncourts.gov.	10800	IN	NS	dns5.tn.gov.
@@ -38866,6 +38943,8 @@ tndagc.gov.	10800	IN	NS	ns-31.awsdns-03.com.
 tndagc.gov.	10800	IN	NS	ns-582.awsdns-08.net.
 tndagc.gov.	10800	IN	NS	ns-1418.awsdns-49.org.
 tndagc.gov.	10800	IN	NS	ns-1986.awsdns-56.co.uk.
+tnecd.gov.	10800	IN	NS	ns0088.secondary.cloudflare.com.
+tnecd.gov.	10800	IN	NS	ns0186.secondary.cloudflare.com.
 tnecd.gov.	10800	IN	NS	dns6.tn.gov.
 tnecd.gov.	10800	IN	NS	dns7.tn.gov.
 tnecd.gov.	10800	IN	NS	dns4.state.tn.us.
@@ -38874,6 +38953,8 @@ tnedu.gov.	10800	IN	NS	ns1-03.azure-dns.com.
 tnedu.gov.	10800	IN	NS	ns2-03.azure-dns.net.
 tnedu.gov.	10800	IN	NS	ns3-03.azure-dns.org.
 tnedu.gov.	10800	IN	NS	ns4-03.azure-dns.info.
+tnfafsafrenzy.gov.	10800	IN	NS	ns0186.secondary.cloudflare.com.
+tnfafsafrenzy.gov.	10800	IN	NS	ns0088.secondary.cloudflare.com.
 tnfafsafrenzy.gov.	10800	IN	NS	dns6.tn.gov.
 tnfafsafrenzy.gov.	10800	IN	NS	dns7.tn.gov.
 tnfafsafrenzy.gov.	10800	IN	NS	dns4.tn.gov.
@@ -38883,14 +38964,20 @@ tnfdnh.gov.	10800	IN	NS	dns4.name-services.com.
 tnfdnh.gov.	10800	IN	NS	dns5.name-services.com.
 tnfdnh.gov.	10800	IN	NS	dns1.name-services.com.
 tnfdnh.gov.	10800	IN	NS	dns2.name-services.com.
+tnfosters.gov.	10800	IN	NS	ns0088.secondary.cloudflare.com.
+tnfosters.gov.	10800	IN	NS	ns0186.secondary.cloudflare.com.
 tnfosters.gov.	10800	IN	NS	dns7.tn.gov.
 tnfosters.gov.	10800	IN	NS	dns6.tn.gov.
 tnfosters.gov.	10800	IN	NS	dns5.tn.gov.
 tnfosters.gov.	10800	IN	NS	dns4.tn.gov.
+tn.gov.	10800	IN	NS	ns0088.secondary.cloudflare.com.
+tn.gov.	10800	IN	NS	ns0186.secondary.cloudflare.com.
 tn.gov.	10800	IN	NS	dns8.tn.gov.
 tn.gov.	10800	IN	NS	dns9.tn.gov.
 tn.gov.	10800	IN	NS	dns5.tn.gov.
 tn.gov.	10800	IN	NS	dns4.tn.gov.
+tnhighwaypatrol.gov.	10800	IN	NS	ns0088.secondary.cloudflare.com.
+tnhighwaypatrol.gov.	10800	IN	NS	ns0186.secondary.cloudflare.com.
 tnhighwaypatrol.gov.	10800	IN	NS	dns6.tn.gov.
 tnhighwaypatrol.gov.	10800	IN	NS	dns7.tn.gov.
 tnhighwaypatrol.gov.	10800	IN	NS	dns5.tn.gov.
@@ -38899,22 +38986,32 @@ tnk12.gov.	10800	IN	NS	ns2.tennk12.net.
 tnk12.gov.	10800	IN	NS	ns4.tennk12.net.
 tnk12.gov.	10800	IN	NS	ns1.tennk12.net.
 tnk12.gov.	10800	IN	NS	ns3.tennk12.net.
+tnlpr.gov.	10800	IN	NS	ns0088.secondary.cloudflare.com.
+tnlpr.gov.	10800	IN	NS	ns0186.secondary.cloudflare.com.
 tnlpr.gov.	10800	IN	NS	dns7.tn.gov.
 tnlpr.gov.	10800	IN	NS	dns6.tn.gov.
 tnlpr.gov.	10800	IN	NS	dns4.tn.gov.
 tnlpr.gov.	10800	IN	NS	dns5.tn.gov.
+tnosha.gov.	10800	IN	NS	ns0088.secondary.cloudflare.com.
+tnosha.gov.	10800	IN	NS	ns0186.secondary.cloudflare.com.
 tnosha.gov.	10800	IN	NS	dns6.tn.gov.
 tnosha.gov.	10800	IN	NS	dns7.tn.gov.
 tnosha.gov.	10800	IN	NS	dns5.tn.gov.
 tnosha.gov.	10800	IN	NS	dns4.tn.gov.
+tnpromise.gov.	10800	IN	NS	ns0088.secondary.cloudflare.com.
+tnpromise.gov.	10800	IN	NS	ns0186.secondary.cloudflare.com.
 tnpromise.gov.	10800	IN	NS	dns6.tn.gov.
 tnpromise.gov.	10800	IN	NS	dns7.tn.gov.
 tnpromise.gov.	10800	IN	NS	dns5.tn.gov.
 tnpromise.gov.	10800	IN	NS	dns4.tn.gov.
+tnrealid.gov.	10800	IN	NS	ns0088.secondary.cloudflare.com.
+tnrealid.gov.	10800	IN	NS	ns0186.secondary.cloudflare.com.
 tnrealid.gov.	10800	IN	NS	dns7.tn.gov.
 tnrealid.gov.	10800	IN	NS	dns6.tn.gov.
 tnrealid.gov.	10800	IN	NS	dns5.tn.gov.
 tnrealid.gov.	10800	IN	NS	dns4.tn.gov.
+tnreconnect.gov.	10800	IN	NS	ns0088.secondary.cloudflare.com.
+tnreconnect.gov.	10800	IN	NS	ns0186.secondary.cloudflare.com.
 tnreconnect.gov.	10800	IN	NS	dns6.tn.gov.
 tnreconnect.gov.	10800	IN	NS	dns7.tn.gov.
 tnreconnect.gov.	10800	IN	NS	dns5.tn.gov.
@@ -38927,22 +39024,32 @@ tnstateguard.gov.	10800	IN	NS	ns3-03.azure-dns.org.
 tnstateguard.gov.	10800	IN	NS	ns4-03.azure-dns.info.
 tnstateguard.gov.	10800	IN	NS	ns1-03.azure-dns.com.
 tnstateguard.gov.	10800	IN	NS	ns2-03.azure-dns.net.
+tntapinfo.gov.	10800	IN	NS	ns0088.secondary.cloudflare.com.
+tntapinfo.gov.	10800	IN	NS	ns0186.secondary.cloudflare.com.
 tntapinfo.gov.	10800	IN	NS	dns7.tn.gov.
 tntapinfo.gov.	10800	IN	NS	dns6.tn.gov.
 tntapinfo.gov.	10800	IN	NS	dns4.tn.gov.
 tntapinfo.gov.	10800	IN	NS	dns5.tn.gov.
+tntreasury.gov.	10800	IN	NS	ns0088.secondary.cloudflare.com.
+tntreasury.gov.	10800	IN	NS	ns0186.secondary.cloudflare.com.
 tntreasury.gov.	10800	IN	NS	dns7.tn.gov.
 tntreasury.gov.	10800	IN	NS	dns6.tn.gov.
 tntreasury.gov.	10800	IN	NS	dns4.tn.gov.
 tntreasury.gov.	10800	IN	NS	dns5.tn.gov.
+tnusedoil.gov.	10800	IN	NS	ns0186.secondary.cloudflare.com.
+tnusedoil.gov.	10800	IN	NS	ns0088.secondary.cloudflare.com.
 tnusedoil.gov.	10800	IN	NS	dns7.tn.gov.
 tnusedoil.gov.	10800	IN	NS	dns6.tn.gov.
 tnusedoil.gov.	10800	IN	NS	dns4.tn.gov.
 tnusedoil.gov.	10800	IN	NS	dns5.tn.gov.
+tnvacation.gov.	10800	IN	NS	ns0088.secondary.cloudflare.com.
+tnvacation.gov.	10800	IN	NS	ns0186.secondary.cloudflare.com.
 tnvacation.gov.	10800	IN	NS	dns7.tn.gov.
 tnvacation.gov.	10800	IN	NS	dns6.tn.gov.
 tnvacation.gov.	10800	IN	NS	dns4.tn.gov.
 tnvacation.gov.	10800	IN	NS	dns5.tn.gov.
+tnwildlandfire.gov.	10800	IN	NS	ns0088.secondary.cloudflare.com.
+tnwildlandfire.gov.	10800	IN	NS	ns0186.secondary.cloudflare.com.
 tnwildlandfire.gov.	10800	IN	NS	dns6.tn.gov.
 tnwildlandfire.gov.	10800	IN	NS	dns7.tn.gov.
 tnwildlandfire.gov.	10800	IN	NS	dns4.tn.gov.
@@ -40345,6 +40452,8 @@ townoforegonwi.gov.	10800	IN	NS	ns-886.awsdns-46.net.
 townoforegonwi.gov.	10800	IN	NS	ns-1715.awsdns-22.co.uk.
 townoforegonwi.gov.	10800	IN	NS	ns-1507.awsdns-60.org.
 townoforegonwi.gov.	10800	IN	NS	ns-385.awsdns-48.com.
+townoforleansny.gov.	10800	IN	NS	ns47.domaincontrol.com.
+townoforleansny.gov.	10800	IN	NS	ns48.domaincontrol.com.
 townofosceolany.gov.	10800	IN	NS	dns100.cmsdefender.com.
 townofosceolany.gov.	10800	IN	NS	dns200.cmsdefender.com.
 townofosceolany.gov.	10800	IN	NS	dns300.cmsdefender.com.
@@ -40496,6 +40605,10 @@ townofripleyok.gov.	10800	IN	NS	cory.ns.cloudflare.com.
 townofripleyok.gov.	10800	IN	NS	demi.ns.cloudflare.com.
 townofriverheadny.gov.	10800	IN	NS	dns3.civicplus.com.
 townofriverheadny.gov.	10800	IN	NS	dns4.civicplus.com.
+townofrochesterma.gov.	10800	IN	NS	ns3.bdm.microsoftonline.com.
+townofrochesterma.gov.	10800	IN	NS	ns4.bdm.microsoftonline.com.
+townofrochesterma.gov.	10800	IN	NS	ns1.bdm.microsoftonline.com.
+townofrochesterma.gov.	10800	IN	NS	ns2.bdm.microsoftonline.com.
 townofrocklandmanitowoccountywi.gov.	10800	IN	NS	adam.ns.cloudflare.com.
 townofrocklandmanitowoccountywi.gov.	10800	IN	NS	mona.ns.cloudflare.com.
 townofrocklandny.gov.	10800	IN	NS	ns2.inmotionhosting.com.
@@ -41040,6 +41153,8 @@ treasuryhunt.gov.	10800	IN	NS	ns1.treasuryhunt.gov.
 treasuryhunt.gov.	10800	IN	NS	ns2.treasuryhunt.gov.
 treasuryscams.gov.	10800	IN	NS	ns2.treasuryscams.gov.
 treasuryscams.gov.	10800	IN	NS	ns1.treasuryscams.gov.
+treasurytn.gov.	10800	IN	NS	ns0186.secondary.cloudflare.com.
+treasurytn.gov.	10800	IN	NS	ns0088.secondary.cloudflare.com.
 treasurytn.gov.	10800	IN	NS	dns6.tn.gov.
 treasurytn.gov.	10800	IN	NS	dns7.tn.gov.
 treasurytn.gov.	10800	IN	NS	dns4.tn.gov.
@@ -41184,10 +41299,14 @@ trussville.gov.	10800	IN	NS	ns-1088.awsdns-08.org.
 trussville.gov.	10800	IN	NS	ns-259.awsdns-32.com.
 trussville.gov.	10800	IN	NS	ns-1906.awsdns-46.co.uk.
 trussville.gov.	10800	IN	NS	ns-604.awsdns-11.net.
+trusttennessee.gov.	10800	IN	NS	ns0186.secondary.cloudflare.com.
+trusttennessee.gov.	10800	IN	NS	ns0088.secondary.cloudflare.com.
 trusttennessee.gov.	10800	IN	NS	dns7.tn.gov.
 trusttennessee.gov.	10800	IN	NS	dns6.tn.gov.
 trusttennessee.gov.	10800	IN	NS	dns4.tn.gov.
 trusttennessee.gov.	10800	IN	NS	dns5.tn.gov.
+trusttn.gov.	10800	IN	NS	ns0088.secondary.cloudflare.com.
+trusttn.gov.	10800	IN	NS	ns0186.secondary.cloudflare.com.
 trusttn.gov.	10800	IN	NS	dns6.tn.gov.
 trusttn.gov.	10800	IN	NS	dns7.tn.gov.
 trusttn.gov.	10800	IN	NS	dns4.tn.gov.
@@ -42745,6 +42864,8 @@ villageofmoravia.gov.	10800	IN	NS	dns3.easydns.org.
 villageofmoravia.gov.	10800	IN	NS	dns1.easydns.com.
 villageofmorganza.gov.	10800	IN	NS	ns33.domaincontrol.com.
 villageofmorganza.gov.	10800	IN	NS	ns34.domaincontrol.com.
+villageofmorleymi.gov.	10800	IN	NS	ns1.shumakergrouphosting.com.
+villageofmorleymi.gov.	10800	IN	NS	ns2.shumakergrouphosting.com.
 villageofmountmorrisny.gov.	10800	IN	NS	albert.ns.cloudflare.com.
 villageofmountmorrisny.gov.	10800	IN	NS	paloma.ns.cloudflare.com.
 villageofmuirmi.gov.	10800	IN	NS	ns2.shumakergrouphosting.com.
@@ -45240,6 +45361,8 @@ worker.gov.	10800	IN	NS	a1-165.akam.net.
 worker.gov.	10800	IN	NS	a5-64.akam.net.
 worker.gov.	10800	IN	NS	a24-67.akam.net.
 worker.gov.	10800	IN	NS	a7-66.akam.net.
+workforcetn.gov.	10800	IN	NS	ns0186.secondary.cloudflare.com.
+workforcetn.gov.	10800	IN	NS	ns0088.secondary.cloudflare.com.
 workforcetn.gov.	10800	IN	NS	dns7.tn.gov.
 workforcetn.gov.	10800	IN	NS	dns6.tn.gov.
 workforcetn.gov.	10800	IN	NS	dns4.tn.gov.
