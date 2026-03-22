@@ -1,6 +1,6 @@
 ;;
 ;; Domain:     gov.
-;; Exported:   2026-03-21 07:20:14
+;; Exported:   2026-03-22 07:23:40
 ;;
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -24,7 +24,7 @@
 ;;
 ;; Use at your own risk.
 ;; SOA Record
-gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1774077305 3600 900 604800 300
+gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1774163705 3600 900 604800 300
 
 ;; A Records
 a.aspr.gov.	3600	IN	A	158.74.35.11 ; cf_tags=cf-proxied:false
@@ -1905,6 +1905,7 @@ emsaok.gov.	3600	IN	DS	2371 13 2 F9EA8B1F9020F72D815D205399D91004CD2ECFA0D734AC3
 ems.gov.	3600	IN	DS	36359 13 2 AA47EA5AC2BF7D7E4429050FB439A804843CCF6995945880311A9D3EB84ACF6B
 encuentraapoyo.gov.	3600	IN	DS	269 13 2 CC664A6DF849041169164C3334091B18EEDEA9735E87C40E6FD9F7659D9F6B33
 energycodes.gov.	3600	IN	DS	25401 7 2 74E88991C16FC254C177694D80A016493BAA601FF5E85BC20390FBBF1E3D50BF
+energy.gov.	3600	IN	DS	2371 13 2 4CB2F30894B7CB4974EB4E274E0B10BF02DAFC012A7C3B16D9B1B393D956BC40
 energysaver.gov.	3600	IN	DS	2371 13 2 8D924C60D88AF970D1F04AC3531FA69C00DAF2DE8CB8C93AD4D7C025C21BF0D6
 energysavers.gov.	3600	IN	DS	2371 13 2 EB83F10339183226213F0E900EE0450870557B2E21E4DE0846C048BAC8DAA399
 energystar.gov.	3600	IN	DS	52987 8 2 39C84AC3F47C18DAF3719309E326994AD0AA56FD3AAA3B8710CDA2124424280C
@@ -5530,6 +5531,8 @@ auburnnh.gov.	10800	IN	NS	hal.ns.cloudflare.com.
 auburnnh.gov.	10800	IN	NS	vivienne.ns.cloudflare.com.
 auburnny.gov.	10800	IN	NS	dns4.civicplus.com.
 auburnny.gov.	10800	IN	NS	dns3.civicplus.com.
+auburntown.gov.	10800	IN	NS	ns4.auburn.com.
+auburntown.gov.	10800	IN	NS	ns8.auburn.com.
 auburnwa.gov.	10800	IN	NS	pdns109.ultradns.biz.
 auburnwa.gov.	10800	IN	NS	pdns109.ultradns.com.
 auburnwa.gov.	10800	IN	NS	pdns109.ultradns.org.
@@ -10702,6 +10705,8 @@ cityofhewittmn.gov.	10800	IN	NS	luciane.ns.cloudflare.com.
 cityofhewittmn.gov.	10800	IN	NS	melnicoff.ns.cloudflare.com.
 cityofhighlandar.gov.	10800	IN	NS	mario.ns.cloudflare.com.
 cityofhighlandar.gov.	10800	IN	NS	ashley.ns.cloudflare.com.
+cityofhighlandks.gov.	10800	IN	NS	dns1.namecheaphosting.com.
+cityofhighlandks.gov.	10800	IN	NS	dns2.namecheaphosting.com.
 cityofhillcityks.gov.	10800	IN	NS	dns3.civicplus.com.
 cityofhillcityks.gov.	10800	IN	NS	dns4.civicplus.com.
 cityofhiramga.gov.	10800	IN	NS	ns2.softlayer.com.
@@ -15401,8 +15406,9 @@ endteenvapingfl.gov.	10800	IN	NS	ns-wpns001.doh.state.fl.us.
 endteenvapingfl.gov.	10800	IN	NS	ns-wpns003.doh.state.fl.us.
 energycodes.gov.	10800	IN	NS	adns2.es.net.
 energycodes.gov.	10800	IN	NS	adns1.es.net.
-energy.gov.	10800	IN	NS	foxbat.doe.gov.
-energy.gov.	10800	IN	NS	fulcrum.doe.gov.
+energy.gov.	10800	IN	NS	blue.foundationdns.com.
+energy.gov.	10800	IN	NS	blue.foundationdns.net.
+energy.gov.	10800	IN	NS	blue.foundationdns.org.
 energysaver.gov.	10800	IN	NS	blue.foundationdns.com.
 energysaver.gov.	10800	IN	NS	blue.foundationdns.net.
 energysaver.gov.	10800	IN	NS	blue.foundationdns.org.
@@ -34319,8 +34325,8 @@ rogersvillealabama.gov.	10800	IN	NS	ns3-05.azure-dns.org.
 rogersvillealabama.gov.	10800	IN	NS	ns4-05.azure-dns.info.
 rogersvillealabama.gov.	10800	IN	NS	ns1-05.azure-dns.com.
 rogersvillealabama.gov.	10800	IN	NS	ns2-05.azure-dns.net.
-rogersvilletn.gov.	10800	IN	NS	ns1.ipage.com.
-rogersvilletn.gov.	10800	IN	NS	ns2.ipage.com.
+rogersvilletn.gov.	10800	IN	NS	ns1.vercel-dns.com.
+rogersvilletn.gov.	10800	IN	NS	ns2.vercel-dns.com.
 rogerswaterar.gov.	10800	IN	NS	ns37.domaincontrol.com.
 rogerswaterar.gov.	10800	IN	NS	ns38.domaincontrol.com.
 rohnertpark.gov.	10800	IN	NS	rpcpns1.rpcity.org.
@@ -37353,6 +37359,8 @@ starkeyny.gov.	10800	IN	NS	eric.ns.cloudflare.com.
 starkeyny.gov.	10800	IN	NS	karina.ns.cloudflare.com.
 starknh.gov.	10800	IN	NS	ns69.domaincontrol.com.
 starknh.gov.	10800	IN	NS	ns70.domaincontrol.com.
+starmeadowsfd.gov.	10800	IN	NS	ext-cust.squarespace.com.
+starmeadowsfd.gov.	10800	IN	NS	verify.squarespace.com.
 starnc.gov.	10800	IN	NS	ns1.bluehost.com.
 starnc.gov.	10800	IN	NS	ns2.bluehost.com.
 starohio.gov.	10800	IN	NS	alina.ns.cloudflare.com.
