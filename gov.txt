@@ -1,6 +1,6 @@
 ;;
 ;; Domain:     gov.
-;; Exported:   2026-04-18 07:33:42
+;; Exported:   2026-04-19 07:39:09
 ;;
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -24,7 +24,7 @@
 ;;
 ;; Use at your own risk.
 ;; SOA Record
-gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1776497106 3600 900 604800 300
+gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1776584113 3600 900 604800 300
 
 ;; A Records
 acs-ns1-aws.akcourts.gov.	3600	IN	A	205.251.198.140 ; cf_tags=cf-proxied:false
@@ -3452,6 +3452,7 @@ smart.gov.	3600	IN	DS	2371 13 2 107BE715A7D2E746F87CB2DEBC5CB33B88F1BD7B6494AAEF
 smartgrid.gov.	3600	IN	DS	43095 13 2 16B6FA91940999EDD905F882250C3CB786EDD909C34C749E29442C6F4B50244E
 smcacre.gov.	3600	IN	DS	36599 13 2 B024F1674CAA30EA9A545393AE9AC8E5DE55CC90D3A4C42D0CB5622588B1E414
 smithsonian.gov.	3600	IN	DS	16005 13 2 85641755E53FCA26609E257A0905F4A9883B7C8D337BD37AC3261483D1BB0A9B
+smithsstational.gov.	3600	IN	DS	10624 8 2 4C23F7A311AB58210B209BC29EC7E3A7735B19F30385420D0ADC30B140CEC43D
 smithtownny.gov.	3600	IN	DS	13234 13 2 7BBB25B32995B069089807DD031BF2C441AC8283E1556B63856CCAC0C42FD3F8
 smithtownny.gov.	3600	IN	DS	13234 13 1 AC8E0AE530762AB33836D875805E695D9C3C20DF
 smithtwpmcpd.gov.	3600	IN	DS	2371 13 2 D6B0D7D57A896EE49EA336971D6F9CEEC7E4DA459BC519C5D3E06E00B73D78A0
@@ -23279,12 +23280,8 @@ labor.gov.	10800	IN	NS	a5-64.akam.net.
 labor.gov.	10800	IN	NS	a6-65.akam.net.
 labor.gov.	10800	IN	NS	a7-66.akam.net.
 labor.gov.	10800	IN	NS	a1-165.akam.net.
-lacahsa.gov.	10800	IN	NS	ns11.constellix.com.
-lacahsa.gov.	10800	IN	NS	ns21.constellix.com.
-lacahsa.gov.	10800	IN	NS	ns31.constellix.net.
-lacahsa.gov.	10800	IN	NS	ns41.constellix.net.
-lacahsa.gov.	10800	IN	NS	ns51.constellix.net.
-lacahsa.gov.	10800	IN	NS	ns61.constellix.net.
+lacahsa.gov.	10800	IN	NS	harlan.ns.cloudflare.com.
+lacahsa.gov.	10800	IN	NS	tani.ns.cloudflare.com.
 lacera.gov.	10800	IN	NS	tara.ns.cloudflare.com.
 lacera.gov.	10800	IN	NS	marek.ns.cloudflare.com.
 laceywa.gov.	10800	IN	NS	ns-549.awsdns-04.net.
@@ -31922,6 +31919,10 @@ pclob.gov.	10800	IN	NS	dns4.gsa.gov.
 pclob.gov.	10800	IN	NS	dns3.gsa.gov.
 pcpao.gov.	10800	IN	NS	ns4.level3.net.
 pcpao.gov.	10800	IN	NS	ns3.level3.net.
+pcpsbla.gov.	10800	IN	NS	ns-476.awsdns-59.com.
+pcpsbla.gov.	10800	IN	NS	ns-611.awsdns-12.net.
+pcpsbla.gov.	10800	IN	NS	ns-1161.awsdns-17.org.
+pcpsbla.gov.	10800	IN	NS	ns-1693.awsdns-19.co.uk.
 pdemud1.gov.	10800	IN	NS	zod.ns.cloudflare.com.
 pdemud1.gov.	10800	IN	NS	aitana.ns.cloudflare.com.
 pdmonroewi.gov.	10800	IN	NS	ns-1527.awsdns-62.org.
