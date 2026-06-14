@@ -1,6 +1,6 @@
 ;;
 ;; Domain:     gov.
-;; Exported:   2026-06-13 08:13:33
+;; Exported:   2026-06-14 08:28:24
 ;;
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -24,7 +24,7 @@
 ;;
 ;; Use at your own risk.
 ;; SOA Record
-gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1781338082 3600 900 604800 300
+gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1781425442 3600 900 604800 300
 
 ;; A Records
 a1.rockrivertownship.gov.	3600	IN	A	199.34.228.75
@@ -1528,6 +1528,7 @@ chanhassenmn.gov.	3600	IN	DS	61315 8 2 52658B4D106583189ABD6C193A922D182D57C09B1
 chanhassenmn.gov.	3600	IN	DS	19564 8 2 D25871A2DFE5BD71327B94F1E185D312C64700B7A4C7E3DCF27CE6CE25F2FF97
 chanhassenmn.gov.	3600	IN	DS	61315 8 1 E1529445C49D412E70F0B4A361623142FD86C2CF
 chanhassenmn.gov.	3600	IN	DS	19564 8 1 019F6C4FB330FFA5042867CC63819B45A87166BE
+charlestoncountyschools.gov.	3600	IN	DS	3859 13 2 76804459699B5338560C73390460092EF652CEEBF76DE35E998E04D119E2C36C
 chcoc.gov.	3600	IN	DS	51431 8 2 DCF6A9F2135B1A1869B42430FA5058417C71803EF6736A83DF1870599B0338BE
 cherokeecountyks.gov.	3600	IN	DS	2371 13 2 9F4AE98AB9955D361A959C4E00CEE508F9BCB11A16BDC73292B5A0A42728D1F8
 chesterar.gov.	3600	IN	DS	2371 13 2 701B48B5A9AD3171ED55CEA1EC919C807807760E46636636BC5F993A12347A43
@@ -2826,6 +2827,7 @@ nehrp.gov.	3600	IN	DS	2371 13 2 38C872A1F3FF3A76B4DDCF4DA3DB806F4F3EED6F1FC0E1B0
 nejudicial.gov.	3600	IN	DS	44176 13 2 69CB0F6A07CAB8AA401EF2A049A552E2DA6D852A4BD3517A49FFCE3CF2C490F1
 nemi.gov.	3600	IN	DS	2371 13 2 0D12D1DADBA9F33B9F12BE507FA371939E84901D603D2FDF8A516AEEF1A68CEC
 neonetoh.gov.	3600	IN	DS	4260 13 2 AFBCA1D8E89F34A1E71EA35205A3EA1F5688EA90AF03C9A83F76342097817C87
+nepa.gov.	3600	IN	DS	2371 13 2 39583FD4EED0CFADB991C6FE2B69C51EF0E29445E6BA226A42949F431925A174
 nersc.gov.	3600	IN	DS	47494 13 2 44CB9D30AD34437D950BA9039193CD48C5C5755B7EB5CA8B2E0DC2B50D4D79B3
 networkmaryland.gov.	3600	IN	DS	2371 13 2 911BDC6C9D34AE614A6611BA188827144F990325A50957379E86DBC6234CFB79
 neup.gov.	3600	IN	DS	2371 13 2 51B77D8AE1062EB7639664FC2CE090B069CB2476ACB7BDABE5EEE5EFB40F3832
@@ -13676,6 +13678,8 @@ cyber.gov.	10800	IN	NS	a22-66.akam.net.
 cyber.gov.	10800	IN	NS	a8-65.akam.net.
 cyber.gov.	10800	IN	NS	a9-66.akam.net.
 cyber.gov.	10800	IN	NS	a1-91.akam.net.
+cybermaryland.gov.	10800	IN	NS	chuck.ns.cloudflare.com.
+cybermaryland.gov.	10800	IN	NS	tiffany.ns.cloudflare.com.
 cybersafetn.gov.	10800	IN	NS	ns0088.secondary.cloudflare.com.
 cybersafetn.gov.	10800	IN	NS	ns0186.secondary.cloudflare.com.
 cybersecurity.gov.	10800	IN	NS	a1-91.akam.net.
@@ -21283,12 +21287,9 @@ hubbardtx.gov.	10800	IN	NS	ns40.domaincontrol.com.
 hud.gov.	10800	IN	NS	blue.foundationdns.com.
 hud.gov.	10800	IN	NS	blue.foundationdns.net.
 hud.gov.	10800	IN	NS	blue.foundationdns.org.
-hudhomestore.gov.	10800	IN	NS	hudgate.hud.gov.
-hudhomestore.gov.	10800	IN	NS	hudgater.hud.gov.
-hudhomestore.gov.	10800	IN	NS	ns1.hud.gov.
-hudhomestore.gov.	10800	IN	NS	ns3.hud.gov.
-hudhomestore.gov.	10800	IN	NS	ns4.hud.gov.
-hudhomestore.gov.	10800	IN	NS	ns2.hud.gov.
+hudhomestore.gov.	10800	IN	NS	blue.foundationdns.com.
+hudhomestore.gov.	10800	IN	NS	blue.foundationdns.net.
+hudhomestore.gov.	10800	IN	NS	blue.foundationdns.org.
 hudoig.gov.	10800	IN	NS	blue.foundationdns.com.
 hudoig.gov.	10800	IN	NS	blue.foundationdns.net.
 hudoig.gov.	10800	IN	NS	blue.foundationdns.org.
@@ -29177,8 +29178,9 @@ neoshomo.gov.	10800	IN	NS	ns4-34.azure-dns.info.
 neoshomo.gov.	10800	IN	NS	ns1-34.azure-dns.com.
 neoshomo.gov.	10800	IN	NS	ns2-34.azure-dns.net.
 neoshomo.gov.	10800	IN	NS	ns3-34.azure-dns.org.
-nepa.gov.	10800	IN	NS	fulcrum.doe.gov.
-nepa.gov.	10800	IN	NS	foxbat.doe.gov.
+nepa.gov.	10800	IN	NS	blue.foundationdns.com.
+nepa.gov.	10800	IN	NS	blue.foundationdns.net.
+nepa.gov.	10800	IN	NS	blue.foundationdns.org.
 nersc.gov.	10800	IN	NS	adns2.es.net.
 nersc.gov.	10800	IN	NS	adns.lbl.gov.
 nersc.gov.	10800	IN	NS	adns1.es.net.
