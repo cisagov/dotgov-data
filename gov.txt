@@ -1,6 +1,6 @@
 ;;
 ;; Domain:     gov.
-;; Exported:   2026-06-14 08:28:24
+;; Exported:   2026-06-15 09:17:16
 ;;
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -24,7 +24,7 @@
 ;;
 ;; Use at your own risk.
 ;; SOA Record
-gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1781425442 3600 900 604800 300
+gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1781514616 3600 900 604800 300
 
 ;; A Records
 a1.rockrivertownship.gov.	3600	IN	A	199.34.228.75
@@ -219,7 +219,6 @@ ns1.acton-ma.gov.	3600	IN	A	74.94.150.194
 ns1.acwdca.gov.	3600	IN	A	206.121.81.98
 ns1.albanycountywy.gov.	3600	IN	A	185.136.96.200
 ns1.albanyoregon.gov.	3600	IN	A	69.1.99.33
-ns1.ama.gov.	3600	IN	A	162.159.0.233
 ns1.aoc.gov.	3600	IN	A	161.197.102.14
 ns1.artrs.gov.	3600	IN	A	205.251.194.245
 ns1.ashlandoregon.gov.	3600	IN	A	66.241.64.11
@@ -473,7 +472,6 @@ ns2.acwdca.gov.	3600	IN	A	50.237.117.86
 ns2.alacourt.gov.	3600	IN	A	72.159.229.134
 ns2.albanycountywy.gov.	3600	IN	A	185.136.97.200
 ns2.albanyoregon.gov.	3600	IN	A	69.1.99.32
-ns2.ama.gov.	3600	IN	A	162.159.1.245
 ns2.annapolis.gov.	3600	IN	A	96.244.10.85
 ns2.aoc.gov.	3600	IN	A	161.197.100.14
 ns2.arklegaudit.gov.	3600	IN	A	170.94.21.11
@@ -954,7 +952,6 @@ ns01.treasury.gov.	3600	IN	AAAA	2400:cb00:2049:1::a29f:e9
 ns-02.noaa.gov.	3600	IN	AAAA	2610:20:9300:0:137:75:112:7
 ns02.treasury.gov.	3600	IN	AAAA	2400:cb00:2049:1::a29f:1f5
 ns-03.noaa.gov.	3600	IN	AAAA	2610:20:9300:1:137:75:112:58
-ns1.ama.gov.	3600	IN	AAAA	2400:cb00:2049:1::a29f:e9
 ns1.ayudaconmibanco.gov.	3600	IN	AAAA	2400:cb00:2049:1::a29f:e9
 ns1.bankanswers.gov.	3600	IN	AAAA	2400:cb00:2049:1::a29f:e9
 ns1.bankcustomerassistance.gov.	3600	IN	AAAA	2400:cb00:2049:1::a29f:e9
@@ -1043,7 +1040,6 @@ ns1.williamsfieldil.gov.	3600	IN	AAAA	2600:1800::1:1f
 ns1.wizard.gov.	3600	IN	AAAA	2400:cb00:2049:1::a29f:e9
 ns1.workplace.gov.	3600	IN	AAAA	2400:cb00:2049:1::a29f:e9
 ns1x.va.gov.	3600	IN	AAAA	2600:8000:0:5::151
-ns2.ama.gov.	3600	IN	AAAA	2400:cb00:2049:1::a29f:1f5
 ns2.ayudaconmibanco.gov.	3600	IN	AAAA	2400:cb00:2049:1::a29f:1f5
 ns2.bankanswers.gov.	3600	IN	AAAA	2400:cb00:2049:1::a29f:1f5
 ns2.bankcustomerassistance.gov.	3600	IN	AAAA	2400:cb00:2049:1::a29f:1f5
@@ -1242,8 +1238,7 @@ alsteadnh.gov.	3600	IN	DS	30331 13 2 CEF496DA4FA091A92B46A1FAAB877A0F29846980E32
 alzheimers.gov.	3600	IN	DS	52919 8 2 5BB7B7F20C8C55C3E9F1C06E04C06066D5B497095675DB2F31EE3182AB5A3986
 alzheimers.gov.	3600	IN	DS	352 8 2 5169CDD00A1D8ECE95EF049B98ADF4AF2BBF3B34929D38EFE6491C271B4CB8C6
 amadorcounty.gov.	3600	IN	DS	2371 13 2 53C041ECB99369746E5AF096CF002D85B32C55E5B5FC6A4D6642DD581CA9F171
-ama.gov.	3600	IN	DS	21285 13 2 920C12073857C078CDF64DC72BA083F4ADF4ACF21B09021F3D4C5C65335BD6D7
-ama.gov.	3600	IN	DS	2371 13 2 3FA8054C53B32D5C4D54984BC26B37FB18CD740EE5B267F14AF8D040092DCFB8
+ama.gov.	3600	IN	DS	9828 13 2 5E1129EDF13D1F987059505EBD226085265979801931A10D644F6D49FCF4319D
 amberalert.gov.	3600	IN	DS	2371 13 2 A4C63D51F2C735E2050B3A420D8A69D68DC99C24163448C348B992A28207C3FA
 americabydesign.gov.	3600	IN	DS	2371 13 2 1DE60E30993D1B3AE98122384635947CBA7ACD4A5EA8779B7DF9B6D135E911BB
 america.gov.	3600	IN	DS	5581 8 2 35C5FCA162CE5CA674EEF7AA39B82529EF3ECE5F597899E72F0D4632302B9853
@@ -4758,10 +4753,8 @@ amadorcounty.gov.	10800	IN	NS	alec.ns.cloudflare.com.
 amadorcounty.gov.	10800	IN	NS	karsyn.ns.cloudflare.com.
 amadorwater.gov.	10800	IN	NS	ns89.worldnic.com.
 amadorwater.gov.	10800	IN	NS	ns90.worldnic.com.
-ama.gov.	10800	IN	NS	tadeo.ns.cloudflare.com.
-ama.gov.	10800	IN	NS	margot.ns.cloudflare.com.
-ama.gov.	10800	IN	NS	ns1.ama.gov.
-ama.gov.	10800	IN	NS	ns2.ama.gov.
+ama.gov.	10800	IN	NS	ns2.usda.gov.
+ama.gov.	10800	IN	NS	ns1.usda.gov.
 amalgautah.gov.	10800	IN	NS	alec.ns.cloudflare.com.
 amalgautah.gov.	10800	IN	NS	melina.ns.cloudflare.com.
 amarillo.gov.	10800	IN	NS	roan.ns.cloudflare.com.
@@ -33582,10 +33575,10 @@ pppo.gov.	10800	IN	NS	ns2.pppo.gov.
 pppo.gov.	10800	IN	NS	ns1.pppo.gov.
 pprfd.gov.	10800	IN	NS	lily.ns.cloudflare.com.
 pprfd.gov.	10800	IN	NS	bryce.ns.cloudflare.com.
-prairiecityor.gov.	10800	IN	NS	ns-389.awsdns-48.com.
-prairiecityor.gov.	10800	IN	NS	ns-815.awsdns-37.net.
-prairiecityor.gov.	10800	IN	NS	ns-1386.awsdns-45.org.
-prairiecityor.gov.	10800	IN	NS	ns-2037.awsdns-62.co.uk.
+prairiecityor.gov.	10800	IN	NS	ns-231.awsdns-28.com.
+prairiecityor.gov.	10800	IN	NS	ns-894.awsdns-47.net.
+prairiecityor.gov.	10800	IN	NS	ns-1181.awsdns-19.org.
+prairiecityor.gov.	10800	IN	NS	ns-1751.awsdns-26.co.uk.
 prairiecountyar.gov.	10800	IN	NS	dns5.name-services.com.
 prairiecountyar.gov.	10800	IN	NS	dns1.name-services.com.
 prairiecountyar.gov.	10800	IN	NS	dns2.name-services.com.
