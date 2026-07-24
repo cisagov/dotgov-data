@@ -13,21 +13,21 @@ jobs:
       contents: write
     steps:
       - name: Setup deno
-        uses: denoland/setup-deno@main
+        uses: denoland/setup-deno@ff4860f9d7236f320afa0f82b7e6457384805d05 # pinned from main
         with:
           deno-version: v1.x
       - name: Check out repo
-        uses: actions/checkout@v2
+        uses: actions/checkout@ee0669bd1cc54295c223e0bb666b733df41de1c5 # v2.7.0
       - name: Pull from main
         run: |-
           git pull
       - name: Fetch data
-        uses: githubocto/flat@v3
+        uses: githubocto/flat@cea5ee43fce40ef71501bf5724a00d45db11641d # v3.4.0
         with:
           http_url: https://manage.get.gov/api/v1/get-report/current-federal
           downloaded_filename: current-federal.csv
       - name: Fetch data
-        uses: githubocto/flat@v3
+        uses: githubocto/flat@cea5ee43fce40ef71501bf5724a00d45db11641d # v3.4.0
         with:
           http_url: https://manage.get.gov/api/v1/get-report/current-full
           downloaded_filename: current-full.csv
