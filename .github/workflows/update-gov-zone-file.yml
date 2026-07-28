@@ -1,11 +1,9 @@
 name: Update gov.txt from zone file
 run-name: Update gov.txt from zone file
-
 on:
   workflow_dispatch: {}
   schedule:
     - cron: "5 7 * * *"
-
 jobs:
   update_zone_file:
     runs-on: ubuntu-latest
@@ -13,7 +11,7 @@ jobs:
       contents: write
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
       - name: Initialize git config and sets pull to merge
         run: |-
           git config user.name "botgov"
@@ -24,12 +22,25 @@ jobs:
           CLOUDFLARE_ZONE: '${{ secrets.CLOUDFLARE_ZONE }}'
           CLOUDFLARE_TOKEN: '${{ secrets.CLOUDFLARE_TOKEN }}'
         run: |
+          set -e
           chmod +x ./scripts/download_zone_file.sh
-          ./scripts/download_zone_file.sh '${{ env.CLOUDFLARE_ZONE }}' '${{ env.CLOUDFLARE_TOKEN }}' > gov.txt
+          # The script reads CLOUDFLARE_ZONE / CLOUDFLARE_TOKEN from the env
+          # block above, so no secrets are passed on the command line.
+          # Write to a temp file first; only replace gov.txt if the script
+          # succeeds, so a failed fetch never clobbers the good file.
+          ./scripts/download_zone_file.sh > gov.txt.new
+          mv gov.txt.new gov.txt
         shell: sh
       # Push daily zone file to branch only if a diff is found
       - name: If pulled data has changes, commit and push changes to zone file.
         run: |-
+          # Defense in depth: refuse to commit an implausibly small gov.txt
+          # even if a bad file somehow slipped past the download script.
+          lines=$(wc -l < gov.txt)
+          if [ "$lines" -lt 1000 ]; then
+            echo "gov.txt only $lines lines; refusing to commit" >&2
+            exit 1
+          fi
           git add gov.txt
           timestamp=$(date -u)
           git commit -m "Update zone file ${timestamp}" || exit 0
