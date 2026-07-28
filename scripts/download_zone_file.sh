@@ -14,6 +14,9 @@ trap 'rm -f "$tmp"' EXIT
 #                      so we can log Cloudflare's error message.
 #   --retry ...      : ride out transient 5xx / network blips.
 #   --connect-timeout / --max-time : never hang a scheduled job forever.
+#
+# Capture the status code (--write-out) in http_code while the body goes to
+# $tmp (--output); the trailing || block runs only if curl exits non-zero.
 http_code="$(
   curl --silent --show-error --location \
        --fail-with-body \
