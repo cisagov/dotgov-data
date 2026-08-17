@@ -1,6 +1,6 @@
 ;;
 ;; Domain:     gov.
-;; Exported:   2026-08-16 07:38:32
+;; Exported:   2026-08-17 07:56:58
 ;;
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -24,7 +24,7 @@
 ;;
 ;; Use at your own risk.
 ;; SOA Record
-gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1786865522 3600 900 604800 300
+gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1786953016 3600 900 604800 300
 
 ;; A Records
 a1.domainops.gov.	3600	IN	A	162.159.8.76
@@ -2818,6 +2818,7 @@ newingtonnh.gov.	3600	IN	DS	2371 13 2 35028757E05E830B00B2DF6C424442833186DB2D86
 newportri.gov.	3600	IN	DS	32542 8 2 C0FA1DA3C845F6CC3AA37335961702F51AC4273062BBB045BC0DE06001B48F43
 newrussiatownship-oh.gov.	3600	IN	DS	2371 13 1 A973629C1393DDCD4914DFF9966C04C3538B1541
 newrussiatownship-oh.gov.	3600	IN	DS	2371 13 2 1E9FEAECDB4A95BA18667D0B65DD16572BF0C7C15C92B794A4CD697D74B3050B
+newsquare-ny.gov.	3600	IN	DS	2371 13 2 93C1B6251FA88BA49D878C03739D69D81B7B6EE195A34D1E3DAA19220A81BA5C
 newtoncountyga.gov.	3600	IN	DS	2371 13 2 3BDCEEB826545E40A4422894ACC0796960F0A58BD98DF35052E2D7706D845F04
 nextlegends.gov.	3600	IN	DS	29526 13 2 B0E13EEF23B62154AC37BEBD5CE50AF9C71F8D4BA400578C70EDD784792FA15E
 nfpors.gov.	3600	IN	DS	2371 13 2 CFCF396C103BBDC3273B64A77CB5647717E3E07886BF9BC84AD3D6B436416980
@@ -18552,8 +18553,10 @@ garvincountyok.gov.	10800	IN	NS	ns22.digicertdns.com.
 garvincountyok.gov.	10800	IN	NS	ns23.digicertdns.net.
 garvincountysheriff.gov.	10800	IN	NS	eugene.ns.cloudflare.com.
 garvincountysheriff.gov.	10800	IN	NS	paloma.ns.cloudflare.com.
-garwiniowa.gov.	10800	IN	NS	megan.ns.cloudflare.com.
-garwiniowa.gov.	10800	IN	NS	sean.ns.cloudflare.com.
+garwiniowa.gov.	10800	IN	NS	ns4.bdhtek.com.
+garwiniowa.gov.	10800	IN	NS	ns3.bdhtek.com.
+garwiniowa.gov.	10800	IN	NS	ns1.bdhtek.com.
+garwiniowa.gov.	10800	IN	NS	ns2.bdhtek.com.
 garycommoncouncil.gov.	10800	IN	NS	ns1.dns-parking.com.
 garycommoncouncil.gov.	10800	IN	NS	ns2.dns-parking.com.
 gary.gov.	10800	IN	NS	pdns06.domaincontrol.com.
@@ -20983,6 +20986,8 @@ highfillarkansas.gov.	10800	IN	NS	ns22.digicertdns.com.
 highfillarkansas.gov.	10800	IN	NS	ns23.digicertdns.net.
 highfillarkansas.gov.	10800	IN	NS	ns24.digicertdns.net.
 highfillarkansas.gov.	10800	IN	NS	ns25.digicertdns.net.
+highforesttownshipmn.gov.	10800	IN	NS	yahir.ns.cloudflare.com.
+highforesttownshipmn.gov.	10800	IN	NS	nola.ns.cloudflare.com.
 highlandbeachfl.gov.	10800	IN	NS	ns67.hxc.zone.
 highlandbeachfl.gov.	10800	IN	NS	ns87.hxc.zone.
 highlandca.gov.	10800	IN	NS	dns3.civicplus.com.
@@ -27818,6 +27823,8 @@ missionhillsks.gov.	10800	IN	NS	dns3.civicplus.com.
 missionhillsks.gov.	10800	IN	NS	dns4.civicplus.com.
 missionsd.gov.	10800	IN	NS	melany.ns.cloudflare.com.
 missionsd.gov.	10800	IN	NS	ignat.ns.cloudflare.com.
+missiontownshipmn.gov.	10800	IN	NS	dana.ns.cloudflare.com.
+missiontownshipmn.gov.	10800	IN	NS	jakub.ns.cloudflare.com.
 missionviejo.gov.	10800	IN	NS	ns2.dnsmadeeasy.com.
 missionviejo.gov.	10800	IN	NS	ns3.dnsmadeeasy.com.
 missionviejo.gov.	10800	IN	NS	ns4.dnsmadeeasy.com.
@@ -29875,8 +29882,8 @@ newrussiatownship-oh.gov.	10800	IN	NS	jim.ns.cloudflare.com.
 newrussiatownship-oh.gov.	10800	IN	NS	kay.ns.cloudflare.com.
 newshorehamri.gov.	10800	IN	NS	dns3.civicplus.com.
 newshorehamri.gov.	10800	IN	NS	dns4.civicplus.com.
-newsquare-ny.gov.	10800	IN	NS	yew.ns.cloudflare.com.
-newsquare-ny.gov.	10800	IN	NS	sydney.ns.cloudflare.com.
+newsquare-ny.gov.	10800	IN	NS	clarissa.ns.cloudflare.com.
+newsquare-ny.gov.	10800	IN	NS	colin.ns.cloudflare.com.
 newtoncountyga.gov.	10800	IN	NS	theo.ns.cloudflare.com.
 newtoncountyga.gov.	10800	IN	NS	millie.ns.cloudflare.com.
 newtoncountymo.gov.	10800	IN	NS	ns3-09.azure-dns.org.
@@ -42951,6 +42958,8 @@ turneroregon.gov.	10800	IN	NS	dns2.easydns.net.
 turneroregon.gov.	10800	IN	NS	dns3.easydns.ca.
 turtlecreektwpwcoh.gov.	10800	IN	NS	ns2.shumakergrouphosting.com.
 turtlecreektwpwcoh.gov.	10800	IN	NS	ns1.shumakergrouphosting.com.
+turtlelakebeltramimn.gov.	10800	IN	NS	megan.ns.cloudflare.com.
+turtlelakebeltramimn.gov.	10800	IN	NS	nolan.ns.cloudflare.com.
 turtlelaketwpcassco.gov.	10800	IN	NS	ns-71.awsdns-08.com.
 turtlelaketwpcassco.gov.	10800	IN	NS	ns-966.awsdns-56.net.
 turtlelaketwpcassco.gov.	10800	IN	NS	ns-1137.awsdns-14.org.
