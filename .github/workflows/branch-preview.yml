@@ -1,0 +1,63 @@
+name: Branch preview
+
+on:
+  push:
+    branches-ignore: [main]
+    paths:
+      - 'index.html'
+#      - '*.csv' # Removing the .csv trigger until the initial deployment
+  delete:
+
+concurrency: preview-${{ github.event.ref || github.ref_name }}
+
+jobs:
+  deploy-preview:
+    if: github.event_name == 'push'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Compute safe branch slug
+        id: slug
+        env:
+          REF_NAME: ${{ github.ref_name }}
+        run: echo "slug=$(echo "$REF_NAME" | tr '/' '-')" >> "$GITHUB_OUTPUT"
+
+      - name: Deploy preview
+        id: preview
+        uses: rossjrw/pr-preview-action@ffa7509e91a3ec8dfc2e5536c4d5c1acdf7a6de9 # v1.8.1
+        with:
+          source-dir: ./_site
+          preview-branch: gh-pages
+          action: deploy
+          pr-number: ${{ steps.slug.outputs.slug }}
+          comment: false
+          qr-code: false
+
+      - name: Show preview URL
+        run: echo "Preview available at ${{ steps.preview.outputs.preview-url }}" >> "$GITHUB_STEP_SUMMARY"
+
+  remove-preview:
+    if: github.event_name == 'delete' && github.event.ref_type == 'branch' && github.event.ref != 'main'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Compute safe branch slug
+        id: slug
+        env:
+          DELETED_REF: ${{ github.event.ref }}
+        run: echo "slug=$(echo "$DELETED_REF" | tr '/' '-')" >> "$GITHUB_OUTPUT"
+
+      - name: Remove preview
+        uses: rossjrw/pr-preview-action@ffa7509e91a3ec8dfc2e5536c4d5c1acdf7a6de9 # v1.8.1
+        with:
+          preview-branch: gh-pages
+          action: remove
+          pr-number: ${{ steps.slug.outputs.slug }}
