@@ -37,7 +37,7 @@ Note that not all registered domains offer an online service (e.g., a website, a
 
 ### GitHub Pages
 
-This repo will publish a small data browser via GitHub Pages, so that the above-referenced .csv files can be searched, sorted, and filtered without cloning the repo.
+This repo publishes a small data browser via GitHub Pages so that the CSV files named above can be searched, sorted, and filtered without needing to clone or download anything.
 
 Key things to know:
 
