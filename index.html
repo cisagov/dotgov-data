@@ -414,6 +414,20 @@
   #data-table .tabulator-frozen-left { border-right: 2px solid var(--gov-border); }
   #data-table .tabulator-frozen-right { border-left: 2px solid var(--gov-border); }
 
+  #data-table .tabulator-edit-list-item,
+  #data-table .tabulator-edit-list-placeholder,
+  #data-table .tabulator-edit-list-group {
+    color: var(--gov-ink);
+  }
+  #data-table .tabulator-edit-list-item:hover,
+  #data-table .tabulator-edit-list-item.active {
+    background: var(--accent-fill);
+    color: var(--text-on-accent);
+  }
+  #data-table .tabulator-edit-list-group {
+    border-bottom-color: var(--gov-border);
+  }
+
   footer {
     width: 100%;
     margin: 2rem 0 0;
