@@ -2,7 +2,9 @@ name: Branch preview
 
 on:
   push:
-    branches-ignore: [main]
+    branches-ignore:
+      - main
+      - gh-pages
     paths:
       - 'index.html'
 #      - '*.csv' # Removing the .csv trigger until the initial deployment
@@ -25,6 +27,12 @@ jobs:
         env:
           REF_NAME: ${{ github.ref_name }}
         run: echo "slug=$(echo "$REF_NAME" | tr '/' '-')" >> "$GITHUB_OUTPUT"
+
+      - name: Stage site files
+        run: |
+          mkdir -p _site
+          cp index.html _site/
+          cp *.csv _site/
 
       - name: Deploy preview
         id: preview
