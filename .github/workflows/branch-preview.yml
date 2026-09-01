@@ -7,7 +7,7 @@ on:
       - gh-pages
     paths:
       - 'index.html'
-#      - '*.csv' # Removing the .csv trigger until the initial deployment
+      - '*.csv'
   delete:
 
 concurrency: preview-${{ github.event.ref || github.ref_name }}

@@ -5,7 +5,7 @@ on:
     branches: [main]
     paths:
       - 'index.html'
-      # - '*.csv' // Omit this until index.html is added
+      - '*.csv'
   workflow_dispatch:
 
 permissions:
