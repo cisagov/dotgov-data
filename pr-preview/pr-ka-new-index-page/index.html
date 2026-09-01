@@ -525,7 +525,7 @@
 
     <div class="control-group">
       <label>&nbsp;</label>
-      <button type="button" class="primary" id="download-btn">Download filtered CSV</button>
+      <button type="button" class="primary" id="download-btn">Download CSV</button>
     </div>
   </div>
 
@@ -592,14 +592,10 @@
     window.history.replaceState({}, '', url);
   }
 
-  // Repo this page is meant to live in. Used both to discover the list of
-  // CSV files (via the GitHub API) and to build raw.githubusercontent.com
-  // URLs while USE_RAW_GITHUB_URLS is on.
-
   // Canonical production repo. Used as the fallback if the page can't detect a different repo from the URL
   var PRODUCTION_REPO = {owner: 'cisagov', repo: 'dotgov-data', branch: 'main'};
 
-  // Detects which repo this deployment belongs to based on URL, so that the file will work in forms, without editing a hardcoded repo name and owner details
+  // Detects which repo this deployment belongs to based on URL, so that the file will work in forks, without editing a hardcoded repo name and owner details
 
   function detectRepoContext() {
     var host = window.location.hostname;
