@@ -173,8 +173,24 @@
     color: var(--text-on-accent);
   }
 
+  /* Skip link: off-screen until focused, then pinned to the top-left. */
+  .usa-skipnav {
+    position: absolute;
+    top: -3rem;
+    left: 0;
+    z-index: 100;
+    padding: 0.5rem 1rem;
+    background: var(--gov-white);
+    color: var(--gov-blue);
+    font-weight: 600;
+    transition: top 0.15s ease-in-out;
+  }
+  .usa-skipnav:focus {
+    top: 0;
+  }
+
   .page-intro {
-    padding: 1.75rem 2rem 0.5rem;
+    padding: 0.25rem 0 0.75rem;
   }
   .page-intro .eyebrow {
     text-transform: uppercase;
@@ -414,6 +430,10 @@
   #data-table .tabulator-frozen-left { border-right: 2px solid var(--gov-border); }
   #data-table .tabulator-frozen-right { border-left: 2px solid var(--gov-border); }
 
+  #data-table .tabulator-paginator label {
+    color: var(--gov-ink);
+  }
+
   #data-table .tabulator-edit-list-item,
   #data-table .tabulator-edit-list-placeholder,
   #data-table .tabulator-edit-list-group {
@@ -440,7 +460,7 @@
   @media (max-width: 640px) {
     .usa-nav-container { padding: 0 1rem; }
     .usa-nav { margin-left: 0; }
-    .page-intro { padding: 1.5rem 1rem 0.5rem; }
+    .page-intro { padding: 0.25rem 0 0.75rem; }
     .page-intro h1 { font-size: 1.35rem; }
     main, footer { padding-left: 1rem; padding-right: 1rem; }
     .controls { flex-direction: column; align-items: stretch; }
@@ -477,13 +497,13 @@
   </div>
 </div>
 
+<main>
+
 <div class="page-intro">
   <p class="eyebrow">Public data</p>
-  <h1 id="main-content">.gov Registry Data<span id="h1-nonproduction-tag" hidden> — Non-Production Copy</span></h1>
+  <h1 id="main-content" tabindex="-1">.gov Registry Data<span id="h1-nonproduction-tag" hidden> — Non-Production Copy</span></h1>
   <p>Search, sort, and filter the public list of registered .gov domains, published daily by the .gov registry. Data is read directly from the public GitHub repository — nothing is uploaded or stored elsewhere.</p>
 </div>
-
-<main>
 
   <div class="controls">
     <div class="control-group">
