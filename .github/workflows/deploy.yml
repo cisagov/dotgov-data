@@ -29,4 +29,4 @@ jobs:
         with:
           branch: gh-pages
           folder: _site
-          clean-exclude: pr-preview # don't wipe out active branch previews
+          clean-exclude: pr-preview # This folder is used by the rossjrw/pr-preview-action for branch previews, so exclude here so we don't wipe out active branch previews
