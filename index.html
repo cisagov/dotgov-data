@@ -519,8 +519,8 @@
   var activeFilterCount = 0; // Track whether any filters are applied
 
   // Set the page size options. 'True' is the value for an "all" option
-  var PAGE_SIZE_OPTIONS = [25, 50, 100, 250, 1000, 5000, true] 
-  var DEFAULT_PAGE_SIZE = 100
+  var PAGE_SIZE_OPTIONS = [25, 50, 100, 250, 1000, 5000, true];
+  var DEFAULT_PAGE_SIZE = 100;
 
   // Allow ?pageSize= in the URL so page size parameters can be bookmarked
   // or shared. Any positive integer works. Values that aren't a positive
@@ -566,7 +566,7 @@
     return PRODUCTION_REPO;
   }
 
-  var REPO_CONTEXT= detectRepoContext();
+  var REPO_CONTEXT = detectRepoContext();
   var IS_PRODUCTION_REPO = 
     REPO_CONTEXT.owner === PRODUCTION_REPO.owner && REPO_CONTEXT.repo === PRODUCTION_REPO.repo;
 
@@ -596,8 +596,8 @@
       // page lives there. Swap it for the actual hostname instead.
       document.getElementById('site-title-link').textContent = window.location.hostname;
       document.title = '[' + REPO_CONTEXT.repo + '] ' + document.title;
-      }
-    })();
+    }
+  })();
 
   // TESTING TOGGLE: while iterating locally (including opening this file
   // directly via file://), fetch CSVs from raw.githubusercontent.com instead
