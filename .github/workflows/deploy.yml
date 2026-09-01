@@ -1,0 +1,32 @@
+name: Deploy to gh-pages (branch)
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'index.html'
+      # - '*.csv' // Omit this until index.html is added
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Stage site files
+        run: |
+          mkdir -p _site
+          cp index.html _site/
+          cp *.csv _site/
+
+      - name: Deploy to gh-pages
+        uses: JamesIves/github-pages-deploy-action@fa24774553152dd7873cd16ebd8d959b010c5445 # v4.9.0
+        with:
+          branch: gh-pages
+          folder: _site
+          clean-exclude: pr-preview # This folder is used by the rossjrw/pr-preview-action for branch previews, so exclude here so we don't wipe out active branch previews
