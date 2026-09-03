@@ -972,6 +972,25 @@
     loadDataset(fileSelect);
   });
 
+  var missingLibraries = [];
+  if (typeof Tabulator === 'undefined') missingLibraries.push('Tabulator');
+  if (typeof Papa === 'undefined') missingLibraries.push('PapaParse');
+
+  if (missingLibraries.length) {
+    showMessage(
+      'This page could not load ' + missingLibraries.join('and') +
+      'from the CDN, so the data viewer cannnot run. This is usually a ' +
+      'networ issue or a browser extension blocking scripts. Try reloading, ' +
+      'or check the browser console for details.',
+      'error'
+    );
+    fileSelect.disabled = true;
+    searchInput.disabled = true;
+    clearBtn.disabled = true;
+    downloadBtn.disabled = true;
+    return;
+  }
+
   showMessage('Looking up available CSV files in the repository…', 'loading');
   discoverCsvFiles()
     .then(function (csvFiles) {
