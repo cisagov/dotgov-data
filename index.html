@@ -592,6 +592,19 @@
     window.history.replaceState({}, '', url);
   }
 
+  // Allow ?file= in the URL to allow linking to specific datasets. Unrecognized
+  // values will load the default file
+  function resolveRequestedFile () {
+    return new URLSearchParams(window.location.search).get('file');
+  }
+
+  // Keep the URL in sync when the dataset is changed in the dropdown
+  function syncFileToURL(name) {
+    var url = new URL(window.location.href);
+    url.searchParams.set('file', name);
+    window.history.replaceState({}, '', url);
+  }
+
   // Canonical production repo. Used as the fallback if the page can't detect a different repo from the URL
   var PRODUCTION_REPO = {owner: 'cisagov', repo: 'dotgov-data', branch: 'main'};
 
@@ -709,9 +722,22 @@
     });
     fileSelect.disabled = false;
 
-    // Prefer current-full.csv as the default if present, otherwise first file
-    var defaultIndex = csvFiles.findIndex(function (f) { return f.name === 'current-full.csv'; });
-    if (defaultIndex > -1) fileSelect.selectedIndex = defaultIndex;
+    // ?file= in the URL is used if it matches an existing file; otherwise current-full;
+    // otherwise the first file in the list.
+    var requestedFile = resolveRequestedFile();
+    var requestedIndex = requestedFile
+      ? csvFiles.findIndex(function (f) { return f.name === requestedFile; })
+      : -1;
+
+    if (requestedIndex > -1) {
+      fileSelect.selectedIndex = requestedIndex;
+    } else {
+      if (requestedFile) {
+        console.warn('Ignoring unknown ?file= value: ' + requestedFile);
+      }
+      var defaultIndex = csvFiles.findIndex(function (f) { return f.name === 'current-full.csv'; });
+      if (defaultIndex > -1) fileSelect.selectedIndex = defaultIndex;
+    }
   }
 
   function showMessage(text, type) {
@@ -969,6 +995,7 @@
   });
 
   fileSelect.addEventListener('change', function () {
+    syncFileToURL(fileSelect.value);
     loadDataset(fileSelect);
   });
 
