@@ -1,0 +1,1013 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>data.get.gov</title>
+
+<!-- Tabulator (MIT) — sortable/filterable table -->
+<link
+  href="https://cdnjs.cloudflare.com/ajax/libs/tabulator/5.6.1/css/tabulator.min.css"
+  rel="stylesheet"
+  integrity="sha512-jLb/RLCS9fPpWsd4wS85pUWxq0SbF31hG8qUlJWZiXmnbxMDEsa5WX5gO8f2Taiy+4gAirFyrvvJycfu6O5/wA=="
+  crossorigin="anonymous">
+
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/tabulator/5.6.1/js/tabulator.min.js"
+  integrity="sha512-CHSK/9oerYotZKhsQnrdOPuk6HZ1WwVt8qV3dVZioe8dP9fcVJ41bjmh2pzBMQgl7mZq8yBSESeQ3v+aubG93A=="
+  crossorigin="anonymous"></script>
+
+<!-- PapaParse (MIT) — CSV parsing -->
+
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"
+  integrity="sha512-dfX5uYVXzyU8+KHqj8bjo7UkOdg18PaOtpa48djpNbZHwExddghZ+ZmzWT06R5v6NSk3ZUfsH6FNEDepLx9hPQ=="
+  crossorigin="anonymous"></script>
+
+<style>
+  :root {
+    --gov-blue: #005ea2;
+    --gov-blue-dark: #1a4480;
+    --gov-blue-darker: #162e51;
+    --gov-ink: #1b1b1b;
+    --gov-gray: #5c5c5c;
+    --gov-gray-light: #f0f0f0;
+    --gov-surface: #fafafa;
+    --gov-border: #c9c9c9;
+    --gov-white: #ffffff;
+    --gov-error: #b50909;
+    --focus-ring: #2491ff;
+
+    --accent-fill: #005ea2;
+    --accent-fill-hover: #1a4480;
+    --text-on-accent: #ffffff;
+
+    --row-hover: #eaf2fb;
+    --banner-loading-bg: #e8f3ff;
+    --banner-loading-border: #99c9ff;
+    --banner-error-bg: #f4e3e3;
+
+    color-scheme: light;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --gov-blue: #7ab8f5;
+      --gov-blue-dark: #a9d2ff;
+      --gov-blue-darker: #d7e8fb;
+      --gov-ink: #e6e6e6;
+      --gov-gray: #a0a0a0;
+      --gov-gray-light: #1f1f1f;
+      --gov-surface: #181818;
+      --gov-border: #3a3a3a;
+      --gov-white: #121212;
+      --gov-error: #ff8080;
+      --focus-ring: #6cb6ff;
+
+      --accent-fill: #1f6feb;
+      --accent-fill-hover: #388bfd;
+      --text-on-accent: #ffffff;
+
+      --row-hover: #1d2c3d;
+      --banner-loading-bg: #0f2438;
+      --banner-loading-border: #2c5a86;
+      --banner-error-bg: #3a1f1f;
+
+      color-scheme: dark;
+    }
+  }
+
+  * { box-sizing: border-box; }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Public Sans", "Helvetica Neue", Arial, sans-serif;
+    color: var(--gov-ink);
+    background: var(--gov-white);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  a { color: var(--gov-blue); }
+
+  /* ---------- USWDS-style basic header ---------- */
+  .usa-header--basic {
+    background: var(--gov-white);
+    border-bottom: 1px solid var(--gov-border);
+  }
+  .usa-nav-container {
+    max-width: none;
+    padding: 0 2rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem 2rem;
+  }
+  .usa-navbar {
+    display: flex;
+    align-items: center;
+    padding: 1rem 0;
+  }
+  .usa-logo {
+    margin: 0;
+  }
+  .usa-logo__text {
+    font-size: 1.15rem;
+    font-weight: 700;
+    line-height: 1.2;
+  }
+  .usa-logo__text a {
+    color: var(--gov-blue-darker);
+    text-decoration: none;
+  }
+  .usa-logo__text a:hover { color: var(--gov-blue); }
+  .usa-logo__tag {
+    display: block;
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--gov-gray);
+    margin-top: 0.1rem;
+  }
+  .usa-nav {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.25rem;
+    margin-left: auto;
+    padding: 0.75rem 0;
+  }
+  .usa-nav__primary {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.25rem;
+    margin: 0;
+    padding: 0;
+  }
+  .usa-nav__link {
+    color: var(--gov-blue);
+    font-weight: 600;
+    font-size: 0.9rem;
+    text-decoration: none;
+    padding-bottom: 0.15rem;
+    border-bottom: 2px solid transparent;
+  }
+  .usa-nav__link:hover {
+    color: var(--gov-blue-dark);
+    border-bottom-color: var(--gov-blue-dark);
+  }
+  .usa-button--outline {
+    display: inline-block;
+    padding: 0.45rem 0.9rem;
+    border: 2px solid var(--gov-blue);
+    border-radius: 4px;
+    color: var(--gov-blue);
+    font-weight: 600;
+    font-size: 0.85rem;
+    text-decoration: none;
+  }
+  .usa-button--outline:hover {
+    background: var(--accent-fill);
+    color: var(--text-on-accent);
+  }
+
+  /* Skip link: off-screen until focused, then pinned to the top-left. */
+  .usa-skipnav {
+    position: absolute;
+    top: -3rem;
+    left: 0;
+    z-index: 100;
+    padding: 0.5rem 1rem;
+    background: var(--gov-white);
+    color: var(--gov-blue);
+    font-weight: 600;
+    transition: top 0.15s ease-in-out;
+  }
+  .usa-skipnav:focus {
+    top: 0;
+  }
+
+  .page-intro {
+    padding: 0.25rem 0 0.75rem;
+  }
+  .page-intro .eyebrow {
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-size: 0.72rem;
+    font-weight: 700;
+    color: var(--gov-blue);
+    margin: 0 0 0.35rem;
+  }
+  .page-intro h1 {
+    margin: 0 0 0.5rem;
+    font-size: 1.7rem;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    color: var(--gov-blue-darker);
+  }
+  .page-intro h1 #h1-nonproduction-tag {
+    color: #d54309;
+    font-weight: 600;
+  }
+  .page-intro p {
+    margin: 0;
+    max-width: 72ch;
+    color: var(--gov-gray);
+    font-size: 0.95rem;
+    line-height: 1.55;
+  }
+
+  /* USWDS usa-alert--error colors, pulled from the actual USWDS package
+     rather than improvised — these intentionally stay fixed regardless of
+     light/dark mode, matching how the real component behaves (USWDS alerts
+     aren't theme-adaptive). */
+  #non-production-banner {
+    background: #f4e3db;
+    border-left: 0.5rem solid #d54309;
+    color: #1b1b1b;
+  }
+
+  #non-production-banner .usa-alert__body {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.75rem 2rem;
+  }
+
+  #non-production-banner .usa-alert__icon {
+    flex-shrink: 0;
+    width: 1.5rem;
+    height: 1.5rem;
+    fill: #1b1b1b;
+  }
+
+  #non-production-banner .usa-alert__text {
+    margin: 0;
+    font-size:  0.9rem;
+    font-weight: 600;
+  }
+
+  #non-production-banner[hidden] { display: none; }
+
+  main {
+    width: 100%;
+    margin: 0;
+    padding: 1.5rem 2rem;
+  }
+
+  .controls {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    gap: 1.25rem;
+    padding: 1rem 1.25rem;
+    border: 1px solid var(--gov-border);
+    border-radius: 6px;
+    background: var(--gov-surface);
+    margin-bottom: 1rem;
+  }
+
+  .control-group { display: flex; flex-direction: column; gap: 0.3rem; }
+  .control-group label {
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--gov-gray);
+  }
+  select, input[type="search"], button {
+    font-family: inherit;
+    font-size: 0.9rem;
+    padding: 0.5rem 0.65rem;
+    border: 1px solid var(--gov-border);
+    border-radius: 4px;
+    background: var(--gov-white);
+    color: var(--gov-ink);
+  }
+  select { min-width: 220px; }
+  input[type="search"] { min-width: 240px; }
+
+  select:focus, input:focus, button:focus, .tabulator-cell:focus {
+    outline: 3px solid var(--focus-ring);
+    outline-offset: 1px;
+  }
+
+  button.primary {
+    background: var(--accent-fill);
+    border-color: var(--accent-fill);
+    color: var(--text-on-accent);
+    font-weight: 600;
+    cursor: pointer;
+  }
+  button.primary:hover { background: var(--accent-fill-hover); }
+  button.secondary {
+    background: var(--gov-white);
+    color: var(--gov-blue);
+    font-weight: 600;
+    cursor: pointer;
+  }
+  button.secondary:hover { background: var(--gov-gray-light); }
+
+  .status-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin: 0 0 0.6rem;
+    font-size: 0.85rem;
+    color: var(--gov-gray);
+  }
+  .status-row strong { color: var(--gov-ink); }
+
+  #message-banner {
+    display: none;
+    padding: 0.75rem 1rem;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+  }
+  #message-banner.loading {
+    display: block;
+    background: var(--banner-loading-bg);
+    border: 1px solid var(--banner-loading-border);
+    color: var(--gov-blue-dark);
+  }
+  #message-banner.error {
+    display: block;
+    background: var(--banner-error-bg);
+    border: 1px solid var(--gov-error);
+    color: var(--gov-error);
+  }
+
+  #data-table { border: 1px solid var(--gov-border); border-radius: 4px; overflow: hidden; }
+
+  /* Tabulator theme tweaks to match the palette above, light or dark.
+     Rules are scoped to #data-table (the mount point) so their specificity
+     reliably beats Tabulator's own un-scoped selectors of equal class-depth
+     (e.g. its ".tabulator-header .tabulator-col" rule) — relying on
+     stylesheet load order alone was not reliable across browsers. */
+  #data-table .tabulator {
+    font-family: inherit;
+    font-size: 0.85rem;
+    border: none;
+    background: var(--gov-white);
+    color: var(--gov-ink);
+  }
+  #data-table .tabulator-header {
+    background: var(--gov-gray-light);
+    border-bottom: 2px solid var(--gov-border);
+    color: var(--gov-ink);
+  }
+  #data-table .tabulator-col {
+    background: var(--gov-gray-light);
+    border-right: 1px solid var(--gov-border);
+  }
+  #data-table .tabulator-col-title { font-weight: 700; color: var(--gov-ink); }
+  #data-table .tabulator-col-sorter { color: var(--gov-gray); }
+  #data-table .tabulator-tableholder .tabulator-table {
+    background: var(--gov-white);
+    color: var(--gov-ink);
+  }
+  #data-table .tabulator-row {
+    background: var(--gov-white);
+    border-bottom: 1px solid var(--gov-border);
+  }
+  #data-table .tabulator-row .tabulator-cell {
+    color: var(--gov-ink);
+    border-right: 1px solid var(--gov-border);
+  }
+  #data-table .tabulator-row.tabulator-row-even { background: var(--gov-surface); }
+  #data-table .tabulator-row:hover { background: var(--row-hover) !important; }
+  #data-table .tabulator-header-filter input,
+  #data-table .tabulator-header-filter select {
+    background: var(--gov-white);
+    color: var(--gov-ink);
+    border: 1px solid var(--gov-border);
+  }
+  #data-table .tabulator-footer {
+    background: var(--gov-gray-light);
+    border-top: 1px solid var(--gov-border);
+    color: var(--gov-ink);
+  }
+  #data-table .tabulator-footer .tabulator-page {
+    background: var(--gov-white);
+    color: var(--gov-blue);
+    border: 1px solid var(--gov-border);
+  }
+  #data-table .tabulator-footer .tabulator-page.active {
+    background: var(--accent-fill);
+    color: var(--text-on-accent);
+    border-color: var(--accent-fill);
+  }
+  #data-table .tabulator-footer .tabulator-page-size {
+    background: var(--gov-white);
+    color: var(--gov-ink);
+    border: 1px solid var(--gov-border);
+  }
+  #data-table .tabulator-placeholder {
+    color: var(--gov-gray);
+  }
+  #data-table .tabulator-loader {
+    background: var(--gov-white);
+    color: var(--gov-ink);
+  }
+  /* Header menu popup (freeze/unfreeze column) and frozen-column boundary */
+  #data-table .tabulator-popup-container {
+    background: var(--gov-white);
+    border: 1px solid var(--gov-border);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
+  }
+  #data-table .tabulator-menu .tabulator-menu-item {
+    color: var(--gov-ink);
+  }
+  #data-table .tabulator-menu .tabulator-menu-item:hover {
+    background: var(--row-hover);
+    cursor: pointer;
+  }
+  #data-table .tabulator-frozen-left { border-right: 2px solid var(--gov-border); }
+  #data-table .tabulator-frozen-right { border-left: 2px solid var(--gov-border); }
+
+  #data-table .tabulator-paginator label {
+    color: var(--gov-ink);
+  }
+
+  #data-table .tabulator-edit-list-item,
+  #data-table .tabulator-edit-list-placeholder,
+  #data-table .tabulator-edit-list-group {
+    color: var(--gov-ink);
+  }
+  #data-table .tabulator-edit-list-item:hover,
+  #data-table .tabulator-edit-list-item.active {
+    background: var(--accent-fill);
+    color: var(--text-on-accent);
+  }
+  #data-table .tabulator-edit-list-group {
+    border-bottom-color: var(--gov-border);
+  }
+
+  footer {
+    width: 100%;
+    margin: 2rem 0 0;
+    padding: 1rem 2rem 1.5rem;
+    border-top: 1px solid var(--gov-border);
+    font-size: 0.8rem;
+    color: var(--gov-gray);
+  }
+
+  @media (max-width: 640px) {
+    .usa-nav-container { padding: 0 1rem; }
+    .usa-nav { margin-left: 0; }
+    .page-intro { padding: 0.25rem 0 0.75rem; }
+    .page-intro h1 { font-size: 1.35rem; }
+    main, footer { padding-left: 1rem; padding-right: 1rem; }
+    .controls { flex-direction: column; align-items: stretch; }
+    select, input[type="search"] { min-width: 0; width: 100%; }
+  }
+</style>
+</head>
+<body>
+
+<a class="usa-skipnav" href="#main-content">Skip to main content</a>
+
+<header class="usa-header usa-header--basic">
+  <div class="usa-nav-container">
+    <div class="usa-navbar">
+      <div class="usa-logo">
+        <span class="usa-logo__text"><a href="index.html" title="Home" id="site-title-link">data.get.gov</a></span>
+        <span class="usa-logo__tag"><a class="repo-context" data-repo-text="spaced" data-repo-link="root" href="https://github.com/cisagov/dotgov-data" target="_blank" rel="noopener">cisagov / dotgov-data</a></span>
+      </div>
+    </div>
+    <nav class="usa-nav" aria-label="Primary navigation">
+      <ul class="usa-nav__primary">
+        <li><a class="usa-nav__link" href="https://get.gov" target="_blank" rel="noopener">get.gov</a></li>
+        <li><a class="usa-nav__link" href="https://manage.get.gov" target="_blank" rel="noopener">.gov Registrar</a></li>
+        <li><a class="usa-nav__link repo-context" href="https://github.com/cisagov/dotgov-data/issues" data-repo-link="issues" target="_blank" rel="noopener">Report an issue</a></li>
+      </ul>
+      <a class="usa-button--outline repo-context" data-repo-link="root" href="https://github.com/cisagov/dotgov-data" target="_blank" rel="noopener">View on GitHub</a>
+    </nav>
+  </div>
+</header>
+<div id="non-production-banner" class="usa-alert usa-alert--error" hidden>
+  <div class="usa-alert__body">
+  <svg xmlns="http://www.w3.org/2000/svg" class="usa-alert__icon" aria-hidden="true" focusable="false" height="24" viewBox="0 0 24 24" width="24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"/></svg>
+    <p class="usa-alert__text" id="non-production-banner-text"></p>
+  </div>
+</div>
+
+<main>
+
+<div class="page-intro">
+  <p class="eyebrow">Public data</p>
+  <h1 id="main-content" tabindex="-1">.gov Registry Data<span id="h1-nonproduction-tag" hidden> — Non-Production Copy</span></h1>
+  <p>Search, sort, and filter the public list of registered .gov domains, published daily by the .gov registry. Data is read directly from the public GitHub repository — nothing is uploaded or stored elsewhere.</p>
+</div>
+
+  <div class="controls">
+    <div class="control-group">
+      <label for="file-select">Dataset</label>
+      <select id="file-select" disabled>
+        <option value="">Loading file list…</option>
+      </select>
+    </div>
+
+    <div class="control-group" style="flex: 1;">
+      <label for="global-search">Search all columns</label>
+      <input type="search" id="global-search" placeholder="e.g. a city, agency, or domain name">
+    </div>
+
+    <div class="control-group">
+      <label>&nbsp;</label>
+      <button type="button" class="secondary" id="clear-filters-btn">Clear filters</button>
+    </div>
+
+    <div class="control-group">
+      <label>&nbsp;</label>
+      <button type="button" class="primary" id="download-btn">Download CSV</button>
+    </div>
+  </div>
+
+  <div id="message-banner" role="status" aria-live="polite"></div>
+
+  <div class="status-row">
+    <span id="row-count"></span>
+    <span id="updated-note"></span>
+  </div>
+
+  <div id="data-table" role="region" aria-label="Domain data table"></div>
+
+</main>
+
+<footer>
+  <p>This is a prototype viewer for data published in the
+    <a class="repo-context" data-repo-link="root" data-repo-text="slash" href="https://github.com/cisagov/dotgov-data" target="_blank" rel="noopener">cisagov/dotgov-data</a> repository.
+    Built with <a href="https://tabulator.info/" target="_blank" rel="noopener">Tabulator</a> and
+    <a href="https://www.papaparse.com/" target="_blank" rel="noopener">PapaParse</a>, both open source.
+    <span id="footer-production-note">To correct information about a domain you manage, sign in to the
+    <a href="https://manage.get.gov" target="_blank" rel="noopener">.gov registrar</a>.</span>
+    <span id="footer-nonproduction-note" hidden><strong>Does not contain official .gov domain information.</strong> This repo supports the .gov registry team publishing data about the .gov zone — it's used to test format and publication changes before they ship, and may include fake .gov domains. Unless you're part of that team, this repo probably isn't useful to you.</span>
+  </p>
+</footer>
+
+<script>
+(function () {
+  var fileSelect = document.getElementById('file-select');
+  var searchInput = document.getElementById('global-search');
+  var clearBtn = document.getElementById('clear-filters-btn');
+  var downloadBtn = document.getElementById('download-btn');
+  var messageBanner = document.getElementById('message-banner');
+  var rowCountEl = document.getElementById('row-count');
+  var updatedNoteEl = document.getElementById('updated-note');
+
+  var table = null;
+  var activeFilterCount = 0; // Track whether any filters are applied
+
+  // Set the page size options. 'True' is the value for an "all" option
+  var PAGE_SIZE_OPTIONS = [25, 50, 100, 250, 1000, 5000, true];
+  var DEFAULT_PAGE_SIZE = 100;
+
+  // Allow ?pageSize= in the URL so page size parameters can be bookmarked
+  // or shared. Any positive integer works. Values that aren't a positive
+  // integer just fall back to the default.
+  function resolvePageSize () {
+    var raw = new URLSearchParams(window.location.search).get('pageSize');
+    if (!raw) return DEFAULT_PAGE_SIZE;
+    if (raw.toLowerCase() === 'all') return true;
+    var n = parseInt(raw, 10);
+    return n > 0 ? n : DEFAULT_PAGE_SIZE;
+  }
+
+  // Keep the URL in sync if the size is changed in the dropdown, so the
+  // address bar is always bookmarkable. replaceState avoids adding a new
+  // history entry for every change
+  function syncPageSizeToURL(size) {
+    var url = new URL(window.location.href);
+    if (size === DEFAULT_PAGE_SIZE) {
+      url.searchParams.delete('pageSize');
+    } else {
+      url.searchParams.set('pageSize', size === true ? 'all' : size);
+    }
+    window.history.replaceState({}, '', url);
+  }
+
+  // Canonical production repo. Used as the fallback if the page can't detect a different repo from the URL
+  var PRODUCTION_REPO = {owner: 'cisagov', repo: 'dotgov-data', branch: 'main'};
+
+  // Detects which repo this deployment belongs to based on URL, so that the file will work in forks, without editing a hardcoded repo name and owner details
+
+  function detectRepoContext() {
+    var host = window.location.hostname;
+    var pathParts = window.location.pathname.split('/').filter(Boolean);
+    var githubIoMatch = host.match(/^([a-zA-Z0-9-]+)\.github\.io$/);
+
+    if (githubIoMatch && pathParts.length > 0) {
+      return { owner: githubIoMatch[1], repo: pathParts[0], branch: 'main' };
+    }
+    return PRODUCTION_REPO;
+  }
+
+  var REPO_CONTEXT = detectRepoContext();
+  var IS_PRODUCTION_REPO = 
+    REPO_CONTEXT.owner === PRODUCTION_REPO.owner && REPO_CONTEXT.repo === PRODUCTION_REPO.repo;
+
+  // Populate the elements tagged with .repo-context from the detected repo
+  (function applyRepoContext() {
+    var repoUrl = 'https://github.com/' + REPO_CONTEXT.owner + '/' + REPO_CONTEXT.repo;
+
+    document.querySelectorAll('.repo-context').forEach(function (el) {
+      var linkType = el.getAttribute('data-repo-link');
+      if (linkType === 'root') el.href = repoUrl;
+      if (linkType === 'issues') el.href = repoUrl + '/issues';
+
+      var textType = el.getAttribute('data-repo-text');
+      if (textType === 'spaced') el.textContent = REPO_CONTEXT.owner + ' / ' + REPO_CONTEXT.repo;
+      if (textType === 'slash') el.textContent = REPO_CONTEXT.owner + '/' + REPO_CONTEXT.repo;
+    });
+
+    if (!IS_PRODUCTION_REPO) {
+      var banner = document.getElementById('non-production-banner');
+      document.getElementById('non-production-banner-text').textContent = 'You are viewing a non-production repository (' + REPO_CONTEXT.owner + '/' + REPO_CONTEXT.repo + '), not the live data! This may contain fake domains and data, and should NOT be used as a reference.';
+      banner.hidden = false;
+      document.getElementById('footer-production-note').hidden = true;
+      document.getElementById('footer-nonproduction-note').hidden = false;
+      document.getElementById('h1-nonproduction-tag').hidden = false;
+      // "data.get.gov" is the real production domain — showing that name
+      // as the site's own title anywhere else would falsely imply this
+      // page lives there. Swap it for the actual hostname instead.
+      document.getElementById('site-title-link').textContent = window.location.hostname;
+      document.title = '[' + REPO_CONTEXT.repo + '] ' + document.title;
+    }
+  })();
+
+  // TESTING TOGGLE: while iterating locally (including opening this file
+  // directly via file://), fetch CSVs from raw.githubusercontent.com instead
+  // of the local/relative filenames. raw.githubusercontent.com sends
+  // "Access-Control-Allow-Origin: *", so this works even without a local
+  // server. Set this back to false before deploying to GitHub Pages, so the
+  // page reads the CSVs from the same repo/commit it's served from instead
+  // of always pointing at main.
+  var USE_RAW_GITHUB_URLS = false;
+
+  function resolveSource(selectEl) {
+    var opt = selectEl.options[selectEl.selectedIndex];
+    return USE_RAW_GITHUB_URLS ? opt.getAttribute('data-raw-url') : opt.value;
+  }
+
+  // Discover every top-level .csv file in the repo via the GitHub Contents
+  // API, so new files (beyond current-full.csv / current-federal.csv) show
+  // up automatically without editing this page. Note: this only looks at
+  // the repo root, matching where the data files currently live per the
+  // repo's README — if CSVs are ever added in subfolders, this would need
+  // to walk the git trees API recursively instead.
+  function discoverCsvFiles() {
+    var apiUrl = 'https://api.github.com/repos/' + REPO_CONTEXT.owner + '/' + REPO_CONTEXT.repo + '/contents/?ref=' + REPO_CONTEXT.branch;
+
+    return fetch(apiUrl, { headers: { Accept: 'application/vnd.github+json' } })
+      .then(function (response) {
+        if (!response.ok) {
+          throw new Error('HTTP ' + response.status + ' listing repo contents');
+        }
+        return response.json();
+      })
+      .then(function (items) {
+        var csvFiles = items
+          .filter(function (item) {
+            return item.type === 'file' && /\.csv$/i.test(item.name);
+          })
+          .map(function (item) {
+            return {
+              name: item.name,
+              rawUrl: item.download_url, // GitHub-provided raw.githubusercontent.com URL
+              size: item.size
+            };
+          })
+          .sort(function (a, b) { return a.name.localeCompare(b.name); });
+
+        if (csvFiles.length === 0) {
+          throw new Error('No .csv files found at the repo root');
+        }
+        return csvFiles;
+      });
+  }
+
+  function formatBytes(bytes) {
+    if (bytes < 1024) return bytes + ' B';
+    if (bytes < 1024 * 1024) return (bytes / 1024).toFixed(0) + ' KB';
+    return (bytes / (1024 * 1024)).toFixed(1) + ' MB';
+  }
+
+  function populateFileSelect(csvFiles) {
+    fileSelect.innerHTML = '';
+    csvFiles.forEach(function (file) {
+      var opt = document.createElement('option');
+      opt.value = file.name;
+      opt.setAttribute('data-raw-url', file.rawUrl);
+      opt.textContent = file.name + ' (' + formatBytes(file.size) + ')';
+      fileSelect.appendChild(opt);
+    });
+    fileSelect.disabled = false;
+
+    // Prefer current-full.csv as the default if present, otherwise first file
+    var defaultIndex = csvFiles.findIndex(function (f) { return f.name === 'current-full.csv'; });
+    if (defaultIndex > -1) fileSelect.selectedIndex = defaultIndex;
+  }
+
+  function showMessage(text, type) {
+    messageBanner.textContent = text;
+    messageBanner.className = type || '';
+    if (!text) messageBanner.className = '';
+  }
+
+  // A column is treated as "finite-value" (dropdown filter) if it has a
+  // small number of distinct, non-empty values relative to the row count.
+  // This is computed from whatever CSV is actually loaded, so it adapts
+  // automatically instead of hardcoding column names like "Domain type".
+  var LIST_FILTER_MAX_UNIQUE = 60;
+  var LIST_FILTER_MAX_RATIO = 0.2; // distinct values must be <20% of rows
+
+  function findListFilterColumns(rows, fields) {
+    var listColumns = {};
+    fields.forEach(function (field) {
+      var seen = {};
+      var uniqueCount = 0;
+      var nonEmptyCount = 0;
+
+      for (var i = 0; i < rows.length; i++) {
+        var raw = rows[i][field];
+        if (raw === undefined || raw === null || raw === '') continue;
+        nonEmptyCount++;
+        if (!seen[raw]) {
+          seen[raw] = true;
+          uniqueCount++;
+          if (uniqueCount > LIST_FILTER_MAX_UNIQUE) break; // bail early, not a list column
+        }
+      }
+
+      if (
+        nonEmptyCount > 0 &&
+        uniqueCount > 1 &&
+        uniqueCount <= LIST_FILTER_MAX_UNIQUE &&
+        uniqueCount <= nonEmptyCount * LIST_FILTER_MAX_RATIO
+      ) {
+        listColumns[field] = Object.keys(seen).sort();
+      }
+    });
+    return listColumns;
+  }
+
+  function buildColumns(fields, listColumns) {
+    return fields.map(function (field) {
+      var col = {
+        title: field,
+        field: field,
+        sorter: 'string',
+        // don't read the raw CSV header into innerHTML on hover
+        headerTooltip: function (e, column) {
+          var el = document.createElement('div');
+          el.textContent = column.getDefinition().title;
+          return el;
+        },
+        widthGrow: 1,
+        minWidth: 140,
+        // Tabulator renders headers with innerHTML, so return a text nose
+        // instead to avoid a header being able to execute markup/scripts
+        titleFormatter: function (cell) {
+          var el = document.createElement('span');
+          el.textContent = cell.getValue();
+          return el;
+        },
+        // Small "⋮" menu in the column header for pinning columns while
+        // scrolling horizontally, similar to a spreadsheet's "freeze panes."
+        // Tabulator can only reliably pin columns to the LEFT edge if they
+        // form a contiguous block starting from the very first column —
+        // freezing a column outside that chain snaps it to the right edge
+        // instead, which looks like a bug. So "freeze" here means "freeze
+        // this column and everything to its left" (like Excel/Sheets), and
+        // "unfreeze" releases this column and everything after it in the
+        // frozen block, keeping it contiguous. State is read fresh each
+        // time the menu opens.
+        headerMenu: function (e, column) {
+          var isFrozen = column.getDefinition().frozen;
+          return [
+            {
+              label: isFrozen ? '📌 Unfreeze this column' : '📌 Freeze up to this column',
+              action: function (e2, menuColumn) {
+                var allColumns = menuColumn.getTable().getColumns();
+                var idx = allColumns.findIndex(function (c) {
+                  return c.getField() === menuColumn.getField();
+                });
+                if (idx === -1) return;
+
+                if (isFrozen) {
+                  for (var i = idx; i < allColumns.length; i++) {
+                    if (allColumns[i].getDefinition().frozen) {
+                      allColumns[i].updateDefinition({ frozen: false });
+                    } else {
+                      break;
+                    }
+                  }
+                } else {
+                  for (var j = 0; j <= idx; j++) {
+                    allColumns[j].updateDefinition({ frozen: true });
+                  }
+                }
+              }
+            }
+          ];
+        }
+      };
+
+      if (listColumns[field]) {
+        col.headerFilter = 'list';
+        col.headerFilterFunc = 'in'; // built-in: filterVal is an array, matches if rowVal is in it
+        col.headerFilterParams = {
+          values: listColumns[field],
+          clearable: true,
+          multiselect: true,
+          // Tabulator writes dropdown values via innerHTML, which would
+          // execute any HTML/script embedded in a CSV value. Returning a
+          // real element instead makes Tabulator appendChild it, and
+          // textContent escapes the value safely.
+          itemFormatter: function (label) {
+            var el = document.createElement('span');
+            el.textContent = label;
+            return el;
+          }
+        };
+        col.headerFilterPlaceholder = 'All';
+      } else {
+        col.headerFilter = 'input';
+        col.headerFilterPlaceholder = 'Filter…';
+      }
+
+      return col;
+    });
+  }
+
+  function loadDataset(selectEl) {
+    var source = resolveSource(selectEl);
+    showMessage('Loading ' + source + '…', 'loading');
+    rowCountEl.textContent = '';
+    updatedNoteEl.textContent = '';
+
+    // In production (USE_RAW_GITHUB_URLS = false) this is a relative fetch
+    // that works when the page is served from the repo root, e.g. GitHub
+    // Pages, since the CSVs live alongside index.html. While testing
+    // (USE_RAW_GITHUB_URLS = true) it points at raw.githubusercontent.com
+    // instead, which works even opened directly via file://.
+    fetch(source, { cache: 'no-store' })
+      .then(function (response) {
+        if (!response.ok) {
+          throw new Error('HTTP ' + response.status + ' fetching ' + source);
+        }
+        var lastModified = response.headers.get('last-modified');
+        if (lastModified) {
+          updatedNoteEl.textContent = 'Source file last modified: ' + lastModified;
+        }
+        return response.text();
+      })
+      .then(function (csvText) {
+        var parsed = Papa.parse(csvText, {
+          header: true,
+          skipEmptyLines: true
+        });
+
+        if (parsed.errors && parsed.errors.length) {
+          console.warn('CSV parse warnings:', parsed.errors.slice(0, 5));
+        }
+
+        var fields = parsed.meta.fields || [];
+        var rows = parsed.data;
+        var listColumns = findListFilterColumns(rows, fields);
+
+        if (table) {
+          table.destroy();
+          table = null;
+        }
+
+        table = new Tabulator('#data-table', {
+          data: rows,
+          columns: buildColumns(fields, listColumns),
+          layout: 'fitDataFill',
+          responsiveLayout: false,
+          pagination: true,
+          paginationSize: resolvePageSize(),
+          paginationSizeSelector: PAGE_SIZE_OPTIONS.slice(),
+          placeholder: 'No matching rows',
+          height: '65vh',
+          // Render header-menu popups (used by the freeze/unfreeze column
+          // menu) inside this table's own element rather than document.body,
+          // so the #data-table-scoped dark/light theme CSS below applies to
+          // them too.
+          popupContainer: true
+        });
+
+        table.on('dataFiltered', function (filters, filteredRows) {
+          updateRowCount(filteredRows.length, rows.length);
+          activeFilterCount = filters.length;
+          downloadBtn.textContent = activeFilterCount > 0 ? 'Download filtered CSV' : 'Download CSV';
+        });
+        table.on('tableBuilt', function () {
+          updateRowCount(rows.length, rows.length);
+        });
+        table.on('pageSizeChanged', function (size) {
+          syncPageSizeToURL(size);
+        });
+
+        showMessage('', '');
+      })
+      .catch(function (err) {
+        console.error(err);
+        var hint = USE_RAW_GITHUB_URLS
+          ? 'Check your internet connection, or that the file still exists at that path on the main branch.'
+          : 'If you are viewing this file locally, run a local web server (e.g. "python3 -m http.server") ' +
+            'rather than opening index.html directly, since browsers block local file fetches.';
+        showMessage('Could not load ' + source + '. ' + hint + ' Error: ' + err.message, 'error');
+      });
+  }
+
+  function updateRowCount(shown, total) {
+    rowCountEl.innerHTML = shown === total
+      ? 'Showing <strong>' + shown.toLocaleString() + '</strong> rows'
+      : 'Showing <strong>' + shown.toLocaleString() + '</strong> of ' + total.toLocaleString() + ' rows';
+  }
+
+  // Debounced global search across all columns
+  var searchTimeout = null;
+  searchInput.addEventListener('input', function () {
+    clearTimeout(searchTimeout);
+    var value = searchInput.value;
+    searchTimeout = setTimeout(function () {
+      if (!table) return;
+      if (!value) {
+        table.clearFilter(true); // keep header filters, drop the global one
+        return;
+      }
+      table.setFilter(function (data) {
+        return Object.keys(data).some(function (key) {
+          var cell = data[key];
+          return cell && String(cell).toLowerCase().indexOf(value.toLowerCase()) !== -1;
+        });
+      });
+    }, 200);
+  });
+
+  clearBtn.addEventListener('click', function () {
+    searchInput.value = '';
+    if (table) table.clearFilter(true);
+  });
+
+  downloadBtn.addEventListener('click', function () {
+    if (!table) return;
+    var dataset = fileSelect.value.replace('.csv', '');
+    var today = new Date().toLocaleDateString('en-CA'); // Gets local date and formats it YYYY-MM-DD
+    var suffix = activeFilterCount > 0 ? '-filtered' : '';
+    var filename = dataset + suffix + '-' + today + '.csv';
+    table.download('csv', filename);
+  });
+
+  fileSelect.addEventListener('change', function () {
+    loadDataset(fileSelect);
+  });
+
+  var missingLibraries = [];
+  if (typeof Tabulator === 'undefined') missingLibraries.push('Tabulator');
+  if (typeof Papa === 'undefined') missingLibraries.push('PapaParse');
+
+  if (missingLibraries.length) {
+    showMessage(
+      'This page could not load ' + missingLibraries.join(' and ') +
+      ' from the CDN, so the data viewer cannot run. This is usually a ' +
+      'network issue or a browser extension blocking scripts. Try reloading, ' +
+      'or check the browser console for details.',
+      'error'
+    );
+    fileSelect.disabled = true;
+    searchInput.disabled = true;
+    clearBtn.disabled = true;
+    downloadBtn.disabled = true;
+    return;
+  }
+
+  showMessage('Looking up available CSV files in the repository…', 'loading');
+  discoverCsvFiles()
+    .then(function (csvFiles) {
+      populateFileSelect(csvFiles);
+      loadDataset(fileSelect);
+    })
+    .catch(function (err) {
+      console.error(err);
+      showMessage(
+        'Could not list CSV files from the ' + REPO_CONTEXT.owner + '/' + REPO_CONTEXT.repo +
+        ' repository (this can happen if the GitHub API rate limit is hit — it resets hourly). ' +
+        'Error: ' + err.message,
+        'error'
+      );
+    });
+})();
+</script>
+
+</body>
+</html>
