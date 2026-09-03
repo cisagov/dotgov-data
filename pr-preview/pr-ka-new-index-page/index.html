@@ -763,9 +763,21 @@
         title: field,
         field: field,
         sorter: 'string',
-        headerTooltip: true,
+        // don't read the raw CSV header into innerHTML on hover
+        headerTooltip: function (e, column) {
+          var el = document.createElement('div');
+          el.textContent = column.getDefinition().title;
+          return el;
+        },
         widthGrow: 1,
         minWidth: 140,
+        // Tabulator renders headers with innerHTML, so return a text nose
+        // instead to avoid a header being able to execute markup/scripts
+        titleFormatter: function (cell) {
+          var el = document.createElement('span');
+          el.textContent = cell.getValue();
+          return el;
+        },
         // Small "⋮" menu in the column header for pinning columns while
         // scrolling horizontally, similar to a spreadsheet's "freeze panes."
         // Tabulator can only reliably pin columns to the LEFT edge if they
