@@ -1,6 +1,6 @@
 ;;
 ;; Domain:     gov.
-;; Exported:   2026-09-04 12:05:45
+;; Exported:   2026-09-05 11:14:39
 ;;
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -24,7 +24,7 @@
 ;;
 ;; Use at your own risk.
 ;; SOA Record
-gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1788522962 3600 900 604800 300
+gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1788606482 3600 900 604800 300
 
 ;; A Records
 a1.domainops.gov.	3600	IN	A	162.159.8.76
@@ -360,6 +360,7 @@ ns1.marionilpd.gov.	3600	IN	A	50.6.230.202
 ns1.max.gov.	3600	IN	A	198.137.241.177
 ns1.mayaguezpr.gov.	3600	IN	A	162.251.159.18
 ns1.memphistn.gov.	3600	IN	A	167.29.0.18
+ns1.miamiaz.gov.	3600	IN	A	129.121.96.150
 ns1.moneyfactory.gov.	3600	IN	A	162.159.0.233
 ns1.moneyfactorystore.gov.	3600	IN	A	162.159.0.233
 ns1.montcopavotes.gov.	3600	IN	A	198.7.141.2
@@ -610,6 +611,7 @@ ns2.marionilpd.gov.	3600	IN	A	50.6.230.202
 ns2.max.gov.	3600	IN	A	198.137.240.49
 ns2.mayaguezpr.gov.	3600	IN	A	162.251.159.19
 ns2.memphistn.gov.	3600	IN	A	167.29.12.19
+ns2.miamiaz.gov.	3600	IN	A	129.121.96.150
 ns2.moneyfactory.gov.	3600	IN	A	162.159.1.245
 ns2.moneyfactorystore.gov.	3600	IN	A	162.159.1.245
 ns2.montcopavotes.gov.	3600	IN	A	198.7.132.21
@@ -3386,7 +3388,6 @@ scidac.gov.	3600	IN	DS	23682 13 2 C9EFB1464E6F25D21D07A664DB90679332AD992DC05DD4
 sciencebase.gov.	3600	IN	DS	2371 13 2 796E5EE7666644D12699529AB61E9462A59A607DDF1EA4D91CE14F2EA0170FD0
 science.gov.	3600	IN	DS	52349 13 2 AA9E9952AE34EB88EAD231398B9982CBBBAAAA2A07B1FBA7DA75C61B7AB668DB
 science.gov.	3600	IN	DS	52349 13 1 59EFFA5A4F680468A2C81CDA8FE61E09705E1BC6
-scijinks.gov.	3600	IN	DS	50717 8 2 EC4777F38BE6D8FD51717EF9028655A5EBC8CF386EA19EBA32D59DA789766D90
 scinet.gov.	3600	IN	DS	12786 7 2 314A65BE2041CEAB5AE641A77530A06F77BEF41406C9D3BD3CA8BC569E15B606
 scinet-test.gov.	3600	IN	DS	33265 7 2 984861BA983476B5CA9B0667D75602211B6E518D43B48331CF1D8FE694F3EA96
 scmedicaid.gov.	3600	IN	DS	52560 13 2 014EDAD748A10C0F43BED0B0870109BC697DB3E700E20F1B8177A48A167CA0DD
@@ -4742,8 +4743,8 @@ allianceoh.gov.	10800	IN	NS	ns1.biz.rr.com.
 allianceoh.gov.	10800	IN	NS	dns4.rr.com.
 almaarkansas.gov.	10800	IN	NS	ns1.stabiliservers.com.
 almaarkansas.gov.	10800	IN	NS	ns2.stabiliservers.com.
-almaarkansaspd.gov.	10800	IN	NS	ns17.domaincontrol.com.
-almaarkansaspd.gov.	10800	IN	NS	ns18.domaincontrol.com.
+almaarkansaspd.gov.	10800	IN	NS	jeremy.ns.cloudflare.com.
+almaarkansaspd.gov.	10800	IN	NS	melissa.ns.cloudflare.com.
 almacenterwi.gov.	10800	IN	NS	chad.ns.cloudflare.com.
 almacenterwi.gov.	10800	IN	NS	paityn.ns.cloudflare.com.
 almenatownship.gov.	10800	IN	NS	ns5999.hostgator.com.
@@ -11946,8 +11947,8 @@ cityofstover.gov.	10800	IN	NS	ns1.cityofstover.gov.
 cityofstover.gov.	10800	IN	NS	ns2.cityofstover.gov.
 cityofsusanville.gov.	10800	IN	NS	ns25.domaincontrol.com.
 cityofsusanville.gov.	10800	IN	NS	ns26.domaincontrol.com.
-cityofswartzcreekmi.gov.	10800	IN	NS	ns1.server-600179.webmatters-bykristie.com.
-cityofswartzcreekmi.gov.	10800	IN	NS	ns2.server-600179.webmatters-bykristie.com.
+cityofswartzcreekmi.gov.	10800	IN	NS	ns1.allwebmatters.com.
+cityofswartzcreekmi.gov.	10800	IN	NS	ns2.allwebmatters.com.
 cityoftaylormi.gov.	10800	IN	NS	lucy.ns.cloudflare.com.
 cityoftaylormi.gov.	10800	IN	NS	lennon.ns.cloudflare.com.
 cityofthorp.gov.	10800	IN	NS	ns18.domaincontrol.com.
@@ -15551,6 +15552,8 @@ eastfordct.gov.	10800	IN	NS	dns2.name-services.com.
 eastfordct.gov.	10800	IN	NS	dns3.name-services.com.
 eastfordct.gov.	10800	IN	NS	dns4.name-services.com.
 eastfordct.gov.	10800	IN	NS	dns5.name-services.com.
+eastglenvillefd.gov.	10800	IN	NS	ns1.hostgo.com.
+eastglenvillefd.gov.	10800	IN	NS	ns2.hostgo.com.
 eastgranbyct.gov.	10800	IN	NS	adel.ns.cloudflare.com.
 eastgranbyct.gov.	10800	IN	NS	kevin.ns.cloudflare.com.
 eastgrandforks.gov.	10800	IN	NS	ns3.eastgrandforks.net.
@@ -19942,8 +19945,8 @@ grundycountyiowa.gov.	10800	IN	NS	pete.ns.cloudflare.com.
 grundycountyiowa.gov.	10800	IN	NS	elle.ns.cloudflare.com.
 grundyilso.gov.	10800	IN	NS	dina.ns.cloudflare.com.
 grundyilso.gov.	10800	IN	NS	jeremy.ns.cloudflare.com.
-grundysherifftn.gov.	10800	IN	NS	ns1.bdm.microsoftonline.com.
-grundysherifftn.gov.	10800	IN	NS	ns2.bdm.microsoftonline.com.
+grundysherifftn.gov.	10800	IN	NS	maxim.ns.cloudflare.com.
+grundysherifftn.gov.	10800	IN	NS	joyce.ns.cloudflare.com.
 gsaadvantage.gov.	10800	IN	NS	dns3.gsa.gov.
 gsaadvantage.gov.	10800	IN	NS	dns4.gsa.gov.
 gsaadvantage.gov.	10800	IN	NS	dns2.gsa.gov.
@@ -23743,6 +23746,10 @@ kingwoodtownship.gov.	10800	IN	NS	dora.ns.cloudflare.com.
 kingwoodtownship.gov.	10800	IN	NS	donald.ns.cloudflare.com.
 kingwoodwv.gov.	10800	IN	NS	ns20.domaincontrol.com.
 kingwoodwv.gov.	10800	IN	NS	ns19.domaincontrol.com.
+kinneloairrigationdistrictca.gov.	10800	IN	NS	ns-939.awsdns-53.net.
+kinneloairrigationdistrictca.gov.	10800	IN	NS	ns-1209.awsdns-23.org.
+kinneloairrigationdistrictca.gov.	10800	IN	NS	ns-1900.awsdns-45.co.uk.
+kinneloairrigationdistrictca.gov.	10800	IN	NS	ns-305.awsdns-38.com.
 kinneymn.gov.	10800	IN	NS	alina.ns.cloudflare.com.
 kinneymn.gov.	10800	IN	NS	brett.ns.cloudflare.com.
 kinniwi.gov.	10800	IN	NS	ns01.domaincontrol.com.
@@ -26742,8 +26749,8 @@ marlownh.gov.	10800	IN	NS	dns3.easydns.ca.
 marlownh.gov.	10800	IN	NS	dns1.easydns.com.
 marmadukear.gov.	10800	IN	NS	naya.ns.cloudflare.com.
 marmadukear.gov.	10800	IN	NS	keanu.ns.cloudflare.com.
-marmetwv.gov.	10800	IN	NS	ns14.wixdns.net.
-marmetwv.gov.	10800	IN	NS	ns15.wixdns.net.
+marmetwv.gov.	10800	IN	NS	sneh.ns.cloudflare.com.
+marmetwv.gov.	10800	IN	NS	martin.ns.cloudflare.com.
 maroaillinois.gov.	10800	IN	NS	novalee.ns.cloudflare.com.
 maroaillinois.gov.	10800	IN	NS	ajay.ns.cloudflare.com.
 marqroadmi.gov.	10800	IN	NS	irma.ns.cloudflare.com.
@@ -27585,8 +27592,8 @@ mi365.gov.	10800	IN	NS	ns1-09.azure-dns.com.
 mi365.gov.	10800	IN	NS	ns3-09.azure-dns.org.
 mi365.gov.	10800	IN	NS	ns2-09.azure-dns.net.
 mi365.gov.	10800	IN	NS	ns4-09.azure-dns.info.
-miamiaz.gov.	10800	IN	NS	ns8130.hostgator.com.
-miamiaz.gov.	10800	IN	NS	ns8129.hostgator.com.
+miamiaz.gov.	10800	IN	NS	ns2.miamiaz.gov.
+miamiaz.gov.	10800	IN	NS	ns1.miamiaz.gov.
 miamibeachfl.gov.	10800	IN	NS	ns4-03.azure-dns.info.
 miamibeachfl.gov.	10800	IN	NS	ns2-03.azure-dns.net.
 miamibeachfl.gov.	10800	IN	NS	ns1-03.azure-dns.com.
@@ -33884,6 +33891,8 @@ polkcityia.gov.	10800	IN	NS	dns4.civicplus.com.
 polkcityia.gov.	10800	IN	NS	dns3.civicplus.com.
 polkclerkfl.gov.	10800	IN	NS	norman.ns.cloudflare.com.
 polkclerkfl.gov.	10800	IN	NS	tricia.ns.cloudflare.com.
+polkcountyar.gov.	10800	IN	NS	demi.ns.cloudflare.com.
+polkcountyar.gov.	10800	IN	NS	cory.ns.cloudflare.com.
 polkcountyiowa.gov.	10800	IN	NS	a9-67.akam.net.
 polkcountyiowa.gov.	10800	IN	NS	a10-66.akam.net.
 polkcountyiowa.gov.	10800	IN	NS	a11-65.akam.net.
@@ -37101,12 +37110,6 @@ science.gov.	10800	IN	NS	edns1.ultradns.net.
 science.gov.	10800	IN	NS	edns1.ultradns.com.
 science.gov.	10800	IN	NS	edns1.ultradns.org.
 science.gov.	10800	IN	NS	edns1.ultradns.biz.
-scijinks.gov.	10800	IN	NS	a9-64.akam.net.
-scijinks.gov.	10800	IN	NS	a12-64.akam.net.
-scijinks.gov.	10800	IN	NS	a1-32.akam.net.
-scijinks.gov.	10800	IN	NS	a5-66.akam.net.
-scijinks.gov.	10800	IN	NS	a14-67.akam.net.
-scijinks.gov.	10800	IN	NS	a8-66.akam.net.
 scinet.gov.	10800	IN	NS	eur5.akam.net.
 scinet.gov.	10800	IN	NS	eur4.akam.net.
 scinet.gov.	10800	IN	NS	usw1.akam.net.
@@ -38065,6 +38068,8 @@ silvercreektwpmi.gov.	10800	IN	NS	ns1.shumakergrouphosting.com.
 silvercreektwpmi.gov.	10800	IN	NS	ns2.shumakergrouphosting.com.
 silverlakeks.gov.	10800	IN	NS	derek.ns.cloudflare.com.
 silverlakeks.gov.	10800	IN	NS	jessica.ns.cloudflare.com.
+silverspringsny.gov.	10800	IN	NS	ns1.siteground.net.
+silverspringsny.gov.	10800	IN	NS	ns2.siteground.net.
 silverstreetsc.gov.	10800	IN	NS	journey.ns.cloudflare.com.
 silverstreetsc.gov.	10800	IN	NS	bryce.ns.cloudflare.com.
 silverthorne.gov.	10800	IN	NS	ns29.domaincontrol.com.
@@ -39060,6 +39065,8 @@ starcitywv.gov.	10800	IN	NS	dns0.citynet.net.
 starcitywv.gov.	10800	IN	NS	dns1.citynet.net.
 starcitywv.gov.	10800	IN	NS	dns2.citynet.net.
 starcitywv.gov.	10800	IN	NS	dns3.citynet.net.
+starkcountyjfs.gov.	10800	IN	NS	dakota.ns.cloudflare.com.
+starkcountyjfs.gov.	10800	IN	NS	marissa.ns.cloudflare.com.
 starkcountynd.gov.	10800	IN	NS	ns2.ndnic.net.
 starkcountynd.gov.	10800	IN	NS	ns1.ndnic.net.
 starkcountyohio.gov.	10800	IN	NS	dakota.ns.cloudflare.com.
