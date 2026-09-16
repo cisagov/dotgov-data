@@ -1,3 +1,4 @@
+
 name: data
 on:
   schedule:
@@ -28,3 +29,8 @@ jobs:
           git add current-federal.csv current-full.csv
           git commit -m "Latest data ($(date -u +%FT%TZ))" || exit 0
           git push
+  deploy:
+    needs: scheduled
+    uses: ./.github/workflows/deploy.yml
+    permissions:
+      contents: write
