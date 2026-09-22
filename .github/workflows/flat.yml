@@ -29,6 +29,17 @@ jobs:
           git add current-federal.csv current-full.csv
           git commit -m "Latest data ($(date -u +%FT%TZ))" || exit 0
           git push
+      - name: Write run summary
+        if: always()
+        run: |
+          {
+            echo "### Data fetch summary"
+            echo ""
+            echo "| File                | Rows (incl. header) |"
+            echo "| ------------------- | ------------------- |"
+            echo "| current-federal.csv | $(wc -l < current-federal.csv 2>/dev/null || echo 'n/a') |"
+            echo "| current-full.csv    | $(wc -l < current-full.csv 2>/dev/null || echo 'n/a') |"
+          } >> "$GITHUB_STEP_SUMMARY"
   deploy:
     needs: fetch-data
     uses: ./.github/workflows/deploy.yml
