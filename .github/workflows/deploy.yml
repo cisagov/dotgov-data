@@ -28,6 +28,7 @@ jobs:
           cp *.csv _site/
 
       - name: Deploy to gh-pages
+        id: deploy
         uses: JamesIves/github-pages-deploy-action@fa24774553152dd7873cd16ebd8d959b010c5445 # v4.9.0
         with:
           branch: gh-pages
