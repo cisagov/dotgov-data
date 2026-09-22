@@ -58,6 +58,8 @@ jobs:
   deploy:
     needs: fetch-data
     if: needs.fetch-data.outputs.changed == 'true'
+    # Invoke the deploy action here. The deploy action isn't triggered by the bot commit above
+    # because commits pushed with GITHUB_TOKEN don't trigger other workflows
     uses: ./.github/workflows/deploy.yml
     permissions:
       contents: write

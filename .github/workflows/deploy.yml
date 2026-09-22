@@ -19,6 +19,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
+          # Pin to the tip of main. When checkout is called from a workflow_call run,
+          # like the one in flat.yml, it uses the original SHA (which would be the pre-commit
+          # SHA, instead of the post-commit one). Pinning to main here makes sure we get the
+          # latest main before proceeding with the deployment.
           ref: main
 
       - name: Stage site files
