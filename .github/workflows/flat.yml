@@ -49,7 +49,7 @@ jobs:
             echo "| current-federal.csv | $(wc -l < current-federal.csv 2>/dev/null || echo 'n/a') |"
             echo "| current-full.csv    | $(wc -l < current-full.csv 2>/dev/null || echo 'n/a') |"
             echo ""
-            if [ "${{steps.commit.outputs.changed }}" = "true" ]; then
+            if [ "${{ steps.commit.outputs.changed }}" = "true" ]; then
               echo "**Data changed** — committed and pushed to \`main\`; Pages deploy will run."
             else
               echo "**No change** — data identical to current \`main\`; nothing committed, deploy skipped."
