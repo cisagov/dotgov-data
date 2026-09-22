@@ -50,4 +50,3 @@ jobs:
               echo "| $(basename "$f") | $(wc -l < "$f") |"
             done
           } >> "$GITHUB_STEP_SUMMARY"
-          }
