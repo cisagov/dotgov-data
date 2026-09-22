@@ -2,13 +2,13 @@
 name: data
 on:
   schedule:
-    - cron: 5 6 * * *
-  workflow_dispatch: {}
+    - cron: '5 6 * * *'
+  workflow_dispatch:
   push:
     paths:
       - .github/workflows/flat.yml
 jobs:
-  scheduled:
+  fetch-data:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -30,7 +30,7 @@ jobs:
           git commit -m "Latest data ($(date -u +%FT%TZ))" || exit 0
           git push
   deploy:
-    needs: scheduled
+    needs: fetch-data
     uses: ./.github/workflows/deploy.yml
     permissions:
       contents: write
