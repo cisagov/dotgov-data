@@ -12,6 +12,8 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+    outputs:
+      changed: ${{ steps.commit.outputs.changed }}
     steps:
       - name: Check out repo
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
@@ -23,12 +25,19 @@ jobs:
       - name: Fetch current-full
         run: curl -fsSL -o current-full.csv "https://manage.get.gov/api/v1/get-report/current-full"
       - name: Commit updated data
+        id: commit
         run: |
           git config user.name "botgov"
           git config user.email "help@get.gov"
           git add current-federal.csv current-full.csv
-          git commit -m "Latest data ($(date -u +%FT%TZ))" || exit 0
-          git push
+          if git diff --cached --quiet; then
+            echo "No data changes to commit."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            git commit -m "Latest data ($(date -u +%FT%TZ))"
+            git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
       - name: Write run summary
         if: always()
         run: |
@@ -39,9 +48,16 @@ jobs:
             echo "| ------------------- | ------------------- |"
             echo "| current-federal.csv | $(wc -l < current-federal.csv 2>/dev/null || echo 'n/a') |"
             echo "| current-full.csv    | $(wc -l < current-full.csv 2>/dev/null || echo 'n/a') |"
+            echo ""
+            if [ "${{steps.commit.outputs.changed }}" = "true" ]; then
+              echo "**Data changed** — committed and pushed to \`main\`; Pages deploy will run."
+            else
+              echo "**No change** — data identical to current \`main\`; nothing committed, deploy skipped."
+            fi
           } >> "$GITHUB_STEP_SUMMARY"
   deploy:
     needs: fetch-data
+    if: needs.fetch-data.outputs.changed == 'true'
     uses: ./.github/workflows/deploy.yml
     permissions:
       contents: write
