@@ -19,6 +19,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
+          # Pin to the tip of main. When checkout is called from a workflow_call run,
+          # like the one in flat.yml, it uses the original SHA (which would be the pre-commit
+          # SHA, instead of the post-commit one). Pinning to main here makes sure we get the
+          # latest main before proceeding with the deployment.
           ref: main
 
       - name: Stage site files
@@ -28,8 +32,25 @@ jobs:
           cp *.csv _site/
 
       - name: Deploy to gh-pages
+        id: deploy
         uses: JamesIves/github-pages-deploy-action@fa24774553152dd7873cd16ebd8d959b010c5445 # v4.9.0
         with:
           branch: gh-pages
           folder: _site
           clean-exclude: pr-preview # This folder is used by the rossjrw/pr-preview-action for branch previews, so exclude here so we don't wipe out active branch previews
+      
+      - name: Write deploy summary
+        if: always()
+        run: |
+          {
+            echo "### Pages deploy"
+            echo ""
+            echo "- Published from \`main\` commit: \`$(git rev-parse --short HEAD)\` — $(git log -1 --pretty=%s)"
+            echo "- gh-pages deployment status: **${{ steps.deploy.outputs.deployment-status }}** (success = new commit pushed; skipped = already up-to-date)"
+            echo ""
+            echo "| Published file | Rows (incl. header) |"
+            echo "| -------------- | ------------------- |"
+            for f in _site/*.csv; do 
+              echo "| $(basename "$f") | $(wc -l < "$f") |"
+            done
+          } >> "$GITHUB_STEP_SUMMARY"
