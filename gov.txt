@@ -1,6 +1,6 @@
 ;;
 ;; Domain:     gov.
-;; Exported:   2026-10-04 13:08:34
+;; Exported:   2026-10-05 15:54:12
 ;;
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -24,7 +24,7 @@
 ;;
 ;; Use at your own risk.
 ;; SOA Record
-gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1791118844 3600 900 604800 300
+gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1791215282 3600 900 604800 300
 
 ;; A Records
 a1.domainops.gov.	3600	IN	A	162.159.8.76
@@ -1290,6 +1290,7 @@ aptx.gov.	3600	IN	DS	2371 13 2 A79B10BA2F53C05ACE2442DE8D989C594233F0096268082EC
 archives.gov.	3600	IN	DS	5315 8 2 A55D9B84981AF8E6DD7012797D6B054144F19E71924AEA4E7A1444E529B75027
 arcircuitcourts16th.gov.	3600	IN	DS	2371 13 2 EB002E1392006E9A57996DBDF1143C461CDE176E14A44BD184F1FC3A3BD6AFDB
 arcourts1st.gov.	3600	IN	DS	2371 13 2 55C4CE3384FDBBF1792D512FCED81C73A58FC4611898304F71D3B03DFC7B8CBC
+arctic.gov.	3600	IN	DS	2371 13 2 64D309153814E6E735DE34552B3A4CA19A5C53DADEB44234FDFCD3CA75B4EA85
 argonnewi.gov.	3600	IN	DS	22299 13 2 2942332ACD22809C68184394CA6EB73F71D871E6EDC2BFCA8706871503D39412
 arlingtoncountyva.gov.	3600	IN	DS	7902 13 2 6046DC41361FFB27BEE215963B6F5578A1F4FA35E738A8DC5FA6D62789E0076C
 arlingtonva.gov.	3600	IN	DS	64502 13 2 2972D65296972C32D493CEBE070295C06492993A2AC5090808BDC29BC769374D
@@ -2993,8 +2994,6 @@ nrelhub.gov.	3600	IN	DS	3727 13 2 FA612DC427324AC250492C290ED7EC9E3129C8D1481976
 nro.gov.	3600	IN	DS	58436 8 2 E698B89E425D9832939A70D8FBBA1775B92D452D6E14DC8787810EF30BB240D2
 nro.gov.	3600	IN	DS	59459 8 2 10D15BB639C45F5302AE7A8CFCF93E486D15159FA9CE2611671226FFC2056CD3
 nsa.gov.	3600	IN	DS	29356 7 2 17C346B94BE3BDA883BC22D195B3A8AA4CCDADFC43B26B5C659D70AF58E8FD5C
-nsf.gov.	3600	IN	DS	12862 13 2 DA537582582747050AAF5092E518CA9BF61540BA6B85DC622088E04E854216EC
-nsf.gov.	3600	IN	DS	29308 5 2 A3E853C43A03D99EB6E2073BB5FB9EF2F1F5F734F1A737F8478CEE3EA85195B8
 ns.gov.	3600	IN	DS	2371 13 2 67E5425CF7CD6E5A70E0B0ED2B262F6A3148307018F33ABE5B7A3D9E9F30040E
 ntia.gov.	3600	IN	DS	2371 13 2 528B6EDEC249BC0C0AFBF04D00A4B4D0691A9BE77ABE7F043C8F7920A4980DB6
 ntis.gov.	3600	IN	DS	2371 13 2 0E3477D9B9DE992673990C0692BCE483DEDF061FE546328DA1B12C8E0568A510
@@ -3323,8 +3322,6 @@ republicans.gov.	3600	IN	DS	36835 8 2 2142E3AFC05E92DE1140125F66F24452A4A7A99FA4
 republicans.gov.	3600	IN	DS	10561 8 2 9DB40CA6A2C0332360049FA8E2558771388FB484F809A3C05074913ECD462D89
 republicanwhip.gov.	3600	IN	DS	3241 8 2 F2673FAFA6036D3A69D3B696B013EB58BD21B287B3DEF853A368241A3F0D7E8B
 republicanwhip.gov.	3600	IN	DS	4645 8 2 FD0866CF1DD2277AF0A8C371E6F4015A132891752F53384B03B8E7B63941957C
-research.gov.	3600	IN	DS	41546 13 2 02B081BB2BB7BB3B1741B8975248F40587174F82423F83BB581853A951F26135
-research.gov.	3600	IN	DS	27313 5 2 24E03AD85DE5DE6383AC5F6C59BFC8EA4ED6861DD2EEC87D255B3A088AF7DB6C
 restorethegulf.gov.	3600	IN	DS	43594 8 2 C0E6CD9CD33433FC0A8F07FF1B7C0A1D71DE59BA8BFEC8763F377A0F8EB88BD2
 richmondil.gov.	3600	IN	DS	2371 13 2 1D7B0B454E902126D767836E5B08E6C97FAD0F074EC37E166F2B753C5C7E6AD6
 richmondri.gov.	3600	IN	DS	2371 13 2 9700E221B6553F399B9BE5195CFE2C70C02E9AF33D0B28A1D2EF7AA1A2B47117
@@ -3363,6 +3360,7 @@ rushriverwi.gov.	3600	IN	DS	64732 8 1 A375300BDDD0CCE3998F272BAD20EEE5FB6AED78
 rushriverwi.gov.	3600	IN	DS	64732 8 2 D1FFDD151841B5D647E800EBFD64F4501922431265C9908C9DEFFF1C284FDAA8
 rutherfordcountytn.gov.	3600	IN	DS	2371 13 2 BB1ADF2D4C0CDFE23C7F8AEE6B1DD9DF2859F2C1F6FD70DA2F2C0BE670356E16
 saccountyiowa.gov.	3600	IN	DS	2371 13 2 3FB401A9ACF8DB8C8F9C9B2E29B0818D48033723F0C703EC74E12A4E447D8445
+sac.gov.	3600	IN	DS	2371 13 2 0C3E6A53AA6791D0D85BA3205D1BBB5EF8B82B701C548C7283AEEBBD68F60172
 safeandsoundiowa.gov.	3600	IN	DS	2371 13 2 977B8FA9185780306664A3CE0A3D7B6022BF460380CBB5D874F6D0B9DD2F9114
 safecom.gov.	3600	IN	DS	2371 13 2 B90548F8ED260804D04D69357295E50040FDFEB2B374C860AD3019FE2CE0C2F3
 safedc.gov.	3600	IN	DS	2371 13 2 139EF95C0E8169B625AA77AE417F30469CED03D9B1D0ED0F46891AE33F1B8B93
@@ -3634,7 +3632,6 @@ thebraininitiative.gov.	3600	IN	DS	49462 8 2 99D1E52A3D0D9526EE66E52D8573A8B63AE
 therealcost.gov.	3600	IN	DS	14321 13 2 968CB100FEF53F60518B80BC77ACC4370D32DE2FABD34D96A9568BFBB37177F4
 thevillageok.gov.	3600	IN	DS	10226 8 2 336F9FC80575676D3B82071B70A68FB14617658D8CA4B9231E03C1E1090ACDFC
 thibodaux.gov.	3600	IN	DS	20049 13 2 629BF32BF03501A54751F93FF4F276F3A5A72D86A66E966B6759CD50C52B8F81
-thirdcircuitcourtmi.gov.	3600	IN	DS	30706 8 2 BB8F7E70A958DA95AF6D4F53F68A87A57B2DE1C914830E873ED1AA4A9AD5F267
 thisfreelife.gov.	3600	IN	DS	36362 13 2 6EEDA363AC92DEE0E11BF6698B8162155D8773D11CD7914C1358DD7585209376
 thomas.gov.	3600	IN	DS	2371 13 2 C1278E96044D3B355936DDD2A312093ED492200276933FA44E3352D5099B3A02
 thompsonmi.gov.	3600	IN	DS	18436 8 2 5C470CE2F07750C9AAF9BC8C07401ADF693ADA3E6B5093BFFF0434398DDCC4B4
@@ -10980,6 +10977,10 @@ cityofcottonwoodmn.gov.	10800	IN	NS	ns3.bdm.microsoftonline.com.
 cityofcottonwoodmn.gov.	10800	IN	NS	ns4.bdm.microsoftonline.com.
 cityofcottonwoodmn.gov.	10800	IN	NS	ns2.bdm.microsoftonline.com.
 cityofcottonwoodmn.gov.	10800	IN	NS	ns1.bdm.microsoftonline.com.
+cityofcottonwoodtexas.gov.	10800	IN	NS	ns3-07.azure-dns.org.
+cityofcottonwoodtexas.gov.	10800	IN	NS	ns4-07.azure-dns.info.
+cityofcottonwoodtexas.gov.	10800	IN	NS	ns2-07.azure-dns.net.
+cityofcottonwoodtexas.gov.	10800	IN	NS	ns1-07.azure-dns.com.
 cityofcoweta-ok.gov.	10800	IN	NS	dns2.civicplus.com.
 cityofcoweta-ok.gov.	10800	IN	NS	dns1.civicplus.com.
 cityofcrandonwi.gov.	10800	IN	NS	pns41.cloudns.net.
@@ -11666,6 +11667,10 @@ cityofmooselake.gov.	10800	IN	NS	dns3.civicplus.com.
 cityofmooselake.gov.	10800	IN	NS	dns4.civicplus.com.
 cityofmorgantonga.gov.	10800	IN	NS	ns1.siteground.net.
 cityofmorgantonga.gov.	10800	IN	NS	ns2.siteground.net.
+cityofmorrillks.gov.	10800	IN	NS	ns1-08.azure-dns.com.
+cityofmorrillks.gov.	10800	IN	NS	ns2-08.azure-dns.net.
+cityofmorrillks.gov.	10800	IN	NS	ns3-08.azure-dns.org.
+cityofmorrillks.gov.	10800	IN	NS	ns4-08.azure-dns.info.
 cityofmorrisok.gov.	10800	IN	NS	brynne.ns.cloudflare.com.
 cityofmorrisok.gov.	10800	IN	NS	wesley.ns.cloudflare.com.
 cityofmoscowtn.gov.	10800	IN	NS	ns17.domaincontrol.com.
@@ -14682,8 +14687,6 @@ deforestwi.gov.	10800	IN	NS	christian.ns.cloudflare.com.
 de.gov.	10800	IN	NS	gold.foundationdns.net.
 de.gov.	10800	IN	NS	gold.foundationdns.org.
 de.gov.	10800	IN	NS	gold.foundationdns.com.
-de.gov.	10800	IN	NS	ns01.delaware.gov.
-de.gov.	10800	IN	NS	ns02.delaware.gov.
 dei.gov.	10800	IN	NS	wally.ns.cloudflare.com.
 dei.gov.	10800	IN	NS	ernest.ns.cloudflare.com.
 dekalbcountyal911.gov.	10800	IN	NS	jewel.ns.cloudflare.com.
@@ -43188,6 +43191,8 @@ townofveteranny.gov.	10800	IN	NS	mona.ns.cloudflare.com.
 townofveteranny.gov.	10800	IN	NS	adam.ns.cloudflare.com.
 townofvictorny.gov.	10800	IN	NS	ns1.townofvictorny.gov.
 townofvictorny.gov.	10800	IN	NS	ns2.townofvictorny.gov.
+townofvidalia.gov.	10800	IN	NS	ns67.domaincontrol.com.
+townofvidalia.gov.	10800	IN	NS	ns68.domaincontrol.com.
 townofvinlandwi.gov.	10800	IN	NS	adam.ns.cloudflare.com.
 townofvinlandwi.gov.	10800	IN	NS	mona.ns.cloudflare.com.
 townofvolney.gov.	10800	IN	NS	adam.ns.cloudflare.com.
@@ -43784,6 +43789,8 @@ twai.gov.	10800	IN	NS	pdns108.ultradns.net.
 twai.gov.	10800	IN	NS	pdns108.ultradns.com.
 twinlakeswi.gov.	10800	IN	NS	dns3.civicplus.com.
 twinlakeswi.gov.	10800	IN	NS	dns4.civicplus.com.
+twinstatefirenh.gov.	10800	IN	NS	mcgrory.ns.cloudflare.com.
+twinstatefirenh.gov.	10800	IN	NS	raphaela.ns.cloudflare.com.
 twnlaurensny.gov.	10800	IN	NS	zahir.ns.cloudflare.com.
 twnlaurensny.gov.	10800	IN	NS	arushi.ns.cloudflare.com.
 twnofsumpter.gov.	10800	IN	NS	adam.ns.cloudflare.com.
@@ -43848,8 +43855,10 @@ txsmartbuy.gov.	10800	IN	NS	ns-469.awsdns-58.com.
 txsmartbuy.gov.	10800	IN	NS	ns-861.awsdns-43.net.
 txsmartbuy.gov.	10800	IN	NS	ns-1097.awsdns-09.org.
 txsmartbuy.gov.	10800	IN	NS	ns-1874.awsdns-42.co.uk.
-tx-tylercountyesd1.gov.	10800	IN	NS	ns1.ionos.com.
-tx-tylercountyesd1.gov.	10800	IN	NS	ns2.ionos.com.
+tx-tylercountyesd1.gov.	10800	IN	NS	ns1045.ui-dns.org.
+tx-tylercountyesd1.gov.	10800	IN	NS	ns1045.ui-dns.de.
+tx-tylercountyesd1.gov.	10800	IN	NS	ns1045.ui-dns.biz.
+tx-tylercountyesd1.gov.	10800	IN	NS	ns1045.ui-dns.com.
 tylermn.gov.	10800	IN	NS	ns1.bdm.microsoftonline.com.
 tylermn.gov.	10800	IN	NS	ns2.bdm.microsoftonline.com.
 tylermn.gov.	10800	IN	NS	ns3.bdm.microsoftonline.com.
@@ -48343,6 +48352,8 @@ yakamafish-nsn.gov.	10800	IN	NS	ns3.as20055.net.
 yakamafish-nsn.gov.	10800	IN	NS	ns1.as20055.net.
 yakamanation-nsn.gov.	10800	IN	NS	ns2.invisibleink.com.
 yakamanation-nsn.gov.	10800	IN	NS	ns1.invisibleink.com.
+yakimacleanair.gov.	10800	IN	NS	ns45.domaincontrol.com.
+yakimacleanair.gov.	10800	IN	NS	ns46.domaincontrol.com.
 yakimacounty.gov.	10800	IN	NS	ns23.digicertdns.net.
 yakimacounty.gov.	10800	IN	NS	ns24.digicertdns.net.
 yakimacounty.gov.	10800	IN	NS	ns25.digicertdns.net.
