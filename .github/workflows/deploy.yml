@@ -6,6 +6,8 @@ on:
     paths:
       - 'index.html'
       - '*.csv'
+      - 'assets/**'
+      - 'favicon.ico'
   workflow_dispatch:
   workflow_call:
 
@@ -30,6 +32,8 @@ jobs:
           mkdir -p _site
           cp index.html _site/
           cp *.csv _site/
+          cp -R assets _site/
+          cp favicon.ico _site/
 
       - name: Deploy to gh-pages
         id: deploy
