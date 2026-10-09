@@ -8,6 +8,8 @@ on:
     paths:
       - 'index.html'
       - '*.csv'
+      - 'assets/**'
+      - 'favicon.ico'
   delete:
 
 concurrency: preview-${{ github.event.ref || github.ref_name }}
@@ -33,6 +35,8 @@ jobs:
           mkdir -p _site
           cp index.html _site/
           cp *.csv _site/
+          cp -R assets _site/
+          cp favicon.ico _site/
 
       - name: Deploy preview
         id: preview
