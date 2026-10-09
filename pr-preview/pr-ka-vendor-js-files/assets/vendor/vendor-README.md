@@ -71,14 +71,14 @@ above.
 
 | Package | From the tarball | To |
 | --- | --- | --- |
-| TABULATOR | `package/dist/js/tabulator.min.js` | `assets/vendor/tabulator-$VERSION/` |
-| TABULATOR | `package/dist/css/tabulator.min.css` | `assets/vendor/tabulator-$VERSION/` |
-| TABULATOR | `package/LICENSE` | `assets/vendor/tabulator-$VERSION/` |
-| PAPAPARSE | `package/papaparse.min.js` | `assets/vendor/papaparse-$VERSION/` |
-| PAPAPARSE | `package/LICENSE` | `assets/vendor/papaparse-$VERSION/` |
+| TABULATOR | `package/dist/js/tabulator.min.js` | `assets/vendor/tabulator-$TABULATOR/` |
+| TABULATOR | `package/dist/css/tabulator.min.css` | `assets/vendor/tabulator-$TABULATOR/` |
+| TABULATOR | `package/LICENSE` | `assets/vendor/tabulator-$TABULATOR/` |
+| PAPAPARSE | `package/papaparse.min.js` | `assets/vendor/papaparse-$PAPAPARSE/` |
+| PAPAPARSE | `package/LICENSE` | `assets/vendor/papaparse-$PAPAPARSE/` |
 
 
-## Upgrade checklist
+## Upgrade versions
 
 1. Fetch and extract the new version as above. This will unpack the files, 
    create the correct directory structure, and include the LICENSE as published.
@@ -86,16 +86,18 @@ above.
    `<link>` for the CSS and the `<script>` for the JS) and one is PapaParse.
    Missing one is the most likely mistake here: the page keeps working on the
    old copy and nothing looks wrong.
-   ```
+
+   ```html
    <link rel="stylesheet" href="assets/vendor/tabulator-5.6.1/tabulator.min.css">
-<script src="assets/vendor/tabulator-5.6.1/tabulator.min.js"></script>
-<script src="assets/vendor/papaparse-5.4.1/papaparse.min.js"></script>
-    ```
+   <script src="assets/vendor/tabulator-5.6.1/tabulator.min.js"></script>
+   <script src="assets/vendor/papaparse-5.4.1/papaparse.min.js"></script>
+   ```
+
 3. **Delete the old version's directory.**
 4. Push to a branch and check the preview. Confirm the table renders, and that
    the Network tab shows the new paths and no requests to `cdnjs.cloudflare.com`.
 
-## Files are kept byte-identical to upstream
+## Files are kept identical to upstream
 
 Nothing here is edited after extraction, which is what keeps future diffs 
 reviewable and lets anyone re-download the same version and get the same files.
