@@ -1,6 +1,6 @@
 ;;
 ;; Domain:     gov.
-;; Exported:   2026-10-11 13:55:52
+;; Exported:   2026-10-12 16:44:10
 ;;
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -24,7 +24,7 @@
 ;;
 ;; Use at your own risk.
 ;; SOA Record
-gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1791726619 3600 900 604800 300
+gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1791823221 3600 900 604800 300
 
 ;; A Records
 a1.domainops.gov.	3600	IN	A	162.159.8.76
@@ -319,7 +319,6 @@ ns1.honolulu.gov.	3600	IN	A	206.195.187.253
 ns1.housecalendar.gov.	3600	IN	A	162.159.4.127
 ns1.humboldtcoeca.gov.	3600	IN	A	137.164.95.5
 ns1.indianlakepa.gov.	3600	IN	A	66.35.111.225
-ns1.jacksonms.gov.	3600	IN	A	208.109.244.30
 ns1.jacksonvillenc.gov.	3600	IN	A	208.7.222.57
 ns1.jcode.gov.	3600	IN	A	162.159.2.164
 ns1.jemezsprings.gov.	3600	IN	A	129.121.102.13
@@ -333,6 +332,7 @@ ns1.ksde.gov.	3600	IN	A	165.201.8.2
 ns1.lakewoodcourtoh.gov.	3600	IN	A	72.167.42.19
 ns1.lakewoodoh.gov.	3600	IN	A	74.124.210.242
 ns1.laredo.gov.	3600	IN	A	162.159.2.253
+ns1.leeclerkfl.gov.	3600	IN	A	198.184.170.19
 ns1.lexingtonnc.gov.	3600	IN	A	12.173.227.202
 ns1.linncountyor.gov.	3600	IN	A	194.62.181.53
 ns1.lps.gov.	3600	IN	A	129.2.109.248
@@ -573,7 +573,6 @@ ns2.helpwithmymortgage.gov.	3600	IN	A	162.159.1.245
 ns2.housecalendar.gov.	3600	IN	A	162.159.5.58
 ns2.humboldtcoeca.gov.	3600	IN	A	137.164.95.4
 ns2.indianlakepa.gov.	3600	IN	A	66.35.111.225
-ns2.jacksonms.gov.	3600	IN	A	208.109.244.30
 ns2.jacksonvillenc.gov.	3600	IN	A	24.172.28.50
 ns2.jcode.gov.	3600	IN	A	162.159.3.132
 ns2.jemezsprings.gov.	3600	IN	A	129.121.102.13
@@ -586,6 +585,7 @@ ns2.kbic-nsn.gov.	3600	IN	A	206.51.125.69
 ns2.ksde.gov.	3600	IN	A	165.201.8.49
 ns2.lakewoodcourtoh.gov.	3600	IN	A	72.167.42.19
 ns2.lakewoodoh.gov.	3600	IN	A	70.39.150.2
+ns2.leeclerkfl.gov.	3600	IN	A	198.184.170.20
 ns2.linncountyor.gov.	3600	IN	A	194.62.180.53
 ns2.madisoncountyil.gov.	3600	IN	A	70.140.244.56
 ns2.madisonfireca.gov.	3600	IN	A	67.20.116.106
@@ -744,6 +744,7 @@ ns3.gpodev.gov.	3600	IN	A	162.140.15.100
 ns3.groton-ct.gov.	3600	IN	A	64.251.55.48
 ns3.hallcountyne.gov.	3600	IN	A	208.80.126.4
 ns3.kscjis.gov.	3600	IN	A	165.201.126.129
+ns3.leeclerkfl.gov.	3600	IN	A	198.184.170.199
 ns3.linncountyor.gov.	3600	IN	A	204.16.255.53
 ns3.max.gov.	3600	IN	A	198.137.241.113
 ns3.memphistn.gov.	3600	IN	A	20.141.194.36
@@ -891,8 +892,6 @@ soa2.idaho.gov.	3600	IN	A	164.165.252.16
 spdns5.pima.gov.	3600	IN	A	159.233.4.92
 spdns8.pima.gov.	3600	IN	A	159.233.38.92
 srv21.nysed.gov.	3600	IN	A	149.10.221.48
-svr-dns1.kankakeecountyil.gov.	3600	IN	A	209.37.64.108
-svr-dns2.kankakeecountyil.gov.	3600	IN	A	209.37.64.109
 t1dns1.anl.gov.	3600	IN	A	130.202.101.6
 t1dns2.anl.gov.	3600	IN	A	130.202.101.37
 tsoodzil.dineh-nsn.gov.	3600	IN	A	12.196.248.3
@@ -2145,8 +2144,8 @@ fpisc.gov.	3600	IN	DS	17299 8 2 BEE5B0E01E2E1839774910038013BCBD95C099CFCE23AA8B
 fpisc.gov.	3600	IN	DS	15302 8 2 47B7BDA9A1F1D2DDF9A3DC55E393E8249488C130E739BFB5B8362AE0BB25EA5B
 fpki.gov.	3600	IN	DS	64774 8 2 0723ACF77468522694212FC10DB01750CE763AB02AF16E66A17B5056B56DB9A7
 fpki.gov.	3600	IN	DS	3526 8 2 8437EFFB0EEA23DB1CF78F90B2D3DF062DC045B97328CB36B3C0E5719C3FB4A4
-fpki-lab.gov.	3600	IN	DS	21634 8 2 7DF00C19A19D92DB5ACCB3674C12F9670389B99C32EC6B1A3E8DC291793BB196
-fpki-lab.gov.	3600	IN	DS	29035 8 2 C17E38195C37EE45E07EAD53E590E579E20355DC52F3B27BDE05962B8F0EF79F
+fpki-lab.gov.	3600	IN	DS	13147 8 2 80DB7A5C136F706AAD427413BB3B8CDA77BAD05617550C8E6369EF355B372EB8
+fpki-lab.gov.	3600	IN	DS	38206 8 2 B8E73B6ACA56F6FBA6A59A8089E9785F4ABC4A4B6E0ECFFFE17CBE4DFEDC154E
 frames.gov.	3600	IN	DS	12526 8 2 55A66EE548A1AB78DE661A79F521E60CEA2AC8F6DBC2A4EF3D7B529F1F58D2F7
 franklincircuitclerkar.gov.	3600	IN	DS	2371 13 2 4C182969D9562CAC0FCF5F127D5DDDCA1D458C70DCA77E9B8CC1EC0314E50292
 franklinwi.gov.	3600	IN	DS	23962 8 2 63E5B36637EA15CB2E941C83D0A59F5E13A184083048358A0A4B70623AEAE6F2
@@ -7851,8 +7850,8 @@ bonneylake.gov.	10800	IN	NS	ns-1355.awsdns-41.org.
 bonneylake.gov.	10800	IN	NS	ns-1914.awsdns-47.co.uk.
 bonneytexas.gov.	10800	IN	NS	ns2.inmotionhosting.com.
 bonneytexas.gov.	10800	IN	NS	ns1.inmotionhosting.com.
-boonecounty-ar.gov.	10800	IN	NS	mns01.domaincontrol.com.
-boonecounty-ar.gov.	10800	IN	NS	mns02.domaincontrol.com.
+boonecounty-ar.gov.	10800	IN	NS	ns13.domaincontrol.com.
+boonecounty-ar.gov.	10800	IN	NS	ns14.domaincontrol.com.
 boonecountyartreasurer.gov.	10800	IN	NS	freedns1.registrar-servers.com.
 boonecountyartreasurer.gov.	10800	IN	NS	freedns2.registrar-servers.com.
 boonecountyassessorar.gov.	10800	IN	NS	cory.ns.cloudflare.com.
@@ -23127,8 +23126,8 @@ jacksonla.gov.	10800	IN	NS	kay.ns.cloudflare.com.
 jacksonla.gov.	10800	IN	NS	elias.ns.cloudflare.com.
 jacksonmahoningpolice.gov.	10800	IN	NS	ns1.siteground.net.
 jacksonmahoningpolice.gov.	10800	IN	NS	ns2.siteground.net.
-jacksonms.gov.	10800	IN	NS	ns2.jacksonms.gov.
-jacksonms.gov.	10800	IN	NS	ns1.jacksonms.gov.
+jacksonms.gov.	10800	IN	NS	pam.ns.cloudflare.com.
+jacksonms.gov.	10800	IN	NS	remy.ns.cloudflare.com.
 jacksonnc.gov.	10800	IN	NS	danica.ns.cloudflare.com.
 jacksonnc.gov.	10800	IN	NS	sullivan.ns.cloudflare.com.
 jackson-nh.gov.	10800	IN	NS	ns1.swiftmediatech.com.
@@ -23767,8 +23766,8 @@ kanecountyil.gov.	10800	IN	NS	ns1.countyofkane.com.
 kanecountyil.gov.	10800	IN	NS	ns2.countyofkane.com.
 kankakeecountyclerk.gov.	10800	IN	NS	ns2.inmotionhosting.com.
 kankakeecountyclerk.gov.	10800	IN	NS	ns1.inmotionhosting.com.
-kankakeecountyil.gov.	10800	IN	NS	svr-dns1.kankakeecountyil.gov.
-kankakeecountyil.gov.	10800	IN	NS	svr-dns2.kankakeecountyil.gov.
+kankakeecountyil.gov.	10800	IN	NS	harlee.ns.cloudflare.com.
+kankakeecountyil.gov.	10800	IN	NS	joaquin.ns.cloudflare.com.
 kankakeecountytreasurer.gov.	10800	IN	NS	anahi.ns.cloudflare.com.
 kankakeecountytreasurer.gov.	10800	IN	NS	craig.ns.cloudflare.com.
 kannapolisnc.gov.	10800	IN	NS	ns63.worldnic.com.
@@ -24785,6 +24784,8 @@ langdonnh.gov.	10800	IN	NS	ns1-04.azure-dns.com.
 langdonnh.gov.	10800	IN	NS	ns2-04.azure-dns.net.
 langdonnh.gov.	10800	IN	NS	ns3-04.azure-dns.org.
 langdonnh.gov.	10800	IN	NS	ns4-04.azure-dns.info.
+langfordfdms.gov.	10800	IN	NS	lily.ns.cloudflare.com.
+langfordfdms.gov.	10800	IN	NS	bruce.ns.cloudflare.com.
 langleyok.gov.	10800	IN	NS	lars.ns.cloudflare.com.
 langleyok.gov.	10800	IN	NS	roxy.ns.cloudflare.com.
 langleywa.gov.	10800	IN	NS	ns1-03.azure-dns.com.
@@ -25136,6 +25137,9 @@ ledyardct.gov.	10800	IN	NS	johnny.ns.cloudflare.com.
 ledyardct.gov.	10800	IN	NS	lovisa.ns.cloudflare.com.
 leeardistrictcourt.gov.	10800	IN	NS	major.ns.cloudflare.com.
 leeardistrictcourt.gov.	10800	IN	NS	serena.ns.cloudflare.com.
+leeclerkfl.gov.	10800	IN	NS	ns2.leeclerkfl.gov.
+leeclerkfl.gov.	10800	IN	NS	ns3.leeclerkfl.gov.
+leeclerkfl.gov.	10800	IN	NS	ns1.leeclerkfl.gov.
 leecosheriffal.gov.	10800	IN	NS	ns66.worldnic.com.
 leecosheriffal.gov.	10800	IN	NS	ns65.worldnic.com.
 leecountyalcoroner.gov.	10800	IN	NS	lia.ns.cloudflare.com.
@@ -42446,7 +42450,6 @@ townofhunterny.gov.	10800	IN	NS	lia.ns.cloudflare.com.
 townofhunterny.gov.	10800	IN	NS	kianchau.ns.cloudflare.com.
 townofhurleyny.gov.	10800	IN	NS	pdns14.domaincontrol.com.
 townofhurleyny.gov.	10800	IN	NS	pdns13.domaincontrol.com.
-townofhurtva.gov.	10800	IN	NS	www.live-b1.revizesites.com.
 townofhurtva.gov.	10800	IN	NS	ns1.wordpress.com.
 townofhurtva.gov.	10800	IN	NS	ns2.wordpress.com.
 townofhurtva.gov.	10800	IN	NS	ns3.wordpress.com.
@@ -45902,6 +45905,8 @@ visitnh.gov.	10800	IN	NS	ns-1719.awsdns-22.co.uk.
 visitnh.gov.	10800	IN	NS	ns-448.awsdns-56.com.
 visitoneidatn.gov.	10800	IN	NS	ns12.wixdns.net.
 visitoneidatn.gov.	10800	IN	NS	ns13.wixdns.net.
+visitsarpy.gov.	10800	IN	NS	carl.ns.cloudflare.com.
+visitsarpy.gov.	10800	IN	NS	katelyn.ns.cloudflare.com.
 visitthecapital.gov.	10800	IN	NS	authns1.centurylink.net.
 visitthecapital.gov.	10800	IN	NS	auth111.ns.uu.net.
 visitthecapital.gov.	10800	IN	NS	ns2.aoc.gov.
