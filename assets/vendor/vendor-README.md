@@ -82,15 +82,29 @@ above.
 
 1. Fetch and extract the new version as above. This will unpack the files, 
    create the correct directory structure, and include the LICENSE as published.
-2. **Update all three paths in `index.html`.** Two of them are Tabulator (the
-   `<link>` for the CSS and the `<script>` for the JS) and one is PapaParse.
-   Missing one is the most likely mistake here: the page keeps working on the
-   old copy and nothing looks wrong.
+2. **Update all three paths in `index.html`, and their `integrity` hashes.**
+   Two of them are Tabulator (the `<link>` for the CSS and the `<script>` for
+   the JS) and one is PapaParse. Missing a path is the most likely mistake
+   here: the page keeps working on the old copy and nothing looks wrong.
+   A stale `integrity` hash fails loudly instead — the browser refuses the
+   file and the viewer doesn't load — so check the preview in step 4.
 
    ```html
-   <link rel="stylesheet" href="assets/vendor/tabulator-5.6.1/tabulator.min.css">
-   <script src="assets/vendor/tabulator-5.6.1/tabulator.min.js"></script>
-   <script src="assets/vendor/papaparse-5.4.1/papaparse.min.js"></script>
+   <link rel="stylesheet" href="assets/vendor/tabulator-5.6.1/tabulator.min.css"
+     integrity="sha512-jLb/RLCS9fPpWsd4...">
+   <script src="assets/vendor/tabulator-5.6.1/tabulator.min.js"
+     integrity="sha512-CHSK/9oerYotZKhs..."></script>
+   <script src="assets/vendor/papaparse-5.4.1/papaparse.min.js"
+     integrity="sha512-dfX5uYVXzyU8+KHq..."></script>
+   ```
+
+   Print the new hashes with:
+
+   ```
+   for f in assets/vendor/*/*.min.js assets/vendor/*/*.min.css; do
+     printf 'sha512-%s  %s\n' \
+       "$(openssl dgst -sha512 -binary "$f" | openssl base64 -A)" "$f"
+   done
    ```
 
 3. **Delete the old version's directory.**
@@ -101,6 +115,32 @@ above.
 
 Nothing here is edited after extraction, which is what keeps future diffs 
 reviewable and lets anyone re-download the same version and get the same files.
+
+The `integrity` attributes in `index.html` are what make that checkable rather
+than just stated. They are the same hashes the npm registry publishes for these
+releases, so:
+
+- A reviewer looking at a version bump has something to verify the new minified
+  blob against. `+3 lines` of minified JavaScript is not reviewable by reading
+  it; comparing a hash to the published release is.
+- If a vendored file is ever edited in place or truncated in a bad merge, the
+  browser refuses to run it instead of serving modified library code.
+
+Subresource Integrity applies to same-origin requests as well as cross-origin
+ones, so the attributes keep working now that the files are served from here.
+`crossorigin="anonymous"` is not used — it only means something cross-origin.
+
+To re-derive the hashes from the committed files at any time:
+
+```
+for f in assets/vendor/*/*.min.js assets/vendor/*/*.min.css; do
+  printf 'sha512-%s  %s\n' \
+    "$(openssl dgst -sha512 -binary "$f" | openssl base64 -A)" "$f"
+done
+```
+
+These should match both the attributes in `index.html` and the hashes shown on
+each package's npm page. If they don't, something was modified after extraction.
 
 One consequence: `tabulator.min.js` and `tabulator.min.css` end with a
 `sourceMappingURL` comment pointing at `.map` files that aren't vendored (the JS
