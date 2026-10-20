@@ -10,24 +10,20 @@
 <link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/favicon-180.png">
 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 
-<!-- Tabulator (MIT) — sortable/filterable table -->
-<link
-  href="https://cdnjs.cloudflare.com/ajax/libs/tabulator/5.6.1/css/tabulator.min.css"
-  rel="stylesheet"
-  integrity="sha512-jLb/RLCS9fPpWsd4wS85pUWxq0SbF31hG8qUlJWZiXmnbxMDEsa5WX5gO8f2Taiy+4gAirFyrvvJycfu6O5/wA=="
-  crossorigin="anonymous">
+<!-- Tabulator 5.6.1 (MIT) — sortable/filterable table -->
+<!-- The integrity hashes are the published npm release hashes for these
+     versions. They make "these files are identical to upstream" a claim the
+     browser checks, and give a reviewer of the next version bump something to
+     verify a minified diff against. See assets/vendor/vendor-README.md. -->
+<link rel="stylesheet" href="assets/vendor/tabulator-5.6.1/tabulator.min.css"
+  integrity="sha512-jLb/RLCS9fPpWsd4wS85pUWxq0SbF31hG8qUlJWZiXmnbxMDEsa5WX5gO8f2Taiy+4gAirFyrvvJycfu6O5/wA==">
+<script src="assets/vendor/tabulator-5.6.1/tabulator.min.js"
+  integrity="sha512-CHSK/9oerYotZKhsQnrdOPuk6HZ1WwVt8qV3dVZioe8dP9fcVJ41bjmh2pzBMQgl7mZq8yBSESeQ3v+aubG93A=="></script>
 
-<script
-  src="https://cdnjs.cloudflare.com/ajax/libs/tabulator/5.6.1/js/tabulator.min.js"
-  integrity="sha512-CHSK/9oerYotZKhsQnrdOPuk6HZ1WwVt8qV3dVZioe8dP9fcVJ41bjmh2pzBMQgl7mZq8yBSESeQ3v+aubG93A=="
-  crossorigin="anonymous"></script>
+<!-- PapaParse 5.4.1 (MIT) — CSV parsing -->
+<script src="assets/vendor/papaparse-5.4.1/papaparse.min.js"
+  integrity="sha512-dfX5uYVXzyU8+KHqj8bjo7UkOdg18PaOtpa48djpNbZHwExddghZ+ZmzWT06R5v6NSk3ZUfsH6FNEDepLx9hPQ=="></script>
 
-<!-- PapaParse (MIT) — CSV parsing -->
-
-<script
-  src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"
-  integrity="sha512-dfX5uYVXzyU8+KHqj8bjo7UkOdg18PaOtpa48djpNbZHwExddghZ+ZmzWT06R5v6NSk3ZUfsH6FNEDepLx9hPQ=="
-  crossorigin="anonymous"></script>
 
 <style>
   :root {
@@ -1008,8 +1004,9 @@
   if (missingLibraries.length) {
     showMessage(
       'This page could not load ' + missingLibraries.join(' and ') +
-      ' from the CDN, so the data viewer cannot run. This is usually a ' +
-      'network issue or a browser extension blocking scripts. Try reloading, ' +
+      ', so the data viewer cannot run. These files are served from this site ' +
+      'under assets/vendor/, so this is usually an incomplete deploy, a failed ' +
+      'integrity check, or a browser extension blocking scripts. Try reloading, ' +
       'or check the browser console for details.',
       'error'
     );
