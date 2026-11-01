@@ -1,6 +1,6 @@
 ;;
 ;; Domain:     gov.
-;; Exported:   2026-10-31 13:34:23
+;; Exported:   2026-11-01 14:13:14
 ;;
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -24,7 +24,7 @@
 ;;
 ;; Use at your own risk.
 ;; SOA Record
-gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1793453109 3600 900 604800 300
+gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1793542082 3600 900 604800 300
 
 ;; A Records
 a1.domainops.gov.	3600	IN	A	162.159.8.76
@@ -1871,6 +1871,7 @@ earnandlearniowa.gov.	3600	IN	DS	2371 13 2 05A7C4F03587917B1AFF90AACFF0E20B77C64
 earthquake.gov.	3600	IN	DS	2371 13 2 C62E1E72044C777BFDDC25DB7FA7716C404A5FB217650D423092F152F4A03BEE
 eastchester.gov.	3600	IN	DS	2371 13 2 63237A804A44ED0C558C564BAB6994BF28FB5B39919F00850366F4844071F618
 easthazelcrestpd.gov.	3600	IN	DS	2371 13 2 5C3D6E4D07B36BD32534DE2747A3FF2D7A67BE4560E87DB7F03FE270BB9A76DA
+eastlymect.gov.	3600	IN	DS	2371 13 2 5F1E98B734A8B647F796CEC64028700D9F6CE6533941F159E8CC862A89A31208
 eastonnh.gov.	3600	IN	DS	2371 13 2 74B66DFA7E7D04E4588555215792EDA49CEC84CED44F1268E750AF7FB5260EC0
 eatonmunicipalcourtohio.gov.	3600	IN	DS	2371 13 2 6B3F5B0793B7F12B2888E3A2BD36D0D3E6EE56C3F2A464D6289A467FF1930B5A
 ecfr.gov.	3600	IN	DS	2371 13 2 ECE575A8544F0F890BA9D891E3685F0F84328691B11294FEE80B67B458ACEAA3
@@ -14148,6 +14149,8 @@ crowellpolicetx.gov.	10800	IN	NS	peter.ns.cloudflare.com.
 crowellpolicetx.gov.	10800	IN	NS	carlane.ns.cloudflare.com.
 crowelltxmunicipalcourt.gov.	10800	IN	NS	ns03.domaincontrol.com.
 crowelltxmunicipalcourt.gov.	10800	IN	NS	ns04.domaincontrol.com.
+crowncityoh.gov.	10800	IN	NS	roman.ns.cloudflare.com.
+crowncityoh.gov.	10800	IN	NS	ali.ns.cloudflare.com.
 crow-nsn.gov.	10800	IN	NS	ns15.domaincontrol.com.
 crow-nsn.gov.	10800	IN	NS	ns16.domaincontrol.com.
 crowwing.gov.	10800	IN	NS	ns3.state.mn.us.
@@ -15994,8 +15997,8 @@ eastlandtexas.gov.	10800	IN	NS	mns01.domaincontrol.com.
 eastlandtexas.gov.	10800	IN	NS	mns02.domaincontrol.com.
 eastlongmeadowma.gov.	10800	IN	NS	pdns03.domaincontrol.com.
 eastlongmeadowma.gov.	10800	IN	NS	pdns04.domaincontrol.com.
-eastlymect.gov.	10800	IN	NS	ns11.domaincontrol.com.
-eastlymect.gov.	10800	IN	NS	ns12.domaincontrol.com.
+eastlymect.gov.	10800	IN	NS	marek.ns.cloudflare.com.
+eastlymect.gov.	10800	IN	NS	gloria.ns.cloudflare.com.
 eastmanga.gov.	10800	IN	NS	ns-cloud-a1.googledomains.com.
 eastmanga.gov.	10800	IN	NS	ns-cloud-a2.googledomains.com.
 eastmanga.gov.	10800	IN	NS	ns-cloud-a3.googledomains.com.
@@ -20458,11 +20461,8 @@ guamcourts.gov.	10800	IN	NS	a7.uberns.org.
 guamcourts.gov.	10800	IN	NS	b7.uberns.org.
 guam.gov.	10800	IN	NS	dns1.teleguam.net.
 guam.gov.	10800	IN	NS	naan.guam.gov.
-guamlegislature.gov.	10800	IN	NS	smtp.google.com.
-guamlegislature.gov.	10800	IN	NS	ns1.a2hosting.com.
-guamlegislature.gov.	10800	IN	NS	ns2.a2hosting.com.
-guamlegislature.gov.	10800	IN	NS	ns3.a2hosting.com.
-guamlegislature.gov.	10800	IN	NS	ns4.a2hosting.com.
+guamlegislature.gov.	10800	IN	NS	cash.ns.cloudflare.com.
+guamlegislature.gov.	10800	IN	NS	daphne.ns.cloudflare.com.
 guernseycounty.gov.	10800	IN	NS	b8.uberns.com.
 guernseycounty.gov.	10800	IN	NS	a8.uberns.com.
 guernseycounty.gov.	10800	IN	NS	a8.uberns.org.
@@ -20577,8 +20577,8 @@ hadleyma.gov.	10800	IN	NS	mns01.domaincontrol.com.
 hadleyma.gov.	10800	IN	NS	mns02.domaincontrol.com.
 hagartownship.gov.	10800	IN	NS	vicky.ns.cloudflare.com.
 hagartownship.gov.	10800	IN	NS	bethany.ns.cloudflare.com.
-hagermannmcourt.gov.	10800	IN	NS	dns1.registrar-servers.com.
-hagermannmcourt.gov.	10800	IN	NS	dns2.registrar-servers.com.
+hagermannmcourt.gov.	10800	IN	NS	pdns03.domaincontrol.com.
+hagermannmcourt.gov.	10800	IN	NS	pdns04.domaincontrol.com.
 hagueny.gov.	10800	IN	NS	dns1.easydns.com.
 hagueny.gov.	10800	IN	NS	dns2.easydns.net.
 hahiraga.gov.	10800	IN	NS	ns1.no-ip.com.
@@ -28121,8 +28121,8 @@ mesagrandeband-nsn.gov.	10800	IN	NS	ns1.mediatemple.net.
 mesagrandeband-nsn.gov.	10800	IN	NS	ns2.mediatemple.net.
 mesalancasterpa.gov.	10800	IN	NS	melany.ns.cloudflare.com.
 mesalancasterpa.gov.	10800	IN	NS	randall.ns.cloudflare.com.
-mescalj6fd.gov.	10800	IN	NS	marjory.ns.cloudflare.com.
-mescalj6fd.gov.	10800	IN	NS	hank.ns.cloudflare.com.
+mescalj6fd.gov.	10800	IN	NS	clyde.ns.cloudflare.com.
+mescalj6fd.gov.	10800	IN	NS	serenity.ns.cloudflare.com.
 mesh.gov.	10800	IN	NS	gslb03.nlm.nih.gov.
 mesh.gov.	10800	IN	NS	gslb01.nlm.nih.gov.
 mesh.gov.	10800	IN	NS	gslb02.nlm.nih.gov.
