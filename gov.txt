@@ -1,6 +1,6 @@
 ;;
 ;; Domain:     gov.
-;; Exported:   2026-11-02 16:58:47
+;; Exported:   2026-11-03 14:59:37
 ;;
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -24,7 +24,7 @@
 ;;
 ;; Use at your own risk.
 ;; SOA Record
-gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1793638218 3600 900 604800 300
+gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1793717713 3600 900 604800 300
 
 ;; A Records
 a1.domainops.gov.	3600	IN	A	162.159.8.76
@@ -1616,6 +1616,7 @@ cityofpleasantplains.gov.	3600	IN	DS	2371 13 2 3C89EB9A73970E93E4B0141DB8E89AE69
 cityofportola.gov.	3600	IN	DS	25809 13 2 8481D4870D75ADB8C5871C35438B97FBC1AFF55ABD0ABB9173EAB9F47078824C
 cityofsarasotafl.gov.	3600	IN	DS	17281 8 1 2A3044D853D116EE13176BD481C2A2AE39AB58CA
 cityofsarasotafl.gov.	3600	IN	DS	17281 8 2 B3E5B1A27FD8242C44EB211D9C18F1DB1A42D3AA8AFA69BBBA526E6C5CDCD674
+cityofscf.gov.	3600	IN	DS	27948 13 2 2B8AC80A2956DF39C3A5964542295F6C3DAD2A1745A3BE2568F4B265502D62D0
 cityofwhittier.gov.	3600	IN	DS	48913 7 1 97BA3D46A4627382A62E20C8793314FD85E19388
 cityofwoodland.gov.	3600	IN	DS	50663 13 2 AFECFB8E181DFF5A0C28DEB274A93CAABCCF055E8067A3F8133510A6BFEB9460
 cjis.gov.	3600	IN	DS	61492 8 2 F3F2CAF8BCD1EF755337210C6B5AB09B46C85885A00220A7F334E674B9A43164
@@ -5888,6 +5889,8 @@ austellga.gov.	10800	IN	NS	ns10.dnsmadeeasy.com.
 austellga.gov.	10800	IN	NS	ns11.dnsmadeeasy.com.
 austerlitzny.gov.	10800	IN	NS	memphis.ns.cloudflare.com.
 austerlitzny.gov.	10800	IN	NS	ursula.ns.cloudflare.com.
+austinar.gov.	10800	IN	NS	freedns1.registrar-servers.com.
+austinar.gov.	10800	IN	NS	freedns2.registrar-servers.com.
 austin.gov.	10800	IN	NS	ns-1049.awsdns-03.org.
 austin.gov.	10800	IN	NS	ns-154.awsdns-19.com.
 austin.gov.	10800	IN	NS	ns-1700.awsdns-20.co.uk.
@@ -11474,6 +11477,8 @@ cityofhoneygrove.gov.	10800	IN	NS	mariah.ns.cloudflare.com.
 cityofhoneygrove.gov.	10800	IN	NS	tosana.ns.cloudflare.com.
 cityofhoodriver.gov.	10800	IN	NS	milan.ns.cloudflare.com.
 cityofhoodriver.gov.	10800	IN	NS	laylah.ns.cloudflare.com.
+cityofhopkinsmo.gov.	10800	IN	NS	joyce.ns.cloudflare.com.
+cityofhopkinsmo.gov.	10800	IN	NS	salvador.ns.cloudflare.com.
 cityofhoratioar.gov.	10800	IN	NS	kip.ns.cloudflare.com.
 cityofhoratioar.gov.	10800	IN	NS	violet.ns.cloudflare.com.
 cityofhornell.gov.	10800	IN	NS	ns61.cloudns.net.
@@ -12162,6 +12167,10 @@ cityofsarasotafl.gov.	10800	IN	NS	pdns100.ultradns.net.
 cityofsarasotafl.gov.	10800	IN	NS	pdns100.ultradns.biz.
 cityofsarasotafl.gov.	10800	IN	NS	pdns100.ultradns.com.
 cityofsarasotafl.gov.	10800	IN	NS	pdns100.ultradns.org.
+cityofscf.gov.	10800	IN	NS	pns64.cloudns.uk.
+cityofscf.gov.	10800	IN	NS	pns61.cloudns.net.
+cityofscf.gov.	10800	IN	NS	pns62.cloudns.com.
+cityofscf.gov.	10800	IN	NS	pns63.cloudns.net.
 cityofschenectady.gov.	10800	IN	NS	dns4.civicplus.com.
 cityofschenectady.gov.	10800	IN	NS	dns3.civicplus.com.
 cityofsearcy.gov.	10800	IN	NS	ns11.cloudns.net.
@@ -18807,8 +18816,8 @@ fresnoid.gov.	10800	IN	NS	ns4-05.azure-dns.info.
 fresnoid.gov.	10800	IN	NS	ns3-05.azure-dns.org.
 fresnoid.gov.	10800	IN	NS	ns1-05.azure-dns.com.
 fresnoid.gov.	10800	IN	NS	ns2-05.azure-dns.net.
-fresnomosquito.gov.	10800	IN	NS	ns1.webserversystems.com.
-fresnomosquito.gov.	10800	IN	NS	ns2.webserversystems.com.
+fresnomosquito.gov.	10800	IN	NS	ada.ns.cloudflare.com.
+fresnomosquito.gov.	10800	IN	NS	vern.ns.cloudflare.com.
 fresnosheriff.gov.	10800	IN	NS	ns1-07.azure-dns.com.
 fresnosheriff.gov.	10800	IN	NS	ns2-07.azure-dns.net.
 fresnosheriff.gov.	10800	IN	NS	ns3-07.azure-dns.org.
@@ -24543,6 +24552,8 @@ lacontractor.gov.	10800	IN	NS	ns2.dnsmadeeasy.com.
 lacontractor.gov.	10800	IN	NS	ns3.dnsmadeeasy.com.
 lacounty.gov.	10800	IN	NS	dns1.lacountydns.com.
 lacounty.gov.	10800	IN	NS	lrcd1.lacounty.gov.
+lacountyhelps.gov.	10800	IN	NS	lrcd1.lacounty.gov.
+lacountyhelps.gov.	10800	IN	NS	dns1.lacountydns.com.
 lacrescenttownshipmn.gov.	10800	IN	NS	ns10.qth.com.
 lacrescenttownshipmn.gov.	10800	IN	NS	ns16.qth.com.
 lacrosseks.gov.	10800	IN	NS	evangeline.ns.cloudflare.com.
@@ -26120,8 +26131,6 @@ longbeach.gov.	10800	IN	NS	a8.uberns.org.
 longbeach.gov.	10800	IN	NS	b8.uberns.org.
 longbeach.gov.	10800	IN	NS	a8.uberns.com.
 longbeach.gov.	10800	IN	NS	b8.uberns.com.
-longbeach.gov.	10800	IN	NS	dns02.ci.long-beach.ca.us.
-longbeach.gov.	10800	IN	NS	dns01.ci.long-beach.ca.us.
 longbeachms.gov.	10800	IN	NS	ns.rackspace.com.
 longbeachms.gov.	10800	IN	NS	ns2.rackspace.com.
 longbeachny.gov.	10800	IN	NS	ns2.avenet.net.
@@ -28691,7 +28700,7 @@ missionviejo.gov.	10800	IN	NS	ns0.dnsmadeeasy.com.
 missionviejo.gov.	10800	IN	NS	ns1.dnsmadeeasy.com.
 mississippicircuitclerkar.gov.	10800	IN	NS	alexa.ns.cloudflare.com.
 mississippicircuitclerkar.gov.	10800	IN	NS	charles.ns.cloudflare.com.
-mississippi.gov.	10800	IN	NS	gold.foundtiondns.net.
+mississippi.gov.	10800	IN	NS	gold.foundationdns.net.
 mississippi.gov.	10800	IN	NS	gold.foundationdns.com.
 mississippi.gov.	10800	IN	NS	gold.foundationdns.org.
 missoulacounty.gov.	10800	IN	NS	drew.ns.cloudflare.com.
@@ -39487,8 +39496,10 @@ southstpaulmn.gov.	10800	IN	NS	ns2.state.mn.us.
 southstpaulmn.gov.	10800	IN	NS	ns3.state.mn.us.
 southsummitdispatchoh.gov.	10800	IN	NS	kate.ns.cloudflare.com.
 southsummitdispatchoh.gov.	10800	IN	NS	norm.ns.cloudflare.com.
-southsummitfd.gov.	10800	IN	NS	ns23.domaincontrol.com.
-southsummitfd.gov.	10800	IN	NS	ns24.domaincontrol.com.
+southsummitfd.gov.	10800	IN	NS	ns-333.awsdns-41.com.
+southsummitfd.gov.	10800	IN	NS	ns-592.awsdns-10.net.
+southsummitfd.gov.	10800	IN	NS	ns-1366.awsdns-42.org.
+southsummitfd.gov.	10800	IN	NS	ns-1736.awsdns-25.co.uk.
 southtallpoosaairportal.gov.	10800	IN	NS	ns-658.awsdns-18.net.
 southtallpoosaairportal.gov.	10800	IN	NS	ns-1510.awsdns-60.org.
 southtallpoosaairportal.gov.	10800	IN	NS	ns-1924.awsdns-48.co.uk.
