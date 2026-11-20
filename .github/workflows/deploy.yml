@@ -34,6 +34,10 @@ jobs:
           cp *.csv _site/
           cp -R assets _site/
           cp favicon.ico _site/
+          # vendor-README.md is internal developer documentation. It is useful
+          # next to the files it describes, but there is no reason to serve it
+          # from the public site.
+          find _site/assets -name '*.md' -delete
 
       - name: Deploy to gh-pages
         id: deploy
