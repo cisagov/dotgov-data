@@ -1,6 +1,6 @@
 ;;
 ;; Domain:     gov.
-;; Exported:   2026-11-22 15:12:31
+;; Exported:   2026-11-23 19:09:47
 ;;
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -24,7 +24,7 @@
 ;;
 ;; Use at your own risk.
 ;; SOA Record
-gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1795360082 3600 900 604800 300
+gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1795460705 3600 900 604800 300
 
 ;; A Records
 a1.domainops.gov.	3600	IN	A	162.159.8.76
@@ -1628,6 +1628,7 @@ cityofwhittier.gov.	3600	IN	DS	48913 7 1 97BA3D46A4627382A62E20C8793314FD85E1938
 cityofwoodland.gov.	3600	IN	DS	50663 13 2 AFECFB8E181DFF5A0C28DEB274A93CAABCCF055E8067A3F8133510A6BFEB9460
 cjis.gov.	3600	IN	DS	61492 8 2 F3F2CAF8BCD1EF755337210C6B5AB09B46C85885A00220A7F334E674B9A43164
 cjis.gov.	3600	IN	DS	22129 8 2 BE02EF343B4E9BCAF11C6C96D7E2BC70A8BD1B9D6EF1A31BCD982BFE2A7CF7AF
+clackamas.gov.	3600	IN	DS	43024 13 2 829A23CEA127433118DA57966E0C8558FC050C3D9B1AD660961B743CD7847349
 claimitmd.gov.	3600	IN	DS	2371 13 2 69D94BFF2CC17FFCE3417A58796FA914B3776C53394C3956B66FB33ABAB058F0
 clarkstown.gov.	3600	IN	DS	2371 13 2 F69F45082B8566468347113BB52AC9BF686C542CC2CC8BA0639C8B8D6751CC7B
 claycountymn.gov.	3600	IN	DS	7561 8 2 AAD1BC43EED19D73842B38EC8C3DC3A7A199E0E1879EEC602B669617D3E2DFDD
@@ -3956,6 +3957,7 @@ vacine.gov.	3600	IN	DS	41523 13 2 35C86307353E53F0DDD4302716AF363B7542FC79852190
 vacines.gov.	3600	IN	DS	49967 13 2 C5A27CC7256A2F493BBD6DF3480404BEC3CD9A7311C0F4DFD1A8BB61801EBBFC
 vacuna.gov.	3600	IN	DS	53412 13 2 7861E348F302FFA024B75948AF202C6589201FF294A6C547A0BF7AAFC0ED4E8A
 vacunas.gov.	3600	IN	DS	10587 13 2 B48CCBAA4B698D35404CB3B56EB6BB8F9C0AD1AE79B1089C2CBB4C897A0F9A30
+va.gov.	3600	IN	DS	50377 8 2 09B5A780762BAAF6CEAB705481CB1088BD679539A5B39B5BBB54336503E7DA8C
 va.gov.	3600	IN	DS	44302 8 2 35F1275BFFAB60B491759DB6E2557A76FA433C405476B67CBD9B9BFC37C9BA03
 vail.gov.	3600	IN	DS	58322 13 2 6C02702C4DFBFADB7E0D3198CBD15519E98C68D4C09D28746D8714BEC9FCA8E7
 valleycenterfireca.gov.	3600	IN	DS	2371 13 2 B133BFC2A75E75F561FB76F70C016F988885A00031D368E0336AF3D591BFDCCC
@@ -3970,7 +3972,6 @@ vermonttreasurer.gov.	3600	IN	DS	53475 13 2 E1FE67191752704F80DE34D5D49B20FF3D59
 vernoniafire.gov.	3600	IN	DS	1600 8 2 7BC73B9F87325F94687B69E39DFAC73F5B33052109B8EA5DE452F17159DFFDC6
 veterans.gov.	3600	IN	DS	12263 13 2 1FE391515DEF4836A612F7EF088197453DC8BDC14A8E8EDDF1A6C6A9ADE3E8E1
 vets.gov.	3600	IN	DS	58672 8 2 2008DC726477E5E2D61B829A8CF823E837C2DA7D5C18AE6AF7F1B774633DC3F4
-vets.gov.	3600	IN	DS	7540 8 2 FA74525F780534C05B9275F4123589E965755E9416E3C34D8BD9E1A65C26791A
 victoriatx.gov.	3600	IN	DS	39326 8 2 53BD93F358F3CA31ADDDCF800B9403F11AD81C9DBAAF7C5705F0E48CB1DDB568
 villageofchesterny.gov.	3600	IN	DS	2371 13 2 99807AEA75830E539D4A95046723255E7F421A132ADBC2B8C7EC1AFF998E7E75
 villageofgratis.gov.	3600	IN	DS	2371 13 2 94EA499D67907AC7FAF4A799156F6D47DDFF0BC28E5E9E4CA63F24D974075099
@@ -12519,6 +12520,10 @@ ciww.gov.	10800	IN	NS	ns4-02.azure-dns.info.
 ciww.gov.	10800	IN	NS	ns1-02.azure-dns.com.
 cjis.gov.	10800	IN	NS	ns1.cjis.gov.
 cjis.gov.	10800	IN	NS	ns2.cjis.gov.
+clackamas.gov.	10800	IN	NS	ns3-08.azure-dns.org.
+clackamas.gov.	10800	IN	NS	ns4-08.azure-dns.info.
+clackamas.gov.	10800	IN	NS	ns1-08.azure-dns.com.
+clackamas.gov.	10800	IN	NS	ns2-08.azure-dns.net.
 clackamasriverwater.gov.	10800	IN	NS	skip.ns.cloudflare.com.
 clackamasriverwater.gov.	10800	IN	NS	magdalena.ns.cloudflare.com.
 clackesd.gov.	10800	IN	NS	ns-1233.awsdns-26.org.
@@ -19200,6 +19205,8 @@ gaoinnovations.gov.	10800	IN	NS	ns-1448.awsdns-53.org.
 gaoinnovations.gov.	10800	IN	NS	ns-60.awsdns-07.com.
 gaonet.gov.	10800	IN	NS	svl-ans-01.inet.qwest.net.
 gaonet.gov.	10800	IN	NS	dca-ans-01.inet.qwest.net.
+gao-oig.gov.	10800	IN	NS	dave.ns.cloudflare.com.
+gao-oig.gov.	10800	IN	NS	jewel.ns.cloudflare.com.
 gaprobate.gov.	10800	IN	NS	ns-1068.awsdns-05.org.
 gaprobate.gov.	10800	IN	NS	ns-1850.awsdns-39.co.uk.
 gaprobate.gov.	10800	IN	NS	ns-586.awsdns-09.net.
@@ -24290,6 +24297,8 @@ keystoneco.gov.	10800	IN	NS	derek.ns.cloudflare.com.
 keystoneco.gov.	10800	IN	NS	jessica.ns.cloudflare.com.
 keysvilleva.gov.	10800	IN	NS	osmar.ns.cloudflare.com.
 keysvilleva.gov.	10800	IN	NS	carioca.ns.cloudflare.com.
+kiantonecourt.gov.	10800	IN	NS	ns01.domaincontrol.com.
+kiantonecourt.gov.	10800	IN	NS	ns02.domaincontrol.com.
 kiantoneny.gov.	10800	IN	NS	ns21.domaincontrol.com.
 kiantoneny.gov.	10800	IN	NS	ns22.domaincontrol.com.
 kiawahisland.gov.	10800	IN	NS	ns92.worldnic.com.
@@ -30253,6 +30262,8 @@ navajocountysheriff.gov.	10800	IN	NS	ns2-03.azure-dns.net.
 navajocountysheriff.gov.	10800	IN	NS	ns1-03.azure-dns.com.
 navajo-nsn.gov.	10800	IN	NS	auth.dlls.pa.frontiernet.net.
 navajo-nsn.gov.	10800	IN	NS	auth.roch.ny.frontiernet.net.
+navarrocounty.gov.	10800	IN	NS	ns51.domaincontrol.com.
+navarrocounty.gov.	10800	IN	NS	ns52.domaincontrol.com.
 navasotatx.gov.	10800	IN	NS	ns1.softlayer.com.
 navasotatx.gov.	10800	IN	NS	ns2.softlayer.com.
 navycash.gov.	10800	IN	NS	ns2.navycash.gov.
@@ -34518,8 +34529,8 @@ pittsfieldma.gov.	10800	IN	NS	ns13.worldnic.com.
 pittsfieldma.gov.	10800	IN	NS	ns14.worldnic.com.
 pittsfieldmaine.gov.	10800	IN	NS	peyton.ns.cloudflare.com.
 pittsfieldmaine.gov.	10800	IN	NS	coraline.ns.cloudflare.com.
-pittsfield-mi.gov.	10800	IN	NS	a.dns.hostway.net.
-pittsfield-mi.gov.	10800	IN	NS	b.dns.hostway.net.
+pittsfield-mi.gov.	10800	IN	NS	opal.ns.cloudflare.com.
+pittsfield-mi.gov.	10800	IN	NS	johnny.ns.cloudflare.com.
 pittsfieldnh.gov.	10800	IN	NS	dns3.civicplus.com.
 pittsfieldnh.gov.	10800	IN	NS	dns4.civicplus.com.
 pittstoncity.gov.	10800	IN	NS	ns1.cvinetworks.com.
