@@ -1,6 +1,6 @@
 ;;
 ;; Domain:     gov.
-;; Exported:   2026-11-25 17:54:52
+;; Exported:   2026-11-26 17:39:53
 ;;
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -24,7 +24,7 @@
 ;;
 ;; Use at your own risk.
 ;; SOA Record
-gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1795629028 3600 900 604800 300
+gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1795714520 3600 900 604800 300
 
 ;; A Records
 a1.domainops.gov.	3600	IN	A	162.159.8.76
@@ -2177,7 +2177,7 @@ fresnousd.gov.	3600	IN	DS	2371 13 2 D875621FAD6A80CF83D90DC968F0037EE97662E851D0
 friendshipny.gov.	3600	IN	DS	2371 13 2 9932E42775BE86AC88CE3D509FD34A06A22EEAD921779CA5029B52A5AFA42DD4
 friscowestwcidtx.gov.	3600	IN	DS	19327 13 2 51F9CEDC32A574B39CC3ADED66DC05812CFF93034DF4A06E8A39C3C289C89BEC
 frs.gov.	3600	IN	DS	2371 13 2 47587912E3435F7128D582921C1976F834D12330702F0EA0E73CAC2B2C35A17E
-frtib.gov.	3600	IN	DS	2371 13 2 034AD3ECC249BE91D918EF5D0E58A3082D3C15A49CFC094FBE6D6878EFA66837
+frtib.gov.	3600	IN	DS	45666 13 2 C75ED9A24582A747BA8D7C0DDCC4F2BC4753AB6A84A57F1AC65E7E4CE959C59B
 frtibtest.gov.	3600	IN	DS	25190 13 2 5024812E86CF26ED26565DD3129C10FC5E973EB35E9F2C5BE98654A28F2354E6
 frtr.gov.	3600	IN	DS	43829 8 2 E8D07266AFAA42A0B808B7AC4EBC3118F1161E0A56DCD8DF25177C0246EAE037
 frtr.gov.	3600	IN	DS	53705 8 2 B8A4F4437A1A9A676B80E6F1FF56C59C129A4273EE30CE58B86CDEB04913FF4A
@@ -18977,8 +18977,10 @@ frontroyalva.gov.	10800	IN	NS	ns-361.awsdns-45.com.
 frontroyalva.gov.	10800	IN	NS	ns-1705.awsdns-21.co.uk.
 frs.gov.	10800	IN	NS	art.ns.cloudflare.com.
 frs.gov.	10800	IN	NS	pat.ns.cloudflare.com.
-frtib.gov.	10800	IN	NS	jonah.ns.cloudflare.com.
-frtib.gov.	10800	IN	NS	novalee.ns.cloudflare.com.
+frtib.gov.	10800	IN	NS	ns3-09.azure-dns.org.
+frtib.gov.	10800	IN	NS	ns4-09.azure-dns.info.
+frtib.gov.	10800	IN	NS	ns1-09.azure-dns.com.
+frtib.gov.	10800	IN	NS	ns2-09.azure-dns.net.
 frtibtest.gov.	10800	IN	NS	ns3-05.azure-dns.org.
 frtibtest.gov.	10800	IN	NS	ns4-05.azure-dns.info.
 frtibtest.gov.	10800	IN	NS	ns1-05.azure-dns.com.
@@ -25675,10 +25677,10 @@ lewisburgky.gov.	10800	IN	NS	wanda.ns.cloudflare.com.
 lewisburgky.gov.	10800	IN	NS	yadiel.ns.cloudflare.com.
 lewisburgtn.gov.	10800	IN	NS	mns01.domaincontrol.com.
 lewisburgtn.gov.	10800	IN	NS	mns02.domaincontrol.com.
-lewiscountyky.gov.	10800	IN	NS	ns-1767.awsdns-28.co.uk.
-lewiscountyky.gov.	10800	IN	NS	ns-649.awsdns-17.net.
-lewiscountyky.gov.	10800	IN	NS	ns-437.awsdns-54.com.
-lewiscountyky.gov.	10800	IN	NS	ns-1268.awsdns-30.org.
+lewiscountyky.gov.	10800	IN	NS	ns-72.awsdns-09.com.
+lewiscountyky.gov.	10800	IN	NS	ns-706.awsdns-24.net.
+lewiscountyky.gov.	10800	IN	NS	ns-1462.awsdns-54.org.
+lewiscountyky.gov.	10800	IN	NS	ns-1685.awsdns-18.co.uk.
 lewiscountymo.gov.	10800	IN	NS	ns53.domaincontrol.com.
 lewiscountymo.gov.	10800	IN	NS	ns54.domaincontrol.com.
 lewiscountyny.gov.	10800	IN	NS	dns400.cmsdefender.com.
@@ -31838,8 +31840,12 @@ northunitidor.gov.	10800	IN	NS	ns-160.awsdns-20.com.
 northunitidor.gov.	10800	IN	NS	ns-715.awsdns-25.net.
 northunitidor.gov.	10800	IN	NS	ns-1506.awsdns-60.org.
 northunitidor.gov.	10800	IN	NS	ns-1828.awsdns-36.co.uk.
-northvernon-in.gov.	10800	IN	NS	ns1.infoquesthost.com.
-northvernon-in.gov.	10800	IN	NS	ns2.infoquesthost.com.
+northvernon-in.gov.	10800	IN	NS	ns23.digicertdns.net.
+northvernon-in.gov.	10800	IN	NS	ns24.digicertdns.net.
+northvernon-in.gov.	10800	IN	NS	ns25.digicertdns.net.
+northvernon-in.gov.	10800	IN	NS	ns20.digicertdns.com.
+northvernon-in.gov.	10800	IN	NS	ns21.digicertdns.com.
+northvernon-in.gov.	10800	IN	NS	ns22.digicertdns.com.
 northviewfire.gov.	10800	IN	NS	dean.ns.cloudflare.com.
 northviewfire.gov.	10800	IN	NS	aria.ns.cloudflare.com.
 northvilletownshipmi.gov.	10800	IN	NS	ns43.domaincontrol.com.
